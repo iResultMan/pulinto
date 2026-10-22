@@ -1,0 +1,12 @@
+{"t":1787705671135,"t_end":1787705671200,"seq":0,"word":"own","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"own","delimiter":57,"codes":[24, 17, 49]}
+{"t":1787705671967,"t_end":1787705672047,"seq":1,"word":"http","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"реез","delimiter":57,"codes":[35, 20, 20, 25]}
+{"t":1787705672814,"t_end":1787705673008,"seq":2,"word":"Encarnacion","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"Утсфктфсшщт","delimiter":57,"codes":[18, 49, 46, 30, 19, 49, 30, 46, 23, 24, 49]}
+{"t":1787705673608,"t_end":1787705673754,"seq":3,"word":"вспомнил","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"dcgjvybk","delimiter":57,"codes":[32, 46, 34, 36, 47, 21, 48, 37]}
+{"t":1787705674521,"t_end":1787705674634,"seq":4,"word":"Сергей","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"Сергей","delimiter":53,"codes":[46, 20, 35, 22, 20, 16]}
+{"t":1787705675234,"t_end":1787705675315,"seq":5,"word":"gave","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"пфму","delimiter":53,"codes":[34, 30, 47, 18]}
+{"t":1787705676081,"t_end":1787705676130,"seq":6,"word":"из","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"из","delimiter":53,"codes":[48, 25]}
+{"t":1787705676730,"t_end":1787705676779,"seq":7,"word":"ca","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"сф","delimiter":57,"codes":[46, 30]}
+{"t":1787705677379,"t_end":1787705677460,"seq":8,"word":"been","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"иуут","delimiter":57,"codes":[48, 18, 18, 49]}
+{"t":1787705678060,"t_end":1787705678206,"seq":9,"word":"придумай","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"ghblevfq","delimiter":57,"codes":[34, 35, 48, 38, 18, 47, 33, 16]}
+{"t":1787705678806,"t_end":1787705678854,"seq":10,"word":"rd","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"rd","delimiter":57,"codes":[19, 32]}
+{"t":1787705679455,"t_end":1787705679600,"seq":11,"word":"families","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"families","delimiter":57,"codes":[33, 30, 50, 23, 38, 23, 18, 31]}

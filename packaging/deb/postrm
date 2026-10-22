@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+# The package took its udev rule with it; make the system forget it now, not at the next boot,
+# so that programs lose the access to the keyboards at once.
+if [ "$1" = remove ] || [ "$1" = purge ]; then
+    if command -v udevadm >/dev/null 2>&1; then
+        udevadm control --reload 2>/dev/null || true
+        udevadm trigger --subsystem-match=input --subsystem-match=misc 2>/dev/null || true
+    fi
+fi
+exit 0

@@ -1,0 +1,31 @@
+name: Трудное слово
+description: Программа исправила слово неверно, пропустила его или поняла фразу не так
+labels: [words]
+body:
+  - type: markdown
+    attributes:
+      value: "Присылайте и русские, и английские слова, и смешанные фразы. По таким случаям дорабатываются словари. Не присылайте пароли и личные тексты."
+  - type: input
+    id: typed
+    attributes:
+      label: Что набрали
+      description: Слово или фраза так, как они были набраны (например, `ghbdtn`).
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: Что ожидали
+      description: Что должно было получиться (например, «привет»).
+    validations:
+      required: true
+  - type: input
+    id: got
+    attributes:
+      label: Что получилось
+      description: Что сделала программа (оставила, исправила неверно, испортила).
+  - type: input
+    id: context
+    attributes:
+      label: Контекст
+      description: Какие слова стояли рядом, в каком приложении набирали.

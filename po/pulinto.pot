@@ -1,0 +1,825 @@
+msgid ""
+msgstr "Project-Id-Version: pulinto\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "System language"
+msgstr ""
+
+msgid "Could not save the language"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Observe"
+msgstr ""
+
+msgid "Grab"
+msgstr ""
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid "could not start pulintod: {error}"
+msgstr ""
+
+msgid "pulintod is running but did not register on D-Bus: {error}"
+msgstr ""
+
+msgid "Got it"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Nothing found"
+msgstr ""
+
+msgid "Autocorrections"
+msgstr ""
+
+msgid "Replace a word or abbreviation after a space or punctuation mark. The replacement may contain spaces. Click a row to edit."
+msgstr ""
+
+msgid "No autocorrections yet"
+msgstr ""
+
+msgid "Add an abbreviation: PuLinTo expands it as soon as you finish the word."
+msgstr ""
+
+msgid "Add an autocorrection"
+msgstr ""
+
+msgid "Never change"
+msgstr ""
+
+msgid "Words for which automatic layout switching is forbidden. Click a row to edit."
+msgstr ""
+
+msgid "No exceptions yet"
+msgstr ""
+
+msgid "PuLinTo does not touch the words in this list, in any application, unless you limit the rule."
+msgstr ""
+
+msgid "Add a word"
+msgstr ""
+
+msgid "Always change"
+msgstr ""
+
+msgid "Words that must be converted even when the automatic logic is unsure. Click a row to edit."
+msgstr ""
+
+msgid "No words of your own yet"
+msgstr ""
+
+msgid "Words from here will be converted even when PuLinTo is unsure."
+msgstr ""
+
+msgid "Learned automatically"
+msgstr ""
+
+msgid "Added by hand"
+msgstr ""
+
+msgid "Added earlier"
+msgstr ""
+
+msgid "Forgotten words"
+msgstr ""
+
+msgid "Reset…"
+msgstr ""
+
+msgid "becomes: {replacement}"
+msgstr ""
+
+msgid "learned"
+msgstr ""
+
+msgid "The rule was learned automatically after repeated corrections"
+msgstr ""
+
+msgid "Only in: {scope}"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "{count} forbidden from being learned again"
+msgstr ""
+
+msgid "Autocorrection deleted"
+msgstr ""
+
+msgid "Delete \"{source}\"?"
+msgstr ""
+
+msgid "\"Delete\" lets PuLinTo learn the word again. \"Delete and forget\" forbids learning it again; only a protected fingerprint is written to disk."
+msgstr ""
+
+msgid "Delete and forget"
+msgstr ""
+
+msgid "Word deleted"
+msgstr ""
+
+msgid "Word deleted and forgotten"
+msgstr ""
+
+msgid "Allow forgotten words to be learned again?"
+msgstr ""
+
+msgid "The words themselves are not stored, so the whole set of protected fingerprints is cleared."
+msgstr ""
+
+msgid "Allow"
+msgstr ""
+
+msgid "Forgotten words reset"
+msgstr ""
+
+msgid "Edit autocorrection"
+msgstr ""
+
+msgid "New autocorrection"
+msgstr ""
+
+msgid "Edit word"
+msgstr ""
+
+msgid "Never change a word"
+msgstr ""
+
+msgid "Always change a word"
+msgstr ""
+
+msgid "No connection to PuLinTo."
+msgstr ""
+
+msgid "The rule was not saved. Check that the fields are filled in; a word for the layout lists must be at least 3 characters."
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "What was typed"
+msgstr ""
+
+msgid "Word"
+msgstr ""
+
+msgid "Replace with"
+msgstr ""
+
+msgid "Becomes"
+msgstr ""
+
+msgid "Where it applies"
+msgstr ""
+
+msgid "Leave empty and the rule works in all applications. You can list several, separated by commas: Navigator, code, jetbrains-* (a star at the end means the whole family)."
+msgstr ""
+
+msgid "Applications (WM_CLASS)"
+msgstr ""
+
+msgid "Add \"{app}\""
+msgstr ""
+
+msgid "The application the settings were opened from"
+msgstr ""
+
+msgid "Automatic"
+msgstr ""
+
+msgid "Hotkey only"
+msgstr ""
+
+msgid "Completely off"
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid "For each application you can choose: fix automatically, fix only on the hotkey, or leave alone completely. Your rules take precedence over the safe defaults."
+msgstr ""
+
+msgid "No rules yet"
+msgstr ""
+
+msgid "PuLinTo works in all applications in automatic mode."
+msgstr ""
+
+msgid "Add a rule"
+msgstr ""
+
+msgid "Your rules"
+msgstr ""
+
+msgid "You have no rules yet. PuLinTo handles all other applications automatically."
+msgstr ""
+
+msgid "Defaults"
+msgstr ""
+
+msgid "PuLinTo's safe defaults for terminals, editors, password managers, remote desktops and games. Click a row to set your own."
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "Restore the default"
+msgstr ""
+
+msgid "Rule reset"
+msgstr ""
+
+msgid "The rule was not saved."
+msgstr ""
+
+msgid "Rule for an application"
+msgstr ""
+
+msgid "New rule"
+msgstr ""
+
+msgid "Window class (WM_CLASS), for example Navigator or jetbrains-*."
+msgstr ""
+
+msgid "Application"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Automatic: automatic fixes and the hotkey.\nHotkey only: no automatic replacements.\nCompletely off: PuLinTo handles nothing, not even the hotkey.\nThe key is set on the \"Hotkeys\" page: Alt or Pause/Break on an Apple keyboard, Pause/Break or the right Ctrl on the others."
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "An Apple keyboard was found"
+msgstr ""
+
+msgid "Turn on the Apple layout (comma and full stop on Shift+6 and Shift+7, ё on the \\ key)?"
+msgstr ""
+
+msgid "Do not suggest"
+msgstr ""
+
+msgid "Turn on"
+msgstr ""
+
+msgid "Fix automatically"
+msgstr ""
+
+msgid "When it is off, words are fixed only when you press the hotkey (see \"Hotkeys\")."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Changed from the tray menu"
+msgstr ""
+
+msgid "Fixed this session"
+msgstr ""
+
+msgid "PuLinTo service"
+msgstr ""
+
+msgid "No connection to PuLinTo"
+msgstr ""
+
+msgid "The service is not responding. Try refreshing the page (Ctrl+R) or restarting PuLinTo."
+msgstr ""
+
+msgid "Not responding"
+msgstr ""
+
+msgid "PuLinTo is off"
+msgstr ""
+
+msgid "The \"Off\" mode is set from the tray menu."
+msgstr ""
+
+msgid "The layout fixes itself"
+msgstr ""
+
+msgid "PuLinTo watches your typing and switches the layout when a word is typed in the wrong one."
+msgstr ""
+
+msgid "Automatic fixes are off: you change the layout with the hotkey."
+msgstr ""
+
+msgid "Working"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "Apple keyboard"
+msgstr ""
+
+msgid "An Apple and an ordinary keyboard together?"
+msgstr ""
+
+msgid "Ctrl+Pause/Break returns the ordinary layout at once"
+msgstr ""
+
+msgid "The Apple layout applies to the whole system, the ordinary keyboard included. Press Ctrl+Pause/Break (Ctrl+Alt+' on the Apple keyboard) to turn it off or on again without opening this window; the key can be changed on the Hotkeys page."
+msgstr ""
+
+msgid "For people who use an Apple keyboard (a Mac or a Magic Keyboard) on a PC: its comma, full stop and letter ё are on different keys than on an ordinary keyboard. With an ordinary keyboard there is nothing to set here."
+msgstr ""
+
+msgid "Apple layout"
+msgstr ""
+
+msgid "Comma and full stop on Shift+6 and Shift+7, the letter ё on the \\ key, as on a Mac. It changes the system layout, so it applies to every keyboard, an ordinary one too; the choice is remembered and applied at every login."
+msgstr ""
+
+msgid "Currently in the system"
+msgstr ""
+
+msgid "The Cmd and Option keys and the function row are configured in the system itself, not in PuLinTo: they are parameters of the hid_apple kernel module (root needed) and XKB options such as ctrl:swap_lwin_lctl. Details are in the manual, section \"Apple keyboard\"."
+msgstr ""
+
+msgid "unavailable"
+msgstr ""
+
+msgid "found"
+msgstr ""
+
+msgid "not found"
+msgstr ""
+
+msgid "setxkbmap not found (package x11-xkb-utils): the layout cannot be switched from here."
+msgstr ""
+
+msgid "The Russian layout uses the \"{variant}\" variant; the Apple layout is not applied over it, so your choice is kept."
+msgstr ""
+
+msgid "The system layout changed after PuLinTo started. Restart it."
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "The layout was not changed"
+msgstr ""
+
+msgid "Apple layout turned on"
+msgstr ""
+
+msgid "Standard layout restored"
+msgstr ""
+
+msgid "Assign"
+msgstr ""
+
+msgid "Press a key combination"
+msgstr ""
+
+msgid "You can press and release a single modifier: Alt, Ctrl, Shift or Super. While recording, the other keys do nothing. Esc cancels."
+msgstr ""
+
+msgid "Record again"
+msgstr ""
+
+msgid "{seconds} s left"
+msgstr ""
+
+msgid "The daemon did not respond."
+msgstr ""
+
+msgid "Recorded"
+msgstr ""
+
+msgid "Recording cancelled"
+msgstr ""
+
+msgid "Time is up"
+msgstr ""
+
+msgid "This combination cannot be assigned"
+msgstr ""
+
+msgid "Recording is unavailable"
+msgstr ""
+
+msgid "Auto — by keyboard"
+msgstr ""
+
+msgid "Always the Apple set"
+msgstr ""
+
+msgid "Always the PC set"
+msgstr ""
+
+msgid "Fixes the word you are typing; right after a word, undoes the last replacement. Pressing again cycles through the readings."
+msgstr ""
+
+msgid "Replaces the selected text with its reading in the other layout."
+msgstr ""
+
+msgid "Cycles the mode for the application you are in: automatic, hotkey only, off."
+msgstr ""
+
+msgid "Writes the last eight decisions to reports.jsonl."
+msgstr ""
+
+msgid "Turns the Apple layout of the system on or off, at once. Useful when an Apple and an ordinary keyboard are connected together: the Apple layout applies to both, and this key brings the ordinary one back."
+msgstr ""
+
+msgid "Change the layout of the word"
+msgstr ""
+
+msgid "Convert the selected text"
+msgstr ""
+
+msgid "Cycle the mode for the application"
+msgstr ""
+
+msgid "Report a wrong correction"
+msgstr ""
+
+msgid "Turn the Apple layout on or off"
+msgstr ""
+
+msgid "Hotkeys"
+msgstr ""
+
+msgid "Which set to use"
+msgstr ""
+
+msgid "The set is chosen by keyboard: Apple keyboards use the Apple set, all others the PC set. A laptop and an Apple keyboard plugged into it each keep to their own habits."
+msgstr ""
+
+msgid "Currently connected: "
+msgstr ""
+
+msgid "{name} — set {scheme}"
+msgstr ""
+
+msgid "No keyboards found."
+msgstr ""
+
+msgid "Cannot be changed"
+msgstr ""
+
+msgid "Emergency release of the grab"
+msgstr ""
+
+msgid "Press all three together: PuLinTo releases the keyboard until restart."
+msgstr ""
+
+msgid "Reset the set"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "There is no combination: the action does not trigger."
+msgstr ""
+
+msgid "Add a shortcut…"
+msgstr ""
+
+msgid "Left {key}"
+msgstr ""
+
+msgid "Right {key}"
+msgstr ""
+
+msgid "Single press"
+msgstr ""
+
+msgid "Combination"
+msgstr ""
+
+msgid "Remove this shortcut"
+msgstr ""
+
+msgid "New shortcut"
+msgstr ""
+
+msgid "Change shortcut"
+msgstr ""
+
+msgid "Could not save."
+msgstr ""
+
+msgid "Saved. "
+msgstr ""
+
+msgid "It did not work"
+msgstr ""
+
+msgid "Reset the {name} set?"
+msgstr ""
+
+msgid "All shortcuts of this set will return to their defaults."
+msgstr ""
+
+msgid "Set reset"
+msgstr ""
+
+msgid "Set choice saved"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "PuLinTo hotkeys"
+msgstr ""
+
+msgid "They work in any application where PuLinTo is not off. Apple keyboards and all others have their own sets, and every combination can be changed on the \"Hotkeys\" page."
+msgstr ""
+
+msgid "Fix the word"
+msgstr ""
+
+msgid "The selected text, the word being typed or the last word. Pressing again cycles through the readings. By default: on an Apple keyboard a single Alt or Pause/Break; on the others Pause/Break or a single right Ctrl (a lone Alt is left to application menus there)."
+msgstr ""
+
+msgid "Selected text only"
+msgstr ""
+
+msgid "Shift+Pause/Break by default."
+msgstr ""
+
+msgid "Cycles: automatic, hotkey only, off."
+msgstr ""
+
+msgid "By default: on an Apple keyboard Ctrl+Alt+'; on the others Ctrl+Pause/Break. Brings back the ordinary layout when an Apple and an ordinary keyboard are connected."
+msgstr ""
+
+msgid "In this window"
+msgstr ""
+
+msgid "Search the list"
+msgstr ""
+
+msgid "Delete the selected row"
+msgstr ""
+
+msgid "Refresh lists"
+msgstr ""
+
+msgid "What is stored"
+msgstr ""
+
+msgid "Only the rules, added by hand or learned after repeated corrections. Ordinary typing and the clipboard are not stored."
+msgstr ""
+
+msgid "Full text of a crash"
+msgstr ""
+
+msgid "The message and the backtrace of a panic. Without it the log only says where it happened."
+msgstr ""
+
+msgid "Every decision"
+msgstr ""
+
+msgid "A line for each word, including the ones left alone: the stage, the layout, the time."
+msgstr ""
+
+msgid "Typed words"
+msgstr ""
+
+msgid "The words and what they became. Words that the stop rules take out (passwords, addresses) are not written."
+msgstr ""
+
+msgid "Every key"
+msgstr ""
+
+msgid "Each key read and each key sent, with the time. This records passwords too; it stops after 15 minutes."
+msgstr ""
+
+msgid "Debug mode"
+msgstr ""
+
+msgid "For finding a fault together with the developer. While it records, a red dot shows on the tray icon. The record is kept in memory, not on the disk; it stops by itself after an hour and is deleted when you switch the mode off."
+msgstr ""
+
+msgid "Start recording"
+msgstr ""
+
+msgid "Stop and save a copy"
+msgstr ""
+
+msgid "Stop and delete"
+msgstr ""
+
+msgid "PuLinTo keeps the last lines of its work in memory only, never in a file. They hold no words you typed. Copy them to attach to a bug report."
+msgstr ""
+
+msgid "Last lines of the log"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copied"
+msgstr ""
+
+msgid "Choose at least one option"
+msgstr ""
+
+msgid "Record what you type?"
+msgstr ""
+
+msgid "The record will hold your texts. Passwords typed while \"Every key\" is on are recorded too. Nothing is written to the disk, and the record is deleted when you stop; you decide whether to save a copy."
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Debug mode did not start"
+msgstr ""
+
+msgid "See the daemon log: journalctl --user -u pulintod -n 20"
+msgstr ""
+
+msgid "A copy is saved"
+msgstr ""
+
+msgid "{path}\n\nLook through it before sending: it may hold your texts. The record itself is deleted."
+msgstr ""
+
+msgid "The record is deleted"
+msgstr ""
+
+msgid "Recording · {minutes} min left"
+msgstr ""
+
+msgid "A finished record is kept in memory"
+msgstr ""
+
+msgid "Not recording"
+msgstr ""
+
+msgid "Re-check keyboards"
+msgstr ""
+
+msgid "Import rules…"
+msgstr ""
+
+msgid "Export rules…"
+msgstr ""
+
+msgid "Interface language"
+msgstr ""
+
+msgid "Help and hotkeys"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Search (Ctrl+F)"
+msgstr ""
+
+msgid "Add (Ctrl+N)"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add — {title} (Ctrl+N)"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Could not reach pulintod"
+msgstr ""
+
+msgid "Lists refreshed"
+msgstr ""
+
+msgid "Applying…"
+msgstr ""
+
+msgid "the daemon rejected the restart"
+msgstr ""
+
+msgid "Could not restart PuLinTo"
+msgstr ""
+
+msgid "Restarting PuLinTo…"
+msgstr ""
+
+msgid "PuLinTo restarted, keyboards re-checked"
+msgstr ""
+
+msgid "PuLinTo did not come back after the restart"
+msgstr ""
+
+msgid "Try starting PuLinTo from the application menu."
+msgstr ""
+
+msgid "PuLinTo rules (JSON)"
+msgstr ""
+
+msgid "Export PuLinTo rules"
+msgstr ""
+
+msgid "Rules saved to the file"
+msgstr ""
+
+msgid "Export failed"
+msgstr ""
+
+msgid "Import PuLinTo rules"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "The rules file is invalid"
+msgstr ""
+
+msgid "How should the rules be imported?"
+msgstr ""
+
+msgid "Merging updates matching rules. Replacing first deletes the current user rules."
+msgstr ""
+
+msgid "Replace current"
+msgstr ""
+
+msgid "Merge"
+msgstr ""
+
+msgid "Rules imported"
+msgstr ""
+
+msgid "The import was not completed"
+msgstr ""
+
+msgid "This is not a PuLinTo rules file"
+msgstr ""
+
+msgid "Unsupported format version"
+msgstr ""
+
+msgid "Invalid field {name}"
+msgstr ""
+
+msgid "Field {name} contains an invalid control character"
+msgstr ""
+
+msgid "applications must be an array"
+msgstr ""
+
+msgid "Invalid autocorrection"
+msgstr ""
+
+msgid "Invalid never_change rule"
+msgstr ""
+
+msgid "Invalid always_change rule"
+msgstr ""
+
+msgid "Invalid applications section"
+msgstr ""
+
+msgid "applications.{name} must be an array"
+msgstr ""
+
+msgid "The daemon rejected the autocorrection"
+msgstr ""
+
+msgid "The daemon rejected the \"never change\" rule"
+msgstr ""
+
+msgid "The daemon rejected the \"always change\" rule"
+msgstr ""
+
+msgid "PuLinTo is unavailable"
+msgstr ""
+
+msgid "Could not reach the pulintod service.\n{error}"
+msgstr ""
+
+msgid "Try again"
+msgstr ""
+
+msgid "word"
+msgid_plural "words"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "fix"
+msgid_plural "fixes"
+msgstr[0] ""
+msgstr[1] ""

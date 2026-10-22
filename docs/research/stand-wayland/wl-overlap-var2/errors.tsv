@@ -1,0 +1,15 @@
+outcome	seq	layout_was	native	expect	shown	got	context
+missed	74	us	ru	и	b	b	Department of Energy,
+corrupt	75	us	ru	Г.	U&	U&	of Energy, и
+corrupt	126	us	ru	Е.	T&	T&	Л. М. Карапетяном,
+corrupt	154	ru	ru	О.	О.	J&	PSL. И. Козловой,
+corrupt	155	ru	ru	Е.	Е.	T&	И. Козловой, О.
+corrupt	158	us	ru	А.	F&	F&	Е. Кутафиным, Л.
+missed	225	us	ru	по	gj	gj	Везалия это сосуды,
+missed	228	ru	ru	от	от	jn	по которым кровь
+missed	303	ru	us	to	ещ	ещ	Celera Genomics led
+corrupt	460	ru	ru	сдерживающую	сдерживающую	сдерживающу.	настоящем, несмотря на
+missed	555	us	us	in	in	шт	fundamental level, inheritance
+missed	583	us	ru	же	;t	;t	разделение, в то
+missed	588	ru	ru	не	не	yt	нейросетевые алгоритмы вели
+missed	599	us	us	in	in	шт	odds of exposure

@@ -1,0 +1,18 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+Layout controller: X11 (XKB)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: System Administrator’s Keyboard
+Захват: Logitech K520
+Замена: 'ltlkfqy' → 'дедлайн' (ступень: Dictionary, решение за 0 мс)
+Замена: 'сщььше' → 'commit' (ступень: Dictionary, решение за 0 мс)
+Замена: 'b' → 'и' (ступень: ShortWord, решение за 0 мс)
+Замена: 'згыр' → 'push' (ступень: Dictionary, решение за 0 мс)
+Замена: 'lj' → 'до' (ступень: ShortWord, решение за 0 мс)
+Замена: 'Еру' → 'The' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ghsuftn' → 'прыгает' (ступень: Dictionary, решение за 0 мс)
+Замена: 'дфян' → 'lazy' (ступень: Dictionary, решение за 0 мс)
+Замена: 'djpkt' → 'возле' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Руддщ' → 'Hello' (ступень: Dictionary, решение за 0 мс)

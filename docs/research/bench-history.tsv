@@ -1,0 +1,5 @@
+date	commit	dict	corpus	rows	accuracy	false_positives	misses	fp_count	miss_count	note
+2026-08-04	8df3b05	small	corpus2	21300	99.36	0.06	2.22	9	127	серия 1: правило улик + граница слова
+2026-08-04	8df3b05	small	corpus3	1395098	93.80	0.06	9.65	316	86222	серия 1
+2026-08-04	8df3b05	expanded-unified	corpus2	21300	99.38	0.06	2.13	10	122	серия 1: правило улик + граница слова
+2026-08-04	8df3b05	expanded-unified	corpus3	1395098	93.78	0.25	9.58	1245	85594	серия 1

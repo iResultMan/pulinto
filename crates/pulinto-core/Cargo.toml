@@ -1,0 +1,12 @@
+[package]
+name = "pulinto-core"
+description = "Pure layout-conversion, case and language-scoring logic for PuLinTo"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+sha2 = "0.10"

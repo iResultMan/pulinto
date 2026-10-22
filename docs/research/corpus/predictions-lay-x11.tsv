@@ -1,0 +1,2301 @@
+id	context	input	expect	correct	category	predicted	predicted_text	verdict_match
+1	на самом деле	молодость	KEEP	молодость	prose_ru	KEEP	молодость	true
+2	почти	ворота	KEEP	ворота	prose_ru	KEEP	ворота	true
+3	очень	сеть	KEEP	сеть	prose_ru	KEEP	сеть	true
+4		водитель	KEEP	водитель	prose_ru	KEEP	водитель	true
+5	после того	река	KEEP	река	prose_ru	KEEP	река	true
+6	я думаю	рынок	KEEP	рынок	prose_ru	KEEP	рынок	true
+7	вроде	скирда	KEEP	скирда	prose_ru	KEEP	скирда	true
+8		поэт	KEEP	поэт	prose_ru	KEEP	поэт	true
+9		цеп	KEEP	цеп	prose_ru	KEEP	цеп	true
+10	между прочим	крыльцо	KEEP	крыльцо	prose_ru	KEEP	крыльцо	true
+11		скала	KEEP	скала	prose_ru	KEEP	скала	true
+12		сутки	KEEP	сутки	prose_ru	KEEP	сутки	true
+13	наверное это	радуга	KEEP	радуга	prose_ru	KEEP	радуга	true
+14		гроза	KEEP	гроза	prose_ru	KEEP	гроза	true
+15		сантехник	KEEP	сантехник	prose_ru	KEEP	сантехник	true
+16	не	салат	KEEP	салат	prose_ru	KEEP	салат	true
+17		высоко	KEEP	высоко	prose_ru	KEEP	высоко	true
+18		десятилетие	KEEP	десятилетие	prose_ru	KEEP	десятилетие	true
+19	они шли	ковёр	KEEP	ковёр	prose_ru	KEEP	ковёр	true
+20		грусть	KEEP	грусть	prose_ru	KEEP	грусть	true
+21	после того	небо	KEEP	небо	prose_ru	KEEP	небо	true
+22	сразу	завидовать	KEEP	завидовать	prose_ru	KEEP	завидовать	true
+23		летать	KEEP	летать	prose_ru	KEEP	летать	true
+24		идти	KEEP	идти	prose_ru	KEEP	идти	true
+25		продать	KEEP	продать	prose_ru	KEEP	продать	true
+26	он сказал	диск	KEEP	диск	prose_ru	KEEP	диск	true
+27		мальчик	KEEP	мальчик	prose_ru	KEEP	мальчик	true
+28	тогда	гаджет	KEEP	гаджет	prose_ru	KEEP	гаджет	true
+29	тот	калитка	KEEP	калитка	prose_ru	KEEP	калитка	true
+30	теперь	инженер	KEEP	инженер	prose_ru	KEEP	инженер	true
+31	тем не менее	память	KEEP	память	prose_ru	KEEP	память	true
+32	в	соскучиться	KEEP	соскучиться	prose_ru	KEEP	соскучиться	true
+33	я думаю	черёмуха	KEEP	черёмуха	prose_ru	KEEP	черёмуха	true
+34		конечно	KEEP	конечно	prose_ru	CONVERT	кончено	false
+35	после того	туман	KEEP	туман	prose_ru	KEEP	туман	true
+36	точно	спросить	KEEP	спросить	prose_ru	KEEP	спросить	true
+37	кажется мне	мириться	KEEP	мириться	prose_ru	KEEP	мириться	true
+38	потом	умный	KEEP	умный	prose_ru	KEEP	умный	true
+39	уже	компьютер	KEEP	компьютер	prose_ru	KEEP	компьютер	true
+40	мы видели	отдельно	KEEP	отдельно	prose_ru	KEEP	отдельно	true
+41	туда	бухгалтер	KEEP	бухгалтер	prose_ru	KEEP	бухгалтер	true
+42		ступа	KEEP	ступа	prose_ru	KEEP	ступа	true
+43		миром	KEEP	миром	prose_ru	KEEP	миром	true
+44		армяк	KEEP	армяк	prose_ru	KEEP	армяк	true
+45	мой	дельфин	KEEP	дельфин	prose_ru	KEEP	дельфин	true
+46	тем не менее	химик	KEEP	химик	prose_ru	KEEP	химик	true
+47		кресло	KEEP	кресло	prose_ru	KEEP	кресло	true
+48	он сказал	ответу	KEEP	ответу	prose_ru	KEEP	ответу	true
+49	она была	помешать	KEEP	помешать	prose_ru	KEEP	помешать	true
+50		капуста	KEEP	капуста	prose_ru	KEEP	капуста	true
+51	если честно	сложный	KEEP	сложный	prose_ru	KEEP	сложный	true
+52	в общем	девять	KEEP	девять	prose_ru	KEEP	девять	true
+53	снова	девушка	KEEP	девушка	prose_ru	KEEP	девушка	true
+54		приложение	KEEP	приложение	prose_ru	KEEP	приложение	true
+55	почти	папка	KEEP	папка	prose_ru	KEEP	папка	true
+56	вдруг	плыть	KEEP	плыть	prose_ru	KEEP	плыть	true
+57		жираф	KEEP	жираф	prose_ru	KEEP	жираф	true
+58		сени	KEEP	сени	prose_ru	KEEP	сени	true
+59		сухой	KEEP	сухой	prose_ru	KEEP	сухой	true
+60	это	актёр	KEEP	актёр	prose_ru	KEEP	актёр	true
+61	тогда	простой	KEEP	простой	prose_ru	KEEP	простой	true
+62	тем не менее	старуха	KEEP	старуха	prose_ru	KEEP	старуха	true
+63	не	кабан	KEEP	кабан	prose_ru	KEEP	кабан	true
+64	вообще	громко	KEEP	громко	prose_ru	KEEP	громко	true
+65		механик	KEEP	механик	prose_ru	KEEP	механик	true
+66		полдень	KEEP	полдень	prose_ru	KEEP	полдень	true
+67	и	мир	KEEP	мир	prose_ru	KEEP	мир	true
+68		большой	KEEP	большой	prose_ru	KEEP	большой	true
+69		испугаться	KEEP	испугаться	prose_ru	KEEP	испугаться	true
+70	вдруг	кастрюля	KEEP	кастрюля	prose_ru	KEEP	кастрюля	true
+71		счастье	KEEP	счастье	prose_ru	KEEP	счастье	true
+72		кафтан	KEEP	кафтан	prose_ru	KEEP	кафтан	true
+73	перед тем	девочка	KEEP	девочка	prose_ru	KEEP	девочка	true
+74		собака	KEEP	собака	prose_ru	KEEP	собака	true
+75	оттуда	грубый	KEEP	грубый	prose_ru	KEEP	грубый	true
+76	тогда	физик	KEEP	физик	prose_ru	KEEP	физик	true
+77	какой-то	судьба	KEEP	судьба	prose_ru	KEEP	судьба	true
+78	тот	молоко	KEEP	молоко	prose_ru	KEEP	молоко	true
+79		быстрый	KEEP	быстрый	prose_ru	KEEP	быстрый	true
+80	очень	скука	KEEP	скука	prose_ru	KEEP	скука	true
+81	ты знаешь	писать	KEEP	писать	prose_ru	KEEP	писать	true
+82	просто	видеть	KEEP	видеть	prose_ru	KEEP	видеть	true
+83	если честно	покупать	KEEP	покупать	prose_ru	KEEP	покупать	true
+84		усталость	KEEP	усталость	prose_ru	KEEP	усталость	true
+85	точно	закат	KEEP	закат	prose_ru	KEEP	закат	true
+86	наш	сирень	KEEP	сирень	prose_ru	KEEP	сирень	true
+87		далеко	KEEP	далеко	prose_ru	KEEP	далеко	true
+88	на	заканчивать	KEEP	заканчивать	prose_ru	KEEP	заканчивать	true
+89		сыр	KEEP	сыр	prose_ru	KEEP	сыр	true
+90	совсем	бочка	KEEP	бочка	prose_ru	KEEP	бочка	true
+91	он сказал	коромысло	KEEP	коромысло	prose_ru	KEEP	коромысло	true
+92	она была	школа	KEEP	школа	prose_ru	KEEP	школа	true
+93	это	пятьдесят	KEEP	пятьдесят	prose_ru	KEEP	пятьдесят	true
+94	после того	рукавица	KEEP	рукавица	prose_ru	KEEP	рукавица	true
+95	тем не менее	один	KEEP	один	prose_ru	KEEP	один	true
+96	точно	земляк	KEEP	земляк	prose_ru	KEEP	земляк	true
+97	если честно	пожалеть	KEEP	пожалеть	prose_ru	KEEP	пожалеть	true
+98	ты знаешь	зима	KEEP	зима	prose_ru	KEEP	зима	true
+99	после того	астра	KEEP	астра	prose_ru	KEEP	астра	true
+100	тем не менее	взять	KEEP	взять	prose_ru	KEEP	взять	true
+101		делом	KEEP	делом	prose_ru	KEEP	делом	true
+102	в общем	любовь	KEEP	любовь	prose_ru	KEEP	любовь	true
+103	вроде	вокзал	KEEP	вокзал	prose_ru	KEEP	вокзал	true
+104	после того	тундра	KEEP	тундра	prose_ru	KEEP	тундра	true
+105	какой-то	понимать	KEEP	понимать	prose_ru	KEEP	понимать	true
+106		программа	KEEP	программа	prose_ru	KEEP	программа	true
+107	просто	нож	KEEP	нож	prose_ru	KEEP	нож	true
+108	ты знаешь	миру	KEEP	миру	prose_ru	KEEP	миру	true
+109	это	ученик	KEEP	ученик	prose_ru	KEEP	ученик	true
+110	здесь	короткий	KEEP	короткий	prose_ru	KEEP	короткий	true
+111		действительно	KEEP	действительно	prose_ru	KEEP	действительно	true
+112	тем не менее	сканер	KEEP	сканер	prose_ru	KEEP	сканер	true
+113	мы часто	скучать	KEEP	скучать	prose_ru	KEEP	скучать	true
+114	между прочим	поесть	KEEP	поесть	prose_ru	KEEP	поесть	true
+115	на самом деле	масло	KEEP	масло	prose_ru	KEEP	масло	true
+116		улица	KEEP	улица	prose_ru	KEEP	улица	true
+117	себе	парк	KEEP	парк	prose_ru	KEEP	парк	true
+118		деньгам	KEEP	деньгам	prose_ru	CONVERT	деньга	false
+119	рядом со	коридор	KEEP	коридор	prose_ru	KEEP	коридор	true
+120	кроме того	самовар	KEEP	самовар	prose_ru	KEEP	самовар	true
+121	кажется мне	дрон	KEEP	дрон	prose_ru	KEEP	дрон	true
+122	в общем	воспоминание	KEEP	воспоминание	prose_ru	KEEP	воспоминание	true
+123	наш	рябина	KEEP	рябина	prose_ru	KEEP	рябина	true
+124		узкий	KEEP	узкий	prose_ru	KEEP	узкий	true
+125		лиственница	KEEP	лиственница	prose_ru	KEEP	лиственница	true
+126	просто	помогать	KEEP	помогать	prose_ru	KEEP	помогать	true
+127		ложка	KEEP	ложка	prose_ru	KEEP	ложка	true
+128	совсем	снег	KEEP	снег	prose_ru	KEEP	снег	true
+129	на	улыбнуться	KEEP	улыбнуться	prose_ru	KEEP	улыбнуться	true
+130		ручей	KEEP	ручей	prose_ru	KEEP	ручей	true
+131	перед тем	мужчина	KEEP	мужчина	prose_ru	KEEP	мужчина	true
+132	уже	победа	KEEP	победа	prose_ru	KEEP	победа	true
+133	просто	неудача	KEEP	неудача	prose_ru	KEEP	неудача	true
+134	в общем	поспать	KEEP	поспать	prose_ru	KEEP	поспать	true
+135	мой	фабрика	KEEP	фабрика	prose_ru	KEEP	фабрика	true
+136	ты знаешь	яблоко	KEEP	яблоко	prose_ru	KEEP	яблоко	true
+137	перед тем	эпоха	KEEP	эпоха	prose_ru	KEEP	эпоха	true
+138	на самом деле	ива	KEEP	ива	prose_ru	KEEP	ива	true
+139		интересный	KEEP	интересный	prose_ru	KEEP	интересный	true
+140	перед тем	зодчий	KEEP	зодчий	prose_ru	KEEP	зодчий	true
+141	наверное это	слышать	KEEP	слышать	prose_ru	KEEP	слышать	true
+142	кажется мне	пассажир	KEEP	пассажир	prose_ru	KEEP	пассажир	true
+143	наверное это	нарцисс	KEEP	нарцисс	prose_ru	KEEP	нарцисс	true
+144	на самом деле	тополь	KEEP	тополь	prose_ru	KEEP	тополь	true
+145	сразу	тигр	KEEP	тигр	prose_ru	KEEP	тигр	true
+146		забыть	KEEP	забыть	prose_ru	KEEP	забыть	true
+147	кажется мне	оса	KEEP	оса	prose_ru	KEEP	оса	true
+148		словах	KEEP	словах	prose_ru	KEEP	словах	true
+149		хлеб	KEEP	хлеб	prose_ru	KEEP	хлеб	true
+150		ненавидеть	KEEP	ненавидеть	prose_ru	KEEP	ненавидеть	true
+151	оттуда	ломать	KEEP	ломать	prose_ru	KEEP	ломать	true
+152	по сути	знать	KEEP	знать	prose_ru	KEEP	знать	true
+153		шкаф	KEEP	шкаф	prose_ru	KEEP	шкаф	true
+154	это	продюсер	KEEP	продюсер	prose_ru	KEEP	продюсер	true
+155	какой-то	ухват	KEEP	ухват	prose_ru	KEEP	ухват	true
+156	опять	играть	KEEP	играть	prose_ru	KEEP	играть	true
+157	мы часто	опасный	KEEP	опасный	prose_ru	KEEP	опасный	true
+158		наличник	KEEP	наличник	prose_ru	KEEP	наличник	true
+159	совсем	особенно	KEEP	особенно	prose_ru	KEEP	особенно	true
+160	ты знаешь	жизнью	KEEP	жизнью	prose_ru	KEEP	жизнью	true
+161	какой-то	домов	KEEP	домов	prose_ru	KEEP	домов	true
+162	они шли	женщина	KEEP	женщина	prose_ru	KEEP	женщина	true
+163		гвоздика	KEEP	гвоздика	prose_ru	KEEP	гвоздика	true
+164	разве	весна	KEEP	весна	prose_ru	KEEP	весна	true
+165	снова	интернет	KEEP	интернет	prose_ru	KEEP	интернет	true
+166	разве	старый	KEEP	старый	prose_ru	KEEP	старый	true
+167		чистый	KEEP	чистый	prose_ru	KEEP	чистый	true
+168		телевизор	KEEP	телевизор	prose_ru	KEEP	телевизор	true
+169		ясень	KEEP	ясень	prose_ru	KEEP	ясень	true
+170		научиться	KEEP	научиться	prose_ru	KEEP	научиться	true
+171	на самом деле	тридцать	KEEP	тридцать	prose_ru	KEEP	тридцать	true
+172		времени	KEEP	времени	prose_ru	KEEP	времени	true
+173	на самом деле	слова	KEEP	слова	prose_ru	KEEP	слова	true
+174		племянник	KEEP	племянник	prose_ru	KEEP	племянник	true
+175		лимон	KEEP	лимон	prose_ru	KEEP	лимон	true
+176		посох	KEEP	посох	prose_ru	KEEP	посох	true
+177	почти	ответа	KEEP	ответа	prose_ru	KEEP	ответа	true
+178	снова	врач	KEEP	врач	prose_ru	KEEP	врач	true
+179		пять	KEEP	пять	prose_ru	KEEP	пять	true
+180	он сказал	тонкий	KEEP	тонкий	prose_ru	KEEP	тонкий	true
+181		рассвет	KEEP	рассвет	prose_ru	KEEP	рассвет	true
+182	кроме того	машину	KEEP	машину	prose_ru	KEEP	машину	true
+183	почти	вопросом	KEEP	вопросом	prose_ru	KEEP	вопросом	true
+184	уже	сапог	KEEP	сапог	prose_ru	KEEP	сапог	true
+185	тот	дизайнер	KEEP	дизайнер	prose_ru	KEEP	дизайнер	true
+186	разве	никогда	KEEP	никогда	prose_ru	KEEP	никогда	true
+187		гнев	KEEP	гнев	prose_ru	KEEP	гнев	true
+188	тогда	смелость	KEEP	смелость	prose_ru	KEEP	смелость	true
+189		ковш	KEEP	ковш	prose_ru	KEEP	ковш	true
+190	по сути	страны	KEEP	страны	prose_ru	KEEP	страны	true
+191		клубника	KEEP	клубника	prose_ru	KEEP	клубника	true
+192	рядом со	астроном	KEEP	астроном	prose_ru	KEEP	астроном	true
+193	вроде	стадион	KEEP	стадион	prose_ru	KEEP	стадион	true
+194	вдруг	тревожный	KEEP	тревожный	prose_ru	KEEP	тревожный	true
+195		игра	KEEP	игра	prose_ru	KEEP	игра	true
+196	точно	сорок	KEEP	сорок	prose_ru	KEEP	сорок	true
+197	не	успокоиться	KEEP	успокоиться	prose_ru	KEEP	успокоиться	true
+198		калина	KEEP	калина	prose_ru	KEEP	калина	true
+199	точно	грустный	KEEP	грустный	prose_ru	KEEP	грустный	true
+200		осина	KEEP	осина	prose_ru	KEEP	осина	true
+201	оттуда	сервер	KEEP	сервер	prose_ru	KEEP	сервер	true
+202	на	интерес	KEEP	интерес	prose_ru	KEEP	интерес	true
+203	на самом деле	дома	KEEP	дома	prose_ru	KEEP	дома	true
+204		объяснить	KEEP	объяснить	prose_ru	KEEP	объяснить	true
+205		шесть	KEEP	шесть	prose_ru	KEEP	шесть	true
+206	между прочим	сестра	KEEP	сестра	prose_ru	KEEP	сестра	true
+207		каменщик	KEEP	каменщик	prose_ru	KEEP	каменщик	true
+208	оттуда	городах	KEEP	городах	prose_ru	KEEP	городах	true
+209	мы видели	книгой	KEEP	книгой	prose_ru	KEEP	книгой	true
+210	если честно	музыкант	KEEP	музыкант	prose_ru	KEEP	музыкант	true
+211		купить	KEEP	купить	prose_ru	KEEP	купить	true
+212	кроме того	арбуз	KEEP	арбуз	prose_ru	KEEP	арбуз	true
+213		сын	KEEP	сын	prose_ru	KEEP	сын	true
+214	вроде	грязный	KEEP	грязный	prose_ru	KEEP	грязный	true
+215	перед тем	дела	KEEP	дела	prose_ru	KEEP	дела	true
+216		четыре	KEEP	четыре	prose_ru	KEEP	четыре	true
+217	если честно	пациент	KEEP	пациент	prose_ru	KEEP	пациент	true
+218	в общем	клён	KEEP	клён	prose_ru	KEEP	клён	true
+219	в	парикмахер	KEEP	парикмахер	prose_ru	KEEP	парикмахер	true
+220	снова	геолог	KEEP	геолог	prose_ru	KEEP	геолог	true
+221	в общем	брат	KEEP	брат	prose_ru	KEEP	брат	true
+222	мы часто	двор	KEEP	двор	prose_ru	KEEP	двор	true
+223	в общем	свежий	KEEP	свежий	prose_ru	KEEP	свежий	true
+224	мы часто	увидеть	KEEP	увидеть	prose_ru	KEEP	увидеть	true
+225	тот	серп	KEEP	серп	prose_ru	KEEP	серп	true
+226	на самом деле	внезапно	KEEP	внезапно	prose_ru	KEEP	внезапно	true
+227		ненависть	KEEP	ненависть	prose_ru	KEEP	ненависть	true
+228	оттуда	лечь	KEEP	лечь	prose_ru	KEEP	лечь	true
+229	если честно	мудрость	KEEP	мудрость	prose_ru	KEEP	мудрость	true
+230	мы часто	миллион	KEEP	миллион	prose_ru	KEEP	миллион	true
+231		портной	KEEP	портной	prose_ru	KEEP	портной	true
+232	после того	маленький	KEEP	маленький	prose_ru	KEEP	маленький	true
+233	в общем	подвал	KEEP	подвал	prose_ru	KEEP	подвал	true
+234	не	редко	KEEP	редко	prose_ru	KEEP	редко	true
+235	какой-то	вредный	KEEP	вредный	prose_ru	KEEP	вредный	true
+236	себе	лукошко	KEEP	лукошко	prose_ru	KEEP	лукошко	true
+237	потом	гость	KEEP	гость	prose_ru	KEEP	гость	true
+238	себе	сквер	KEEP	сквер	prose_ru	KEEP	сквер	true
+239	кроме того	кадка	KEEP	кадка	prose_ru	KEEP	кадка	true
+240	очень	туесок	KEEP	туесок	prose_ru	KEEP	туесок	true
+241	мой	искать	KEEP	искать	prose_ru	KEEP	искать	true
+242	между прочим	орёл	KEEP	орёл	prose_ru	KEEP	орёл	true
+243	в общем	дождь	KEEP	дождь	prose_ru	KEEP	дождь	true
+244	вообще	пылесос	KEEP	пылесос	prose_ru	KEEP	пылесос	true
+245	разве	впечатление	KEEP	впечатление	prose_ru	KEEP	впечатление	true
+246		памятник	KEEP	памятник	prose_ru	KEEP	памятник	true
+247		луна	KEEP	луна	prose_ru	KEEP	луна	true
+248	оттуда	людей	KEEP	людей	prose_ru	KEEP	людей	true
+249		банан	KEEP	банан	prose_ru	KEEP	банан	true
+250	просто	потерять	KEEP	потерять	prose_ru	KEEP	потерять	true
+251	мы часто	завод	KEEP	завод	prose_ru	KEEP	завод	true
+252	тот	молодой	KEEP	молодой	prose_ru	KEEP	молодой	true
+253	между прочим	кистень	KEEP	кистень	prose_ru	KEEP	кистень	true
+254	уже	лапти	KEEP	лапти	prose_ru	KEEP	лапти	true
+255	кроме того	деревня	KEEP	деревня	prose_ru	KEEP	деревня	true
+256	на самом деле	пион	KEEP	пион	prose_ru	KEEP	пион	true
+257		рано	KEEP	рано	prose_ru	KEEP	рано	true
+258	перед тем	счастливый	KEEP	счастливый	prose_ru	KEEP	счастливый	true
+259	вдруг	город	KEEP	город	prose_ru	KEEP	город	true
+260		отвечать	KEEP	отвечать	prose_ru	KEEP	отвечать	true
+261		брать	KEEP	брать	prose_ru	KEEP	брать	true
+262		куст	KEEP	куст	prose_ru	KEEP	куст	true
+263	он сказал	закрыть	KEEP	закрыть	prose_ru	KEEP	закрыть	true
+264	рядом со	светофор	KEEP	светофор	prose_ru	KEEP	светофор	true
+265		квартира	KEEP	квартира	prose_ru	KEEP	квартира	true
+266	мы видели	бабушка	KEEP	бабушка	prose_ru	KEEP	бабушка	true
+267	мы видели	лето	KEEP	лето	prose_ru	KEEP	лето	true
+268	если честно	ящерица	KEEP	ящерица	prose_ru	KEEP	ящерица	true
+269	вдруг	бабочка	KEEP	бабочка	prose_ru	KEEP	бабочка	true
+270	наверное это	телефон	KEEP	телефон	prose_ru	KEEP	телефон	true
+271	после того	стена	KEEP	стена	prose_ru	KEEP	стена	true
+272	рядом со	восемь	KEEP	восемь	prose_ru	KEEP	восемь	true
+273	снова	колокольчик	KEEP	колокольчик	prose_ru	KEEP	колокольчик	true
+274		песок	KEEP	песок	prose_ru	KEEP	песок	true
+275	я думаю	переулок	KEEP	переулок	prose_ru	KEEP	переулок	true
+276		ветер	KEEP	ветер	prose_ru	KEEP	ветер	true
+277	тогда	петь	KEEP	петь	prose_ru	KEEP	петь	true
+278	вокруг дома	спрашивать	KEEP	спрашивать	prose_ru	KEEP	спрашивать	true
+279	себе	некрасивый	KEEP	некрасивый	prose_ru	KEEP	некрасивый	true
+280	тем не менее	полиция	KEEP	полиция	prose_ru	KEEP	полиция	true
+281	если честно	слушать	KEEP	слушать	prose_ru	KEEP	слушать	true
+282	просто	юность	KEEP	юность	prose_ru	KEEP	юность	true
+283	я думаю	извиниться	KEEP	извиниться	prose_ru	KEEP	извиниться	true
+284	рядом со	гусь	KEEP	гусь	prose_ru	KEEP	гусь	true
+285		тусклый	KEEP	тусклый	prose_ru	KEEP	тусклый	true
+286	и	начать	KEEP	начать	prose_ru	KEEP	начать	true
+287	наверное это	система	KEEP	система	prose_ru	KEEP	система	true
+288	я думаю	муравей	KEEP	муравей	prose_ru	KEEP	муравей	true
+289		всегда	KEEP	всегда	prose_ru	KEEP	всегда	true
+290	на самом деле	апельсин	KEEP	апельсин	prose_ru	KEEP	апельсин	true
+291		внимание	KEEP	внимание	prose_ru	KEEP	внимание	true
+292		аэропорт	KEEP	аэропорт	prose_ru	KEEP	аэропорт	true
+293	вдруг	начальник	KEEP	начальник	prose_ru	KEEP	начальник	true
+294	в	банк	KEEP	банк	prose_ru	KEEP	банк	true
+295	они шли	колбаса	KEEP	колбаса	prose_ru	KEEP	колбаса	true
+296	наверное это	закончить	KEEP	закончить	prose_ru	KEEP	закончить	true
+297	мы видели	мост	KEEP	мост	prose_ru	KEEP	мост	true
+298	мы часто	коза	KEEP	коза	prose_ru	KEEP	коза	true
+299		шишка	KEEP	шишка	prose_ru	KEEP	шишка	true
+300		обезьяна	KEEP	обезьяна	prose_ru	KEEP	обезьяна	true
+301	просто	извиняться	KEEP	извиняться	prose_ru	KEEP	извиняться	true
+302	и	корень	KEEP	корень	prose_ru	KEEP	корень	true
+303	по сути	низко	KEEP	низко	prose_ru	KEEP	низко	true
+304	между прочим	столяр	KEEP	столяр	prose_ru	KEEP	столяр	true
+305	рядом со	изба	KEEP	изба	prose_ru	KEEP	изба	true
+306	если честно	обязательно	KEEP	обязательно	prose_ru	KEEP	обязательно	true
+307		лиса	KEEP	лиса	prose_ru	KEEP	лиса	true
+308		настроение	KEEP	настроение	prose_ru	KEEP	настроение	true
+309	если честно	остров	KEEP	остров	prose_ru	KEEP	остров	true
+310		заяц	KEEP	заяц	prose_ru	KEEP	заяц	true
+311	он сказал	вишня	KEEP	вишня	prose_ru	KEEP	вишня	true
+312		понять	KEEP	понять	prose_ru	KEEP	понять	true
+313	себе	водопад	KEEP	водопад	prose_ru	KEEP	водопад	true
+314		электрик	KEEP	электрик	prose_ru	KEEP	электрик	true
+315	он сказал	воробей	KEEP	воробей	prose_ru	KEEP	воробей	true
+316		машиной	KEEP	машиной	prose_ru	KEEP	машиной	true
+317		пчела	KEEP	пчела	prose_ru	KEEP	пчела	true
+318	между прочим	сосед	KEEP	сосед	prose_ru	KEEP	сосед	true
+319	после того	светлый	KEEP	светлый	prose_ru	KEEP	светлый	true
+320		плохо	KEEP	плохо	prose_ru	KEEP	плохо	true
+321	ты знаешь	диван	KEEP	диван	prose_ru	KEEP	диван	true
+322	опять	книг	KEEP	книг	prose_ru	KEEP	книг	true
+323	я думаю	слон	KEEP	слон	prose_ru	KEEP	слон	true
+324	он сказал	домами	KEEP	домами	prose_ru	KEEP	домами	true
+325	на	медведь	KEEP	медведь	prose_ru	KEEP	медведь	true
+326	между прочим	журналист	KEEP	журналист	prose_ru	KEEP	журналист	true
+327		дело	KEEP	дело	prose_ru	KEEP	дело	true
+328		злой	KEEP	злой	prose_ru	KEEP	злой	true
+329		университет	KEEP	университет	prose_ru	KEEP	университет	true
+330	оттуда	жизни	KEEP	жизни	prose_ru	KEEP	жизни	true
+331	если честно	война	KEEP	война	prose_ru	KEEP	война	true
+332	теперь	облако	KEEP	облако	prose_ru	KEEP	облако	true
+333	тем не менее	благодарить	KEEP	благодарить	prose_ru	KEEP	благодарить	true
+334	они шли	злиться	KEEP	злиться	prose_ru	KEEP	злиться	true
+335	она была	чугунок	KEEP	чугунок	prose_ru	KEEP	чугунок	true
+336	рядом со	книгу	KEEP	книгу	prose_ru	KEEP	книгу	true
+337		ноутбук	KEEP	ноутбук	prose_ru	KEEP	ноутбук	true
+338	снова	стыдиться	KEEP	стыдиться	prose_ru	KEEP	стыдиться	true
+339	наверное это	аптека	KEEP	аптека	prose_ru	KEEP	аптека	true
+340		рогожа	KEEP	рогожа	prose_ru	KEEP	рогожа	true
+341	вокруг дома	разозлиться	KEEP	разозлиться	prose_ru	KEEP	разозлиться	true
+342	он сказал	старик	KEEP	старик	prose_ru	KEEP	старик	true
+343	неужели	позавидовать	KEEP	позавидовать	prose_ru	KEEP	позавидовать	true
+344	тот	человек	KEEP	человек	prose_ru	KEEP	человек	true
+345	тем не менее	огурец	KEEP	огурец	prose_ru	KEEP	огурец	true
+346	наверное это	привычка	KEEP	привычка	prose_ru	KEEP	привычка	true
+347	тем не менее	берег	KEEP	берег	prose_ru	KEEP	берег	true
+348		подруга	KEEP	подруга	prose_ru	KEEP	подруга	true
+349	тот	алгоритм	KEEP	алгоритм	prose_ru	KEEP	алгоритм	true
+350	вокруг дома	тарелка	KEEP	тарелка	prose_ru	KEEP	тарелка	true
+351		пол	KEEP	пол	prose_ru	KEEP	пол	true
+352	они шли	больница	KEEP	больница	prose_ru	KEEP	больница	true
+353		красиво	KEEP	красиво	prose_ru	CONVERT	криво	false
+354	на	скульптор	KEEP	скульптор	prose_ru	KEEP	скульптор	true
+355	потом	удача	KEEP	удача	prose_ru	KEEP	удача	true
+356	точно	жалеть	KEEP	жалеть	prose_ru	KEEP	жалеть	true
+357	перед тем	зипун	KEEP	зипун	prose_ru	KEEP	зипун	true
+358	уже	работать	KEEP	работать	prose_ru	KEEP	работать	true
+359	ты знаешь	борьба	KEEP	борьба	prose_ru	KEEP	борьба	true
+360	на самом деле	лететь	KEEP	лететь	prose_ru	KEEP	лететь	true
+361	кроме того	груша	KEEP	груша	prose_ru	KEEP	груша	true
+362	разве	вода	KEEP	вода	prose_ru	KEEP	вода	true
+363		ложь	KEEP	ложь	prose_ru	KEEP	ложь	true
+364	после того	землетрясение	KEEP	землетрясение	prose_ru	KEEP	землетрясение	true
+365	вообще	честный	KEEP	честный	prose_ru	KEEP	честный	true
+366	они шли	острог	KEEP	острог	prose_ru	KEEP	острог	true
+367	перед тем	океан	KEEP	океан	prose_ru	KEEP	океан	true
+368	неужели	человеку	KEEP	человеку	prose_ru	KEEP	человеку	true
+369	на самом деле	спокойный	KEEP	спокойный	prose_ru	KEEP	спокойный	true
+370	вокруг дома	старость	KEEP	старость	prose_ru	KEEP	старость	true
+371		учиться	KEEP	учиться	prose_ru	KEEP	учиться	true
+372	она была	доброта	KEEP	доброта	prose_ru	KEEP	доброта	true
+373	мой	комод	KEEP	комод	prose_ru	KEEP	комод	true
+374	наверное это	лук	KEEP	лук	prose_ru	KEEP	лук	true
+375	мы видели	мясо	KEEP	мясо	prose_ru	KEEP	мясо	true
+376	теперь	поссориться	KEEP	поссориться	prose_ru	KEEP	поссориться	true
+377		приятель	KEEP	приятель	prose_ru	KEEP	приятель	true
+378	просто	полати	KEEP	полати	prose_ru	KEEP	полати	true
+379	вообще	кедр	KEEP	кедр	prose_ru	KEEP	кедр	true
+380	наверное это	встать	KEEP	встать	prose_ru	KEEP	встать	true
+381	кажется мне	тяжёлый	KEEP	тяжёлый	prose_ru	KEEP	тяжёлый	true
+382	оттуда	бежать	KEEP	бежать	prose_ru	KEEP	бежать	true
+383	это	солнце	KEEP	солнце	prose_ru	KEEP	солнце	true
+384	она была	парень	KEEP	парень	prose_ru	KEEP	парень	true
+385		вспомнить	KEEP	вспомнить	prose_ru	KEEP	вспомнить	true
+386	вокруг дома	секретарь	KEEP	секретарь	prose_ru	KEEP	секретарь	true
+387	они шли	наушники	KEEP	наушники	prose_ru	KEEP	наушники	true
+388		городов	KEEP	городов	prose_ru	KEEP	городов	true
+389	рядом со	дом	KEEP	дом	prose_ru	KEEP	дом	true
+390	перед тем	ледник	KEEP	ледник	prose_ru	KEEP	ледник	true
+391	опять	файл	KEEP	файл	prose_ru	KEEP	файл	true
+392	просто	улей	KEEP	улей	prose_ru	KEEP	улей	true
+393	рядом со	кухня	KEEP	кухня	prose_ru	KEEP	кухня	true
+394	если честно	коллега	KEEP	коллега	prose_ru	KEEP	коллега	true
+395	наш	музыка	KEEP	музыка	prose_ru	KEEP	музыка	true
+396	оттуда	сахар	KEEP	сахар	prose_ru	KEEP	сахар	true
+397	вокруг дома	слово	KEEP	слово	prose_ru	KEEP	слово	true
+398	здесь	кушак	KEEP	кушак	prose_ru	KEEP	кушак	true
+399	себе	опять	KEEP	опять	prose_ru	KEEP	опять	true
+400		клавиатура	KEEP	клавиатура	prose_ru	KEEP	клавиатура	true
+401		овин	KEEP	овин	prose_ru	KEEP	овин	true
+402		хозяйка	KEEP	хозяйка	prose_ru	KEEP	хозяйка	true
+403	туда	театр	KEEP	театр	prose_ru	KEEP	театр	true
+404	вокруг дома	слива	KEEP	слива	prose_ru	KEEP	слива	true
+405	оттуда	часто	KEEP	часто	prose_ru	KEEP	часто	true
+406	после того	богатый	KEEP	богатый	prose_ru	KEEP	богатый	true
+407	и	поверить	KEEP	поверить	prose_ru	KEEP	поверить	true
+408	в общем	двадцать	KEEP	двадцать	prose_ru	KEEP	двадцать	true
+409		спокойствие	KEEP	спокойствие	prose_ru	KEEP	спокойствие	true
+410		болезнь	KEEP	болезнь	prose_ru	KEEP	болезнь	true
+411		племянница	KEEP	племянница	prose_ru	KEEP	племянница	true
+412		города	KEEP	города	prose_ru	KEEP	города	true
+413		паук	KEEP	паук	prose_ru	KEEP	паук	true
+414	теперь	взрослый	KEEP	взрослый	prose_ru	KEEP	взрослый	true
+415		год	KEEP	год	prose_ru	KEEP	год	true
+416		прочитать	KEEP	прочитать	prose_ru	KEEP	прочитать	true
+417		слабый	KEEP	слабый	prose_ru	KEEP	слабый	true
+418	если честно	немного	KEEP	немного	prose_ru	KEEP	немного	true
+419	на самом деле	море	KEEP	море	prose_ru	KEEP	море	true
+420		почта	KEEP	почта	prose_ru	KEEP	почта	true
+421		услышать	KEEP	услышать	prose_ru	KEEP	услышать	true
+422	они шли	лист	KEEP	лист	prose_ru	KEEP	лист	true
+423	очень	вежливый	KEEP	вежливый	prose_ru	KEEP	вежливый	true
+424	сразу	старинный	KEEP	старинный	prose_ru	KEEP	старинный	true
+425	теперь	амбар	KEEP	амбар	prose_ru	KEEP	амбар	true
+426		липа	KEEP	липа	prose_ru	KEEP	липа	true
+427	неужели	ставень	KEEP	ставень	prose_ru	KEEP	ставень	true
+428	я думаю	другу	KEEP	другу	prose_ru	KEEP	другу	true
+429	теперь	гостиная	KEEP	гостиная	prose_ru	KEEP	гостиная	true
+430	тот	тревога	KEEP	тревога	prose_ru	KEEP	тревога	true
+431	наш	отдыхать	KEEP	отдыхать	prose_ru	KEEP	отдыхать	true
+432	сразу	словом	KEEP	словом	prose_ru	KEEP	словом	true
+433	вдруг	человеком	KEEP	человеком	prose_ru	KEEP	человеком	true
+434	она была	странами	KEEP	странами	prose_ru	KEEP	странами	true
+435	тем не менее	дозор	KEEP	дозор	prose_ru	KEEP	дозор	true
+436	мы часто	соль	KEEP	соль	prose_ru	KEEP	соль	true
+437	после того	менеджер	KEEP	менеджер	prose_ru	KEEP	менеджер	true
+438		открывать	KEEP	открывать	prose_ru	KEEP	открывать	true
+439	она была	камера	KEEP	камера	prose_ru	KEEP	камера	true
+440	разве	сила	KEEP	сила	prose_ru	KEEP	сила	true
+441	тем не менее	болото	KEEP	болото	prose_ru	KEEP	болото	true
+442	это	лёд	KEEP	лёд	prose_ru	KEEP	лёд	true
+443	после того	мышка	KEEP	мышка	prose_ru	KEEP	мышка	true
+444		смеяться	KEEP	смеяться	prose_ru	KEEP	смеяться	true
+445	мы видели	трюмо	KEEP	трюмо	prose_ru	KEEP	трюмо	true
+446		орех	KEEP	орех	prose_ru	KEEP	орех	true
+447	они шли	месяц	KEEP	месяц	prose_ru	KEEP	месяц	true
+448	тот	долина	KEEP	долина	prose_ru	KEEP	долина	true
+449	в общем	ответить	KEEP	ответить	prose_ru	KEEP	ответить	true
+450		постепенно	KEEP	постепенно	prose_ru	KEEP	постепенно	true
+451		закрывать	KEEP	закрывать	prose_ru	KEEP	закрывать	true
+452	не	дядя	KEEP	дядя	prose_ru	KEEP	дядя	true
+453	я думаю	дыня	KEEP	дыня	prose_ru	KEEP	дыня	true
+454	по сути	спальня	KEEP	спальня	prose_ru	KEEP	спальня	true
+455		успокаиваться	KEEP	успокаиваться	prose_ru	KEEP	успокаиваться	true
+456	если честно	осень	KEEP	осень	prose_ru	KEEP	осень	true
+457	вокруг дома	поздравлять	KEEP	поздравлять	prose_ru	KEEP	поздравлять	true
+458	просто	окно	KEEP	окно	prose_ru	KEEP	окно	true
+459	тем не менее	побережье	KEEP	побережье	prose_ru	KEEP	побережье	true
+460	в общем	офис	KEEP	офис	prose_ru	KEEP	офис	true
+461	мы часто	лестница	KEEP	лестница	prose_ru	KEEP	лестница	true
+462	просто	полезный	KEEP	полезный	prose_ru	KEEP	полезный	true
+463	вообще	волк	KEEP	волк	prose_ru	KEEP	волк	true
+464	после того	батарея	KEEP	батарея	prose_ru	KEEP	батарея	true
+465		холодный	KEEP	холодный	prose_ru	KEEP	холодный	true
+466	сразу	яркий	KEEP	яркий	prose_ru	KEEP	яркий	true
+467	неужели	известный	KEEP	известный	prose_ru	KEEP	известный	true
+468	она была	ответом	KEEP	ответом	prose_ru	KEEP	ответом	true
+469		обрадоваться	KEEP	обрадоваться	prose_ru	KEEP	обрадоваться	true
+470	вдруг	гром	KEEP	гром	prose_ru	KEEP	гром	true
+471	теперь	домах	KEEP	домах	prose_ru	KEEP	домах	true
+472	на самом деле	робот	KEEP	робот	prose_ru	KEEP	робот	true
+473		шапка	KEEP	шапка	prose_ru	KEEP	шапка	true
+474	очень	мокрый	KEEP	мокрый	prose_ru	KEEP	мокрый	true
+475	между прочим	время	KEEP	время	prose_ru	KEEP	время	true
+476	он сказал	набережная	KEEP	набережная	prose_ru	KEEP	набережная	true
+477	они шли	улыбаться	KEEP	улыбаться	prose_ru	KEEP	улыбаться	true
+478	он сказал	архитектор	KEEP	архитектор	prose_ru	KEEP	архитектор	true
+479	я думаю	дать	KEEP	дать	prose_ru	KEEP	дать	true
+480		биолог	KEEP	биолог	prose_ru	KEEP	биолог	true
+481	тем не менее	картофель	KEEP	картофель	prose_ru	KEEP	картофель	true
+482	на	думать	KEEP	думать	prose_ru	KEEP	думать	true
+483	не	дети	KEEP	дети	prose_ru	KEEP	дети	true
+484		любить	KEEP	любить	prose_ru	KEEP	любить	true
+485	опять	дедушка	KEEP	дедушка	prose_ru	KEEP	дедушка	true
+486	кажется мне	стране	KEEP	стране	prose_ru	KEEP	стране	true
+487	мой	вообще	KEEP	вообще	prose_ru	KEEP	вообще	true
+488	я думаю	книгам	KEEP	книгам	prose_ru	KEEP	книгам	true
+489		сайт	KEEP	сайт	prose_ru	KEEP	сайт	true
+490	потом	преподаватель	KEEP	преподаватель	prose_ru	KEEP	преподаватель	true
+491		продавец	KEEP	продавец	prose_ru	KEEP	продавец	true
+492	неужели	влюбиться	KEEP	влюбиться	prose_ru	KEEP	влюбиться	true
+493	они шли	перец	KEEP	перец	prose_ru	KEEP	перец	true
+494	тот	машина	KEEP	машина	prose_ru	KEEP	машина	true
+495	после того	одуванчик	KEEP	одуванчик	prose_ru	KEEP	одуванчик	true
+496	какой-то	современный	KEEP	современный	prose_ru	KEEP	современный	true
+497		выпить	KEEP	выпить	prose_ru	KEEP	выпить	true
+498	я думаю	написать	KEEP	написать	prose_ru	KEEP	написать	true
+499	мой	полночь	KEEP	полночь	prose_ru	KEEP	полночь	true
+500	теперь	лягушка	KEEP	лягушка	prose_ru	KEEP	лягушка	true
+501	не	товарищ	KEEP	товарищ	prose_ru	KEEP	товарищ	true
+502	на самом деле	одиннадцать	KEEP	одиннадцать	prose_ru	KEEP	одиннадцать	true
+503		подснежник	KEEP	подснежник	prose_ru	KEEP	подснежник	true
+504	оттуда	напарник	KEEP	напарник	prose_ru	KEEP	напарник	true
+505	вдруг	близко	KEEP	близко	prose_ru	KEEP	близко	true
+506		гора	KEEP	гора	prose_ru	KEEP	гора	true
+507	и	тёмный	KEEP	тёмный	prose_ru	KEEP	тёмный	true
+508		иногда	KEEP	иногда	prose_ru	KEEP	иногда	true
+509	если честно	низкий	KEEP	низкий	prose_ru	KEEP	низкий	true
+510	он сказал	вельможа	KEEP	вельможа	prose_ru	KEEP	вельможа	true
+511	мы видели	принтер	KEEP	принтер	prose_ru	KEEP	принтер	true
+512		книге	KEEP	книге	prose_ru	KEEP	книге	true
+513	на самом деле	ездить	KEEP	ездить	prose_ru	KEEP	ездить	true
+514		продавать	KEEP	продавать	prose_ru	KEEP	продавать	true
+515		работник	KEEP	работник	prose_ru	KEEP	работник	true
+516	вокруг дома	крыша	KEEP	крыша	prose_ru	KEEP	крыша	true
+517	сразу	высокий	KEEP	высокий	prose_ru	KEEP	высокий	true
+518		пещера	KEEP	пещера	prose_ru	KEEP	пещера	true
+519	мы часто	георгин	KEEP	георгин	prose_ru	KEEP	георгин	true
+520	потом	писатель	KEEP	писатель	prose_ru	KEEP	писатель	true
+521	вокруг дома	тысяча	KEEP	тысяча	prose_ru	KEEP	тысяча	true
+522		лев	KEEP	лев	prose_ru	KEEP	лев	true
+523	не	юрист	KEEP	юрист	prose_ru	KEEP	юрист	true
+524	снова	степь	KEEP	степь	prose_ru	KEEP	степь	true
+525	в	ночь	KEEP	ночь	prose_ru	KEEP	ночь	true
+526		олень	KEEP	олень	prose_ru	KEEP	олень	true
+527	кажется мне	помочь	KEEP	помочь	prose_ru	KEEP	помочь	true
+528		василёк	KEEP	василёк	prose_ru	KEEP	василёк	true
+529		ходить	KEEP	ходить	prose_ru	KEEP	ходить	true
+530		микрофон	KEEP	микрофон	prose_ru	KEEP	микрофон	true
+531	если честно	стиральная	KEEP	стиральная	prose_ru	KEEP	стиральная	true
+532	по сути	институт	KEEP	институт	prose_ru	KEEP	институт	true
+533	после того	удивиться	KEEP	удивиться	prose_ru	KEEP	удивиться	true
+534	тем не менее	борозда	KEEP	борозда	prose_ru	KEEP	борозда	true
+535	в	музей	KEEP	музей	prose_ru	KEEP	музей	true
+536		характер	KEEP	характер	prose_ru	KEEP	характер	true
+537	между прочим	вечер	KEEP	вечер	prose_ru	KEEP	вечер	true
+538	наверное это	луг	KEEP	луг	prose_ru	KEEP	луг	true
+539	вообще	волноваться	KEEP	волноваться	prose_ru	KEEP	волноваться	true
+540	мой	сапожник	KEEP	сапожник	prose_ru	KEEP	сапожник	true
+541	вообще	надеяться	KEEP	надеяться	prose_ru	KEEP	надеяться	true
+542		сыграть	KEEP	сыграть	prose_ru	KEEP	сыграть	true
+543	теперь	плавать	KEEP	плавать	prose_ru	KEEP	плавать	true
+544	тогда	петух	KEEP	петух	prose_ru	KEEP	петух	true
+545	точно	городом	KEEP	городом	prose_ru	KEEP	городом	true
+546		безопасный	KEEP	безопасный	prose_ru	KEEP	безопасный	true
+547	совсем	чеснок	KEEP	чеснок	prose_ru	KEEP	чеснок	true
+548	если честно	лось	KEEP	лось	prose_ru	KEEP	лось	true
+549	снова	радость	KEEP	радость	prose_ru	KEEP	радость	true
+550	тот	комната	KEEP	комната	prose_ru	KEEP	комната	true
+551	наш	директор	KEEP	директор	prose_ru	KEEP	директор	true
+552	кажется мне	узнать	KEEP	узнать	prose_ru	KEEP	узнать	true
+553		тюльпан	KEEP	тюльпан	prose_ru	KEEP	тюльпан	true
+554	это	тыква	KEEP	тыква	prose_ru	KEEP	тыква	true
+555	в	наковальня	KEEP	наковальня	prose_ru	KEEP	наковальня	true
+556		спеть	KEEP	спеть	prose_ru	KEEP	спеть	true
+557	на самом деле	вулкан	KEEP	вулкан	prose_ru	KEEP	вулкан	true
+558	по сути	забывать	KEEP	забывать	prose_ru	KEEP	забывать	true
+559	они шли	кинотеатр	KEEP	кинотеатр	prose_ru	KEEP	кинотеатр	true
+560		начинать	KEEP	начинать	prose_ru	KEEP	начинать	true
+561	мы видели	смотреть	KEEP	смотреть	prose_ru	KEEP	смотреть	true
+562	перед тем	зарядка	KEEP	зарядка	prose_ru	KEEP	зарядка	true
+563		пасека	KEEP	пасека	prose_ru	KEEP	пасека	true
+564	потом	подросток	KEEP	подросток	prose_ru	KEEP	подросток	true
+565	не	балкон	KEEP	балкон	prose_ru	KEEP	балкон	true
+566	сразу	тоннель	KEEP	тоннель	prose_ru	KEEP	тоннель	true
+567		влюбляться	KEEP	влюбляться	prose_ru	KEEP	влюбляться	true
+568	между прочим	час	KEEP	час	prose_ru	KEEP	час	true
+569		мечта	KEEP	мечта	prose_ru	KEEP	мечта	true
+570		град	KEEP	град	prose_ru	KEEP	град	true
+571	точно	поздравить	KEEP	поздравить	prose_ru	KEEP	поздравить	true
+572	и	коса	KEEP	коса	prose_ru	KEEP	коса	true
+573	неужели	ёж	KEEP	ёж	prose_ru	KEEP	ёж	true
+574		роса	KEEP	роса	prose_ru	KEEP	роса	true
+575	она была	весёлый	KEEP	весёлый	prose_ru	KEEP	весёлый	true
+576		вчера	KEEP	вчера	prose_ru	KEEP	вчера	true
+577		утро	KEEP	утро	prose_ru	KEEP	утро	true
+578	на самом деле	курица	KEEP	курица	prose_ru	KEEP	курица	true
+579		ратуша	KEEP	ратуша	prose_ru	KEEP	ратуша	true
+580	ты знаешь	роща	KEEP	роща	prose_ru	KEEP	роща	true
+581	совсем	танцевать	KEEP	танцевать	prose_ru	KEEP	танцевать	true
+582	почти	новый	KEEP	новый	prose_ru	KEEP	новый	true
+583		делах	KEEP	делах	prose_ru	KEEP	делах	true
+584	туда	ссориться	KEEP	ссориться	prose_ru	KEEP	ссориться	true
+585		другом	KEEP	другом	prose_ru	KEEP	другом	true
+586		терпение	KEEP	терпение	prose_ru	KEEP	терпение	true
+587		учитель	KEEP	учитель	prose_ru	KEEP	учитель	true
+588	ты знаешь	скучный	KEEP	скучный	prose_ru	KEEP	скучный	true
+589		корова	KEEP	корова	prose_ru	KEEP	корова	true
+590	тогда	берёза	KEEP	берёза	prose_ru	KEEP	берёза	true
+591	какой-то	ландыш	KEEP	ландыш	prose_ru	KEEP	ландыш	true
+592	между прочим	тайга	KEEP	тайга	prose_ru	KEEP	тайга	true
+593	туда	делать	KEEP	делать	prose_ru	KEEP	делать	true
+594		машин	KEEP	машин	prose_ru	KEEP	машин	true
+595		холодильник	KEEP	холодильник	prose_ru	KEEP	холодильник	true
+596	оттуда	площадь	KEEP	площадь	prose_ru	KEEP	площадь	true
+597	тогда	озеро	KEEP	озеро	prose_ru	KEEP	озеро	true
+598	неужели	деньги	KEEP	деньги	prose_ru	KEEP	деньги	true
+599	себе	морковь	KEEP	морковь	prose_ru	KEEP	морковь	true
+600	наш	суета	KEEP	суета	prose_ru	KEEP	суета	true
+601	на	le,	CONVERT	дуб	prose_ru	KEEP	le,	false
+602		djghjcf[	CONVERT	вопросах	prose_ru	CONVERT	вопроса[	true
+603	здесь	gkfrfnm	CONVERT	плакать	prose_ru	CONVERT	плакать	true
+604		ujke,m	CONVERT	голубь	prose_ru	CONVERT	голубь	true
+605	на самом деле	pfcvtznmcz	CONVERT	засмеяться	prose_ru	CONVERT	засмеяться	true
+606		,jznmcz	CONVERT	бояться	prose_ru	KEEP	,jznmcz	false
+607	просто	gjnjv	CONVERT	потом	prose_ru	CONVERT	потом	true
+608	просто	jkm[f	CONVERT	ольха	prose_ru	CONVERT	ольха	true
+609		ht,`yjr	CONVERT	ребёнок	prose_ru	CONVERT	ребёнок	true
+610		ajnjuhfa	CONVERT	фотограф	prose_ru	CONVERT	фотограф	true
+611		hf,jnjq	CONVERT	работой	prose_ru	KEEP	hf,jnjq	false
+612	она была	vtlktyyj	CONVERT	медленно	prose_ru	CONVERT	медленно	true
+613	туда	rybuf	CONVERT	книга	prose_ru	CONVERT	книга	true
+614	мы часто	vj;;tdtkmybr	CONVERT	можжевельник	prose_ru	CONVERT	можжевельник	true
+615	себе	lhepmz	CONVERT	друзья	prose_ru	CONVERT	друзья	true
+616	тем не менее	pyfrjvsq	CONVERT	знакомый	prose_ru	CONVERT	знакомый	true
+617	точно	ckexfq	CONVERT	случай	prose_ru	CONVERT	случай	true
+618		hf,jnt	CONVERT	работе	prose_ru	CONVERT	работе	true
+619	разве	rhjkbr	CONVERT	кролик	prose_ru	CONVERT	кролик	true
+620	вообще	rbn	CONVERT	кит	prose_ru	CONVERT	кит	true
+621		yfqnb	CONVERT	найти	prose_ru	CONVERT	найти	true
+622	уже	kfgjnm	CONVERT	лапоть	prose_ru	CONVERT	лапоть	true
+623	тем не менее	ajynfy	CONVERT	фонтан	prose_ru	CONVERT	фонтан	true
+624		lkbyysq	CONVERT	длинный	prose_ru	CONVERT	длинный	true
+625	теперь	dyer	CONVERT	внук	prose_ru	CONVERT	внук	true
+626	опять	htfkmyjcnm	CONVERT	реальность	prose_ru	CONVERT	реальность	true
+627	тот	lthtdj	CONVERT	дерево	prose_ru	CONVERT	дерево	true
+628	перед тем	ecgt[	CONVERT	успех	prose_ru	KEEP	ecgt[	false
+629	я думаю	gj,kfujlfhbnm	CONVERT	поблагодарить	prose_ru	CONVERT	поблагодарить	true
+630	тот	vtlktyysq	CONVERT	медленный	prose_ru	CONVERT	медленный	true
+631	наверное это	cjdf	CONVERT	сова	prose_ru	CONVERT	сова	true
+632	если честно	ctreylf	CONVERT	секунда	prose_ru	CONVERT	секунда	true
+633		df;ysq	CONVERT	важный	prose_ru	CONVERT	важный	true
+634		jdwf	CONVERT	овца	prose_ru	CONVERT	овца	true
+635	вокруг дома	xtkjdtrf	CONVERT	человека	prose_ru	CONVERT	человека	true
+636	кроме того	,tufnm	CONVERT	бегать	prose_ru	KEEP	,tufnm	false
+637		cvfhnajy	CONVERT	смартфон	prose_ru	CONVERT	смартфон	true
+638		xfqybr	CONVERT	чайник	prose_ru	CONVERT	чайник	true
+639	снова	pfgkfrfnm	CONVERT	заплакать	prose_ru	CONVERT	заплакать	true
+640	уже	djj,hf;tybt	CONVERT	воображение	prose_ru	CONVERT	воображение	true
+641		gjkbrkbybrf	CONVERT	поликлиника	prose_ru	CONVERT	поликлиника	true
+642	точно	lj,hsq	CONVERT	добрый	prose_ru	CONVERT	добрый	true
+643	кроме того	cj[f	CONVERT	соха	prose_ru	CONVERT	соха	true
+644	перед тем	ltke	CONVERT	делу	prose_ru	KEEP	ltke	false
+645	сразу	pfyfdtcrf	CONVERT	занавеска	prose_ru	CONVERT	занавеска	true
+646	он сказал	hfpdjkyjdfnmcz	CONVERT	разволноваться	prose_ru	CONVERT	разволноваться	true
+647	вокруг дома	nf,ehtnrf	CONVERT	табуретка	prose_ru	CONVERT	табуретка	true
+648	наш	;fcvby	CONVERT	жасмин	prose_ru	KEEP	;fcvby	false
+649		k`urbq	CONVERT	лёгкий	prose_ru	CONVERT	лёгкий	true
+650	рядом со	ht;bcc`h	CONVERT	режиссёр	prose_ru	CONVERT	режиссёр	true
+651		;thyjd	CONVERT	жернов	prose_ru	KEEP	;thyjd	false
+652	после того	rfif	CONVERT	каша	prose_ru	CONVERT	каша	true
+653	ты знаешь	dvtcnt	CONVERT	вместе	prose_ru	CONVERT	вместе	true
+654		cktcfhm	CONVERT	слесарь	prose_ru	CONVERT	слесарь	true
+655	снова	dfyyfz	CONVERT	ванная	prose_ru	CONVERT	ванная	true
+656	ты знаешь	nthznm	CONVERT	терять	prose_ru	CONVERT	терять	true
+657	не	ckbirjv	CONVERT	слишком	prose_ru	CONVERT	слишком	true
+658		cyjdf	CONVERT	снова	prose_ru	CONVERT	снова	true
+659	рядом со	dcgjvbyfnm	CONVERT	вспоминать	prose_ru	CONVERT	вспоминать	true
+660	после того	en.u	CONVERT	утюг	prose_ru	KEEP	en.u	false
+661	не	kj;bnmcz	CONVERT	ложиться	prose_ru	CONVERT	ложиться	true
+662	тогда	[jkv	CONVERT	холм	prose_ru	KEEP	[jkv	false
+663	точно	jcnfyjdrf	CONVERT	остановка	prose_ru	CONVERT	остановка	true
+664	опять	ukegsq	CONVERT	глупый	prose_ru	CONVERT	глупый	true
+665	на	cndjk	CONVERT	ствол	prose_ru	CONVERT	ствол	true
+666		rhfcbdsq	CONVERT	красивый	prose_ru	CONVERT	красивый	true
+667	перед тем	pf,jh	CONVERT	забор	prose_ru	CONVERT	забор	true
+668	тем не менее	uhecnbnm	CONVERT	грустить	prose_ru	CONVERT	грустить	true
+669	мы часто	gjvbljh	CONVERT	помидор	prose_ru	CONVERT	помидор	true
+670	кажется мне	phtkjcnm	CONVERT	зрелость	prose_ru	CONVERT	зрелость	true
+671	совсем	n`gksq	CONVERT	тёплый	prose_ru	CONVERT	тёплый	true
+672	они шли	vfufpby	CONVERT	магазин	prose_ru	CONVERT	магазин	true
+673	здесь	vbyenf	CONVERT	минута	prose_ru	CONVERT	минута	true
+674	они шли	k.lzv	CONVERT	людям	prose_ru	KEEP	k.lzv	false
+675	кроме того	gjk.,bnm	CONVERT	полюбить	prose_ru	KEEP	gjk.,bnm	false
+676		gjcnhjbnm	CONVERT	построить	prose_ru	CONVERT	построить	true
+677	мой	jhtiybr	CONVERT	орешник	prose_ru	CONVERT	орешник	true
+678	рядом со	cgenybr	CONVERT	спутник	prose_ru	CONVERT	спутник	true
+679		ckf,jcnm	CONVERT	слабость	prose_ru	CONVERT	слабость	true
+680	по сути	xfirf	CONVERT	чашка	prose_ru	CONVERT	чашка	true
+681	я думаю	cnhfye	CONVERT	страну	prose_ru	CONVERT	страну	true
+682	на	gjvbhbnmcz	CONVERT	помириться	prose_ru	CONVERT	помириться	true
+683		jgthfnjh	CONVERT	оператор	prose_ru	CONVERT	оператор	true
+684		gjcvjnhtnm	CONVERT	посмотреть	prose_ru	CONVERT	посмотреть	true
+685		cjnyz	CONVERT	сотня	prose_ru	CONVERT	сотня	true
+686	опять	ghbujnjdbnm	CONVERT	приготовить	prose_ru	CONVERT	приготовить	true
+687	и	enrf	CONVERT	утка	prose_ru	CONVERT	утка	true
+688	тот	if[n`h	CONVERT	шахтёр	prose_ru	CONVERT	шахтёр	true
+689		gb[nf	CONVERT	пихта	prose_ru	CONVERT	пихта	true
+690	здесь	jabwbfyn	CONVERT	официант	prose_ru	CONVERT	официант	true
+691	наверное это	vbhf	CONVERT	мира	prose_ru	CONVERT	мира	true
+692	перед тем	jujhjl	CONVERT	огород	prose_ru	CONVERT	огород	true
+693		gjrjq	CONVERT	покой	prose_ru	CONVERT	покой	true
+694		crjdjhjlf	CONVERT	сковорода	prose_ru	CONVERT	сковорода	true
+695		[jhjij	CONVERT	хорошо	prose_ru	KEEP	[jhjij	false
+696		repybwf	CONVERT	кузница	prose_ru	CONVERT	кузница	true
+697	вокруг дома	djghjcf	CONVERT	вопроса	prose_ru	CONVERT	вопроса	true
+698	это	lfdfnm	CONVERT	давать	prose_ru	CONVERT	давать	true
+699	наверное это	ktc	CONVERT	лес	prose_ru	CONVERT	лес	true
+700		gjckeifnm	CONVERT	послушать	prose_ru	CONVERT	послушать	true
+701	опять	vjkybz	CONVERT	молния	prose_ru	CONVERT	молния	true
+702	снова	bytq	CONVERT	иней	prose_ru	CONVERT	иней	true
+703		gfgf	CONVERT	папа	prose_ru	CONVERT	папа	true
+704	потом	,jho	CONVERT	борщ	prose_ru	KEEP	,jho	false
+705	теперь	ujhybwf	CONVERT	горница	prose_ru	CONVERT	горница	true
+706	наверное это	,b,kbjntrf	CONVERT	библиотека	prose_ru	KEEP	,b,kbjntrf	false
+707	наверное это	cltkfnm	CONVERT	сделать	prose_ru	CONVERT	сделать	true
+708	в общем	nhfdf	CONVERT	трава	prose_ru	CONVERT	трава	true
+709	себе	,tlysq	CONVERT	бедный	prose_ru	KEEP	,tlysq	false
+710		t[fnm	CONVERT	ехать	prose_ru	CONVERT	ехать	true
+711	сразу	,jlhjcnm	CONVERT	бодрость	prose_ru	KEEP	,jlhjcnm	false
+712		nbibyf	CONVERT	тишина	prose_ru	CONVERT	тишина	true
+713	разве	djghjce	CONVERT	вопросу	prose_ru	CONVERT	вопросу	true
+714		kexbyf	CONVERT	лучина	prose_ru	CONVERT	лучина	true
+715	туда	hjvfirf	CONVERT	ромашка	prose_ru	CONVERT	ромашка	true
+716	себе	ghzkrf	CONVERT	прялка	prose_ru	CONVERT	прялка	true
+717	вдруг	ptvkz	CONVERT	земля	prose_ru	CONVERT	земля	true
+718	я думаю	ukegjcnm	CONVERT	глупость	prose_ru	CONVERT	глупость	true
+719		ujhlbnmcz	CONVERT	гордиться	prose_ru	CONVERT	гордиться	true
+720	опять	k.lb	CONVERT	люди	prose_ru	KEEP	k.lb	false
+721	какой-то	ghjcnbnm	CONVERT	простить	prose_ru	CONVERT	простить	true
+722	оттуда	gjkt	CONVERT	поле	prose_ru	CONVERT	поле	true
+723		nb[j	CONVERT	тихо	prose_ru	KEEP	nb[j	false
+724	перед тем	.yjif	CONVERT	юноша	prose_ru	CONVERT	.ноша	true
+725	между прочим	ctqxfc	CONVERT	сейчас	prose_ru	CONVERT	сейчас	true
+726	и	elbdkznmcz	CONVERT	удивляться	prose_ru	CONVERT	удивляться	true
+727	очень	gjregfntkm	CONVERT	покупатель	prose_ru	CONVERT	покупатель	true
+728	по сути	lhe;,f	CONVERT	дружба	prose_ru	CONVERT	дружба	true
+729	между прочим	dhtvtytv	CONVERT	временем	prose_ru	CONVERT	временем	true
+730	наверное это	gecnsyz	CONVERT	пустыня	prose_ru	CONVERT	пустыня	true
+731	она была	ctujlyz	CONVERT	сегодня	prose_ru	CONVERT	сегодня	true
+732		vtkmybwf	CONVERT	мельница	prose_ru	CONVERT	мельница	true
+733	рядом со	lheu	CONVERT	друг	prose_ru	CONVERT	друг	true
+734	снова	gtxfkm	CONVERT	печаль	prose_ru	CONVERT	печаль	true
+735	какой-то	vfibys	CONVERT	машины	prose_ru	KEEP	vfibys	false
+736	в общем	cdj,jlf	CONVERT	свобода	prose_ru	CONVERT	свобода	true
+737	на	gjxbybnm	CONVERT	починить	prose_ru	CONVERT	починить	true
+738	опять	ljve	CONVERT	дому	prose_ru	KEEP	ljve	false
+739	в общем	rybub	CONVERT	книги	prose_ru	KEEP	rybub	false
+740	тот	ujdjhbnm	CONVERT	говорить	prose_ru	CONVERT	говорить	true
+741	мы часто	rjirf	CONVERT	кошка	prose_ru	CONVERT	кошка	true
+742	сразу	hbcjdfnm	CONVERT	рисовать	prose_ru	CONVERT	рисовать	true
+743	после того	uevyj	CONVERT	гумно	prose_ru	CONVERT	гумно	true
+744	мы видели	ghjcgtrn	CONVERT	проспект	prose_ru	CONVERT	проспект	true
+745		zhvfhrf	CONVERT	ярмарка	prose_ru	CONVERT	ярмарка	true
+746	вокруг дома	ltytu	CONVERT	денег	prose_ru	CONVERT	денег	true
+747	мы часто	vkfltytw	CONVERT	младенец	prose_ru	CONVERT	младенец	true
+748		ldthm	CONVERT	дверь	prose_ru	CONVERT	дверь	true
+749	просто	ltncndj	CONVERT	детство	prose_ru	CONVERT	детство	true
+750		cnfrfy	CONVERT	стакан	prose_ru	CONVERT	стакан	true
+751	в	cnjkbwf	CONVERT	столица	prose_ru	CONVERT	столица	true
+752	она была	,ehz	CONVERT	буря	prose_ru	KEEP	,ehz	false
+753	в общем	nexf	CONVERT	туча	prose_ru	CONVERT	туча	true
+754	вообще	yfdthyjt	CONVERT	наверное	prose_ru	CONVERT	наверное	true
+755	вроде	kjiflm	CONVERT	лошадь	prose_ru	CONVERT	лошадь	true
+756	сразу	ltcznm	CONVERT	десять	prose_ru	CONVERT	десять	true
+757		pyfvtybnsq	CONVERT	знаменитый	prose_ru	CONVERT	знаменитый	true
+758	опять	ujnjdbnm	CONVERT	готовить	prose_ru	CONVERT	готовить	true
+759	неужели	dbkrf	CONVERT	вилка	prose_ru	CONVERT	вилка	true
+760	она была	djple[	CONVERT	воздух	prose_ru	KEEP	djple[	false
+761	тогда	gjkjntywt	CONVERT	полотенце	prose_ru	CONVERT	полотенце	true
+762	на самом деле	frekf	CONVERT	акула	prose_ru	CONVERT	акула	true
+763	рядом со	dthbnm	CONVERT	верить	prose_ru	CONVERT	верить	true
+764	почти	cghfdtlkbdjcnm	CONVERT	справедливость	prose_ru	CONVERT	справедливость	true
+765	вокруг дома	cjctlrf	CONVERT	соседка	prose_ru	CONVERT	соседка	true
+766		dcnfdfnm	CONVERT	вставать	prose_ru	CONVERT	вставать	true
+767	уже	ljxm	CONVERT	дочь	prose_ru	CONVERT	дочь	true
+768		n`nz	CONVERT	тётя	prose_ru	CONVERT	тётя	true
+769		ghjuhfvvbcn	CONVERT	программист	prose_ru	CONVERT	программист	true
+770	тем не менее	'rhfy	CONVERT	экран	prose_ru	CONVERT	'кран	true
+771	опять	cnju	CONVERT	стог	prose_ru	CONVERT	стог	true
+772		jnrhsnm	CONVERT	открыть	prose_ru	CONVERT	открыть	true
+773	если честно	cbkmysq	CONVERT	сильный	prose_ru	CONVERT	сильный	true
+774		ldf	CONVERT	два	prose_ru	CONVERT	два	true
+775		cdtn`krf	CONVERT	светёлка	prose_ru	CONVERT	светёлка	true
+776	ты знаешь	cjcyf	CONVERT	сосна	prose_ru	CONVERT	сосна	true
+777	вдруг	rfvtym	CONVERT	камень	prose_ru	CONVERT	камень	true
+778	она была	ytpyfrjvtw	CONVERT	незнакомец	prose_ru	CONVERT	незнакомец	true
+779		lheptq	CONVERT	друзей	prose_ru	CONVERT	друзей	true
+780		vjybnjh	CONVERT	монитор	prose_ru	CONVERT	монитор	true
+781	после того	j,]zcyznm	CONVERT	объяснять	prose_ru	CONVERT	объяснять	true
+782		cdbymz	CONVERT	свинья	prose_ru	CONVERT	свинья	true
+783	уже	hf,jns	CONVERT	работы	prose_ru	KEEP	hf,jns	false
+784		gjplyj	CONVERT	поздно	prose_ru	CONVERT	поздно	true
+785	наверное это	pfdnhf	CONVERT	завтра	prose_ru	CONVERT	завтра	true
+786	я думаю	zqwj	CONVERT	яйцо	prose_ru	CONVERT	яйцо	true
+787	туда	hjdtcybr	CONVERT	ровесник	prose_ru	CONVERT	ровесник	true
+788	потом	ghfdlf	CONVERT	правда	prose_ru	CONVERT	правда	true
+789	в	lth.uf	CONVERT	дерюга	prose_ru	KEEP	lth.uf	false
+790	тем не менее	yflt;lf	CONVERT	надежда	prose_ru	CONVERT	надежда	true
+791	я думаю	lheuf	CONVERT	друга	prose_ru	KEEP	lheuf	false
+792	себе	dyexrf	CONVERT	внучка	prose_ru	CONVERT	внучка	true
+793	если честно	gjceljvjtxyfz	CONVERT	посудомоечная	prose_ru	CONVERT	посудомоечная	true
+794		gjc`kjr	CONVERT	посёлок	prose_ru	CONVERT	посёлок	true
+795		xbnfnm	CONVERT	читать	prose_ru	CONVERT	читать	true
+796	кажется мне	cnhjbnm	CONVERT	строить	prose_ru	CONVERT	строить	true
+797		cneltyn	CONVERT	студент	prose_ru	CONVERT	студент	true
+798		rhjrjlbk	CONVERT	крокодил	prose_ru	CONVERT	крокодил	true
+799		tkm	CONVERT	ель	prose_ru	CONVERT	ель	true
+800		crfpfnm	CONVERT	сказать	prose_ru	CONVERT	сказать	true
+801	очень	djkytybt	CONVERT	волнение	prose_ru	CONVERT	волнение	true
+802	она была	[elj;ybr	CONVERT	художник	prose_ru	KEEP	[elj;ybr	false
+803	в	jujym	CONVERT	огонь	prose_ru	CONVERT	огонь	true
+804		ctvm	CONVERT	семь	prose_ru	CONVERT	семь	true
+805	кажется мне	pvtz	CONVERT	змея	prose_ru	CONVERT	змея	true
+806	между прочим	pljhjdmt	CONVERT	здоровье	prose_ru	CONVERT	здоровье	true
+807	на самом деле	cjdctv	CONVERT	совсем	prose_ru	CONVERT	совсем	true
+808	перед тем	gjdfh	CONVERT	повар	prose_ru	CONVERT	повар	true
+809	на	cdfhobr	CONVERT	сварщик	prose_ru	CONVERT	сварщик	true
+810	тогда	gkjnybr	CONVERT	плотник	prose_ru	CONVERT	плотник	true
+811	на	ghjdfk	CONVERT	провал	prose_ru	CONVERT	провал	true
+812	разве	ljvjv	CONVERT	домом	prose_ru	KEEP	ljvjv	false
+813	вокруг дома	jujhxbnmcz	CONVERT	огорчиться	prose_ru	CONVERT	огорчиться	true
+814	кажется мне	xbybnm	CONVERT	чинить	prose_ru	CONVERT	чинить	true
+815		[jpzby	CONVERT	хозяин	prose_ru	KEEP	[jpzby	false
+816	мы часто	njkcnsq	CONVERT	толстый	prose_ru	CONVERT	толстый	true
+817	она была	dtnrf	CONVERT	ветка	prose_ru	CONVERT	ветка	true
+818	мы видели	ceg	CONVERT	суп	prose_ru	CONVERT	суп	true
+819	совсем	gjuht,	CONVERT	погреб	prose_ru	KEEP	gjuht,	false
+820	она была	cnhf[	CONVERT	страх	prose_ru	KEEP	cnhf[	false
+821	просто	rjkmxeuf	CONVERT	кольчуга	prose_ru	CONVERT	кольчуга	true
+822	теперь	k.lmvb	CONVERT	людьми	prose_ru	KEEP	k.lmvb	false
+823	по сути	ghjwtccjh	CONVERT	процессор	prose_ru	CONVERT	процессор	true
+824		,tkrf	CONVERT	белка	prose_ru	CONVERT	,елка	true
+825	вообще	ljdthbt	CONVERT	доверие	prose_ru	CONVERT	доверие	true
+826	очень	ve;	CONVERT	муж	prose_ru	KEEP	ve;	false
+827	снова	ibhjrbq	CONVERT	широкий	prose_ru	CONVERT	широкий	true
+828		j,vfy	CONVERT	обман	prose_ru	CONVERT	обман	true
+829	ты знаешь	xthlfr	CONVERT	чердак	prose_ru	CONVERT	чердак	true
+830		ghjofnm	CONVERT	прощать	prose_ru	CONVERT	прощать	true
+831	себе	ltymufvb	CONVERT	деньгами	prose_ru	KEEP	ltymufvb	false
+832		pdtplf	CONVERT	звезда	prose_ru	CONVERT	звезда	true
+833	оттуда	ujhzxbq	CONVERT	горячий	prose_ru	CONVERT	горячий	true
+834	разве	v`l	CONVERT	мёд	prose_ru	CONVERT	мёд	true
+835	какой-то	nhb	CONVERT	три	prose_ru	CONVERT	три	true
+836	наш	'rjyjvbcn	CONVERT	экономист	prose_ru	KEEP	'rjyjvbcn	false
+837		gjlevfnm	CONVERT	подумать	prose_ru	CONVERT	подумать	true
+838	сразу	ytltkz	CONVERT	неделя	prose_ru	CONVERT	неделя	true
+839	потом	jdhfu	CONVERT	овраг	prose_ru	CONVERT	овраг	true
+840	в общем	gjnjkjr	CONVERT	потолок	prose_ru	CONVERT	потолок	true
+841	в общем	pfcjd	CONVERT	засов	prose_ru	CONVERT	засов	true
+842	потом	vfkbyf	CONVERT	малина	prose_ru	CONVERT	малина	true
+843	это	hfljdfnmcz	CONVERT	радоваться	prose_ru	CONVERT	радоваться	true
+844	точно	vfibyt	CONVERT	машине	prose_ru	CONVERT	машине	true
+845		vtifnm	CONVERT	мешать	prose_ru	CONVERT	мешать	true
+846		ecnhjqcndj	CONVERT	устройство	prose_ru	CONVERT	устройство	true
+847	тот	vfvf	CONVERT	мама	prose_ru	CONVERT	мама	true
+848	туда	hjpf	CONVERT	роза	prose_ru	CONVERT	роза	true
+849	просто	ujhjle	CONVERT	городу	prose_ru	CONVERT	городу	true
+850	теперь	ckjvfnm	CONVERT	сломать	prose_ru	CONVERT	сломать	true
+851		tomato	KEEP	tomato	prose_en	KEEP	tomato	true
+852		suitcase	KEEP	suitcase	prose_en	KEEP	suitcase	true
+853	our	watermelon	KEEP	watermelon	prose_en	KEEP	watermelon	true
+854	my	strength	KEEP	strength	prose_en	KEEP	strength	true
+855	finally	daffodil	KEEP	daffodil	prose_en	KEEP	daffodil	true
+856	now	boots	KEEP	boots	prose_en	KEEP	boots	true
+857	finally	buys	KEEP	buys	prose_en	KEEP	buys	true
+858	after the	written	KEEP	written	prose_en	KEEP	written	true
+859		avenue	KEEP	avenue	prose_en	KEEP	avenue	true
+860		species	KEEP	species	prose_en	KEEP	species	true
+861	around the	truth	KEEP	truth	prose_en	KEEP	truth	true
+862	finally	salad	KEEP	salad	prose_en	KEEP	salad	true
+863	you know	hairdresser	KEEP	hairdresser	prose_en	KEEP	hairdresser	true
+864	because of	fixing	KEEP	fixing	prose_en	KEEP	fixing	true
+865	finally	strong	KEEP	strong	prose_en	KEEP	strong	true
+866	they saw	program	KEEP	program	prose_en	KEEP	program	true
+867	almost	biggest	KEEP	biggest	prose_en	KEEP	biggest	true
+868		keyboard	KEEP	keyboard	prose_en	KEEP	keyboard	true
+869		apple	KEEP	apple	prose_en	CONVERT	Apple	false
+870	because of	hare	KEEP	hare	prose_en	KEEP	hare	true
+871		seller	KEEP	seller	prose_en	KEEP	seller	true
+872		diagnosis	KEEP	diagnosis	prose_en	KEEP	diagnosis	true
+873	our	biologist	KEEP	biologist	prose_en	KEEP	biologist	true
+874	the	farmer	KEEP	farmer	prose_en	KEEP	farmer	true
+875	that was	bought	KEEP	bought	prose_en	KEEP	bought	true
+876		wall	KEEP	wall	prose_en	KEEP	wall	true
+877	still	runway	KEEP	runway	prose_en	KEEP	runway	true
+878	this	together	KEEP	together	prose_en	KEEP	together	true
+879	usually	staircase	KEEP	staircase	prose_en	KEEP	staircase	true
+880		bridge	KEEP	bridge	prose_en	KEEP	bridge	true
+881	the	bathroom	KEEP	bathroom	prose_en	KEEP	bathroom	true
+882	not a	angry	KEEP	angry	prose_en	KEEP	angry	true
+883	she went	rude	KEEP	rude	prose_en	KEEP	rude	true
+884	finally	host	KEEP	host	prose_en	KEEP	host	true
+885	very	river	KEEP	river	prose_en	KEEP	river	true
+886	here	virus	KEEP	virus	prose_en	KEEP	virus	true
+887		fear	KEEP	fear	prose_en	KEEP	fear	true
+888	then	storage	KEEP	storage	prose_en	KEEP	storage	true
+889	clearly	vineyard	KEEP	vineyard	prose_en	KEEP	vineyard	true
+890		spruce	KEEP	spruce	prose_en	KEEP	spruce	true
+891		young	KEEP	young	prose_en	KEEP	young	true
+892	with the	recollection	KEEP	recollection	prose_en	KEEP	recollection	true
+893	we found	goose	KEEP	goose	prose_en	KEEP	goose	true
+894	perhaps	pharmacy	KEEP	pharmacy	prose_en	KEEP	pharmacy	true
+895	not a	dinner	KEEP	dinner	prose_en	KEEP	dinner	true
+896	because of	learn	KEEP	learn	prose_en	KEEP	learn	true
+897	in the	ran	KEEP	ran	prose_en	KEEP	ran	true
+898		night	KEEP	night	prose_en	KEEP	night	true
+899	after the	visitor	KEEP	visitor	prose_en	KEEP	visitor	true
+900	usually	employee	KEEP	employee	prose_en	KEEP	employee	true
+901	perhaps	photographer	KEEP	photographer	prose_en	KEEP	photographer	true
+902		couch	KEEP	couch	prose_en	KEEP	couch	true
+903	just	owl	KEEP	owl	prose_en	KEEP	owl	true
+904		soup	KEEP	soup	prose_en	KEEP	soup	true
+905		engine	KEEP	engine	prose_en	KEEP	engine	true
+906	almost	younger	KEEP	younger	prose_en	KEEP	younger	true
+907		generally	KEEP	generally	prose_en	KEEP	generally	true
+908	and the	rich	KEEP	rich	prose_en	KEEP	rich	true
+909	our	elevator	KEEP	elevator	prose_en	KEEP	elevator	true
+910	they saw	write	KEEP	write	prose_en	KEEP	write	true
+911	obviously	headphones	KEEP	headphones	prose_en	KEEP	headphones	true
+912	perhaps	important	KEEP	important	prose_en	KEEP	important	true
+913		pear	KEEP	pear	prose_en	KEEP	pear	true
+914	again	castle	KEEP	castle	prose_en	KEEP	castle	true
+915	really	cliff	KEEP	cliff	prose_en	KEEP	cliff	true
+916	without a	far	KEEP	far	prose_en	KEEP	far	true
+917	on my	harder	KEEP	harder	prose_en	KEEP	harder	true
+918		library	KEEP	library	prose_en	KEEP	library	true
+919	finally	people	KEEP	people	prose_en	KEEP	people	true
+920	basically	programmer	KEEP	programmer	prose_en	KEEP	programmer	true
+921		laptop	KEEP	laptop	prose_en	KEEP	laptop	true
+922		gone	KEEP	gone	prose_en	KEEP	gone	true
+923		morning	KEEP	morning	prose_en	KEEP	morning	true
+924	suddenly	steppe	KEEP	steppe	prose_en	KEEP	steppe	true
+925		harmful	KEEP	harmful	prose_en	KEEP	harmful	true
+926	almost	stool	KEEP	stool	prose_en	KEEP	stool	true
+927		know	KEEP	know	prose_en	KEEP	know	true
+928	for the	broken	KEEP	broken	prose_en	KEEP	broken	true
+929	without a	well	KEEP	well	prose_en	KEEP	well	true
+930	after the	mother	KEEP	mother	prose_en	KEEP	mother	true
+931		danced	KEEP	danced	prose_en	KEEP	danced	true
+932	without a	disease	KEEP	disease	prose_en	KEEP	disease	true
+933	very	market	KEEP	market	prose_en	KEEP	market	true
+934		boy	KEEP	boy	prose_en	KEEP	boy	true
+935	we were	surgery	KEEP	surgery	prose_en	KEEP	surgery	true
+936	in the	mouse	KEEP	mouse	prose_en	KEEP	mouse	true
+937		hot	KEEP	hot	prose_en	KEEP	hot	true
+938	without a	late	KEEP	late	prose_en	KEEP	late	true
+939	as a	velocity	KEEP	velocity	prose_en	KEEP	velocity	true
+940		swims	KEEP	swims	prose_en	KEEP	swims	true
+941	before the	thin	KEEP	thin	prose_en	KEEP	thin	true
+942		sometimes	KEEP	sometimes	prose_en	KEEP	sometimes	true
+943	I think	boredom	KEEP	boredom	prose_en	KEEP	boredom	true
+944	in the	health	KEEP	health	prose_en	KEEP	health	true
+945	around the	fuss	KEEP	fuss	prose_en	KEEP	fuss	true
+946	very	calendar	KEEP	calendar	prose_en	KEEP	calendar	true
+947	with the	cheerful	KEEP	cheerful	prose_en	KEEP	cheerful	true
+948	clearly	sword	KEEP	sword	prose_en	KEEP	sword	true
+949	actually	teenager	KEEP	teenager	prose_en	KEEP	teenager	true
+950	because of	oxygen	KEEP	oxygen	prose_en	KEEP	oxygen	true
+951	you know	reality	KEEP	reality	prose_en	KEEP	reality	true
+952		hostess	KEEP	hostess	prose_en	KEEP	hostess	true
+953		cow	KEEP	cow	prose_en	KEEP	cow	true
+954		hedgehog	KEEP	hedgehog	prose_en	KEEP	hedgehog	true
+955	suddenly	motorcycle	KEEP	motorcycle	prose_en	KEEP	motorcycle	true
+956	not a	chair	KEEP	chair	prose_en	KEEP	chair	true
+957	there	walnut	KEEP	walnut	prose_en	KEEP	walnut	true
+958	without a	joy	KEEP	joy	prose_en	KEEP	joy	true
+959	perhaps	roof	KEEP	roof	prose_en	KEEP	roof	true
+960	a	wagon	KEEP	wagon	prose_en	KEEP	wagon	true
+961	next to	widest	KEEP	widest	prose_en	KEEP	widest	true
+962	again	shoes	KEEP	shoes	prose_en	KEEP	shoes	true
+963	on my	person	KEEP	person	prose_en	KEEP	person	true
+964	usually	happy	KEEP	happy	prose_en	KEEP	happy	true
+965	he said	terrace	KEEP	terrace	prose_en	KEEP	terrace	true
+966		cedar	KEEP	cedar	prose_en	KEEP	cedar	true
+967	in the	screen	KEEP	screen	prose_en	KEEP	screen	true
+968	they saw	window	KEEP	window	prose_en	KEEP	window	true
+969	usually	bottle	KEEP	bottle	prose_en	KEEP	bottle	true
+970		snow	KEEP	snow	prose_en	KEEP	snow	true
+971	you know	sings	KEEP	sings	prose_en	KEEP	sings	true
+972	without a	fly	KEEP	fly	prose_en	KEEP	fly	true
+973	that was	valley	KEEP	valley	prose_en	KEEP	valley	true
+974		sees	KEEP	sees	prose_en	KEEP	sees	true
+975	that	software	KEEP	software	prose_en	KEEP	software	true
+976	obviously	town	KEEP	town	prose_en	KEEP	town	true
+977		smart	KEEP	smart	prose_en	KEEP	smart	true
+978	and the	welder	KEEP	welder	prose_en	KEEP	welder	true
+979		district	KEEP	district	prose_en	KEEP	district	true
+980	almost	lobby	KEEP	lobby	prose_en	KEEP	lobby	true
+981	almost	therapy	KEEP	therapy	prose_en	KEEP	therapy	true
+982		island	KEEP	island	prose_en	KEEP	island	true
+983	my	month	KEEP	month	prose_en	KEEP	month	true
+984		throne	KEEP	throne	prose_en	KEEP	throne	true
+985	we found	shirt	KEEP	shirt	prose_en	KEEP	shirt	true
+986	then	loudly	KEEP	loudly	prose_en	KEEP	loudly	true
+987	quite	rested	KEEP	rested	prose_en	KEEP	rested	true
+988	around the	separately	KEEP	separately	prose_en	KEEP	separately	true
+989	they saw	glass	KEEP	glass	prose_en	KEEP	glass	true
+990		customer	KEEP	customer	prose_en	KEEP	customer	true
+991	because of	rabbit	KEEP	rabbit	prose_en	KEEP	rabbit	true
+992	just	meat	KEEP	meat	prose_en	KEEP	meat	true
+993		knowing	KEEP	knowing	prose_en	KEEP	knowing	true
+994	the	dolphin	KEEP	dolphin	prose_en	KEEP	dolphin	true
+995	before the	banana	KEEP	banana	prose_en	KEEP	banana	true
+996		smartphone	KEEP	smartphone	prose_en	KEEP	smartphone	true
+997	really	alley	KEEP	alley	prose_en	KEEP	alley	true
+998	this is	strawberry	KEEP	strawberry	prose_en	KEEP	strawberry	true
+999	this is	sang	KEEP	sang	prose_en	KEEP	sang	true
+1000	around the	suburb	KEEP	suburb	prose_en	KEEP	suburb	true
+1001	for the	bank	KEEP	bank	prose_en	KEEP	bank	true
+1002	without a	landmark	KEEP	landmark	prose_en	KEEP	landmark	true
+1003		purse	KEEP	purse	prose_en	KEEP	purse	true
+1004		waterfall	KEEP	waterfall	prose_en	KEEP	waterfall	true
+1005	you know	poorest	KEEP	poorest	prose_en	KEEP	poorest	true
+1006	they saw	warmer	KEEP	warmer	prose_en	KEEP	warmer	true
+1007		plant	KEEP	plant	prose_en	KEEP	plant	true
+1008	there	friction	KEEP	friction	prose_en	KEEP	friction	true
+1009	my	chemistry	KEEP	chemistry	prose_en	KEEP	chemistry	true
+1010	finally	colony	KEEP	colony	prose_en	KEEP	colony	true
+1011	the	century	KEEP	century	prose_en	KEEP	century	true
+1012	maybe	shark	KEEP	shark	prose_en	KEEP	shark	true
+1013		crossroad	KEEP	crossroad	prose_en	KEEP	crossroad	true
+1014	here	willow	KEEP	willow	prose_en	KEEP	willow	true
+1015		ate	KEEP	ate	prose_en	KEEP	ate	true
+1016	basically	photo	KEEP	photo	prose_en	KEEP	photo	true
+1017	almost	coworker	KEEP	coworker	prose_en	KEEP	coworker	true
+1018	we found	dull	KEEP	dull	prose_en	KEEP	dull	true
+1019		dream	KEEP	dream	prose_en	KEEP	dream	true
+1020		building	KEEP	building	prose_en	KEEP	building	true
+1021	without a	salt	KEEP	salt	prose_en	KEEP	salt	true
+1022		wardrobe	KEEP	wardrobe	prose_en	KEEP	wardrobe	true
+1023	suddenly	bicycle	KEEP	bicycle	prose_en	KEEP	bicycle	true
+1024		motion	KEEP	motion	prose_en	KEEP	motion	true
+1025		astronomy	KEEP	astronomy	prose_en	KEEP	astronomy	true
+1026	without a	elm	KEEP	elm	prose_en	KEEP	elm	true
+1027	with the	sugar	KEEP	sugar	prose_en	KEEP	sugar	true
+1028	not a	habitat	KEEP	habitat	prose_en	KEEP	habitat	true
+1029		bluebell	KEEP	bluebell	prose_en	KEEP	bluebell	true
+1030	obviously	cucumber	KEEP	cucumber	prose_en	KEEP	cucumber	true
+1031	after the	wrote	KEEP	wrote	prose_en	KEEP	wrote	true
+1032	in the	sister	KEEP	sister	prose_en	KEEP	sister	true
+1033	indeed	lion	KEEP	lion	prose_en	KEEP	lion	true
+1034	here	chicken	KEEP	chicken	prose_en	KEEP	chicken	true
+1035	now	gradually	KEEP	gradually	prose_en	KEEP	gradually	true
+1036	with the	network	KEEP	network	prose_en	KEEP	network	true
+1037	it was	sell	KEEP	sell	prose_en	KEEP	sell	true
+1038	on my	dangerous	KEEP	dangerous	prose_en	KEEP	dangerous	true
+1039	perhaps	refrigerator	KEEP	refrigerator	prose_en	KEEP	refrigerator	true
+1040	here	towel	KEEP	towel	prose_en	KEEP	towel	true
+1041	you know	sing	KEEP	sing	prose_en	KEEP	sing	true
+1042		stone	KEEP	stone	prose_en	KEEP	stone	true
+1043	finally	run	KEEP	run	prose_en	KEEP	run	true
+1044	not a	music	KEEP	music	prose_en	KEEP	music	true
+1045	indeed	vitamin	KEEP	vitamin	prose_en	KEEP	vitamin	true
+1046	actually	knife	KEEP	knife	prose_en	KEEP	knife	true
+1047	a	sun	KEEP	sun	prose_en	KEEP	sun	true
+1048	not a	especially	KEEP	especially	prose_en	KEEP	especially	true
+1049	here	cherry	KEEP	cherry	prose_en	KEEP	cherry	true
+1050	again	economist	KEEP	economist	prose_en	KEEP	economist	true
+1051	now	field	KEEP	field	prose_en	KEEP	field	true
+1052	this	honest	KEEP	honest	prose_en	KEEP	honest	true
+1053	around the	sung	KEEP	sung	prose_en	KEEP	sung	true
+1054	perhaps	frog	KEEP	frog	prose_en	KEEP	frog	true
+1055		richest	KEEP	richest	prose_en	KEEP	richest	true
+1056	indeed	thought	KEEP	thought	prose_en	KEEP	thought	true
+1057		pig	KEEP	pig	prose_en	KEEP	pig	true
+1058	already	pumpkin	KEEP	pumpkin	prose_en	KEEP	pumpkin	true
+1059		sad	KEEP	sad	prose_en	KEEP	sad	true
+1060	perhaps	cloud	KEEP	cloud	prose_en	KEEP	cloud	true
+1061		youth	KEEP	youth	prose_en	KEEP	youth	true
+1062	this is	rooster	KEEP	rooster	prose_en	KEEP	rooster	true
+1063	actually	roommate	KEEP	roommate	prose_en	KEEP	roommate	true
+1064	maybe	brave	KEEP	brave	prose_en	KEEP	brave	true
+1065		broke	KEEP	broke	prose_en	KEEP	broke	true
+1066	already	tiger	KEEP	tiger	prose_en	KEEP	tiger	true
+1067	I think	jacket	KEEP	jacket	prose_en	KEEP	jacket	true
+1068		drawer	KEEP	drawer	prose_en	KEEP	drawer	true
+1069	basically	spring	KEEP	spring	prose_en	KEEP	spring	true
+1070		again	KEEP	again	prose_en	KEEP	again	true
+1071	finally	yard	KEEP	yard	prose_en	KEEP	yard	true
+1072	for the	butter	KEEP	butter	prose_en	KEEP	butter	true
+1073	as a	early	KEEP	early	prose_en	KEEP	early	true
+1074	the	thinking	KEEP	thinking	prose_en	KEEP	thinking	true
+1075		voyage	KEEP	voyage	prose_en	KEEP	voyage	true
+1076	he said	day	KEEP	day	prose_en	KEEP	day	true
+1077		grape	KEEP	grape	prose_en	KEEP	grape	true
+1078	this	running	KEEP	running	prose_en	KEEP	running	true
+1079	maybe	fish	KEEP	fish	prose_en	KEEP	fish	true
+1080		application	KEEP	application	prose_en	KEEP	application	true
+1081		oasis	KEEP	oasis	prose_en	KEEP	oasis	true
+1082	some	noise	KEEP	noise	prose_en	KEEP	noise	true
+1083		anxious	KEEP	anxious	prose_en	KEEP	anxious	true
+1084	we found	girlfriend	KEEP	girlfriend	prose_en	KEEP	girlfriend	true
+1085		journey	KEEP	journey	prose_en	KEEP	journey	true
+1086	here	success	KEEP	success	prose_en	KEEP	success	true
+1087		coldest	KEEP	coldest	prose_en	KEEP	coldest	true
+1088	finally	atom	KEEP	atom	prose_en	KEEP	atom	true
+1089		porch	KEEP	porch	prose_en	KEEP	porch	true
+1090	obviously	tourist	KEEP	tourist	prose_en	KEEP	tourist	true
+1091	on my	slowly	KEEP	slowly	prose_en	KEEP	slowly	true
+1092	then	baby	KEEP	baby	prose_en	KEEP	baby	true
+1093	almost	game	KEEP	game	prose_en	KEEP	game	true
+1094	my	almost	KEEP	almost	prose_en	KEEP	almost	true
+1095		battery	KEEP	battery	prose_en	KEEP	battery	true
+1096	now	patient	KEEP	patient	prose_en	KEEP	patient	true
+1097	without a	son	KEEP	son	prose_en	KEEP	son	true
+1098	actually	storm	KEEP	storm	prose_en	KEEP	storm	true
+1099		courage	KEEP	courage	prose_en	KEEP	courage	true
+1100	they saw	mechanic	KEEP	mechanic	prose_en	KEEP	mechanic	true
+1101	that was	works	KEEP	works	prose_en	KEEP	works	true
+1102	here	dishwasher	KEEP	dishwasher	prose_en	KEEP	dishwasher	true
+1103	perhaps	new	KEEP	new	prose_en	KEEP	new	true
+1104		muscle	KEEP	muscle	prose_en	KEEP	muscle	true
+1105		weak	KEEP	weak	prose_en	KEEP	weak	true
+1106	and the	city	KEEP	city	prose_en	KEEP	city	true
+1107	quite	tomorrow	KEEP	tomorrow	prose_en	KEEP	tomorrow	true
+1108		client	KEEP	client	prose_en	KEEP	client	true
+1109	instead of	hundred	KEEP	hundred	prose_en	KEEP	hundred	true
+1110	in the	beautifully	KEEP	beautifully	prose_en	KEEP	beautifully	true
+1111		dances	KEEP	dances	prose_en	KEEP	dances	true
+1112	before the	meadow	KEEP	meadow	prose_en	KEEP	meadow	true
+1113	already	street	KEEP	street	prose_en	KEEP	street	true
+1114	a	biology	KEEP	biology	prose_en	KEEP	biology	true
+1115	my	plumber	KEEP	plumber	prose_en	KEEP	plumber	true
+1116	indeed	taller	KEEP	taller	prose_en	KEEP	taller	true
+1117	here	camera	KEEP	camera	prose_en	KEEP	camera	true
+1118	after the	richer	KEEP	richer	prose_en	KEEP	richer	true
+1119		floor	KEEP	floor	prose_en	KEEP	floor	true
+1120	next to	skeleton	KEEP	skeleton	prose_en	KEEP	skeleton	true
+1121		leaf	KEEP	leaf	prose_en	KEEP	leaf	true
+1122	with the	era	KEEP	era	prose_en	KEEP	era	true
+1123	also	breaks	KEEP	breaks	prose_en	KEEP	breaks	true
+1124	they saw	physics	KEEP	physics	prose_en	KEEP	physics	true
+1125	before the	matter	KEEP	matter	prose_en	KEEP	matter	true
+1126	that	week	KEEP	week	prose_en	KEEP	week	true
+1127		excitement	KEEP	excitement	prose_en	KEEP	excitement	true
+1128	clearly	play	KEEP	play	prose_en	KEEP	play	true
+1129	in the	minute	KEEP	minute	prose_en	KEEP	minute	true
+1130		interest	KEEP	interest	prose_en	KEEP	interest	true
+1131	finally	wallet	KEEP	wallet	prose_en	KEEP	wallet	true
+1132	usually	cleanest	KEEP	cleanest	prose_en	KEEP	cleanest	true
+1133	suddenly	cyclist	KEEP	cyclist	prose_en	KEEP	cyclist	true
+1134	there	geology	KEEP	geology	prose_en	KEEP	geology	true
+1135		suddenly	KEEP	suddenly	prose_en	KEEP	suddenly	true
+1136	you know	working	KEEP	working	prose_en	KEEP	working	true
+1137		enzyme	KEEP	enzyme	prose_en	KEEP	enzyme	true
+1138		bright	KEEP	bright	prose_en	KEEP	bright	true
+1139		kind	KEEP	kind	prose_en	KEEP	kind	true
+1140	she went	pigeon	KEEP	pigeon	prose_en	KEEP	pigeon	true
+1141	my	breaking	KEEP	breaking	prose_en	KEEP	breaking	true
+1142	for the	squirrel	KEEP	squirrel	prose_en	KEEP	squirrel	true
+1143	here	eaten	KEEP	eaten	prose_en	KEEP	eaten	true
+1144	for the	eagle	KEEP	eagle	prose_en	KEEP	eagle	true
+1145	there	year	KEEP	year	prose_en	KEEP	year	true
+1146	as a	scarf	KEEP	scarf	prose_en	KEEP	scarf	true
+1147	that was	actor	KEEP	actor	prose_en	KEEP	actor	true
+1148		sweater	KEEP	sweater	prose_en	KEEP	sweater	true
+1149		kingdom	KEEP	kingdom	prose_en	KEEP	kingdom	true
+1150	quite	boyfriend	KEEP	boyfriend	prose_en	KEEP	boyfriend	true
+1151		television	KEEP	television	prose_en	KEEP	television	true
+1152		grass	KEEP	grass	prose_en	KEEP	grass	true
+1153	that	always	KEEP	always	prose_en	KEEP	always	true
+1154	next to	sparrow	KEEP	sparrow	prose_en	KEEP	sparrow	true
+1155		mirror	KEEP	mirror	prose_en	KEEP	mirror	true
+1156	actually	heavy	KEEP	heavy	prose_en	KEEP	heavy	true
+1157	that was	pressure	KEEP	pressure	prose_en	KEEP	pressure	true
+1158	indeed	square	KEEP	square	prose_en	KEEP	square	true
+1159		played	KEEP	played	prose_en	KEEP	played	true
+1160		going	KEEP	going	prose_en	KEEP	going	true
+1161	you know	wife	KEEP	wife	prose_en	KEEP	wife	true
+1162	with the	temperature	KEEP	temperature	prose_en	KEEP	temperature	true
+1163	we were	station	KEEP	station	prose_en	KEEP	station	true
+1164	with the	bacteria	KEEP	bacteria	prose_en	KEEP	bacteria	true
+1165	our	learned	KEEP	learned	prose_en	KEEP	learned	true
+1166	then	volume	KEEP	volume	prose_en	KEEP	volume	true
+1167	as a	yesterday	KEEP	yesterday	prose_en	KEEP	yesterday	true
+1168	that was	seeing	KEEP	seeing	prose_en	KEEP	seeing	true
+1169		thirty	KEEP	thirty	prose_en	KEEP	thirty	true
+1170	maybe	gravity	KEEP	gravity	prose_en	KEEP	gravity	true
+1171	they saw	grandson	KEEP	grandson	prose_en	KEEP	grandson	true
+1172	around the	strongest	KEEP	strongest	prose_en	KEEP	strongest	true
+1173	after the	carbon	KEEP	carbon	prose_en	KEEP	carbon	true
+1174		astronomer	KEEP	astronomer	prose_en	KEEP	astronomer	true
+1175	this	hatchery	KEEP	hatchery	prose_en	KEEP	hatchery	true
+1176		hears	KEEP	hears	prose_en	KEEP	hears	true
+1177	we were	colleague	KEEP	colleague	prose_en	KEEP	colleague	true
+1178		ticket	KEEP	ticket	prose_en	KEEP	ticket	true
+1179		horse	KEEP	horse	prose_en	KEEP	horse	true
+1180		heard	KEEP	heard	prose_en	KEEP	heard	true
+1181	clearly	anger	KEEP	anger	prose_en	KEEP	anger	true
+1182	also	youngest	KEEP	youngest	prose_en	KEEP	youngest	true
+1183	suddenly	defeat	KEEP	defeat	prose_en	KEEP	defeat	true
+1184		hope	KEEP	hope	prose_en	KEEP	hope	true
+1185	indeed	organism	KEEP	organism	prose_en	KEEP	organism	true
+1186	this is	warm	KEEP	warm	prose_en	KEEP	warm	true
+1187	just	granddaughter	KEEP	granddaughter	prose_en	KEEP	granddaughter	true
+1188		giraffe	KEEP	giraffe	prose_en	KEEP	giraffe	true
+1189		probably	KEEP	probably	prose_en	KEEP	probably	true
+1190	before the	ugly	KEEP	ugly	prose_en	KEEP	ugly	true
+1191		compass	KEEP	compass	prose_en	KEEP	compass	true
+1192	we found	worked	KEEP	worked	prose_en	KEEP	worked	true
+1193	clearly	electrician	KEEP	electrician	prose_en	KEEP	electrician	true
+1194	before the	faster	KEEP	faster	prose_en	KEEP	faster	true
+1195		reading	KEEP	reading	prose_en	KEEP	reading	true
+1196	some	supper	KEEP	supper	prose_en	KEEP	supper	true
+1197		museum	KEEP	museum	prose_en	KEEP	museum	true
+1198	maybe	geologist	KEEP	geologist	prose_en	KEEP	geologist	true
+1199	maybe	boss	KEEP	boss	prose_en	KEEP	boss	true
+1200	this is	second	KEEP	second	prose_en	KEEP	second	true
+1201	after the	eating	KEEP	eating	prose_en	KEEP	eating	true
+1202		physicist	KEEP	physicist	prose_en	KEEP	physicist	true
+1203	just	tailor	KEEP	tailor	prose_en	KEEP	tailor	true
+1204	instead of	potato	KEEP	potato	prose_en	KEEP	potato	true
+1205		fifty	KEEP	fifty	prose_en	KEEP	fifty	true
+1206	without a	computer	KEEP	computer	prose_en	KEEP	computer	true
+1207		capital	KEEP	capital	prose_en	KEEP	capital	true
+1208		fixes	KEEP	fixes	prose_en	KEEP	fixes	true
+1209	instead of	carnation	KEEP	carnation	prose_en	KEEP	carnation	true
+1210		runs	KEEP	runs	prose_en	KEEP	runs	true
+1211	really	fast	KEEP	fast	prose_en	KEEP	fast	true
+1212	here	dirty	KEEP	dirty	prose_en	KEEP	dirty	true
+1213		bedroom	KEEP	bedroom	prose_en	KEEP	bedroom	true
+1214	already	wilderness	KEEP	wilderness	prose_en	KEEP	wilderness	true
+1215		tunnel	KEEP	tunnel	prose_en	KEEP	tunnel	true
+1216	you know	napkin	KEEP	napkin	prose_en	KEEP	napkin	true
+1217	just	worst	KEEP	worst	prose_en	KEEP	worst	true
+1218	then	basement	KEEP	basement	prose_en	KEEP	basement	true
+1219		volcano	KEEP	volcano	prose_en	KEEP	volcano	true
+1220	because of	acceleration	KEEP	acceleration	prose_en	KEEP	acceleration	true
+1221		peony	KEEP	peony	prose_en	KEEP	peony	true
+1222		long	KEEP	long	prose_en	KEEP	long	true
+1223	instead of	friendship	KEEP	friendship	prose_en	KEEP	friendship	true
+1224	usually	nitrogen	KEEP	nitrogen	prose_en	KEEP	nitrogen	true
+1225	without a	struggle	KEEP	struggle	prose_en	KEEP	struggle	true
+1226	usually	sadness	KEEP	sadness	prose_en	KEEP	sadness	true
+1227	for the	fatigue	KEEP	fatigue	prose_en	KEEP	fatigue	true
+1228	not a	rests	KEEP	rests	prose_en	KEEP	rests	true
+1229		noon	KEEP	noon	prose_en	KEEP	noon	true
+1230	that was	harbor	KEEP	harbor	prose_en	KEEP	harbor	true
+1231	in the	sheep	KEEP	sheep	prose_en	KEEP	sheep	true
+1232	next to	granary	KEEP	granary	prose_en	KEEP	granary	true
+1233	that was	wind	KEEP	wind	prose_en	KEEP	wind	true
+1234	in the	seen	KEEP	seen	prose_en	KEEP	seen	true
+1235	quite	pedestrian	KEEP	pedestrian	prose_en	KEEP	pedestrian	true
+1236		sausage	KEEP	sausage	prose_en	KEEP	sausage	true
+1237	they saw	flew	KEEP	flew	prose_en	KEEP	flew	true
+1238	here	cleaner	KEEP	cleaner	prose_en	KEEP	cleaner	true
+1239		shield	KEEP	shield	prose_en	KEEP	shield	true
+1240	again	tall	KEEP	tall	prose_en	KEEP	tall	true
+1241	some	neighborhood	KEEP	neighborhood	prose_en	KEEP	neighborhood	true
+1242	this	irrigation	KEEP	irrigation	prose_en	KEEP	irrigation	true
+1243	you know	husband	KEEP	husband	prose_en	KEEP	husband	true
+1244	now	sunset	KEEP	sunset	prose_en	KEEP	sunset	true
+1245	around the	hill	KEEP	hill	prose_en	KEEP	hill	true
+1246	we found	tranquility	KEEP	tranquility	prose_en	KEEP	tranquility	true
+1247	in the	escalator	KEEP	escalator	prose_en	KEEP	escalator	true
+1248	for the	element	KEEP	element	prose_en	KEEP	element	true
+1249		code	KEEP	code	prose_en	KEEP	code	true
+1250	the	crow	KEEP	crow	prose_en	KEEP	crow	true
+1251		tractor	KEEP	tractor	prose_en	KEEP	tractor	true
+1252	just	sky	KEEP	sky	prose_en	KEEP	sky	true
+1253		lizard	KEEP	lizard	prose_en	KEEP	lizard	true
+1254		protein	KEEP	protein	prose_en	KEEP	protein	true
+1255		locksmith	KEEP	locksmith	prose_en	KEEP	locksmith	true
+1256	because of	greenhouse	KEEP	greenhouse	prose_en	KEEP	greenhouse	true
+1257		processor	KEEP	processor	prose_en	KEEP	processor	true
+1258	also	plow	KEEP	plow	prose_en	KEEP	plow	true
+1259	my	cinema	KEEP	cinema	prose_en	KEEP	cinema	true
+1260	he said	fence	KEEP	fence	prose_en	KEEP	fence	true
+1261	still	apartment	KEEP	apartment	prose_en	KEEP	apartment	true
+1262	we were	girl	KEEP	girl	prose_en	KEEP	girl	true
+1263	very	molecule	KEEP	molecule	prose_en	KEEP	molecule	true
+1264	he said	now	KEEP	now	prose_en	KEEP	now	true
+1265	a	horizon	KEEP	horizon	prose_en	KEEP	horizon	true
+1266		peace	KEEP	peace	prose_en	KEEP	peace	true
+1267	I think	luggage	KEEP	luggage	prose_en	KEEP	luggage	true
+1268	not a	polite	KEEP	polite	prose_en	KEEP	polite	true
+1269	also	dry	KEEP	dry	prose_en	KEEP	dry	true
+1270	you know	device	KEEP	device	prose_en	KEEP	device	true
+1271	he said	hallway	KEEP	hallway	prose_en	KEEP	hallway	true
+1272	my	secretary	KEEP	secretary	prose_en	KEEP	secretary	true
+1273	you know	orchard	KEEP	orchard	prose_en	KEEP	orchard	true
+1274	really	crown	KEEP	crown	prose_en	KEEP	crown	true
+1275	it was	longer	KEEP	longer	prose_en	KEEP	longer	true
+1276	really	database	KEEP	database	prose_en	KEEP	database	true
+1277	indeed	fir	KEEP	fir	prose_en	KEEP	fir	true
+1278	quite	director	KEEP	director	prose_en	KEEP	director	true
+1279		thunder	KEEP	thunder	prose_en	KEEP	thunder	true
+1280	already	grandmother	KEEP	grandmother	prose_en	KEEP	grandmother	true
+1281	for the	see	KEEP	see	prose_en	KEEP	see	true
+1282		desert	KEEP	desert	prose_en	KEEP	desert	true
+1283	also	cook	KEEP	cook	prose_en	KEEP	cook	true
+1284		failure	KEEP	failure	prose_en	KEEP	failure	true
+1285	actually	shoemaker	KEEP	shoemaker	prose_en	KEEP	shoemaker	true
+1286	I think	definitely	KEEP	definitely	prose_en	KEEP	definitely	true
+1287	again	dock	KEEP	dock	prose_en	KEEP	dock	true
+1288		best	KEEP	best	prose_en	KEEP	best	true
+1289	this is	sidewalk	KEEP	sidewalk	prose_en	KEEP	sidewalk	true
+1290	perhaps	employer	KEEP	employer	prose_en	KEEP	employer	true
+1291		earthquake	KEEP	earthquake	prose_en	KEEP	earthquake	true
+1292	next to	deception	KEEP	deception	prose_en	KEEP	deception	true
+1293		lamp	KEEP	lamp	prose_en	KEEP	lamp	true
+1294		daisy	KEEP	daisy	prose_en	KEEP	daisy	true
+1295	instead of	aster	KEEP	aster	prose_en	KEEP	aster	true
+1296	also	friend	KEEP	friend	prose_en	KEEP	friend	true
+1297		longest	KEEP	longest	prose_en	KEEP	longest	true
+1298	here	badly	KEEP	badly	prose_en	KEEP	badly	true
+1299	they saw	onion	KEEP	onion	prose_en	KEEP	onion	true
+1300	and the	vivid	KEEP	vivid	prose_en	KEEP	vivid	true
+1301		stadium	KEEP	stadium	prose_en	KEEP	stadium	true
+1302	on my	energy	KEEP	energy	prose_en	KEEP	energy	true
+1303		density	KEEP	density	prose_en	KEEP	density	true
+1304	basically	beet	KEEP	beet	prose_en	KEEP	beet	true
+1305	quite	frying	KEEP	frying	prose_en	KEEP	frying	true
+1306		curtain	KEEP	curtain	prose_en	KEEP	curtain	true
+1307		armchair	KEEP	armchair	prose_en	KEEP	armchair	true
+1308	without a	stronger	KEEP	stronger	prose_en	KEEP	stronger	true
+1309		plate	KEEP	plate	prose_en	KEEP	plate	true
+1310	usually	carrot	KEEP	carrot	prose_en	KEEP	carrot	true
+1311	again	prairie	KEEP	prairie	prose_en	KEEP	prairie	true
+1312	basically	dawn	KEEP	dawn	prose_en	KEEP	dawn	true
+1313	very	vigor	KEEP	vigor	prose_en	KEEP	vigor	true
+1314	my	sea	KEEP	sea	prose_en	KEEP	sea	true
+1315		buy	KEEP	buy	prose_en	KEEP	buy	true
+1316		organ	KEEP	organ	prose_en	KEEP	organ	true
+1317	here	wheel	KEEP	wheel	prose_en	KEEP	wheel	true
+1318		short	KEEP	short	prose_en	KEEP	short	true
+1319	some	mountain	KEEP	mountain	prose_en	KEEP	mountain	true
+1320	really	saw	KEEP	saw	prose_en	KEEP	saw	true
+1321		boulevard	KEEP	boulevard	prose_en	KEEP	boulevard	true
+1322	because of	pond	KEEP	pond	prose_en	KEEP	pond	true
+1323	instead of	architect	KEEP	architect	prose_en	KEEP	architect	true
+1324	then	resting	KEEP	resting	prose_en	KEEP	resting	true
+1325	now	kiosk	KEEP	kiosk	prose_en	KEEP	kiosk	true
+1326		poplar	KEEP	poplar	prose_en	KEEP	poplar	true
+1327	almost	expedition	KEEP	expedition	prose_en	KEEP	expedition	true
+1328		summer	KEEP	summer	prose_en	KEEP	summer	true
+1329	very	chestnut	KEEP	chestnut	prose_en	KEEP	chestnut	true
+1330		pharmacist	KEEP	pharmacist	prose_en	KEEP	pharmacist	true
+1331	she went	wisdom	KEEP	wisdom	prose_en	KEEP	wisdom	true
+1332		daughter	KEEP	daughter	prose_en	KEEP	daughter	true
+1333		poor	KEEP	poor	prose_en	KEEP	poor	true
+1334	you know	garlic	KEEP	garlic	prose_en	KEEP	garlic	true
+1335		silly	KEEP	silly	prose_en	KEEP	silly	true
+1336	some	cat	KEEP	cat	prose_en	KEEP	cat	true
+1337	also	scanner	KEEP	scanner	prose_en	KEEP	scanner	true
+1338	around the	weakness	KEEP	weakness	prose_en	KEEP	weakness	true
+1339	that	courtyard	KEEP	courtyard	prose_en	KEEP	courtyard	true
+1340	just	microphone	KEEP	microphone	prose_en	KEEP	microphone	true
+1341	actually	nervous	KEEP	nervous	prose_en	KEEP	nervous	true
+1342		pasture	KEEP	pasture	prose_en	KEEP	pasture	true
+1343	just	dark	KEEP	dark	prose_en	KEEP	dark	true
+1344	also	slow	KEEP	slow	prose_en	KEEP	slow	true
+1345	actually	anxiety	KEEP	anxiety	prose_en	KEEP	anxiety	true
+1346		fox	KEEP	fox	prose_en	KEEP	fox	true
+1347	before the	worker	KEEP	worker	prose_en	KEEP	worker	true
+1348	very	tallest	KEEP	tallest	prose_en	KEEP	tallest	true
+1349	after the	cabbage	KEEP	cabbage	prose_en	KEEP	cabbage	true
+1350		fate	KEEP	fate	prose_en	KEEP	fate	true
+1351	and the	accountant	KEEP	accountant	prose_en	KEEP	accountant	true
+1352		door	KEEP	door	prose_en	KEEP	door	true
+1353		knight	KEEP	knight	prose_en	KEEP	knight	true
+1354	suddenly	decade	KEEP	decade	prose_en	KEEP	decade	true
+1355	still	cooked	KEEP	cooked	prose_en	KEEP	cooked	true
+1356	instead of	grove	KEEP	grove	prose_en	KEEP	grove	true
+1357	here	chemist	KEEP	chemist	prose_en	KEEP	chemist	true
+1358	clearly	autumn	KEEP	autumn	prose_en	KEEP	autumn	true
+1359	clearly	highway	KEEP	highway	prose_en	KEEP	highway	true
+1360	then	useful	KEEP	useful	prose_en	KEEP	useful	true
+1361		learning	KEEP	learning	prose_en	KEEP	learning	true
+1362		mood	KEEP	mood	prose_en	KEEP	mood	true
+1363	maybe	thinks	KEEP	thinks	prose_en	KEEP	thinks	true
+1364	quite	stranger	KEEP	stranger	prose_en	KEEP	stranger	true
+1365	clearly	brighter	KEEP	brighter	prose_en	KEEP	brighter	true
+1366	again	writer	KEEP	writer	prose_en	KEEP	writer	true
+1367		really	KEEP	really	prose_en	KEEP	really	true
+1368	next to	system	KEEP	system	prose_en	KEEP	system	true
+1369		moose	KEEP	moose	prose_en	KEEP	moose	true
+1370		boar	KEEP	boar	prose_en	KEEP	boar	true
+1371	here	swimming	KEEP	swimming	prose_en	KEEP	swimming	true
+1372	already	beautiful	KEEP	beautiful	prose_en	KEEP	beautiful	true
+1373	he said	carbohydrate	KEEP	carbohydrate	prose_en	KEEP	carbohydrate	true
+1374	not a	brother	KEEP	brother	prose_en	KEEP	brother	true
+1375	the	backpack	KEEP	backpack	prose_en	KEEP	backpack	true
+1376		melon	KEEP	melon	prose_en	KEEP	melon	true
+1377		bigger	KEEP	bigger	prose_en	KEEP	bigger	true
+1378	they saw	mass	KEEP	mass	prose_en	KEEP	mass	true
+1379		hormone	KEEP	hormone	prose_en	KEEP	hormone	true
+1380	some	ice	KEEP	ice	prose_en	KEEP	ice	true
+1381		easiest	KEEP	easiest	prose_en	KEEP	easiest	true
+1382	maybe	knows	KEEP	knows	prose_en	KEEP	knows	true
+1383	instead of	tissue	KEEP	tissue	prose_en	KEEP	tissue	true
+1384	before the	milk	KEEP	milk	prose_en	KEEP	milk	true
+1385	basically	season	KEEP	season	prose_en	KEEP	season	true
+1386	quite	kindness	KEEP	kindness	prose_en	KEEP	kindness	true
+1387	as a	village	KEEP	village	prose_en	KEEP	village	true
+1388	before the	plum	KEEP	plum	prose_en	KEEP	plum	true
+1389	for the	boring	KEEP	boring	prose_en	KEEP	boring	true
+1390	instead of	kinder	KEEP	kinder	prose_en	KEEP	kinder	true
+1391	around the	duck	KEEP	duck	prose_en	KEEP	duck	true
+1392	as a	lake	KEEP	lake	prose_en	KEEP	lake	true
+1393	in the	shore	KEEP	shore	prose_en	KEEP	shore	true
+1394	really	plays	KEEP	plays	prose_en	KEEP	plays	true
+1395	she went	man	KEEP	man	prose_en	KEEP	man	true
+1396		learns	KEEP	learns	prose_en	KEEP	learns	true
+1397	and the	monitor	KEEP	monitor	prose_en	KEEP	monitor	true
+1398	really	often	KEEP	often	prose_en	KEEP	often	true
+1399	some	luck	KEEP	luck	prose_en	KEEP	luck	true
+1400	not a	fortress	KEEP	fortress	prose_en	KEEP	fortress	true
+1401	on my	glacier	KEEP	glacier	prose_en	KEEP	glacier	true
+1402	suddenly	fountain	KEEP	fountain	prose_en	KEEP	fountain	true
+1403	basically	gene	KEEP	gene	prose_en	KEEP	gene	true
+1404		safe	KEEP	safe	prose_en	KEEP	safe	true
+1405	they saw	known	KEEP	known	prose_en	KEEP	known	true
+1406	that was	winter	KEEP	winter	prose_en	KEEP	winter	true
+1407	some	ceiling	KEEP	ceiling	prose_en	KEEP	ceiling	true
+1408		kindest	KEEP	kindest	prose_en	KEEP	kindest	true
+1409	with the	foolishness	KEEP	foolishness	prose_en	KEEP	foolishness	true
+1410	it was	lily	KEEP	lily	prose_en	KEEP	lily	true
+1411	really	air	KEEP	air	prose_en	KEEP	air	true
+1412	she went	swim	KEEP	swim	prose_en	KEEP	swim	true
+1413	around the	hardest	KEEP	hardest	prose_en	KEEP	hardest	true
+1414		calm	KEEP	calm	prose_en	KEEP	calm	true
+1415	quite	went	KEEP	went	prose_en	KEEP	went	true
+1416	that was	thousand	KEEP	thousand	prose_en	KEEP	thousand	true
+1417	almost	patience	KEEP	patience	prose_en	KEEP	patience	true
+1418	she went	forty	KEEP	forty	prose_en	KEEP	forty	true
+1419		earth	KEEP	earth	prose_en	KEEP	earth	true
+1420	basically	interesting	KEEP	interesting	prose_en	KEEP	interesting	true
+1421	finally	slightly	KEEP	slightly	prose_en	KEEP	slightly	true
+1422	she went	treasure	KEEP	treasure	prose_en	KEEP	treasure	true
+1423	also	umbrella	KEEP	umbrella	prose_en	KEEP	umbrella	true
+1424	a	fiber	KEEP	fiber	prose_en	KEEP	fiber	true
+1425	obviously	hatred	KEEP	hatred	prose_en	KEEP	hatred	true
+1426	without a	sofa	KEEP	sofa	prose_en	KEEP	sofa	true
+1427	basically	woman	KEEP	woman	prose_en	KEEP	woman	true
+1428	finally	room	KEEP	room	prose_en	KEEP	room	true
+1429	around the	big	KEEP	big	prose_en	KEEP	big	true
+1430	next to	goat	KEEP	goat	prose_en	KEEP	goat	true
+1431	that	character	KEEP	character	prose_en	KEEP	character	true
+1432	not a	seed	KEEP	seed	prose_en	KEEP	seed	true
+1433	obviously	sorrow	KEEP	sorrow	prose_en	KEEP	sorrow	true
+1434	in the	attic	KEEP	attic	prose_en	KEEP	attic	true
+1435	not a	imagination	KEEP	imagination	prose_en	KEEP	imagination	true
+1436	our	flower	KEEP	flower	prose_en	KEEP	flower	true
+1437		doing	KEEP	doing	prose_en	KEEP	doing	true
+1438		anchor	KEEP	anchor	prose_en	KEEP	anchor	true
+1439	here	force	KEEP	force	prose_en	KEEP	force	true
+1440	now	worse	KEEP	worse	prose_en	KEEP	worse	true
+1441		office	KEEP	office	prose_en	KEEP	office	true
+1442		plaza	KEEP	plaza	prose_en	KEEP	plaza	true
+1443	this	rose	KEEP	rose	prose_en	KEEP	rose	true
+1444		kettle	KEEP	kettle	prose_en	KEEP	kettle	true
+1445		mason	KEEP	mason	prose_en	KEEP	mason	true
+1446	indeed	dungeon	KEEP	dungeon	prose_en	KEEP	dungeon	true
+1447	very	habit	KEEP	habit	prose_en	KEEP	habit	true
+1448		pier	KEEP	pier	prose_en	KEEP	pier	true
+1449	very	never	KEEP	never	prose_en	KEEP	never	true
+1450	indeed	roundabout	KEEP	roundabout	prose_en	KEEP	roundabout	true
+1451	for the	сфтнщт	CONVERT	canyon	prose_en	CONVERT	сфтнщит	true
+1452	just	ыньзещь	CONVERT	symptom	prose_en	CONVERT	выньзещь	true
+1453	still	ыщдв	CONVERT	sold	prose_en	KEEP	ыщдв	false
+1454	a	цфшеук	CONVERT	waiter	prose_en	KEEP	цфшеук	false
+1455	really	кфштищц	CONVERT	rainbow	prose_en	KEEP	кфштищц	false
+1456	I think	удузрфте	CONVERT	elephant	prose_en	KEEP	удузрфте	false
+1457	that was	вщп	CONVERT	dog	prose_en	KEEP	вщп	false
+1458	now	ишкср	CONVERT	birch	prose_en	KEEP	ишкср	false
+1459	clearly	рфззштуыы	CONVERT	happiness	prose_en	KEEP	рфззштуыы	false
+1460		здфнштп	CONVERT	playing	prose_en	KEEP	здфнштп	false
+1461		руфкштп	CONVERT	hearing	prose_en	KEEP	руфкштп	false
+1462		пфквут	CONVERT	garden	prose_en	KEEP	пфквут	false
+1463	next to	ыекуфь	CONVERT	stream	prose_en	CONVERT	выекуфь	true
+1464		афыеуые	CONVERT	fastest	prose_en	KEEP	афыеуые	false
+1465	indeed	тфккщц	CONVERT	narrow	prose_en	KEEP	тфккщц	false
+1466		щкфтпу	CONVERT	orange	prose_en	KEEP	щкфтпу	false
+1467	next to	здфеуфг	CONVERT	plateau	prose_en	KEEP	здфеуфг	false
+1468	that	ащкл	CONVERT	fork	prose_en	KEEP	ащкл	false
+1469	perhaps	ьщтлун	CONVERT	monkey	prose_en	CONVERT	льщтлун	true
+1470	basically	аукешдшяук	CONVERT	fertilizer	prose_en	KEEP	аукешдшяук	false
+1471	still	уьифтльуте	CONVERT	embankment	prose_en	CONVERT	уьифтльнуте	true
+1472	instead of	ьшддшщт	CONVERT	million	prose_en	CONVERT	льшддшщт	true
+1473	that	фкешые	CONVERT	artist	prose_en	KEEP	фкешые	false
+1474	with the	цшву	CONVERT	wide	prose_en	KEEP	цшву	false
+1475	then	фдпщкшерь	CONVERT	algorithm	prose_en	KEEP	фдпщкшерь	false
+1476		вкшмук	CONVERT	driver	prose_en	KEEP	вкшмук	false
+1477	and the	рфшд	CONVERT	hail	prose_en	KEEP	рфшд	false
+1478	really	ашду	CONVERT	file	prose_en	KEEP	ашду	false
+1479	here	кфшт	CONVERT	rain	prose_en	KEEP	кфшт	false
+1480	that was	сфккшфпу	CONVERT	carriage	prose_en	KEEP	сфккшфпу	false
+1481	I think	ышдщ	CONVERT	silo	prose_en	KEEP	ышдщ	false
+1482	obviously	огыешсу	CONVERT	justice	prose_en	KEEP	огыешсу	false
+1483		дшпретштп	CONVERT	lightning	prose_en	KEEP	дшпретштп	false
+1484	maybe	игшдв	CONVERT	build	prose_en	KEEP	игшдв	false
+1485	usually	кщще	CONVERT	root	prose_en	KEEP	кщще	false
+1486	that	ыфеуддшеу	CONVERT	satellite	prose_en	CONVERT	выфеуддшеу	true
+1487	here	икуфл	CONVERT	break	prose_en	KEEP	икуфл	false
+1488	he said	щдв	CONVERT	old	prose_en	KEEP	щдв	false
+1489		зшддщц	CONVERT	pillow	prose_en	KEEP	зшддщц	false
+1490	on my	пфеу	CONVERT	gate	prose_en	KEEP	пфеу	false
+1491	after the	дщц	CONVERT	low	prose_en	KEEP	дщц	false
+1492	almost	фвгде	CONVERT	adult	prose_en	KEEP	фвгде	false
+1493	very	лтуц	CONVERT	knew	prose_en	KEEP	лтуц	false
+1494	again	вкщту	CONVERT	drone	prose_en	KEEP	вкщту	false
+1495	our	ьштук	CONVERT	miner	prose_en	KEEP	ьштук	false
+1496	she went	ыегвуте	CONVERT	student	prose_en	CONVERT	выегвуте	true
+1497	that was	ыштпштп	CONVERT	singing	prose_en	CONVERT	выштпштп	true
+1498		егтвкф	CONVERT	tundra	prose_en	KEEP	егтвкф	false
+1499	obviously	егдшз	CONVERT	tulip	prose_en	KEEP	егдшз	false
+1500	this is	вуц	CONVERT	dew	prose_en	KEEP	вуц	false
+1501		идщщв	CONVERT	blood	prose_en	KEEP	идщщв	false
+1502	in the	иуфк	CONVERT	bear	prose_en	KEEP	иуфк	false
+1503		мшсещкн	CONVERT	victory	prose_en	KEEP	мшсещкн	false
+1504	after the	кщсл	CONVERT	rock	prose_en	KEEP	кщсл	false
+1505	still	цшвук	CONVERT	wider	prose_en	KEEP	цшвук	false
+1506	now	кщище	CONVERT	robot	prose_en	KEEP	кщище	false
+1507		куые	CONVERT	rest	prose_en	KEEP	куые	false
+1508	finally	судд	CONVERT	cell	prose_en	KEEP	судд	false
+1509		афьщгы	CONVERT	famous	prose_en	KEEP	афьщгы	false
+1510	maybe	икшпреуые	CONVERT	brightest	prose_en	KEEP	икшпреуые	false
+1511	after the	цуиышеу	CONVERT	website	prose_en	KEEP	цуиышеу	false
+1512	really	игнук	CONVERT	buyer	prose_en	KEEP	игнук	false
+1513		ыфшд	CONVERT	sail	prose_en	KEEP	ыфшд	false
+1514	again	ьшкфпу	CONVERT	mirage	prose_en	CONVERT	льшкфпу	true
+1515	not a	ьшыащкегту	CONVERT	misfortune	prose_en	CONVERT	ьшыащикегту	true
+1516	some	ыефиду	CONVERT	stable	prose_en	CONVERT	выефиду	true
+1517	the	цщда	CONVERT	wolf	prose_en	KEEP	цщда	false
+1518	you know	ыефк	CONVERT	star	prose_en	KEEP	ыефк	false
+1519	almost	сщккшвщк	CONVERT	corridor	prose_en	CONVERT	сщккшвщик	true
+1520	still	игшдвы	CONVERT	builds	prose_en	KEEP	игшдвы	false
+1521	we were	цкшеуы	CONVERT	writes	prose_en	KEEP	цкшеуы	false
+1522	also	акщтешук	CONVERT	frontier	prose_en	KEEP	акщтешук	false
+1523		цкшештп	CONVERT	writing	prose_en	KEEP	цкшештп	false
+1524	that was	шддтуыы	CONVERT	illness	prose_en	KEEP	шддтуыы	false
+1525		цфеук	CONVERT	water	prose_en	KEEP	цфеук	false
+1526	usually	ырщз	CONVERT	shop	prose_en	KEEP	ырщз	false
+1527	she went	акуувщь	CONVERT	freedom	prose_en	KEEP	акуувщь	false
+1528	you know	уфышук	CONVERT	easier	prose_en	KEEP	уфышук	false
+1529	we were	ашч	CONVERT	fix	prose_en	KEEP	ашч	false
+1530	obviously	тушприщк	CONVERT	neighbor	prose_en	CONVERT	тушприщик	true
+1531		ьщщт	CONVERT	moon	prose_en	KEEP	ьщщт	false
+1532	that	сщфыедшту	CONVERT	coastline	prose_en	KEEP	сщфыедшту	false
+1533	there	срууыу	CONVERT	cheese	prose_en	KEEP	срууыу	false
+1534	we were	сщдв	CONVERT	cold	prose_en	KEEP	сщдв	false
+1535	clearly	сщщлы	CONVERT	cooks	prose_en	KEEP	сщщлы	false
+1536	and the	ытфлу	CONVERT	snake	prose_en	KEEP	ытфлу	false
+1537		еруфеук	CONVERT	theater	prose_en	CONVERT	перуфеук	true
+1538		ызщщт	CONVERT	spoon	prose_en	KEEP	ызщщт	false
+1539	for the	црфду	CONVERT	whale	prose_en	KEEP	црфду	false
+1540	we found	екуу	CONVERT	tree	prose_en	KEEP	екуу	false
+1541	there	сдщсл	CONVERT	clock	prose_en	KEEP	сдщсл	false
+1542	maybe	фвмутегку	CONVERT	adventure	prose_en	KEEP	фвмутегку	false
+1543	here	ьфтфпук	CONVERT	manager	prose_en	CONVERT	льфтфпук	true
+1544	they saw	ащп	CONVERT	fog	prose_en	KEEP	ащп	false
+1545	suddenly	фтсшуте	CONVERT	ancient	prose_en	KEEP	фтсшуте	false
+1546	basically	мшвущ	CONVERT	video	prose_en	KEEP	мшвущ	false
+1547	just	тузруц	CONVERT	nephew	prose_en	KEEP	тузруц	false
+1548	around the	уфеы	CONVERT	eats	prose_en	KEEP	уфеы	false
+1549	still	зщккшвпу	CONVERT	porridge	prose_en	KEEP	зщккшвпу	false
+1550		рнвкщпут	CONVERT	hydrogen	prose_en	CONVERT	рновкщпут	true
+1551		вуышптук	CONVERT	designer	prose_en	KEEP	вуышптук	false
+1552	again	ефиду	CONVERT	table	prose_en	KEEP	ефиду	false
+1553	she went	ьщвукт	CONVERT	modern	prose_en	CONVERT	льщвукт	true
+1554	that was	куфсешщт	CONVERT	reaction	prose_en	KEEP	куфсешщт	false
+1555	clearly	щдвук	CONVERT	older	prose_en	KEEP	щдвук	false
+1556	some	игееукадн	CONVERT	butterfly	prose_en	CONVERT	игереукадн	true
+1557	you know	аферук	CONVERT	father	prose_en	CONVERT	аферу	true
+1558	a	ысрщщд	CONVERT	school	prose_en	CONVERT	высрщщд	true
+1559	basically	икуфлафые	CONVERT	breakfast	prose_en	KEEP	икуфлафые	false
+1560	not a	вфтсу	CONVERT	dance	prose_en	KEEP	вфтсу	false
+1561	next to	вфтвудшщт	CONVERT	dandelion	prose_en	KEEP	вфтвудшщт	false
+1562		ащдвук	CONVERT	folder	prose_en	KEEP	ащдвук	false
+1563	the	усщыныеуь	CONVERT	ecosystem	prose_en	CONVERT	усщыныеуть	true
+1564		скщыыштп	CONVERT	crossing	prose_en	KEEP	скщыыштп	false
+1565	we found	кщщаещз	CONVERT	rooftop	prose_en	KEEP	кщщаещз	false
+1566		скщсщвшду	CONVERT	crocodile	prose_en	KEEP	скщсщвшду	false
+1567	almost	рщызшефд	CONVERT	hospital	prose_en	KEEP	рщызшефд	false
+1568	obviously	сщаауу	CONVERT	coffee	prose_en	KEEP	сщаауу	false
+1569	as a	щзукфещк	CONVERT	operator	prose_en	CONVERT	щзукфещик	true
+1570	and the	штеуктуе	CONVERT	internet	prose_en	KEEP	штеуктуе	false
+1571	for the	уфе	CONVERT	eat	prose_en	KEEP	уфе	false
+1572	also	сршдврщщв	CONVERT	childhood	prose_en	CONVERT	сршдворщщв	true
+1573		игшде	CONVERT	built	prose_en	KEEP	игшде	false
+1574	just	умщдгешщт	CONVERT	evolution	prose_en	KEEP	умщдгешщт	false
+1575	I think	ырузрукв	CONVERT	shepherd	prose_en	CONVERT	вырузрукв	true
+1576	it was	сршдв	CONVERT	child	prose_en	KEEP	сршдв	false
+1577	that was	сщдвук	CONVERT	colder	prose_en	KEEP	сщдвук	false
+1578	almost	вщуы	CONVERT	does	prose_en	KEEP	вщуы	false
+1579		дщму	CONVERT	love	prose_en	KEEP	дщму	false
+1580	also	туфк	CONVERT	near	prose_en	KEEP	туфк	false
+1581	actually	зфкл	CONVERT	park	prose_en	KEEP	зфкл	false
+1582	a	удумут	CONVERT	eleven	prose_en	KEEP	удумут	false
+1583	basically	йгшслдн	CONVERT	quickly	prose_en	CONVERT	йгшслодн	true
+1584	you know	икуфв	CONVERT	bread	prose_en	KEEP	икуфв	false
+1585	with the	екщгыукы	CONVERT	trousers	prose_en	KEEP	екщгыукы	false
+1586	here	екфаашс	CONVERT	traffic	prose_en	CONVERT	екфарашс	true
+1587	on my	цуе	CONVERT	wet	prose_en	KEEP	цуе	false
+1588	they saw	сукефштдн	CONVERT	certainly	prose_en	CONVERT	сукефштден	true
+1589		екгые	CONVERT	trust	prose_en	KEEP	екгые	false
+1590		ысгдзещк	CONVERT	sculptor	prose_en	CONVERT	высгдзещк	true
+1591	he said	куфвы	CONVERT	reads	prose_en	KEEP	куфвы	false
+1592	now	ащкуые	CONVERT	forest	prose_en	CONVERT	ащикуые	true
+1593	he said	фгте	CONVERT	aunt	prose_en	KEEP	фгте	false
+1594	in the	ьщтгьуте	CONVERT	monument	prose_en	CONVERT	льщтгьуте	true
+1595	as a	игввн	CONVERT	buddy	prose_en	KEEP	игввн	false
+1596	she went	зрщту	CONVERT	phone	prose_en	KEEP	зрщту	false
+1597	not a	удвукдн	CONVERT	elderly	prose_en	CONVERT	удвукодн	true
+1598		упп	CONVERT	egg	prose_en	KEEP	упп	false
+1599	he said	идфтлуе	CONVERT	blanket	prose_en	KEEP	идфтлуе	false
+1600	almost	ыукмук	CONVERT	server	prose_en	CONVERT	выукмук	true
+1601	you know	афсещкн	CONVERT	factory	prose_en	KEEP	афсещкн	false
+1602	now	адшуы	CONVERT	flies	prose_en	KEEP	адшуы	false
+1603	my	зшту	CONVERT	pine	prose_en	KEEP	зшту	false
+1604	because of	сфтвду	CONVERT	candle	prose_en	CONVERT	сфтводу	true
+1605		ьгышсшфт	CONVERT	musician	prose_en	CONVERT	льгышсшфт	true
+1606		рщгыу	CONVERT	house	prose_en	KEEP	рщгыу	false
+1607	this is	зуззук	CONVERT	pepper	prose_en	KEEP	зуззук	false
+1608		ыуеедуьуте	CONVERT	settlement	prose_en	CONVERT	выуеедуьуте	true
+1609	on my	рщгк	CONVERT	hour	prose_en	KEEP	рщгк	false
+1610	because of	ыфгсузфт	CONVERT	saucepan	prose_en	CONVERT	выфгсузфт	true
+1611		уьзшку	CONVERT	empire	prose_en	CONVERT	ульзшку	true
+1612		дфеук	CONVERT	later	prose_en	KEEP	дфеук	false
+1613		ьфзду	CONVERT	maple	prose_en	KEEP	ьфзду	false
+1614	before the	екуфеьуте	CONVERT	treatment	prose_en	KEEP	екуфеьуте	false
+1615	without a	ифдсщтн	CONVERT	balcony	prose_en	KEEP	ифдсщтн	false
+1616	already	кфызиуккн	CONVERT	raspberry	prose_en	CONVERT	кфызиуккон	true
+1617	not a	сщьзщгтв	CONVERT	compound	prose_en	KEEP	сщьзщгтв	false
+1618	next to	фкьщк	CONVERT	armor	prose_en	KEEP	фкьщк	false
+1619	some	ещцук	CONVERT	tower	prose_en	KEEP	ещцук	false
+1620	also	гтсду	CONVERT	uncle	prose_en	KEEP	гтсду	false
+1621		руфмшук	CONVERT	heavier	prose_en	KEEP	руфмшук	false
+1622		дуьщт	CONVERT	lemon	prose_en	KEEP	дуьщт	false
+1623	perhaps	гтшмукышен	CONVERT	university	prose_en	CONVERT	готшмукышен	true
+1624	this is	иуееук	CONVERT	better	prose_en	KEEP	иуееук	false
+1625	quite	вфырищфкв	CONVERT	dashboard	prose_en	KEEP	вфырищфкв	false
+1626	actually	ышдутсу	CONVERT	silence	prose_en	CONVERT	вышдутсу	true
+1627	actually	ышьздук	CONVERT	simpler	prose_en	CONVERT	вышьздук	true
+1628	maybe	куфв	CONVERT	read	prose_en	KEEP	куфв	false
+1629	very	ылндшту	CONVERT	skyline	prose_en	CONVERT	вылндшту	true
+1630		фееутешщт	CONVERT	attention	prose_en	CONVERT	фереутешщт	true
+1631	because of	сщьздуч	CONVERT	complex	prose_en	KEEP	сщьздуч	false
+1632	not a	щфл	CONVERT	oak	prose_en	KEEP	щфл	false
+1633	we found	пкфтваферук	CONVERT	grandfather	prose_en	CONVERT	покфтваферук	true
+1634	indeed	мфссшту	CONVERT	vaccine	prose_en	KEEP	мфссшту	false
+1635	a	сфкзуе	CONVERT	carpet	prose_en	KEEP	сфкзуе	false
+1636	actually	руфк	CONVERT	hear	prose_en	KEEP	руфк	false
+1637	still	икфтср	CONVERT	branch	prose_en	KEEP	икфтср	false
+1638	she went	ерштл	CONVERT	think	prose_en	KEEP	ерштл	false
+1639		пфвпуе	CONVERT	gadget	prose_en	KEEP	пфвпуе	false
+1640	finally	дшпрерщгыу	CONVERT	lighthouse	prose_en	KEEP	дшпрерщгыу	false
+1641	our	ьштукфд	CONVERT	mineral	prose_en	CONVERT	льштукфд	true
+1642		срфкпук	CONVERT	charger	prose_en	KEEP	срфкпук	false
+1643		тгекшешщт	CONVERT	nutrition	prose_en	KEEP	тгекшешщт	false
+1644	already	ыцфьз	CONVERT	swamp	prose_en	KEEP	ыцфьз	false
+1645		ыуддштп	CONVERT	selling	prose_en	CONVERT	выуддштп	true
+1646	finally	сдфыыьфеу	CONVERT	classmate	prose_en	KEEP	сдфыыьфеу	false
+1647	after the	сщщлштп	CONVERT	cooking	prose_en	KEEP	сщщлштп	false
+1648		сфкзутеук	CONVERT	carpenter	prose_en	KEEP	сфкзутеук	false
+1649		рфкмуые	CONVERT	harvest	prose_en	KEEP	рфкмуые	false
+1650	almost	ощгктфдшые	CONVERT	journalist	prose_en	KEEP	ощгктфдшые	false
+1651	now	ыудды	CONVERT	sells	prose_en	KEEP	ыудды	false
+1652		сщддупу	CONVERT	college	prose_en	KEEP	сщддупу	false
+1653		щдвуые	CONVERT	oldest	prose_en	KEEP	щдвуые	false
+1654	basically	ыцфь	CONVERT	swam	prose_en	KEEP	ыцфь	false
+1655	and the	зщуе	CONVERT	poet	prose_en	KEEP	зщуе	false
+1656	as a	тшусу	CONVERT	niece	prose_en	KEEP	тшусу	false
+1657	still	кфкудн	CONVERT	rarely	prose_en	KEEP	кфкудн	false
+1658	on my	зщщкук	CONVERT	poorer	prose_en	KEEP	зщщкук	false
+1659	and the	идщыыщь	CONVERT	blossom	prose_en	KEEP	идщыыщь	false
+1660		игыр	CONVERT	bush	prose_en	KEEP	игыр	false
+1661		фпу	CONVERT	age	prose_en	KEEP	фпу	false
+1662		ышьздуые	CONVERT	simplest	prose_en	CONVERT	вышьздуые	true
+1663		аднштп	CONVERT	flying	prose_en	KEEP	аднштп	false
+1664	the	рщтун	CONVERT	honey	prose_en	KEEP	рщтун	false
+1665	in the	ершсл	CONVERT	thick	prose_en	KEEP	ершсл	false
+1666	actually	дгтср	CONVERT	lunch	prose_en	KEEP	дгтср	false
+1667	now	ецутен	CONVERT	twenty	prose_en	KEEP	ецутен	false
+1668		ышптфд	CONVERT	signal	prose_en	CONVERT	вышптфд	true
+1669		екгтл	CONVERT	trunk	prose_en	KEEP	екгтл	false
+1670	just	акуыр	CONVERT	fresh	prose_en	KEEP	акуыр	false
+1671	really	пдщму	CONVERT	glove	prose_en	KEEP	пдщму	false
+1672	that	ьуьщкн	CONVERT	memory	prose_en	CONVERT	ьуьщикн	true
+1673	around the	вщсещк	CONVERT	doctor	prose_en	CONVERT	вщсещик	true
+1674	and the	лшесрут	CONVERT	kitchen	prose_en	CONVERT	лшеструт	true
+1675	our	умутштп	CONVERT	evening	prose_en	KEEP	умутштп	false
+1676	on my	цщкл	CONVERT	work	prose_en	KEEP	цщкл	false
+1677	very	икфлу	CONVERT	brake	prose_en	KEEP	икфлу	false
+1678	finally	ашчув	CONVERT	fixed	prose_en	KEEP	ашчув	false
+1679		вфтсштп	CONVERT	dancing	prose_en	KEEP	вфтсштп	false
+1680		зфыызщке	CONVERT	passport	prose_en	KEEP	зфыызщке	false
+1681		игнштп	CONVERT	buying	prose_en	KEEP	игнштп	false
+1682	this is	ьшвтшпре	CONVERT	midnight	prose_en	CONVERT	льшвтшпре	true
+1683	just	ифкт	CONVERT	barn	prose_en	KEEP	ифкт	false
+1684	suddenly	цфкьуые	CONVERT	warmest	prose_en	KEEP	цфкьуые	false
+1685	we found	акщые	CONVERT	frost	prose_en	KEEP	акщые	false
+1686	this is	ьувшсшту	CONVERT	medicine	prose_en	CONVERT	ьувшисшту	true
+1687		пгуые	CONVERT	guest	prose_en	KEEP	пгуые	false
+1688	almost	еуфсрук	CONVERT	teacher	prose_en	CONVERT	неуфсрук	true
+1689	this	пщуы	CONVERT	goes	prose_en	KEEP	пщуы	false
+1690		ещвфн	CONVERT	today	prose_en	KEEP	ещвфн	false
+1691	now	йгшуедн	CONVERT	quietly	prose_en	KEEP	йгшуедн	false
+1692		зкщвгсук	CONVERT	producer	prose_en	KEEP	зкщвгсук	false
+1693	actually	дфцнук	CONVERT	lawyer	prose_en	KEEP	дфцнук	false
+1694	we were	руфмшуые	CONVERT	heaviest	prose_en	KEEP	руфмшуые	false
+1695	he said	утпштуук	CONVERT	engineer	prose_en	KEEP	утпштуук	false
+1696	you know	ышьзду	CONVERT	simple	prose_en	CONVERT	вышьзду	true
+1697		сфму	CONVERT	cave	prose_en	KEEP	сфму	false
+1698	perhaps	ыфтв	CONVERT	sand	prose_en	KEEP	ыфтв	false
+1699		сдштшс	CONVERT	clinic	prose_en	KEEP	сдштшс	false
+1700	our	зфыыутпук	CONVERT	passenger	prose_en	KEEP	зфыыутпук	false
+1701	мама сказала	а	KEEP	а	short1	KEEP	а	true
+1702	он видел	б	KEEP	б	short1	KEEP	б	true
+1703	она купила	в	KEEP	в	short1	KEEP	в	true
+1704	мы гуляли	ж	KEEP	ж	short1	KEEP	ж	true
+1705	ты знаешь	и	KEEP	и	short1	KEEP	и	true
+1706	они ждали	к	KEEP	к	short1	KEEP	к	true
+1707	я думаю	о	KEEP	о	short1	KEEP	о	true
+1708	вчера вечером	с	KEEP	с	short1	KEEP	с	true
+1709	рано утром	у	KEEP	у	short1	KEEP	у	true
+1710	в парке	я	KEEP	я	short1	KEEP	я	true
+1711	на кухне	э	KEEP	э	short1	KEEP	э	true
+1712	после школы	а	KEEP	а	short1	KEEP	а	true
+1713	перед сном	б	KEEP	б	short1	KEEP	б	true
+1714	во дворе	в	KEEP	в	short1	KEEP	в	true
+1715	за столом	ж	KEEP	ж	short1	KEEP	ж	true
+1716	около дома	и	KEEP	и	short1	KEEP	и	true
+1717	возле реки	к	KEEP	к	short1	KEEP	к	true
+1718	внутри коробки	о	KEEP	о	short1	KEEP	о	true
+1719	снаружи было	с	KEEP	с	short1	KEEP	с	true
+1720	кажется мне	у	KEEP	у	short1	KEEP	у	true
+1721	точно помню	я	KEEP	я	short1	KEEP	я	true
+1722	конечно да	э	KEEP	э	short1	KEEP	э	true
+1723	разве нет	а	KEEP	а	short1	KEEP	а	true
+1724	неужели правда	б	KEEP	б	short1	KEEP	б	true
+1725	теперь понятно	в	KEEP	в	short1	KEEP	в	true
+1726	тогда решили	ж	KEEP	ж	short1	KEEP	ж	true
+1727	здесь тихо	и	KEEP	и	short1	KEEP	и	true
+1728	там холодно	к	KEEP	к	short1	KEEP	к	true
+1729	туда идём	о	KEEP	о	short1	KEEP	о	true
+1730	оттуда видно	с	KEEP	с	short1	KEEP	с	true
+1731	she said	a	KEEP	a	short1	KEEP	a	true
+1732	he saw	i	KEEP	i	short1	KEEP	i	true
+1733	we walked	o	KEEP	o	short1	KEEP	o	true
+1734	you know	a	KEEP	a	short1	KEEP	a	true
+1735	they waited	i	KEEP	i	short1	KEEP	i	true
+1736	I think	o	KEEP	o	short1	KEEP	o	true
+1737	last night	a	KEEP	a	short1	KEEP	a	true
+1738	early morning	i	KEEP	i	short1	KEEP	i	true
+1739	in the park	o	KEEP	o	short1	KEEP	o	true
+1740	in the kitchen	a	KEEP	a	short1	KEEP	a	true
+1741	after school	i	KEEP	i	short1	KEEP	i	true
+1742	before bed	o	KEEP	o	short1	KEEP	o	true
+1743	мы гуляли	f	CONVERT	а	short1	KEEP	f	false
+1744	ты знаешь	,	CONVERT	б	short1	KEEP	,	false
+1745	они ждали	d	CONVERT	в	short1	KEEP	d	false
+1746	я думаю	;	CONVERT	ж	short1	KEEP	;	false
+1747	вчера вечером	b	CONVERT	и	short1	KEEP	b	false
+1748	рано утром	r	CONVERT	к	short1	KEEP	r	false
+1749	в парке	j	CONVERT	о	short1	KEEP	j	false
+1750	на кухне	c	CONVERT	с	short1	KEEP	c	false
+1751	после школы	e	CONVERT	у	short1	KEEP	e	false
+1752	перед сном	z	CONVERT	я	short1	KEEP	z	false
+1753	во дворе	'	CONVERT	э	short1	KEEP	'	false
+1754	за столом	f	CONVERT	а	short1	KEEP	f	false
+1755	около дома	,	CONVERT	б	short1	KEEP	,	false
+1756	возле реки	d	CONVERT	в	short1	KEEP	d	false
+1757	внутри коробки	;	CONVERT	ж	short1	KEEP	;	false
+1758	снаружи было	b	CONVERT	и	short1	KEEP	b	false
+1759	кажется мне	r	CONVERT	к	short1	KEEP	r	false
+1760	точно помню	j	CONVERT	о	short1	KEEP	j	false
+1761	конечно да	c	CONVERT	с	short1	KEEP	c	false
+1762	разве нет	e	CONVERT	у	short1	KEEP	e	false
+1763	неужели правда	z	CONVERT	я	short1	KEEP	z	false
+1764	теперь понятно	'	CONVERT	э	short1	KEEP	'	false
+1765	тогда решили	f	CONVERT	а	short1	KEEP	f	false
+1766	здесь тихо	,	CONVERT	б	short1	KEEP	,	false
+1767	там холодно	d	CONVERT	в	short1	KEEP	d	false
+1768	туда идём	;	CONVERT	ж	short1	KEEP	;	false
+1769	оттуда видно	b	CONVERT	и	short1	KEEP	b	false
+1770	мама сказала	r	CONVERT	к	short1	KEEP	r	false
+1771	он видел	j	CONVERT	о	short1	KEEP	j	false
+1772	она купила	c	CONVERT	с	short1	KEEP	c	false
+1773	I think	ф	CONVERT	a	short1	KEEP	ф	false
+1774	last night	ш	CONVERT	i	short1	KEEP	ш	false
+1775	early morning	щ	CONVERT	o	short1	KEEP	щ	false
+1776	in the park	ф	CONVERT	a	short1	KEEP	ф	false
+1777	in the kitchen	ш	CONVERT	i	short1	KEEP	ш	false
+1778	after school	щ	CONVERT	o	short1	KEEP	щ	false
+1779	before bed	ф	CONVERT	a	short1	KEEP	ф	false
+1780	in the yard	ш	CONVERT	i	short1	KEEP	ш	false
+1781	at the table	щ	CONVERT	o	short1	KEEP	щ	false
+1782	near the house	ф	CONVERT	a	short1	KEEP	ф	false
+1783	by the river	ш	CONVERT	i	short1	KEEP	ш	false
+1784	inside the box	щ	CONVERT	o	short1	KEEP	щ	false
+1785	outside it was	ф	CONVERT	a	short1	KEEP	ф	false
+1786	it seems	ш	CONVERT	i	short1	KEEP	ш	false
+1787	I remember	щ	CONVERT	o	short1	KEEP	щ	false
+1788	in the yard	j	KEEP	j	short1	KEEP	j	true
+1789	last night	f	KEEP	f	short1	KEEP	f	true
+1790	she said	f	KEEP	f	short1	KEEP	f	true
+1791	they waited	b	KEEP	b	short1	KEEP	b	true
+1792	inside the box	'	KEEP	'	short1	KEEP	'	true
+1793	я думаю	ф	KEEP	ф	short1	KEEP	ф	true
+1794	by the river	z	KEEP	z	short1	KEEP	z	true
+1795	after school	b	KEEP	b	short1	KEEP	b	true
+1796	I think	r	KEEP	r	short1	KEEP	r	true
+1797	before bed	r	KEEP	r	short1	KEEP	r	true
+1798	мама сказала	ф	KEEP	ф	short1	KEEP	ф	true
+1799	in the kitchen	z	KEEP	z	short1	KEEP	z	true
+1800	we walked	d	KEEP	d	short1	KEEP	d	true
+1801	near the house	e	KEEP	e	short1	KEEP	e	true
+1802	after school	'	KEEP	'	short1	KEEP	'	true
+1803	in the kitchen	;	KEEP	;	short1	KEEP	;	true
+1804	рано утром	щ	KEEP	щ	short1	KEEP	щ	true
+1805	last night	j	KEEP	j	short1	KEEP	j	true
+1806		d	KEEP	d	short1	KEEP	d	true
+1807		'	KEEP	'	short1	KEEP	'	true
+1808		щ	KEEP	щ	short1	KEEP	щ	true
+1809		f	KEEP	f	short1	KEEP	f	true
+1810		ф	KEEP	ф	short1	KEEP	ф	true
+1811		,	KEEP	,	short1	KEEP	,	true
+1812		r	KEEP	r	short1	KEEP	r	true
+1813		z	KEEP	z	short1	KEEP	z	true
+1814		b	KEEP	b	short1	KEEP	b	true
+1815		;	KEEP	;	short1	KEEP	;	true
+1816	for (int i = 0;	c	KEEP	c	short1	KEEP	c	true
+1817	char	c	KEEP	c	short1	KEEP	c	true
+1818	int	c	KEEP	c	short1	KEEP	c	true
+1819	for (auto	c	KEEP	c	short1	KEEP	c	true
+1820	typedef	c	KEEP	c	short1	KEEP	c	true
+1821	мама сказала	аж	KEEP	аж	short2	KEEP	аж	true
+1822	он видел	ай	KEEP	ай	short2	KEEP	ай	true
+1823	она купила	ах	KEEP	ах	short2	KEEP	ах	true
+1824	мы гуляли	бы	KEEP	бы	short2	KEEP	бы	true
+1825	ты знаешь	во	KEEP	во	short2	KEEP	во	true
+1826	они ждали	вы	KEEP	вы	short2	KEEP	вы	true
+1827	я думаю	да	KEEP	да	short2	KEEP	да	true
+1828	вчера вечером	до	KEEP	до	short2	KEEP	до	true
+1829	рано утром	ее	KEEP	ее	short2	KEEP	ее	true
+1830	в парке	её	KEEP	её	short2	KEEP	её	true
+1831	на кухне	ей	KEEP	ей	short2	KEEP	ей	true
+1832	после школы	ем	KEEP	ем	short2	KEEP	ем	true
+1833	перед сном	ею	KEEP	ею	short2	KEEP	ею	true
+1834	во дворе	же	KEEP	же	short2	KEEP	же	true
+1835	за столом	за	KEEP	за	short2	KEEP	за	true
+1836	около дома	из	KEEP	из	short2	KEEP	из	true
+1837	возле реки	им	KEEP	им	short2	KEEP	им	true
+1838	внутри коробки	их	KEEP	их	short2	KEEP	их	true
+1839	снаружи было	ко	KEEP	ко	short2	KEEP	ко	true
+1840	кажется мне	ли	KEEP	ли	short2	KEEP	ли	true
+1841	точно помню	мы	KEEP	мы	short2	KEEP	мы	true
+1842	конечно да	на	KEEP	на	short2	KEEP	на	true
+1843	разве нет	не	KEEP	не	short2	KEEP	не	true
+1844	неужели правда	ни	KEEP	ни	short2	KEEP	ни	true
+1845	теперь понятно	но	KEEP	но	short2	KEEP	но	true
+1846	тогда решили	ну	KEEP	ну	short2	KEEP	ну	true
+1847	здесь тихо	об	KEEP	об	short2	KEEP	об	true
+1848	там холодно	он	KEEP	он	short2	KEEP	он	true
+1849	туда идём	от	KEEP	от	short2	KEEP	от	true
+1850	оттуда видно	ой	KEEP	ой	short2	KEEP	ой	true
+1851	she said	am	KEEP	am	short2	KEEP	am	true
+1852	he saw	an	KEEP	an	short2	KEEP	an	true
+1853	we walked	as	KEEP	as	short2	KEEP	as	true
+1854	you know	at	KEEP	at	short2	CONVERT	фе	false
+1855	they waited	be	KEEP	be	short2	KEEP	be	true
+1856	I think	by	KEEP	by	short2	KEEP	by	true
+1857	last night	do	KEEP	do	short2	KEEP	do	true
+1858	early morning	go	KEEP	go	short2	KEEP	go	true
+1859	in the park	he	KEEP	he	short2	KEEP	he	true
+1860	in the kitchen	hi	KEEP	hi	short2	KEEP	hi	true
+1861	after school	id	KEEP	id	short2	KEEP	id	true
+1862	before bed	if	KEEP	if	short2	CONVERT	ша	false
+1863	in the yard	in	KEEP	in	short2	CONVERT	шт	false
+1864	at the table	is	KEEP	is	short2	KEEP	is	true
+1865	near the house	it	KEEP	it	short2	KEEP	it	true
+1866	by the river	me	KEEP	me	short2	KEEP	me	true
+1867	inside the box	my	KEEP	my	short2	KEEP	my	true
+1868	outside it was	no	KEEP	no	short2	KEEP	no	true
+1869	it seems	of	KEEP	of	short2	KEEP	of	true
+1870	I remember	oh	KEEP	oh	short2	KEEP	oh	true
+1871	вчера вечером	f;	CONVERT	аж	short2	KEEP	f;	false
+1872	рано утром	fq	CONVERT	ай	short2	CONVERT	ай	true
+1873	в парке	f[	CONVERT	ах	short2	KEEP	f[	false
+1874	на кухне	,s	CONVERT	бы	short2	KEEP	,s	false
+1875	после школы	dj	CONVERT	во	short2	CONVERT	во	true
+1876	перед сном	ds	CONVERT	вы	short2	CONVERT	вы	true
+1877	во дворе	lf	CONVERT	да	short2	CONVERT	да	true
+1878	за столом	lj	CONVERT	до	short2	CONVERT	до	true
+1879	около дома	tt	CONVERT	ее	short2	CONVERT	ее	true
+1880	возле реки	t`	CONVERT	её	short2	KEEP	t`	false
+1881	внутри коробки	tq	CONVERT	ей	short2	CONVERT	ей	true
+1882	снаружи было	tv	CONVERT	ем	short2	CONVERT	ем	true
+1883	кажется мне	t.	CONVERT	ею	short2	KEEP	t.	false
+1884	точно помню	;t	CONVERT	же	short2	KEEP	;t	false
+1885	конечно да	pf	CONVERT	за	short2	CONVERT	за	true
+1886	разве нет	bp	CONVERT	из	short2	CONVERT	из	true
+1887	неужели правда	bv	CONVERT	им	short2	CONVERT	им	true
+1888	теперь понятно	b[	CONVERT	их	short2	KEEP	b[	false
+1889	тогда решили	rj	CONVERT	ко	short2	CONVERT	ко	true
+1890	здесь тихо	kb	CONVERT	ли	short2	CONVERT	ли	true
+1891	там холодно	vs	CONVERT	мы	short2	CONVERT	мы	true
+1892	туда идём	yf	CONVERT	на	short2	CONVERT	на	true
+1893	оттуда видно	yt	CONVERT	не	short2	CONVERT	не	true
+1894	мама сказала	yb	CONVERT	ни	short2	CONVERT	ни	true
+1895	он видел	yj	CONVERT	но	short2	CONVERT	но	true
+1896	она купила	ye	CONVERT	ну	short2	CONVERT	ну	true
+1897	мы гуляли	j,	CONVERT	об	short2	KEEP	j,	false
+1898	ты знаешь	jy	CONVERT	он	short2	CONVERT	он	true
+1899	они ждали	jn	CONVERT	от	short2	CONVERT	от	true
+1900	я думаю	jq	CONVERT	ой	short2	KEEP	jq	false
+1901	before bed	фь	CONVERT	am	short2	KEEP	фь	false
+1902	in the yard	фт	CONVERT	an	short2	KEEP	фт	false
+1903	at the table	фы	CONVERT	as	short2	KEEP	фы	false
+1904	near the house	фе	CONVERT	at	short2	KEEP	фе	false
+1905	by the river	иу	CONVERT	be	short2	KEEP	иу	false
+1906	inside the box	ин	CONVERT	by	short2	KEEP	ин	false
+1907	outside it was	вщ	CONVERT	do	short2	KEEP	вщ	false
+1908	it seems	пщ	CONVERT	go	short2	KEEP	пщ	false
+1909	I remember	ру	CONVERT	he	short2	KEEP	ру	false
+1910	of course	рш	CONVERT	hi	short2	KEEP	рш	false
+1911	really though	шв	CONVERT	id	short2	KEEP	шв	false
+1912	now it's clear	ша	CONVERT	if	short2	KEEP	ша	false
+1913	then we decided	шт	CONVERT	in	short2	KEEP	шт	false
+1914	here it's quiet	шы	CONVERT	is	short2	KEEP	шы	false
+1915	there it's cold	ше	CONVERT	it	short2	KEEP	ше	false
+1916	we're going there	ьу	CONVERT	me	short2	KEEP	ьу	false
+1917	from there you can see	ьн	CONVERT	my	short2	KEEP	ьн	false
+1918	she said	тщ	CONVERT	no	short2	KEEP	тщ	false
+1919	he saw	ща	CONVERT	of	short2	KEEP	ща	false
+1920	we walked	щр	CONVERT	oh	short2	KEEP	щр	false
+1921	снаружи было	ща	KEEP	ща	short2	KEEP	ща	true
+1922	кажется мне	щр	KEEP	щр	short2	KEEP	щр	true
+1923	there it's cold	ye	KEEP	ye	short2	CONVERT	ну	false
+1924	I remember	kb	KEEP	kb	short2	CONVERT	ли	false
+1925	here it's quiet	yj	KEEP	yj	short2	CONVERT	но	false
+1926	before bed	tv	KEEP	tv	short2	CONVERT	ем	false
+1927	she said	jn	KEEP	jn	short2	CONVERT	от	false
+1928	точно помню	щл	KEEP	щл	short2	KEEP	щл	true
+1929	in the yard	t.	KEEP	t.	short2	KEEP	t.	true
+1930	they waited	dj	KEEP	dj	short2	CONVERT	во	false
+1931	во дворе	шы	KEEP	шы	short2	KEEP	шы	true
+1932	здесь тихо	гз	KEEP	гз	short2	KEEP	гз	true
+1933	you know	gj	KEEP	gj	short2	CONVERT	по	false
+1934	last night	nt	KEEP	nt	short2	CONVERT	те	false
+1935	конечно да	щт	KEEP	щт	short2	KEEP	щт	true
+1936		fq	KEEP	fq	short2	CONVERT	ай	false
+1937		фь	KEEP	фь	short2	KEEP	фь	true
+1938		f[	KEEP	f[	short2	KEEP	f[	true
+1939		фт	KEEP	фт	short2	KEEP	фт	true
+1940		f;	KEEP	f;	short2	KEEP	f;	true
+1941		Qw3rty!x	KEEP	Qw3rty!x	password	KEEP	Qw3rty!x	true
+1942		P@ssw0rd2024	KEEP	P@ssw0rd2024	password	KEEP	P@ssw0rd2024	true
+1943		Tr0ub4dor&3	KEEP	Tr0ub4dor&3	password	KEEP	Tr0ub4dor&3	true
+1944		C0rrectHorse9	KEEP	C0rrectHorse9	password	KEEP	C0rrectHorse9	true
+1945		myS3cr3t#1	KEEP	myS3cr3t#1	password	KEEP	myS3cr3t#1	true
+1946		xK9$mLp2	KEEP	xK9$mLp2	password	KEEP	xK9$mLp2	true
+1947		Zx29!vBn	KEEP	Zx29!vBn	password	KEEP	Zx29!vBn	true
+1948		Adm1n$2024	KEEP	Adm1n$2024	password	KEEP	Adm1n$2024	true
+1949		R00t#Pass!	KEEP	R00t#Pass!	password	KEEP	R00t#Pass!	true
+1950		Qaz2wsx!@	KEEP	Qaz2wsx!@	password	KEEP	Qaz2wsx!@	true
+1951		Summer2024!	KEEP	Summer2024!	password	KEEP	Summer2024!	true
+1952		Winter@2023	KEEP	Winter@2023	password	KEEP	Winter@2023	true
+1953		J0hnDoe#99	KEEP	J0hnDoe#99	password	KEEP	J0hnDoe#99	true
+1954		aB3fG7!kL	KEEP	aB3fG7!kL	password	KEEP	aB3fG7!kL	true
+1955		N3wYorkCity1!	KEEP	N3wYorkCity1!	password	KEEP	N3wYorkCity1!	true
+1956		L0ndonBr1dge#	KEEP	L0ndonBr1dge#	password	KEEP	L0ndonBr1dge#	true
+1957		Berl1nWall9!	KEEP	Berl1nWall9!	password	KEEP	Berl1nWall9!	true
+1958		Tokyo2024$X	KEEP	Tokyo2024$X	password	KEEP	Tokyo2024$X	true
+1959		Par1s1234!Z	KEEP	Par1s1234!Z	password	KEEP	Par1s1234!Z	true
+1960		Mosc0wCity#	KEEP	Mosc0wCity#	password	KEEP	Mosc0wCity#	true
+1961		s3cr3tK3y!Q	KEEP	s3cr3tK3y!Q	password	KEEP	s3cr3tK3y!Q	true
+1962		myP@ss1234Z	KEEP	myP@ss1234Z	password	KEEP	myP@ss1234Z	true
+1963		admin2024Q!	KEEP	admin2024Q!	password	KEEP	admin2024Q!	true
+1964		r00tP@ss1X	KEEP	r00tP@ss1X	password	KEEP	r00tP@ss1X	true
+1965		D3v3loper#1	KEEP	D3v3loper#1	password	KEEP	D3v3loper#1	true
+1966		C0derLife$9	KEEP	C0derLife$9	password	KEEP	C0derLife$9	true
+1967		G1tHub2024!	KEEP	G1tHub2024!	password	KEEP	G1tHub2024!	true
+1968		St@ckOverflow9	KEEP	St@ckOverflow9	password	KEEP	St@ckOverflow9	true
+1969		Dr@gon2024!Z	KEEP	Dr@gon2024!Z	password	KEEP	Dr@gon2024!Z	true
+1970		Ph03nix9x!	KEEP	Ph03nix9x!	password	KEEP	Ph03nix9x!	true
+1971		Th3Matr1x1!	KEEP	Th3Matr1x1!	password	KEEP	Th3Matr1x1!	true
+1972		Ne0Zion99$	KEEP	Ne0Zion99$	password	KEEP	Ne0Zion99$	true
+1973		Sk1pper88#	KEEP	Sk1pper88#	password	KEEP	Sk1pper88#	true
+1974		C@ptainJack3!	KEEP	C@ptainJack3!	password	KEEP	C@ptainJack3!	true
+1975		Bl@ckPanther9	KEEP	Bl@ckPanther9	password	KEEP	Bl@ckPanther9	true
+1976		Wonder1Woman!	KEEP	Wonder1Woman!	password	KEEP	Wonder1Woman!	true
+1977		Superman123$	KEEP	Superman123$	password	KEEP	Superman123$	true
+1978		B@tman2024!	KEEP	B@tman2024!	password	KEEP	B@tman2024!	true
+1979		IronMan99#	KEEP	IronMan99#	password	KEEP	IronMan99#	true
+1980		Thor1Odin88!	KEEP	Thor1Odin88!	password	KEEP	Thor1Odin88!	true
+1981		Lok1Trick$9	KEEP	Lok1Trick$9	password	KEEP	Lok1Trick$9	true
+1982		Gr00t1234!	KEEP	Gr00t1234!	password	KEEP	Gr00t1234!	true
+1983		RocketRacc0on#	KEEP	RocketRacc0on#	password	KEEP	RocketRacc0on#	true
+1984		SuperP@ss99!	KEEP	SuperP@ss99!	password	KEEP	SuperP@ss99!	true
+1985		Xk7pL9mQ2!	KEEP	Xk7pL9mQ2!	password	KEEP	Xk7pL9mQ2!	true
+1986		Vb3nM8zX1$	KEEP	Vb3nM8zX1$	password	KEEP	Vb3nM8zX1$	true
+1987		Qw12eR34@9	KEEP	Qw12eR34@9	password	KEEP	Qw12eR34@9	true
+1988		As56dF78$1	KEEP	As56dF78$1	password	KEEP	As56dF78$1	true
+1989		Zx90cV12@8	KEEP	Zx90cV12@8	password	KEEP	Zx90cV12@8	true
+1990		T3stng123!	KEEP	T3stng123!	password	KEEP	T3stng123!	true
+1991		Debug#M0de9	KEEP	Debug#M0de9	password	KEEP	Debug#M0de9	true
+1992		Rel3ase2024!	KEEP	Rel3ase2024!	password	KEEP	Rel3ase2024!	true
+1993		BuildNumb3r9	KEEP	BuildNumb3r9	password	KEEP	BuildNumb3r9	true
+1994		Vers1on2024!	KEEP	Vers1on2024!	password	KEEP	Vers1on2024!	true
+1995		PatchN0tes9	KEEP	PatchN0tes9	password	KEEP	PatchN0tes9	true
+1996		Update2024!Z	KEEP	Update2024!Z	password	KEEP	Update2024!Z	true
+1997		Comm1tHash#9	KEEP	Comm1tHash#9	password	KEEP	Comm1tHash#9	true
+1998		BranchMa1n9!	KEEP	BranchMa1n9!	password	KEEP	BranchMa1n9!	true
+1999		Merge#Requ3st	KEEP	Merge#Requ3st	password	KEEP	Merge#Requ3st	true
+2000		F1nalBoss99!	KEEP	F1nalBoss99!	password	KEEP	F1nalBoss99!	true
+2001		https://example.com/path/to/page	KEEP	https://example.com/path/to/page	url	KEEP	https://example.com/path/to/page	true
+2002		http://sub.domain.co.uk/index.html	KEEP	http://sub.domain.co.uk/index.html	url	KEEP	http://sub.domain.co.uk/index.html	true
+2003		www.google.com	KEEP	www.google.com	url	KEEP	www.google.com	true
+2004		ftp://files.server.net/data.zip	KEEP	ftp://files.server.net/data.zip	url	KEEP	ftp://files.server.net/data.zip	true
+2005		user@example.com	KEEP	user@example.com	url	KEEP	user@example.com	true
+2006		john.doe+news@gmail.com	KEEP	john.doe+news@gmail.com	url	KEEP	john.doe+news@gmail.com	true
+2007		support@company.org	KEEP	support@company.org	url	KEEP	support@company.org	true
+2008		/usr/local/bin/python3	KEEP	/usr/local/bin/python3	url	KEEP	/usr/local/bin/python3	true
+2009		/home/user/documents/report.docx	KEEP	/home/user/documents/report.docx	url	KEEP	/home/user/documents/report.docx	true
+2010		C:\Users\Admin\Desktop\file.txt	KEEP	C:\Users\Admin\Desktop\file.txt	url	KEEP	C:\Users\Admin\Desktop\file.txt	true
+2011		D:\Projects\pulinto\src\main.rs	KEEP	D:\Projects\pulinto\src\main.rs	url	KEEP	D:\Projects\pulinto\src\main.rs	true
+2012		git@github.com:owner/repo.git	KEEP	git@github.com:owner/repo.git	url	KEEP	git@github.com:owner/repo.git	true
+2013		https://github.com/owner/repo/pull/42	KEEP	https://github.com/owner/repo/pull/42	url	KEEP	https://github.com/owner/repo/pull/42	true
+2014		https://stackoverflow.com/questions/12345	KEEP	https://stackoverflow.com/questions/12345	url	KEEP	https://stackoverflow.com/questions/12345	true
+2015		mailto:info@site.ru	KEEP	mailto:info@site.ru	url	KEEP	mailto:info@site.ru	true
+2016		smb://server/share/folder	KEEP	smb://server/share/folder	url	KEEP	smb://server/share/folder	true
+2017		ssh://user@192.168.1.1:22	KEEP	ssh://user@192.168.1.1:22	url	KEEP	ssh://user@192.168.1.1:22	true
+2018		127.0.0.1:8080	KEEP	127.0.0.1:8080	url	KEEP	127.0.0.1:8080	true
+2019		localhost:3000	KEEP	localhost:3000	url	KEEP	localhost:3000	true
+2020		https://api.service.io/v2/users?id=7	KEEP	https://api.service.io/v2/users?id=7	url	KEEP	https://api.service.io/v2/users?id=7	true
+2021		www.wikipedia.org/wiki/Rust_language	KEEP	www.wikipedia.org/wiki/Rust_language	url	KEEP	www.wikipedia.org/wiki/Rust_language	true
+2022		ftp.example.com	KEEP	ftp.example.com	url	KEEP	ftp.example.com	true
+2023		https://docs.rs/serde/latest/serde/	KEEP	https://docs.rs/serde/latest/serde/	url	KEEP	https://docs.rs/serde/latest/serde/	true
+2024		https://crates.io/crates/tokio	KEEP	https://crates.io/crates/tokio	url	KEEP	https://crates.io/crates/tokio	true
+2025		admin@localhost	KEEP	admin@localhost	url	KEEP	admin@localhost	true
+2026		noreply@service.com	KEEP	noreply@service.com	url	KEEP	noreply@service.com	true
+2027		https://t.me/channel_name	KEEP	https://t.me/channel_name	url	KEEP	https://t.me/channel_name	true
+2028		https://vk.com/id123456	KEEP	https://vk.com/id123456	url	KEEP	https://vk.com/id123456	true
+2029		https://yandex.ru/search/?text=погода	KEEP	https://yandex.ru/search/?text=погода	url	KEEP	https://yandex.ru/search/?text=погода	true
+2030		почта@яндекс.рф	KEEP	почта@яндекс.рф	url	KEEP	почта@яндекс.рф	true
+2031		ivan.petrov@mail.ru	KEEP	ivan.petrov@mail.ru	url	KEEP	ivan.petrov@mail.ru	true
+2032		https://ru.wikipedia.org/wiki/Заглавная_страница	KEEP	https://ru.wikipedia.org/wiki/Заглавная_страница	url	KEEP	https://ru.wikipedia.org/wiki/Заглавная_страница	true
+2033		C:\Windows\System32\drivers\etc\hosts	KEEP	C:\Windows\System32\drivers\etc\hosts	url	KEEP	C:\Windows\System32\drivers\etc\hosts	true
+2034		/etc/nginx/nginx.conf	KEEP	/etc/nginx/nginx.conf	url	KEEP	/etc/nginx/nginx.conf	true
+2035		/var/log/syslog	KEEP	/var/log/syslog	url	KEEP	/var/log/syslog	true
+2036		~/.bashrc	KEEP	~/.bashrc	url	KEEP	~/.bashrc	true
+2037		~/.ssh/id_rsa.pub	KEEP	~/.ssh/id_rsa.pub	url	KEEP	~/.ssh/id_rsa.pub	true
+2038		https://example.com:8443/secure	KEEP	https://example.com:8443/secure	url	KEEP	https://example.com:8443/secure	true
+2039		https://192.0.2.1/status	KEEP	https://192.0.2.1/status	url	KEEP	https://192.0.2.1/status	true
+2040		udp://239.255.255.250:1900	KEEP	udp://239.255.255.250:1900	url	KEEP	udp://239.255.255.250:1900	true
+2041		https://example.com/search?q=привет	KEEP	https://example.com/search?q=привет	url	KEEP	https://example.com/search?q=привет	true
+2042		https://en.wikipedia.org/wiki/Keyboard_layout	KEEP	https://en.wikipedia.org/wiki/Keyboard_layout	url	KEEP	https://en.wikipedia.org/wiki/Keyboard_layout	true
+2043		https://www.linkedin.com/in/username	KEEP	https://www.linkedin.com/in/username	url	KEEP	https://www.linkedin.com/in/username	true
+2044		https://twitter.com/handle	KEEP	https://twitter.com/handle	url	KEEP	https://twitter.com/handle	true
+2045		https://example.io/#section-2	KEEP	https://example.io/#section-2	url	KEEP	https://example.io/#section-2	true
+2046		file:///home/user/index.html	KEEP	file:///home/user/index.html	url	KEEP	file:///home/user/index.html	true
+2047		https://example.com/path%20with%20space	KEEP	https://example.com/path%20with%20space	url	KEEP	https://example.com/path%20with%20space	true
+2048		jdbc:postgresql://localhost:5432/mydb	KEEP	jdbc:postgresql://localhost:5432/mydb	url	KEEP	jdbc:postgresql://localhost:5432/mydb	true
+2049		redis://localhost:6379/0	KEEP	redis://localhost:6379/0	url	KEEP	redis://localhost:6379/0	true
+2050		amqp://guest:guest@localhost:5672	KEEP	amqp://guest:guest@localhost:5672	url	KEEP	amqp://guest:guest@localhost:5672	true
+2051		postgres://user:pass@host:5432/db	KEEP	postgres://user:pass@host:5432/db	url	KEEP	postgres://user:pass@host:5432/db	true
+2052		https://example.com/very/long/deep/path/structure	KEEP	https://example.com/very/long/deep/path/structure	url	KEEP	https://example.com/very/long/deep/path/structure	true
+2053		www.example.com/ru/catalog/item-12345	KEEP	www.example.com/ru/catalog/item-12345	url	KEEP	www.example.com/ru/catalog/item-12345	true
+2054		https://example.com?utm_source=news&utm_medium=email	KEEP	https://example.com?utm_source=news&utm_medium=email	url	KEEP	https://example.com?utm_source=news&utm_medium=email	true
+2055		https://example.com/#!/route	KEEP	https://example.com/#!/route	url	KEEP	https://example.com/#!/route	true
+2056		tel:+79161234567	KEEP	tel:+79161234567	url	KEEP	tel:+79161234567	true
+2057		sip:user@voip.example.com	KEEP	sip:user@voip.example.com	url	KEEP	sip:user@voip.example.com	true
+2058		market://details?id=com.example.app	KEEP	market://details?id=com.example.app	url	KEEP	market://details?id=com.example.app	true
+2059		steam://run/123456	KEEP	steam://run/123456	url	KEEP	steam://run/123456	true
+2060		https://example.com/api/v1/token?refresh=true	KEEP	https://example.com/api/v1/token?refresh=true	url	KEEP	https://example.com/api/v1/token?refresh=true	true
+2061		@param	KEEP	@param	code	KEEP	@param	true
+2062		std::vector	KEEP	std::vector	code	KEEP	std::vector	true
+2063		--verbose	KEEP	--verbose	code	KEEP	--verbose	true
+2064		snake_case	KEEP	snake_case	code	KEEP	snake_case	true
+2065		camelCase	KEEP	camelCase	code	KEEP	camelCase	true
+2066		PascalCase	KEEP	PascalCase	code	KEEP	PascalCase	true
+2067		SCREAMING_SNAKE_CASE	KEEP	SCREAMING_SNAKE_CASE	code	KEEP	SCREAMING_SNAKE_CASE	true
+2068		$variable	KEEP	$variable	code	KEEP	$variable	true
+2069		#define	KEEP	#define	code	KEEP	#define	true
+2070		::method	KEEP	::method	code	KEEP	::method	true
+2071		func()	KEEP	func()	code	KEEP	func()	true
+2072		arr[0]	KEEP	arr[0]	code	KEEP	arr[0]	true
+2073		a+=1	KEEP	a+=1	code	KEEP	a+=1	true
+2074		x::y::z	KEEP	x::y::z	code	KEEP	x::y::z	true
+2075		--help	KEEP	--help	code	KEEP	--help	true
+2076		-v	KEEP	-v	code	KEEP	-v	true
+2077		__init__	KEEP	__init__	code	KEEP	__init__	true
+2078		self.value	KEEP	self.value	code	KEEP	self.value	true
+2079		obj->method	KEEP	obj->method	code	KEEP	obj->method	true
+2080		a&&b	KEEP	a&&b	code	KEEP	a&&b	true
+2081		x||y	KEEP	x||y	code	KEEP	x||y	true
+2082		#include	KEEP	#include	code	KEEP	#include	true
+2083		template<T>	KEEP	template<T>	code	KEEP	template<T>	true
+2084		constexpr	KEEP	constexpr	code	KEEP	constexpr	true
+2085		nullptr	KEEP	nullptr	code	KEEP	nullptr	true
+2086		std::string	KEEP	std::string	code	KEEP	std::string	true
+2087		std::cout	KEEP	std::cout	code	KEEP	std::cout	true
+2088		std::endl	KEEP	std::endl	code	KEEP	std::endl	true
+2089		console.log	KEEP	console.log	code	KEEP	console.log	true
+2090		module.exports	KEEP	module.exports	code	KEEP	module.exports	true
+2091		require('fs')	KEEP	require('fs')	code	KEEP	require('fs')	true
+2092		@Override	KEEP	@Override	code	KEEP	@Override	true
+2093		@Test	KEEP	@Test	code	KEEP	@Test	true
+2094		#!/bin/bash	KEEP	#!/bin/bash	code	KEEP	#!/bin/bash	true
+2095		$HOME	KEEP	$HOME	code	KEEP	$HOME	true
+2096		$PATH	KEEP	$PATH	code	KEEP	$PATH	true
+2097		%APPDATA%	KEEP	%APPDATA%	code	KEEP	%APPDATA%	true
+2098		argv[1]	KEEP	argv[1]	code	KEEP	argv[1]	true
+2099		argc	KEEP	argc	code	KEEP	argc	true
+2100		malloc()	KEEP	malloc()	code	KEEP	malloc()	true
+2101		free()	KEEP	free()	code	KEEP	free()	true
+2102		sizeof(int)	KEEP	sizeof(int)	code	KEEP	sizeof(int)	true
+2103		std::unique_ptr	KEEP	std::unique_ptr	code	KEEP	std::unique_ptr	true
+2104		std::shared_ptr	KEEP	std::shared_ptr	code	KEEP	std::shared_ptr	true
+2105		Vec<T>	KEEP	Vec<T>	code	KEEP	Vec<T>	true
+2106		HashMap<K,V>	KEEP	HashMap<K,V>	code	KEEP	HashMap<K,V>	true
+2107		Option<T>	KEEP	Option<T>	code	KEEP	Option<T>	true
+2108		Result<T,E>	KEEP	Result<T,E>	code	KEEP	Result<T,E>	true
+2109		async fn	KEEP	async fn	code	KEEP	async fn	true
+2110		lambda x:x+1	KEEP	lambda x:x+1	code	KEEP	lambda x:x+1	true
+2111		foo.bar.baz	KEEP	foo.bar.baz	code	KEEP	foo.bar.baz	true
+2112		obj.prop	KEEP	obj.prop	code	KEEP	obj.prop	true
+2113		this.state	KEEP	this.state	code	KEEP	this.state	true
+2114		req.body	KEEP	req.body	code	KEEP	req.body	true
+2115		res.json()	KEEP	res.json()	code	KEEP	res.json()	true
+2116		process.env	KEEP	process.env	code	KEEP	process.env	true
+2117		os.environ	KEEP	os.environ	code	KEEP	os.environ	true
+2118		sys.argv	KEEP	sys.argv	code	KEEP	sys.argv	true
+2119		@app.route	KEEP	@app.route	code	KEEP	@app.route	true
+2120		@staticmethod	KEEP	@staticmethod	code	KEEP	@staticmethod	true
+2121		СССР	KEEP	СССР	abbrev	KEEP	СССР	true
+2122		ГОСТ	KEEP	ГОСТ	abbrev	KEEP	ГОСТ	true
+2123		США	KEEP	США	abbrev	KEEP	США	true
+2124		ООН	KEEP	ООН	abbrev	KEEP	ООН	true
+2125		ФСБ	KEEP	ФСБ	abbrev	KEEP	ФСБ	true
+2126		МВД	KEEP	МВД	abbrev	KEEP	МВД	true
+2127		ГИБДД	KEEP	ГИБДД	abbrev	KEEP	ГИБДД	true
+2128		ВУЗ	KEEP	ВУЗ	abbrev	KEEP	ВУЗ	true
+2129		НИИ	KEEP	НИИ	abbrev	KEEP	НИИ	true
+2130		ЖКХ	KEEP	ЖКХ	abbrev	KEEP	ЖКХ	true
+2131		СМИ	KEEP	СМИ	abbrev	KEEP	СМИ	true
+2132		ЦРУ	KEEP	ЦРУ	abbrev	KEEP	ЦРУ	true
+2133		НАТО	KEEP	НАТО	abbrev	KEEP	НАТО	true
+2134		ЕС	KEEP	ЕС	abbrev	KEEP	ЕС	true
+2135		ВВП	KEEP	ВВП	abbrev	KEEP	ВВП	true
+2136		ФБР	KEEP	ФБР	abbrev	KEEP	ФБР	true
+2137		РФ	KEEP	РФ	abbrev	KEEP	РФ	true
+2138		ЧП	KEEP	ЧП	abbrev	KEEP	ЧП	true
+2139		ИП	KEEP	ИП	abbrev	KEEP	ИП	true
+2140		ТВ	KEEP	ТВ	abbrev	KEEP	ТВ	true
+2141		NASA	KEEP	NASA	abbrev	KEEP	NASA	true
+2142		USA	KEEP	USA	abbrev	KEEP	USA	true
+2143		UK	KEEP	UK	abbrev	KEEP	UK	true
+2144		EU	KEEP	EU	abbrev	KEEP	EU	true
+2145		UN	KEEP	UN	abbrev	KEEP	UN	true
+2146		HTTP	KEEP	HTTP	abbrev	KEEP	HTTP	true
+2147		HTTPS	KEEP	HTTPS	abbrev	KEEP	HTTPS	true
+2148		URL	KEEP	URL	abbrev	KEEP	URL	true
+2149		HTML	KEEP	HTML	abbrev	KEEP	HTML	true
+2150		CSS	KEEP	CSS	abbrev	KEEP	CSS	true
+2151		API	KEEP	API	abbrev	KEEP	API	true
+2152		CPU	KEEP	CPU	abbrev	KEEP	CPU	true
+2153		GPU	KEEP	GPU	abbrev	KEEP	GPU	true
+2154		RAM	KEEP	RAM	abbrev	KEEP	RAM	true
+2155		USB	KEEP	USB	abbrev	KEEP	USB	true
+2156		DVD	KEEP	DVD	abbrev	KEEP	DVD	true
+2157		PDF	KEEP	PDF	abbrev	KEEP	PDF	true
+2158		JSON	KEEP	JSON	abbrev	KEEP	JSON	true
+2159		XML	KEEP	XML	abbrev	KEEP	XML	true
+2160		SQL	KEEP	SQL	abbrev	KEEP	SQL	true
+2161		Александр	KEEP	Александр	name	KEEP	Александр	true
+2162		Мария	KEEP	Мария	name	KEEP	Мария	true
+2163		Дмитрий	KEEP	Дмитрий	name	KEEP	Дмитрий	true
+2164		Иван	KEEP	Иван	name	KEEP	Иван	true
+2165		Ольга	KEEP	Ольга	name	KEEP	Ольга	true
+2166		Сергей	KEEP	Сергей	name	KEEP	Сергей	true
+2167		Наталья	KEEP	Наталья	name	KEEP	Наталья	true
+2168		Андрей	KEEP	Андрей	name	KEEP	Андрей	true
+2169		Владимир	KEEP	Владимир	name	KEEP	Владимир	true
+2170		Татьяна	KEEP	Татьяна	name	KEEP	Татьяна	true
+2171		Николай	KEEP	Николай	name	KEEP	Николай	true
+2172		Елена	KEEP	Елена	name	KEEP	Елена	true
+2173		Максим	KEEP	Максим	name	KEEP	Максим	true
+2174		Виктория	KEEP	Виктория	name	KEEP	Виктория	true
+2175		Anna	KEEP	Anna	name	KEEP	Anna	true
+2176		John	KEEP	John	name	KEEP	John	true
+2177		Smith	KEEP	Smith	name	KEEP	Smith	true
+2178		Ivanov	KEEP	Ivanov	name	KEEP	Ivanov	true
+2179		Ekaterina	KEEP	Ekaterina	name	KEEP	Ekaterina	true
+2180		Michael	KEEP	Michael	name	KEEP	Michael	true
+2181		Johnson	KEEP	Johnson	name	KEEP	Johnson	true
+2182		Williams	KEEP	Williams	name	KEEP	Williams	true
+2183		Brown	KEEP	Brown	name	KEEP	Brown	true
+2184		Davis	KEEP	Davis	name	KEEP	Davis	true
+2185		Miller	KEEP	Miller	name	KEEP	Miller	true
+2186		Wilson	KEEP	Wilson	name	KEEP	Wilson	true
+2187		Anderson	KEEP	Anderson	name	KEEP	Anderson	true
+2188		Thompson	KEEP	Thompson	name	KEEP	Thompson	true
+2189		Garcia	KEEP	Garcia	name	KEEP	Garcia	true
+2190		Martinez	KEEP	Martinez	name	KEEP	Martinez	true
+2191		nikname_92	KEEP	nikname_92	name	KEEP	nikname_92	true
+2192		xXx_Killer_xXx	KEEP	xXx_Killer_xXx	name	KEEP	xXx_Killer_xXx	true
+2193		dark_wolf777	KEEP	dark_wolf777	name	KEEP	dark_wolf777	true
+2194		kitty_cat	KEEP	kitty_cat	name	KEEP	kitty_cat	true
+2195		SuperMario	KEEP	SuperMario	name	KEEP	SuperMario	true
+2196		Pavel_Durov	KEEP	Pavel_Durov	name	KEEP	Pavel_Durov	true
+2197		CaptainJack	KEEP	CaptainJack	name	KEEP	CaptainJack	true
+2198		ivan.petrov	KEEP	ivan.petrov	name	KEEP	ivan.petrov	true
+2199		j.smith	KEEP	j.smith	name	KEEP	j.smith	true
+2200		Petrov	KEEP	Petrov	name	KEEP	Petrov	true
+2201		privet	KEEP	privet	translit	KEEP	privet	true
+2202		spasibo	KEEP	spasibo	translit	KEEP	spasibo	true
+2203		pozhaluysta	KEEP	pozhaluysta	translit	KEEP	pozhaluysta	true
+2204		zdravstvuyte	KEEP	zdravstvuyte	translit	KEEP	zdravstvuyte	true
+2205		dosvidaniya	KEEP	dosvidaniya	translit	KEEP	dosvidaniya	true
+2206		molodets	KEEP	molodets	translit	KEEP	molodets	true
+2207		normalno	KEEP	normalno	translit	KEEP	normalno	true
+2208		konechno	KEEP	konechno	translit	KEEP	konechno	true
+2209		nichego	KEEP	nichego	translit	KEEP	nichego	true
+2210		tochno	KEEP	tochno	translit	KEEP	tochno	true
+2211		ladno	KEEP	ladno	translit	KEEP	ladno	true
+2212		vobshe	KEEP	vobshe	translit	KEEP	vobshe	true
+2213		kstati	KEEP	kstati	translit	KEEP	kstati	true
+2214		blin	KEEP	blin	translit	KEEP	blin	true
+2215		nu	KEEP	nu	translit	KEEP	nu	true
+2216		davai	KEEP	davai	translit	KEEP	davai	true
+2217		poka	KEEP	poka	translit	KEEP	poka	true
+2218		horosho	KEEP	horosho	translit	KEEP	horosho	true
+2219		ploho	KEEP	ploho	translit	KEEP	ploho	true
+2220		otlichno	KEEP	otlichno	translit	KEEP	otlichno	true
+2221		prekrasno	KEEP	prekrasno	translit	KEEP	prekrasno	true
+2222		zamechatelno	KEEP	zamechatelno	translit	KEEP	zamechatelno	true
+2223		super	KEEP	super	translit	KEEP	super	true
+2224		klass	KEEP	klass	translit	KEEP	klass	true
+2225		prikolno	KEEP	prikolno	translit	KEEP	prikolno	true
+2226		smeshno	KEEP	smeshno	translit	KEEP	smeshno	true
+2227		grustno	KEEP	grustno	translit	KEEP	grustno	true
+2228		ustala	KEEP	ustala	translit	KEEP	ustala	true
+2229		ustal	KEEP	ustal	translit	KEEP	ustal	true
+2230		rabotayu	KEEP	rabotayu	translit	KEEP	rabotayu	true
+2231		uchus	KEEP	uchus	translit	KEEP	uchus	true
+2232		otdyhayu	KEEP	otdyhayu	translit	KEEP	otdyhayu	true
+2233		gulyayu	KEEP	gulyayu	translit	KEEP	gulyayu	true
+2234		dumayu	KEEP	dumayu	translit	KEEP	dumayu	true
+2235		znayu	KEEP	znayu	translit	KEEP	znayu	true
+2236		ponyala	KEEP	ponyala	translit	KEEP	ponyala	true
+2237		ponyal	KEEP	ponyal	translit	KEEP	ponyal	true
+2238		soglasen	KEEP	soglasen	translit	KEEP	soglasen	true
+2239		soglasna	KEEP	soglasna	translit	KEEP	soglasna	true
+2240		privetik	KEEP	privetik	translit	KEEP	privetik	true
+2241		Wi-Fiкой	KEEP	Wi-Fiкой	mixed	KEEP	Wi-Fiкой	true
+2242		USBпорт	KEEP	USBпорт	mixed	KEEP	USBпорт	true
+2243		SMSка	KEEP	SMSка	mixed	KEEP	SMSка	true
+2244		iPhoneов	KEEP	iPhoneов	mixed	KEEP	iPhoneов	true
+2245		ITшник	KEEP	ITшник	mixed	KEEP	ITшник	true
+2246		PRщик	KEEP	PRщик	mixed	KEEP	PRщик	true
+2247		VIP-зал	KEEP	VIP-зал	mixed	KEEP	VIP-зал	true
+2248		СМС-код	KEEP	СМС-код	mixed	CONVERT	CVC-rjl	false
+2249		HTMLка	KEEP	HTMLка	mixed	KEEP	HTMLка	true
+2250		DVDишник	KEEP	DVDишник	mixed	KEEP	DVDишник	true
+2251		iPadом	KEEP	iPadом	mixed	KEEP	iPadом	true
+2252		iOSе	KEEP	iOSе	mixed	KEEP	iOSе	true
+2253		Bluetoothом	KEEP	Bluetoothом	mixed	KEEP	Bluetoothом	true
+2254		USB-флешка	KEEP	USB-флешка	mixed	KEEP	USB-флешка	true
+2255		VPNом	KEEP	VPNом	mixed	KEEP	VPNом	true
+2256		SEOшник	KEEP	SEOшник	mixed	KEEP	SEOшник	true
+2257		GIF-ка	KEEP	GIF-ка	mixed	KEEP	GIF-ка	true
+2258		PDFка	KEEP	PDFка	mixed	KEEP	PDFка	true
+2259		CDшка	KEEP	CDшка	mixed	KEEP	CDшка	true
+2260		DVD-диск	KEEP	DVD-диск	mixed	KEEP	DVD-диск	true
+2261		HR-отдел	KEEP	HR-отдел	mixed	KEEP	HR-отдел	true
+2262		CEOшка	KEEP	CEOшка	mixed	KEEP	CEOшка	true
+2263		PR-акция	KEEP	PR-акция	mixed	KEEP	PR-акция	true
+2264		SPAшка	KEEP	SPAшка	mixed	KEEP	SPAшка	true
+2265		PHPшник	KEEP	PHPшник	mixed	KEEP	PHPшник	true
+2266		SQLщик	KEEP	SQLщик	mixed	KEEP	SQLщик	true
+2267		Wi-Fiщик	KEEP	Wi-Fiщик	mixed	KEEP	Wi-Fiщик	true
+2268		USB-кабель	KEEP	USB-кабель	mixed	KEEP	USB-кабель	true
+2269		IT-отдел	KEEP	IT-отдел	mixed	KEEP	IT-отдел	true
+2270		HTML-вёрстка	KEEP	HTML-вёрстка	mixed	KEEP	HTML-вёрстка	true
+2271		A4	KEEP	A4	number	KEEP	A4	true
+2272		ГОСТ-2024	KEEP	ГОСТ-2024	number	CONVERT	UJCN-2024	false
+2273		x86_64	KEEP	x86_64	number	KEEP	x86_64	true
+2274		IPv4	KEEP	IPv4	number	KEEP	IPv4	true
+2275		IPv6	KEEP	IPv6	number	KEEP	IPv6	true
+2276		3D	KEEP	3D	number	KEEP	3D	true
+2277		4K	KEEP	4K	number	KEEP	4K	true
+2278		Windows10	KEEP	Windows10	number	KEEP	Windows10	true
+2279		COVID-19	KEEP	COVID-19	number	KEEP	COVID-19	true
+2280		Т-34	KEEP	Т-34	number	CONVERT	N-34	false
+2281		Ту-154	KEEP	Ту-154	number	CONVERT	Ne-154	false
+2282		АК-47	KEEP	АК-47	number	CONVERT	FR-47	false
+2283		М16	KEEP	М16	number	KEEP	М16	true
+2284		Boeing747	KEEP	Boeing747	number	KEEP	Boeing747	true
+2285		Wi-Fi5	KEEP	Wi-Fi5	number	KEEP	Wi-Fi5	true
+2286		4G	KEEP	4G	number	KEEP	4G	true
+2287		5G	KEEP	5G	number	KEEP	5G	true
+2288		H2O	KEEP	H2O	number	KEEP	H2O	true
+2289		CO2	KEEP	CO2	number	KEEP	CO2	true
+2290		Windows11	KEEP	Windows11	number	KEEP	Windows11	true
+2291		iOS17	KEEP	iOS17	number	KEEP	iOS17	true
+2292		USB3.0	KEEP	USB3.0	number	KEEP	USB3.0	true
+2293		HDMI2.1	KEEP	HDMI2.1	number	KEEP	HDMI2.1	true
+2294		3G	KEEP	3G	number	KEEP	3G	true
+2295		Formula1	KEEP	Formula1	number	KEEP	Formula1	true
+2296		GTA5	KEEP	GTA5	number	KEEP	GTA5	true
+2297		PlayStation5	KEEP	PlayStation5	number	KEEP	PlayStation5	true
+2298		Apollo11	KEEP	Apollo11	number	KEEP	Apollo11	true
+2299		Sputnik1	KEEP	Sputnik1	number	KEEP	Sputnik1	true
+2300		Falcon9	KEEP	Falcon9	number	KEEP	Falcon9	true

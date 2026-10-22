@@ -1,0 +1,15 @@
+[package]
+name = "pulinto-layout"
+description = "Layout switching controllers for X11 and GNOME on Wayland"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+pulinto-core = { workspace = true }
+x11rb = { version = "0.13", features = ["xkb", "xinput"] }
+thiserror = "1.0"
+zbus = "4.2"

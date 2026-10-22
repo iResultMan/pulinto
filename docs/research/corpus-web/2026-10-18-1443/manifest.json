@@ -1,0 +1,716 @@
+{
+ "seed": 143792354,
+ "started": "2026-10-18 14:43:36",
+ "words_per_source": 3000,
+ "topics": {
+  "news_ru": {
+   "words": 1840,
+   "paragraphs": 58,
+   "pages": [
+    {
+     "url": "https://lenta.ru/news/2026/10/18/ivan-zolo-raskryl-prichinu-svoego-zaderzhaniya/",
+     "words": 149
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/17/desyatki-magazinov-postradali-vo-vremya-besporyadkov-v-marsele/",
+     "words": 124
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/sily-pvo-unichtozhili-bolee-desyati-letevshih-na-moskvu-bespilotnikov/",
+     "words": 71
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/v-ssha-otsenili-veroyatnost-blokirovaniya-dizelnoy-sdelki-s-rossiey/",
+     "words": 113
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/volga-obygrala-ska-habarovsk-v-14-m-ture-pervoy-ligi/",
+     "words": 111
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/tramp-rasskazal-o-polze-otmeny-antirossiyskih-adskih-sanktsiy/",
+     "words": 179
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/peskov-nazval-udary-vsu-po-rossii-proyavleniyami-agonii-ukrainy/",
+     "words": 101
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/rossiyanam-rasskazali-o-vliyanii-prazdnichnogo-dnya-4-noyabrya-na-zarplaty/",
+     "words": 139
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/rossiyanam-nazvali-pyat-sposobov-raspoznat-falshivogo-sotsrabotnika/",
+     "words": 296
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/fitso-ob-yasnil-zhelanie-evrosoyuza-prodolzhat-konflikt-na-ukraine/",
+     "words": 146
+    },
+    {
+     "url": "https://lenta.ru/news/2026/10/18/v-britanii-usomnilis-v-pugayuschem-prognoze-zelenskogo-dlya-evropy/",
+     "words": 162
+    },
+    {
+     "url": "https://ria.ru/20261018/ataka-2125237389.html",
+     "words": 55
+    },
+    {
+     "url": "https://ria.ru/20261018/britaniya-2125226654.html",
+     "words": 26
+    },
+    {
+     "url": "https://ria.ru/20261018/pvr-2125239328.html",
+     "words": 53
+    },
+    {
+     "url": "https://ria.ru/20261018/frantsiya-2125237897.html",
+     "words": 33
+    },
+    {
+     "url": "https://ria.ru/20261018/moshenniki-2125236024.html",
+     "words": 32
+    },
+    {
+     "url": "https://ria.ru/20261018/dtp-2125239795.html",
+     "words": 50
+    }
+   ]
+  },
+  "news_en": {
+   "words": 3429,
+   "paragraphs": 124,
+   "pages": [
+    {
+     "url": "https://www.bbc.co.uk/sounds/play/p0pgb3zl?at_medium=RSS&at_campaign=rss",
+     "words": 263
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmn8w5v8yne4o?at_medium=RSS&at_campaign=rss",
+     "words": 804
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+     "words": 1135
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c2lkky9zngvo?at_medium=RSS&at_campaign=rss",
+     "words": 245
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/10628994?at_medium=RSS&at_campaign=rss",
+     "words": 174
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+     "words": 808
+    }
+   ]
+  },
+  "it_ru": {
+   "words": 3046,
+   "paragraphs": 81,
+   "pages": [
+    {
+     "url": "https://habr.com/ru/articles/1095822/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095822",
+     "words": 142
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095790/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095790",
+     "words": 67
+    },
+    {
+     "url": "https://habr.com/ru/articles/1083638/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1083638",
+     "words": 32
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095746/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095746",
+     "words": 103
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095698/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095698",
+     "words": 56
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095768/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095768",
+     "words": 89
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095748/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095748",
+     "words": 87
+    },
+    {
+     "url": "https://habr.com/ru/articles/1093214/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1093214",
+     "words": 35
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095708/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095708",
+     "words": 55
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095820/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095820",
+     "words": 304
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095682/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095682",
+     "words": 58
+    },
+    {
+     "url": "https://habr.com/ru/companies/ruvds/articles/1094682/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1094682",
+     "words": 78
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095696/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095696",
+     "words": 52
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095764/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095764",
+     "words": 143
+    },
+    {
+     "url": "https://habr.com/ru/articles/1086462/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1086462",
+     "words": 51
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095714/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095714",
+     "words": 112
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095738/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095738",
+     "words": 50
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095808/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095808",
+     "words": 85
+    },
+    {
+     "url": "https://habr.com/ru/companies/timeweb/articles/1093928/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1093928",
+     "words": 86
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095818/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095818",
+     "words": 116
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095758/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095758",
+     "words": 72
+    },
+    {
+     "url": "https://habr.com/ru/companies/selectel/articles/1095074/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095074",
+     "words": 152
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095794/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095794",
+     "words": 47
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095704/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095704",
+     "words": 82
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095782/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095782",
+     "words": 47
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095802/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095802",
+     "words": 74
+    },
+    {
+     "url": "https://habr.com/ru/companies/tantor/articles/1095702/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095702",
+     "words": 104
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095776/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095776",
+     "words": 128
+    },
+    {
+     "url": "https://habr.com/ru/companies/ru_mts/articles/1095258/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095258",
+     "words": 340
+    },
+    {
+     "url": "https://habr.com/ru/articles/1094998/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1094998",
+     "words": 77
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095762/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095762",
+     "words": 52
+    },
+    {
+     "url": "https://habr.com/ru/articles/1095800/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1095800",
+     "words": 70
+    }
+   ]
+  },
+  "it_en": {
+   "words": 11309,
+   "paragraphs": 227,
+   "pages": [
+    {
+     "url": "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review",
+     "words": 124
+    },
+    {
+     "url": "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview",
+     "words": 110
+    },
+    {
+     "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
+     "words": 9462
+    },
+    {
+     "url": "https://www.bbc.co.uk/iplayer/episode/m0032yng?at_medium=RSS&at_campaign=rss",
+     "words": 27
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss",
+     "words": 649
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+     "words": 937
+    }
+   ]
+  },
+  "science_ru": {
+   "words": 2036,
+   "paragraphs": 42,
+   "pages": [
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/infernogallus-jamesi",
+     "words": 74
+    },
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/necrotizing-sialometaplasia",
+     "words": 67
+    },
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/no-negative-second",
+     "words": 105
+    },
+    {
+     "url": "https://nplus1.ru/blog/2026/10/16/economic-nobel-2026",
+     "words": 57
+    },
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/bouba-kiki-effect-in-dogs",
+     "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/fallward",
+     "words": 66
+    },
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/acne-estimates",
+     "words": 76
+    },
+    {
+     "url": "https://nplus1.ru/material/2026/10/16/pick-a-hand",
+     "words": 86
+    },
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/llm-theoretical-physics",
+     "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+     "url": "https://nplus1.ru/news/2026/10/16/sleep-diabetic-nephropathy",
+     "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Управляемая цепная реакция",
+     "words": 131
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Постзиготическая мутация",
+     "words": 152
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Правило Тициуса — Боде",
+     "words": 130
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Диспергирующая среда",
+     "words": 86
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Океанический разрыв",
+     "words": 89
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Биологические правила",
+     "words": 154
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/TROSY",
+     "words": 137
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Saratovia",
+     "words": 152
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Гибридный рой",
+     "words": 147
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Вид неба с других небесных тел",
+     "words": 174
+    },
+    {
+     "url": "https://ru.wikipedia.org/wiki/Гейслеровы трубки",
+     "words": 153
+    }
+   ]
+  },
+  "science_en": {
+   "words": 5136,
+   "paragraphs": 168,
+   "pages": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c8y56y6xg9n9o?at_medium=RSS&at_campaign=rss",
+     "words": 1380
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cy5dw4plzvlo?at_medium=RSS&at_campaign=rss",
+     "words": 2237
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/CDG-2",
+     "words": 187
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Photopharmacology",
+     "words": 163
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spatial biology",
+     "words": 149
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Supramolecular chemistry",
+     "words": 147
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Microscale chemistry",
+     "words": 173
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Biology of romantic love",
+     "words": 179
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Crystallography",
+     "words": 174
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Sinner's circle",
+     "words": 187
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cyclosiloxane",
+     "words": 160
+    }
+   ]
+  },
+  "business_ru": {
+   "words": 3156,
+   "paragraphs": 95,
+   "pages": [
+    {
+     "url": "https://www.rbc.ru/politics/18/10/2026/6ad49639ef5f7593f8b47d7c",
+     "words": 268
+    },
+    {
+     "url": "https://www.rbc.ru/rbcfreenews/6ad48c549f67ca48c40702f5",
+     "words": 196
+    },
+    {
+     "url": "https://www.rbc.ru/rbcfreenews/6ad4ac8069fdbd19e6519000",
+     "words": 210
+    },
+    {
+     "url": "https://www.rbc.ru/rbcfreenews/6ad48c0adced47723c55d468",
+     "words": 203
+    },
+    {
+     "url": "https://www.rbc.ru/sport/18/10/2026/6ad49313ae0abdefbadf4659",
+     "words": 155
+    },
+    {
+     "url": "https://www.rbc.ru/economics/18/10/2026/6ad4771314d7ccaafcae0b2d",
+     "words": 575
+    },
+    {
+     "url": "https://www.rbc.ru/rbcfreenews/6ad4a69507ac93d2f9a87f60",
+     "words": 140
+    },
+    {
+     "url": "https://www.rbc.ru/sport/18/10/2026/6ad2538934c88d2e008c3e1e",
+     "words": 135
+    },
+    {
+     "url": "https://www.rbc.ru/politics/18/10/2026/6ad49ae8ef5f7593f8b47d81",
+     "words": 312
+    },
+    {
+     "url": "https://www.rbc.ru/rbcfreenews/6ad49b2f98dce37ae8c96b8d",
+     "words": 264
+    },
+    {
+     "url": "https://www.rbc.ru/politics/18/10/2026/6ad494c617f5720b2695387e",
+     "words": 475
+    },
+    {
+     "url": "https://www.rbc.ru/rbcfreenews/6ad48c5b9f67ca48c40702f7",
+     "words": 223
+    }
+   ]
+  },
+  "business_en": {
+   "words": 3648,
+   "paragraphs": 128,
+   "pages": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=RSS&at_campaign=rss",
+     "words": 1023
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cq1j3x66e1rno?at_medium=RSS&at_campaign=rss",
+     "words": 482
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
+     "words": 953
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cvgyexx4g8ro?at_medium=RSS&at_campaign=rss",
+     "words": 1190
+    }
+   ]
+  },
+  "sport_ru": {
+   "words": 1976,
+   "paragraphs": 24,
+   "pages": [
+    {
+     "url": "https://www.sports.ru/football/1117405078-arshavin-o-novom-kontrakte-barko-on-odin-iz-luchshix-igrokov-rpl-i-dol.html",
+     "words": 85
+    },
+    {
+     "url": "https://www.sports.ru/hockey/1117405062-gomolyako-ob-uxode-razina-iz-metallurga-vse-eti-intrigi-nachalis-eshhe.html",
+     "words": 254
+    },
+    {
+     "url": "https://www.sports.ru/football/1117405085-zhoau-batchi-sudi-davyat-na-krasnodar-ves-sezon-nashego-igroka-100-uda.html",
+     "words": 104
+    },
+    {
+     "url": "https://www.sports.ru/amfootball/1117404935-ej-dzhej-braun-vernulsya-v-osnovnoj-sostav-nyu-inglenda-pered-matchem-.html",
+     "words": 136
+    },
+    {
+     "url": "https://www.sports.ru/football/1117404779-zenit-primet-axmat-v-11-m-ture-rpl-match-nachnetsya-v-1400.html",
+     "words": 16
+    },
+    {
+     "url": "https://www.sports.ru/hockey/1117405089-nxl-minnesota-protiv-kolambusa-karolina-sygraet-s-kalgari.html",
+     "words": 17
+    },
+    {
+     "url": "https://www.sports.ru/rugby/1117402818-chempionat-rossii-po-regbi-dinamo-sygraet-so-streloj-ak-bars-v-finale-.html",
+     "words": 140
+    },
+    {
+     "url": "https://www.sports.ru/automoto/1117405084-kristian-xorner-o-gran-pri-abu-dabi-2021-mir-xotel-uvidet-sxvatku-fers.html",
+     "words": 210
+    },
+    {
+     "url": "https://www.sports.ru/football/1117405080-valentin-palczev-v-igre-s-loko-rasslabilis-v-oborone-i-nedorabotali-v-.html",
+     "words": 110
+    },
+    {
+     "url": "https://www.sports.ru/football/1117405066-franchesko-totti-futbol-stal-biznesom-v-nem-bolshe-fiziki-trudno-najti.html",
+     "words": 101
+    },
+    {
+     "url": "https://www.sports.ru/tennis/1117405047-shelton-vtoroj-god-podryad-kvalificzirovalsya-na-itogovyj-turnir.html",
+     "words": 83
+    },
+    {
+     "url": "https://www.sports.ru/tennis/1117405081-davidovich-fokina-pervyj-tennisist-s-2022-go-vyigravshij-masters-s-49-.html",
+     "words": 81
+    },
+    {
+     "url": "https://www.sports.ru/hockey/1117404827-fonbet-chempionat-kxl-avangard-primet-traktor-czska-sygraet-s-neftexim.html",
+     "words": 13
+    },
+    {
+     "url": "https://www.sports.ru/automoto/1117405063-kodzi-vatanabe-otnosheniya-xondy-i-aston-martin-ukreplyayutsya-obe-sto.html",
+     "words": 159
+    },
+    {
+     "url": "https://www.sports.ru/tennis/1117404683-shanxaj-atp-2026-rezultaty-finala.html",
+     "words": 10
+    },
+    {
+     "url": "https://www.sports.ru/hockey/1117405079-zernov-pro-obmen-iz-czska-dazhe-ne-dumal-ni-o-chem-takom-no-vosprinyal.html",
+     "words": 120
+    },
+    {
+     "url": "https://www.sports.ru/rugby/1117405069-moskovskoe-dinamo-vpervye-v-istorii-stalo-chempionom-rossii-po-regbi.html",
+     "words": 57
+    },
+    {
+     "url": "https://www.sports.ru/boxing/1117405071-daniel-dyubua-nokautiroval-fabio-uordli-za-dva-raunda-obzor-boya.html",
+     "words": 95
+    },
+    {
+     "url": "https://www.sports.ru/tennis/1117405035-27-letnij-davidovich-fokina-na-masterse-v-shanxae-vyigral-krupnejshij-.html",
+     "words": 121
+    },
+    {
+     "url": "https://www.sports.ru/cycle-racing/1117405049-lysenko-o-pobede-na-chempionate-mira-ni-na-chto-ne-rasschityvala-segod.html",
+     "words": 64
+    }
+   ]
+  },
+  "sport_en": {
+   "words": 4094,
+   "paragraphs": 162,
+   "pages": [
+    {
+     "url": "https://www.bbc.co.uk/sport/football/videos/cq146nz03k16o?at_medium=RSS&at_campaign=rss",
+     "words": 36
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/american-football/videos/cm87z38014p1o?at_medium=RSS&at_campaign=rss",
+     "words": 32
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/boxing/articles/c6gelq3zdy8wo?at_medium=RSS&at_campaign=rss",
+     "words": 830
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/football/videos/cmj47e479xg5o?at_medium=RSS&at_campaign=rss",
+     "words": 27
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cq77pv1jdxxpo?at_medium=RSS&at_campaign=rss",
+     "words": 42
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/cycling/videos/cjy56pk5wg54o?at_medium=RSS&at_campaign=rss",
+     "words": 32
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/olympics/articles/cm0rl7504204o?at_medium=RSS&at_campaign=rss",
+     "words": 399
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/football/articles/cm3wv4ej7lv2o?at_medium=RSS&at_campaign=rss",
+     "words": 821
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cm70prd68l5jo?at_medium=RSS&at_campaign=rss",
+     "words": 20
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/football/articles/c6y93xw91dv3o?at_medium=RSS&at_campaign=rss",
+     "words": 713
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/football/articles/cmde8l07569no?at_medium=RSS&at_campaign=rss",
+     "words": 1142
+    }
+   ]
+  },
+  "literature_ru": {
+   "words": 3888,
+   "paragraphs": 32,
+   "pages": [
+    {
+     "url": "https://ru.wikisource.org/wiki/ЭСБЕ/Оаху",
+     "words": 60
+    },
+    {
+     "url": "https://ru.wikisource.org/wiki/Христос взалкал, и видит Он/Гусли 1911 года (ВТ)",
+     "words": 139
+    },
+    {
+     "url": "https://ru.wikisource.org/wiki/Столетний юбилей митрополита Филарета (Катков)",
+     "words": 3689
+    }
+   ]
+  },
+  "literature_en": {
+   "words": 3065,
+   "paragraphs": 68,
+   "pages": [
+    {
+     "url": "https://en.wikisource.org/wiki/The Time Machine (Heinemann text)/Chapter 16",
+     "words": 1678
+    },
+    {
+     "url": "https://en.wikisource.org/wiki/Dictionary of Indian Biography/Brodrick, Hon. William St. John Fremantle",
+     "words": 81
+    },
+    {
+     "url": "https://en.wikisource.org/wiki/Thom's Irish Who's Who/O'Neill, Colonel William Henry Slingsby",
+     "words": 63
+    },
+    {
+     "url": "https://en.wikisource.org/wiki/The Smart Set/'Ties of Auld Lang Syne'",
+     "words": 1243
+    }
+   ]
+  },
+  "speech_ru": {
+   "words": 1535,
+   "paragraphs": 58,
+   "pages": [
+    {
+     "url": "https://pikabu.ru/story/claude_code_pochti_tselikom_zamenil_dzhunov_v_anthropic_tam_poschitali_kak_ii_izmenil_rabotu_kompanii_14435810",
+     "words": 55
+    },
+    {
+     "url": "https://pikabu.ru/story/ya_imeyu_pravo_narushat_kak_larisa_dolina_opozorilas_pered_prostyim_malchikom_zvezdnaya_bolezn_za_kotoruyu_stanovitsya_nelovko_14435510",
+     "words": 546
+    },
+    {
+     "url": "https://pikabu.ru/story/larisa_dolina_vnov_ugodila_v_skandal_mchala_s_migalkoy_na_yubiley_k_nikolayu_baskovu_14434748",
+     "words": 237
+    },
+    {
+     "url": "https://pikabu.ru/story/osenniy_reportazh_iz_kotodoma_v_kotorom_zhivyot_mnogo_spasennyikh_koteev_14435619",
+     "words": 36
+    },
+    {
+     "url": "https://pikabu.ru/story/otvet_na_post_devushka_ishchet_muzha_14435723",
+     "words": 69
+    },
+    {
+     "url": "https://pikabu.ru/story/otvet_na_post_realnyiy_srok_za_tatuirovku_grozit_tatumasteru_iz_permi__rabotu_devushki_priznali_oskorblyayushchey_chuvstva_veruyushchikh_14434969",
+     "words": 166
+    },
+    {
+     "url": "https://pikabu.ru/story/zanyali_moyo_mesto_v_poezde__ya_peresel_v_pervyiy_klass_14435436",
+     "words": 205
+    },
+    {
+     "url": "https://pikabu.ru/story/otvet_na_post_esli_yeychar_takuyu_khren_sprashivaet__srazu_mozhno_ukhodit_s_sobesa_14435394",
+     "words": 221
+    }
+   ]
+  },
+  "speech_en": {
+   "words": 6401,
+   "paragraphs": 219,
+   "pages": [
+    {
+     "url": "https://hn.algolia.com/api/v1/search?tags=comment&hitsPerPage=100&page=1",
+     "words": 6401
+    }
+   ]
+  }
+ },
+ "finished": "2026-10-18 14:49:32"
+}

@@ -1,0 +1,2301 @@
+id	context	input	expect	correct	category	assumed_layout	predicted	predicted_text	stage
+1	на самом деле	молодость	KEEP	молодость	prose_ru	ru	KEEP	молодость	dictionary
+2	почти	ворота	KEEP	ворота	prose_ru	ru	KEEP	ворота	dictionary
+3	очень	сеть	KEEP	сеть	prose_ru	ru	KEEP	сеть	dictionary
+4		водитель	KEEP	водитель	prose_ru	ru	KEEP	водитель	dictionary
+5	после того	река	KEEP	река	prose_ru	ru	KEEP	река	dictionary
+6	я думаю	рынок	KEEP	рынок	prose_ru	ru	KEEP	рынок	dictionary
+7	вроде	скирда	KEEP	скирда	prose_ru	ru	KEEP	скирда	dictionary
+8		поэт	KEEP	поэт	prose_ru	ru	KEEP	поэт	dictionary
+9		цеп	KEEP	цеп	prose_ru	ru	KEEP	цеп	dictionary
+10	между прочим	крыльцо	KEEP	крыльцо	prose_ru	ru	KEEP	крыльцо	dictionary
+11		скала	KEEP	скала	prose_ru	ru	KEEP	скала	dictionary
+12		сутки	KEEP	сутки	prose_ru	ru	KEEP	сутки	dictionary
+13	наверное это	радуга	KEEP	радуга	prose_ru	ru	KEEP	радуга	dictionary
+14		гроза	KEEP	гроза	prose_ru	ru	KEEP	гроза	dictionary
+15		сантехник	KEEP	сантехник	prose_ru	ru	KEEP	сантехник	dictionary
+16	не	салат	KEEP	салат	prose_ru	ru	KEEP	салат	dictionary
+17		высоко	KEEP	высоко	prose_ru	ru	KEEP	высоко	dictionary
+18		десятилетие	KEEP	десятилетие	prose_ru	ru	KEEP	десятилетие	dictionary
+19	они шли	ковёр	KEEP	ковёр	prose_ru	ru	KEEP	ковёр	dictionary
+20		грусть	KEEP	грусть	prose_ru	ru	KEEP	грусть	dictionary
+21	после того	небо	KEEP	небо	prose_ru	ru	KEEP	небо	dictionary
+22	сразу	завидовать	KEEP	завидовать	prose_ru	ru	KEEP	завидовать	dictionary
+23		летать	KEEP	летать	prose_ru	ru	KEEP	летать	dictionary
+24		идти	KEEP	идти	prose_ru	ru	KEEP	идти	dictionary
+25		продать	KEEP	продать	prose_ru	ru	KEEP	продать	dictionary
+26	он сказал	диск	KEEP	диск	prose_ru	ru	KEEP	диск	dictionary
+27		мальчик	KEEP	мальчик	prose_ru	ru	KEEP	мальчик	dictionary
+28	тогда	гаджет	KEEP	гаджет	prose_ru	ru	KEEP	гаджет	dictionary
+29	тот	калитка	KEEP	калитка	prose_ru	ru	KEEP	калитка	dictionary
+30	теперь	инженер	KEEP	инженер	prose_ru	ru	KEEP	инженер	dictionary
+31	тем не менее	память	KEEP	память	prose_ru	ru	KEEP	память	dictionary
+32	в	соскучиться	KEEP	соскучиться	prose_ru	ru	KEEP	соскучиться	dictionary
+33	я думаю	черёмуха	KEEP	черёмуха	prose_ru	ru	KEEP	черёмуха	dictionary
+34		конечно	KEEP	конечно	prose_ru	ru	KEEP	конечно	dictionary
+35	после того	туман	KEEP	туман	prose_ru	ru	KEEP	туман	dictionary
+36	точно	спросить	KEEP	спросить	prose_ru	ru	KEEP	спросить	dictionary
+37	кажется мне	мириться	KEEP	мириться	prose_ru	ru	KEEP	мириться	dictionary
+38	потом	умный	KEEP	умный	prose_ru	ru	KEEP	умный	dictionary
+39	уже	компьютер	KEEP	компьютер	prose_ru	ru	KEEP	компьютер	dictionary
+40	мы видели	отдельно	KEEP	отдельно	prose_ru	ru	KEEP	отдельно	dictionary
+41	туда	бухгалтер	KEEP	бухгалтер	prose_ru	ru	KEEP	бухгалтер	dictionary
+42		ступа	KEEP	ступа	prose_ru	ru	KEEP	ступа	dictionary
+43		миром	KEEP	миром	prose_ru	ru	KEEP	миром	dictionary
+44		армяк	KEEP	армяк	prose_ru	ru	KEEP	армяк	dictionary
+45	мой	дельфин	KEEP	дельфин	prose_ru	ru	KEEP	дельфин	dictionary
+46	тем не менее	химик	KEEP	химик	prose_ru	ru	KEEP	химик	dictionary
+47		кресло	KEEP	кресло	prose_ru	ru	KEEP	кресло	dictionary
+48	он сказал	ответу	KEEP	ответу	prose_ru	ru	KEEP	ответу	dictionary
+49	она была	помешать	KEEP	помешать	prose_ru	ru	KEEP	помешать	dictionary
+50		капуста	KEEP	капуста	prose_ru	ru	KEEP	капуста	dictionary
+51	если честно	сложный	KEEP	сложный	prose_ru	ru	KEEP	сложный	dictionary
+52	в общем	девять	KEEP	девять	prose_ru	ru	KEEP	девять	dictionary
+53	снова	девушка	KEEP	девушка	prose_ru	ru	KEEP	девушка	dictionary
+54		приложение	KEEP	приложение	prose_ru	ru	KEEP	приложение	dictionary
+55	почти	папка	KEEP	папка	prose_ru	ru	KEEP	папка	dictionary
+56	вдруг	плыть	KEEP	плыть	prose_ru	ru	KEEP	плыть	dictionary
+57		жираф	KEEP	жираф	prose_ru	ru	KEEP	жираф	dictionary
+58		сени	KEEP	сени	prose_ru	ru	KEEP	сени	dictionary
+59		сухой	KEEP	сухой	prose_ru	ru	KEEP	сухой	dictionary
+60	это	актёр	KEEP	актёр	prose_ru	ru	KEEP	актёр	dictionary
+61	тогда	простой	KEEP	простой	prose_ru	ru	KEEP	простой	dictionary
+62	тем не менее	старуха	KEEP	старуха	prose_ru	ru	KEEP	старуха	dictionary
+63	не	кабан	KEEP	кабан	prose_ru	ru	KEEP	кабан	dictionary
+64	вообще	громко	KEEP	громко	prose_ru	ru	KEEP	громко	dictionary
+65		механик	KEEP	механик	prose_ru	ru	KEEP	механик	dictionary
+66		полдень	KEEP	полдень	prose_ru	ru	KEEP	полдень	dictionary
+67	и	мир	KEEP	мир	prose_ru	ru	KEEP	мир	dictionary
+68		большой	KEEP	большой	prose_ru	ru	KEEP	большой	dictionary
+69		испугаться	KEEP	испугаться	prose_ru	ru	KEEP	испугаться	dictionary
+70	вдруг	кастрюля	KEEP	кастрюля	prose_ru	ru	KEEP	кастрюля	dictionary
+71		счастье	KEEP	счастье	prose_ru	ru	KEEP	счастье	dictionary
+72		кафтан	KEEP	кафтан	prose_ru	ru	KEEP	кафтан	dictionary
+73	перед тем	девочка	KEEP	девочка	prose_ru	ru	KEEP	девочка	dictionary
+74		собака	KEEP	собака	prose_ru	ru	KEEP	собака	dictionary
+75	оттуда	грубый	KEEP	грубый	prose_ru	ru	KEEP	грубый	dictionary
+76	тогда	физик	KEEP	физик	prose_ru	ru	KEEP	физик	dictionary
+77	какой-то	судьба	KEEP	судьба	prose_ru	ru	KEEP	судьба	dictionary
+78	тот	молоко	KEEP	молоко	prose_ru	ru	KEEP	молоко	dictionary
+79		быстрый	KEEP	быстрый	prose_ru	ru	KEEP	быстрый	dictionary
+80	очень	скука	KEEP	скука	prose_ru	ru	KEEP	скука	dictionary
+81	ты знаешь	писать	KEEP	писать	prose_ru	ru	KEEP	писать	dictionary
+82	просто	видеть	KEEP	видеть	prose_ru	ru	KEEP	видеть	dictionary
+83	если честно	покупать	KEEP	покупать	prose_ru	ru	KEEP	покупать	dictionary
+84		усталость	KEEP	усталость	prose_ru	ru	KEEP	усталость	dictionary
+85	точно	закат	KEEP	закат	prose_ru	ru	KEEP	закат	dictionary
+86	наш	сирень	KEEP	сирень	prose_ru	ru	KEEP	сирень	dictionary
+87		далеко	KEEP	далеко	prose_ru	ru	KEEP	далеко	dictionary
+88	на	заканчивать	KEEP	заканчивать	prose_ru	ru	KEEP	заканчивать	dictionary
+89		сыр	KEEP	сыр	prose_ru	ru	KEEP	сыр	dictionary
+90	совсем	бочка	KEEP	бочка	prose_ru	ru	KEEP	бочка	dictionary
+91	он сказал	коромысло	KEEP	коромысло	prose_ru	ru	KEEP	коромысло	dictionary
+92	она была	школа	KEEP	школа	prose_ru	ru	KEEP	школа	dictionary
+93	это	пятьдесят	KEEP	пятьдесят	prose_ru	ru	KEEP	пятьдесят	dictionary
+94	после того	рукавица	KEEP	рукавица	prose_ru	ru	KEEP	рукавица	dictionary
+95	тем не менее	один	KEEP	один	prose_ru	ru	KEEP	один	dictionary
+96	точно	земляк	KEEP	земляк	prose_ru	ru	KEEP	земляк	dictionary
+97	если честно	пожалеть	KEEP	пожалеть	prose_ru	ru	KEEP	пожалеть	dictionary
+98	ты знаешь	зима	KEEP	зима	prose_ru	ru	KEEP	зима	dictionary
+99	после того	астра	KEEP	астра	prose_ru	ru	KEEP	астра	dictionary
+100	тем не менее	взять	KEEP	взять	prose_ru	ru	KEEP	взять	dictionary
+101		делом	KEEP	делом	prose_ru	ru	KEEP	делом	dictionary
+102	в общем	любовь	KEEP	любовь	prose_ru	ru	KEEP	любовь	dictionary
+103	вроде	вокзал	KEEP	вокзал	prose_ru	ru	KEEP	вокзал	dictionary
+104	после того	тундра	KEEP	тундра	prose_ru	ru	KEEP	тундра	dictionary
+105	какой-то	понимать	KEEP	понимать	prose_ru	ru	KEEP	понимать	dictionary
+106		программа	KEEP	программа	prose_ru	ru	KEEP	программа	dictionary
+107	просто	нож	KEEP	нож	prose_ru	ru	KEEP	нож	dictionary
+108	ты знаешь	миру	KEEP	миру	prose_ru	ru	KEEP	миру	dictionary
+109	это	ученик	KEEP	ученик	prose_ru	ru	KEEP	ученик	dictionary
+110	здесь	короткий	KEEP	короткий	prose_ru	ru	KEEP	короткий	dictionary
+111		действительно	KEEP	действительно	prose_ru	ru	KEEP	действительно	dictionary
+112	тем не менее	сканер	KEEP	сканер	prose_ru	ru	KEEP	сканер	dictionary
+113	мы часто	скучать	KEEP	скучать	prose_ru	ru	KEEP	скучать	dictionary
+114	между прочим	поесть	KEEP	поесть	prose_ru	ru	KEEP	поесть	dictionary
+115	на самом деле	масло	KEEP	масло	prose_ru	ru	KEEP	масло	dictionary
+116		улица	KEEP	улица	prose_ru	ru	KEEP	улица	dictionary
+117	себе	парк	KEEP	парк	prose_ru	ru	KEEP	парк	dictionary
+118		деньгам	KEEP	деньгам	prose_ru	ru	KEEP	деньгам	dictionary
+119	рядом со	коридор	KEEP	коридор	prose_ru	ru	KEEP	коридор	dictionary
+120	кроме того	самовар	KEEP	самовар	prose_ru	ru	KEEP	самовар	dictionary
+121	кажется мне	дрон	KEEP	дрон	prose_ru	ru	KEEP	дрон	bigram
+122	в общем	воспоминание	KEEP	воспоминание	prose_ru	ru	KEEP	воспоминание	dictionary
+123	наш	рябина	KEEP	рябина	prose_ru	ru	KEEP	рябина	dictionary
+124		узкий	KEEP	узкий	prose_ru	ru	KEEP	узкий	dictionary
+125		лиственница	KEEP	лиственница	prose_ru	ru	KEEP	лиственница	dictionary
+126	просто	помогать	KEEP	помогать	prose_ru	ru	KEEP	помогать	dictionary
+127		ложка	KEEP	ложка	prose_ru	ru	KEEP	ложка	dictionary
+128	совсем	снег	KEEP	снег	prose_ru	ru	KEEP	снег	dictionary
+129	на	улыбнуться	KEEP	улыбнуться	prose_ru	ru	KEEP	улыбнуться	dictionary
+130		ручей	KEEP	ручей	prose_ru	ru	KEEP	ручей	dictionary
+131	перед тем	мужчина	KEEP	мужчина	prose_ru	ru	KEEP	мужчина	dictionary
+132	уже	победа	KEEP	победа	prose_ru	ru	KEEP	победа	dictionary
+133	просто	неудача	KEEP	неудача	prose_ru	ru	KEEP	неудача	dictionary
+134	в общем	поспать	KEEP	поспать	prose_ru	ru	KEEP	поспать	dictionary
+135	мой	фабрика	KEEP	фабрика	prose_ru	ru	KEEP	фабрика	dictionary
+136	ты знаешь	яблоко	KEEP	яблоко	prose_ru	ru	KEEP	яблоко	dictionary
+137	перед тем	эпоха	KEEP	эпоха	prose_ru	ru	KEEP	эпоха	dictionary
+138	на самом деле	ива	KEEP	ива	prose_ru	ru	KEEP	ива	dictionary
+139		интересный	KEEP	интересный	prose_ru	ru	KEEP	интересный	dictionary
+140	перед тем	зодчий	KEEP	зодчий	prose_ru	ru	KEEP	зодчий	dictionary
+141	наверное это	слышать	KEEP	слышать	prose_ru	ru	KEEP	слышать	dictionary
+142	кажется мне	пассажир	KEEP	пассажир	prose_ru	ru	KEEP	пассажир	dictionary
+143	наверное это	нарцисс	KEEP	нарцисс	prose_ru	ru	KEEP	нарцисс	dictionary
+144	на самом деле	тополь	KEEP	тополь	prose_ru	ru	KEEP	тополь	dictionary
+145	сразу	тигр	KEEP	тигр	prose_ru	ru	KEEP	тигр	dictionary
+146		забыть	KEEP	забыть	prose_ru	ru	KEEP	забыть	dictionary
+147	кажется мне	оса	KEEP	оса	prose_ru	ru	KEEP	оса	dictionary
+148		словах	KEEP	словах	prose_ru	ru	KEEP	словах	dictionary
+149		хлеб	KEEP	хлеб	prose_ru	ru	KEEP	хлеб	dictionary
+150		ненавидеть	KEEP	ненавидеть	prose_ru	ru	KEEP	ненавидеть	dictionary
+151	оттуда	ломать	KEEP	ломать	prose_ru	ru	KEEP	ломать	dictionary
+152	по сути	знать	KEEP	знать	prose_ru	ru	KEEP	знать	dictionary
+153		шкаф	KEEP	шкаф	prose_ru	ru	KEEP	шкаф	dictionary
+154	это	продюсер	KEEP	продюсер	prose_ru	ru	KEEP	продюсер	dictionary
+155	какой-то	ухват	KEEP	ухват	prose_ru	ru	KEEP	ухват	dictionary
+156	опять	играть	KEEP	играть	prose_ru	ru	KEEP	играть	dictionary
+157	мы часто	опасный	KEEP	опасный	prose_ru	ru	KEEP	опасный	dictionary
+158		наличник	KEEP	наличник	prose_ru	ru	KEEP	наличник	dictionary
+159	совсем	особенно	KEEP	особенно	prose_ru	ru	KEEP	особенно	dictionary
+160	ты знаешь	жизнью	KEEP	жизнью	prose_ru	ru	KEEP	жизнью	dictionary
+161	какой-то	домов	KEEP	домов	prose_ru	ru	KEEP	домов	dictionary
+162	они шли	женщина	KEEP	женщина	prose_ru	ru	KEEP	женщина	dictionary
+163		гвоздика	KEEP	гвоздика	prose_ru	ru	KEEP	гвоздика	dictionary
+164	разве	весна	KEEP	весна	prose_ru	ru	KEEP	весна	dictionary
+165	снова	интернет	KEEP	интернет	prose_ru	ru	KEEP	интернет	dictionary
+166	разве	старый	KEEP	старый	prose_ru	ru	KEEP	старый	dictionary
+167		чистый	KEEP	чистый	prose_ru	ru	KEEP	чистый	dictionary
+168		телевизор	KEEP	телевизор	prose_ru	ru	KEEP	телевизор	dictionary
+169		ясень	KEEP	ясень	prose_ru	ru	KEEP	ясень	dictionary
+170		научиться	KEEP	научиться	prose_ru	ru	KEEP	научиться	dictionary
+171	на самом деле	тридцать	KEEP	тридцать	prose_ru	ru	KEEP	тридцать	dictionary
+172		времени	KEEP	времени	prose_ru	ru	KEEP	времени	dictionary
+173	на самом деле	слова	KEEP	слова	prose_ru	ru	KEEP	слова	dictionary
+174		племянник	KEEP	племянник	prose_ru	ru	KEEP	племянник	dictionary
+175		лимон	KEEP	лимон	prose_ru	ru	KEEP	лимон	dictionary
+176		посох	KEEP	посох	prose_ru	ru	KEEP	посох	dictionary
+177	почти	ответа	KEEP	ответа	prose_ru	ru	KEEP	ответа	dictionary
+178	снова	врач	KEEP	врач	prose_ru	ru	KEEP	врач	dictionary
+179		пять	KEEP	пять	prose_ru	ru	KEEP	пять	dictionary
+180	он сказал	тонкий	KEEP	тонкий	prose_ru	ru	KEEP	тонкий	dictionary
+181		рассвет	KEEP	рассвет	prose_ru	ru	KEEP	рассвет	dictionary
+182	кроме того	машину	KEEP	машину	prose_ru	ru	KEEP	машину	dictionary
+183	почти	вопросом	KEEP	вопросом	prose_ru	ru	KEEP	вопросом	dictionary
+184	уже	сапог	KEEP	сапог	prose_ru	ru	KEEP	сапог	dictionary
+185	тот	дизайнер	KEEP	дизайнер	prose_ru	ru	KEEP	дизайнер	dictionary
+186	разве	никогда	KEEP	никогда	prose_ru	ru	KEEP	никогда	dictionary
+187		гнев	KEEP	гнев	prose_ru	ru	KEEP	гнев	dictionary
+188	тогда	смелость	KEEP	смелость	prose_ru	ru	KEEP	смелость	dictionary
+189		ковш	KEEP	ковш	prose_ru	ru	KEEP	ковш	dictionary
+190	по сути	страны	KEEP	страны	prose_ru	ru	KEEP	страны	dictionary
+191		клубника	KEEP	клубника	prose_ru	ru	KEEP	клубника	dictionary
+192	рядом со	астроном	KEEP	астроном	prose_ru	ru	KEEP	астроном	dictionary
+193	вроде	стадион	KEEP	стадион	prose_ru	ru	KEEP	стадион	dictionary
+194	вдруг	тревожный	KEEP	тревожный	prose_ru	ru	KEEP	тревожный	dictionary
+195		игра	KEEP	игра	prose_ru	ru	KEEP	игра	dictionary
+196	точно	сорок	KEEP	сорок	prose_ru	ru	KEEP	сорок	dictionary
+197	не	успокоиться	KEEP	успокоиться	prose_ru	ru	KEEP	успокоиться	dictionary
+198		калина	KEEP	калина	prose_ru	ru	KEEP	калина	dictionary
+199	точно	грустный	KEEP	грустный	prose_ru	ru	KEEP	грустный	dictionary
+200		осина	KEEP	осина	prose_ru	ru	KEEP	осина	dictionary
+201	оттуда	сервер	KEEP	сервер	prose_ru	ru	KEEP	сервер	dictionary
+202	на	интерес	KEEP	интерес	prose_ru	ru	KEEP	интерес	dictionary
+203	на самом деле	дома	KEEP	дома	prose_ru	ru	KEEP	дома	dictionary
+204		объяснить	KEEP	объяснить	prose_ru	ru	KEEP	объяснить	dictionary
+205		шесть	KEEP	шесть	prose_ru	ru	KEEP	шесть	dictionary
+206	между прочим	сестра	KEEP	сестра	prose_ru	ru	KEEP	сестра	dictionary
+207		каменщик	KEEP	каменщик	prose_ru	ru	KEEP	каменщик	dictionary
+208	оттуда	городах	KEEP	городах	prose_ru	ru	KEEP	городах	dictionary
+209	мы видели	книгой	KEEP	книгой	prose_ru	ru	KEEP	книгой	dictionary
+210	если честно	музыкант	KEEP	музыкант	prose_ru	ru	KEEP	музыкант	dictionary
+211		купить	KEEP	купить	prose_ru	ru	KEEP	купить	dictionary
+212	кроме того	арбуз	KEEP	арбуз	prose_ru	ru	KEEP	арбуз	dictionary
+213		сын	KEEP	сын	prose_ru	ru	KEEP	сын	dictionary
+214	вроде	грязный	KEEP	грязный	prose_ru	ru	KEEP	грязный	dictionary
+215	перед тем	дела	KEEP	дела	prose_ru	ru	KEEP	дела	dictionary
+216		четыре	KEEP	четыре	prose_ru	ru	KEEP	четыре	dictionary
+217	если честно	пациент	KEEP	пациент	prose_ru	ru	KEEP	пациент	dictionary
+218	в общем	клён	KEEP	клён	prose_ru	ru	KEEP	клён	dictionary
+219	в	парикмахер	KEEP	парикмахер	prose_ru	ru	KEEP	парикмахер	dictionary
+220	снова	геолог	KEEP	геолог	prose_ru	ru	KEEP	геолог	dictionary
+221	в общем	брат	KEEP	брат	prose_ru	ru	KEEP	брат	dictionary
+222	мы часто	двор	KEEP	двор	prose_ru	ru	KEEP	двор	dictionary
+223	в общем	свежий	KEEP	свежий	prose_ru	ru	KEEP	свежий	dictionary
+224	мы часто	увидеть	KEEP	увидеть	prose_ru	ru	KEEP	увидеть	dictionary
+225	тот	серп	KEEP	серп	prose_ru	ru	KEEP	серп	dictionary
+226	на самом деле	внезапно	KEEP	внезапно	prose_ru	ru	KEEP	внезапно	dictionary
+227		ненависть	KEEP	ненависть	prose_ru	ru	KEEP	ненависть	dictionary
+228	оттуда	лечь	KEEP	лечь	prose_ru	ru	KEEP	лечь	dictionary
+229	если честно	мудрость	KEEP	мудрость	prose_ru	ru	KEEP	мудрость	dictionary
+230	мы часто	миллион	KEEP	миллион	prose_ru	ru	KEEP	миллион	dictionary
+231		портной	KEEP	портной	prose_ru	ru	KEEP	портной	dictionary
+232	после того	маленький	KEEP	маленький	prose_ru	ru	KEEP	маленький	dictionary
+233	в общем	подвал	KEEP	подвал	prose_ru	ru	KEEP	подвал	dictionary
+234	не	редко	KEEP	редко	prose_ru	ru	KEEP	редко	dictionary
+235	какой-то	вредный	KEEP	вредный	prose_ru	ru	KEEP	вредный	dictionary
+236	себе	лукошко	KEEP	лукошко	prose_ru	ru	KEEP	лукошко	dictionary
+237	потом	гость	KEEP	гость	prose_ru	ru	KEEP	гость	dictionary
+238	себе	сквер	KEEP	сквер	prose_ru	ru	KEEP	сквер	dictionary
+239	кроме того	кадка	KEEP	кадка	prose_ru	ru	KEEP	кадка	dictionary
+240	очень	туесок	KEEP	туесок	prose_ru	ru	KEEP	туесок	dictionary
+241	мой	искать	KEEP	искать	prose_ru	ru	KEEP	искать	dictionary
+242	между прочим	орёл	KEEP	орёл	prose_ru	ru	KEEP	орёл	dictionary
+243	в общем	дождь	KEEP	дождь	prose_ru	ru	KEEP	дождь	dictionary
+244	вообще	пылесос	KEEP	пылесос	prose_ru	ru	KEEP	пылесос	dictionary
+245	разве	впечатление	KEEP	впечатление	prose_ru	ru	KEEP	впечатление	dictionary
+246		памятник	KEEP	памятник	prose_ru	ru	KEEP	памятник	dictionary
+247		луна	KEEP	луна	prose_ru	ru	KEEP	луна	dictionary
+248	оттуда	людей	KEEP	людей	prose_ru	ru	KEEP	людей	dictionary
+249		банан	KEEP	банан	prose_ru	ru	KEEP	банан	dictionary
+250	просто	потерять	KEEP	потерять	prose_ru	ru	KEEP	потерять	dictionary
+251	мы часто	завод	KEEP	завод	prose_ru	ru	KEEP	завод	dictionary
+252	тот	молодой	KEEP	молодой	prose_ru	ru	KEEP	молодой	dictionary
+253	между прочим	кистень	KEEP	кистень	prose_ru	ru	KEEP	кистень	dictionary
+254	уже	лапти	KEEP	лапти	prose_ru	ru	KEEP	лапти	dictionary
+255	кроме того	деревня	KEEP	деревня	prose_ru	ru	KEEP	деревня	dictionary
+256	на самом деле	пион	KEEP	пион	prose_ru	ru	KEEP	пион	dictionary
+257		рано	KEEP	рано	prose_ru	ru	KEEP	рано	dictionary
+258	перед тем	счастливый	KEEP	счастливый	prose_ru	ru	KEEP	счастливый	dictionary
+259	вдруг	город	KEEP	город	prose_ru	ru	KEEP	город	dictionary
+260		отвечать	KEEP	отвечать	prose_ru	ru	KEEP	отвечать	dictionary
+261		брать	KEEP	брать	prose_ru	ru	KEEP	брать	dictionary
+262		куст	KEEP	куст	prose_ru	ru	KEEP	куст	dictionary
+263	он сказал	закрыть	KEEP	закрыть	prose_ru	ru	KEEP	закрыть	dictionary
+264	рядом со	светофор	KEEP	светофор	prose_ru	ru	KEEP	светофор	dictionary
+265		квартира	KEEP	квартира	prose_ru	ru	KEEP	квартира	dictionary
+266	мы видели	бабушка	KEEP	бабушка	prose_ru	ru	KEEP	бабушка	dictionary
+267	мы видели	лето	KEEP	лето	prose_ru	ru	KEEP	лето	dictionary
+268	если честно	ящерица	KEEP	ящерица	prose_ru	ru	KEEP	ящерица	dictionary
+269	вдруг	бабочка	KEEP	бабочка	prose_ru	ru	KEEP	бабочка	dictionary
+270	наверное это	телефон	KEEP	телефон	prose_ru	ru	KEEP	телефон	dictionary
+271	после того	стена	KEEP	стена	prose_ru	ru	KEEP	стена	dictionary
+272	рядом со	восемь	KEEP	восемь	prose_ru	ru	KEEP	восемь	dictionary
+273	снова	колокольчик	KEEP	колокольчик	prose_ru	ru	KEEP	колокольчик	dictionary
+274		песок	KEEP	песок	prose_ru	ru	KEEP	песок	dictionary
+275	я думаю	переулок	KEEP	переулок	prose_ru	ru	KEEP	переулок	dictionary
+276		ветер	KEEP	ветер	prose_ru	ru	KEEP	ветер	dictionary
+277	тогда	петь	KEEP	петь	prose_ru	ru	KEEP	петь	dictionary
+278	вокруг дома	спрашивать	KEEP	спрашивать	prose_ru	ru	KEEP	спрашивать	dictionary
+279	себе	некрасивый	KEEP	некрасивый	prose_ru	ru	KEEP	некрасивый	dictionary
+280	тем не менее	полиция	KEEP	полиция	prose_ru	ru	KEEP	полиция	dictionary
+281	если честно	слушать	KEEP	слушать	prose_ru	ru	KEEP	слушать	dictionary
+282	просто	юность	KEEP	юность	prose_ru	ru	KEEP	юность	dictionary
+283	я думаю	извиниться	KEEP	извиниться	prose_ru	ru	KEEP	извиниться	dictionary
+284	рядом со	гусь	KEEP	гусь	prose_ru	ru	KEEP	гусь	dictionary
+285		тусклый	KEEP	тусклый	prose_ru	ru	KEEP	тусклый	dictionary
+286	и	начать	KEEP	начать	prose_ru	ru	KEEP	начать	dictionary
+287	наверное это	система	KEEP	система	prose_ru	ru	KEEP	система	dictionary
+288	я думаю	муравей	KEEP	муравей	prose_ru	ru	KEEP	муравей	dictionary
+289		всегда	KEEP	всегда	prose_ru	ru	KEEP	всегда	dictionary
+290	на самом деле	апельсин	KEEP	апельсин	prose_ru	ru	KEEP	апельсин	dictionary
+291		внимание	KEEP	внимание	prose_ru	ru	KEEP	внимание	dictionary
+292		аэропорт	KEEP	аэропорт	prose_ru	ru	KEEP	аэропорт	dictionary
+293	вдруг	начальник	KEEP	начальник	prose_ru	ru	KEEP	начальник	dictionary
+294	в	банк	KEEP	банк	prose_ru	ru	KEEP	банк	dictionary
+295	они шли	колбаса	KEEP	колбаса	prose_ru	ru	KEEP	колбаса	dictionary
+296	наверное это	закончить	KEEP	закончить	prose_ru	ru	KEEP	закончить	dictionary
+297	мы видели	мост	KEEP	мост	prose_ru	ru	KEEP	мост	dictionary
+298	мы часто	коза	KEEP	коза	prose_ru	ru	KEEP	коза	dictionary
+299		шишка	KEEP	шишка	prose_ru	ru	KEEP	шишка	dictionary
+300		обезьяна	KEEP	обезьяна	prose_ru	ru	KEEP	обезьяна	dictionary
+301	просто	извиняться	KEEP	извиняться	prose_ru	ru	KEEP	извиняться	dictionary
+302	и	корень	KEEP	корень	prose_ru	ru	KEEP	корень	dictionary
+303	по сути	низко	KEEP	низко	prose_ru	ru	KEEP	низко	dictionary
+304	между прочим	столяр	KEEP	столяр	prose_ru	ru	KEEP	столяр	dictionary
+305	рядом со	изба	KEEP	изба	prose_ru	ru	KEEP	изба	dictionary
+306	если честно	обязательно	KEEP	обязательно	prose_ru	ru	KEEP	обязательно	dictionary
+307		лиса	KEEP	лиса	prose_ru	ru	KEEP	лиса	dictionary
+308		настроение	KEEP	настроение	prose_ru	ru	KEEP	настроение	dictionary
+309	если честно	остров	KEEP	остров	prose_ru	ru	KEEP	остров	dictionary
+310		заяц	KEEP	заяц	prose_ru	ru	KEEP	заяц	dictionary
+311	он сказал	вишня	KEEP	вишня	prose_ru	ru	KEEP	вишня	dictionary
+312		понять	KEEP	понять	prose_ru	ru	KEEP	понять	dictionary
+313	себе	водопад	KEEP	водопад	prose_ru	ru	KEEP	водопад	dictionary
+314		электрик	KEEP	электрик	prose_ru	ru	KEEP	электрик	dictionary
+315	он сказал	воробей	KEEP	воробей	prose_ru	ru	KEEP	воробей	dictionary
+316		машиной	KEEP	машиной	prose_ru	ru	KEEP	машиной	dictionary
+317		пчела	KEEP	пчела	prose_ru	ru	KEEP	пчела	dictionary
+318	между прочим	сосед	KEEP	сосед	prose_ru	ru	KEEP	сосед	dictionary
+319	после того	светлый	KEEP	светлый	prose_ru	ru	KEEP	светлый	dictionary
+320		плохо	KEEP	плохо	prose_ru	ru	KEEP	плохо	dictionary
+321	ты знаешь	диван	KEEP	диван	prose_ru	ru	KEEP	диван	dictionary
+322	опять	книг	KEEP	книг	prose_ru	ru	KEEP	книг	dictionary
+323	я думаю	слон	KEEP	слон	prose_ru	ru	KEEP	слон	dictionary
+324	он сказал	домами	KEEP	домами	prose_ru	ru	KEEP	домами	dictionary
+325	на	медведь	KEEP	медведь	prose_ru	ru	KEEP	медведь	dictionary
+326	между прочим	журналист	KEEP	журналист	prose_ru	ru	KEEP	журналист	dictionary
+327		дело	KEEP	дело	prose_ru	ru	KEEP	дело	dictionary
+328		злой	KEEP	злой	prose_ru	ru	KEEP	злой	dictionary
+329		университет	KEEP	университет	prose_ru	ru	KEEP	университет	dictionary
+330	оттуда	жизни	KEEP	жизни	prose_ru	ru	KEEP	жизни	dictionary
+331	если честно	война	KEEP	война	prose_ru	ru	KEEP	война	dictionary
+332	теперь	облако	KEEP	облако	prose_ru	ru	KEEP	облако	dictionary
+333	тем не менее	благодарить	KEEP	благодарить	prose_ru	ru	KEEP	благодарить	dictionary
+334	они шли	злиться	KEEP	злиться	prose_ru	ru	KEEP	злиться	dictionary
+335	она была	чугунок	KEEP	чугунок	prose_ru	ru	KEEP	чугунок	dictionary
+336	рядом со	книгу	KEEP	книгу	prose_ru	ru	KEEP	книгу	dictionary
+337		ноутбук	KEEP	ноутбук	prose_ru	ru	KEEP	ноутбук	dictionary
+338	снова	стыдиться	KEEP	стыдиться	prose_ru	ru	KEEP	стыдиться	dictionary
+339	наверное это	аптека	KEEP	аптека	prose_ru	ru	KEEP	аптека	dictionary
+340		рогожа	KEEP	рогожа	prose_ru	ru	KEEP	рогожа	dictionary
+341	вокруг дома	разозлиться	KEEP	разозлиться	prose_ru	ru	KEEP	разозлиться	dictionary
+342	он сказал	старик	KEEP	старик	prose_ru	ru	KEEP	старик	dictionary
+343	неужели	позавидовать	KEEP	позавидовать	prose_ru	ru	KEEP	позавидовать	dictionary
+344	тот	человек	KEEP	человек	prose_ru	ru	KEEP	человек	dictionary
+345	тем не менее	огурец	KEEP	огурец	prose_ru	ru	KEEP	огурец	dictionary
+346	наверное это	привычка	KEEP	привычка	prose_ru	ru	KEEP	привычка	dictionary
+347	тем не менее	берег	KEEP	берег	prose_ru	ru	KEEP	берег	dictionary
+348		подруга	KEEP	подруга	prose_ru	ru	KEEP	подруга	dictionary
+349	тот	алгоритм	KEEP	алгоритм	prose_ru	ru	KEEP	алгоритм	dictionary
+350	вокруг дома	тарелка	KEEP	тарелка	prose_ru	ru	KEEP	тарелка	dictionary
+351		пол	KEEP	пол	prose_ru	ru	KEEP	пол	dictionary
+352	они шли	больница	KEEP	больница	prose_ru	ru	KEEP	больница	dictionary
+353		красиво	KEEP	красиво	prose_ru	ru	KEEP	красиво	dictionary
+354	на	скульптор	KEEP	скульптор	prose_ru	ru	KEEP	скульптор	dictionary
+355	потом	удача	KEEP	удача	prose_ru	ru	KEEP	удача	dictionary
+356	точно	жалеть	KEEP	жалеть	prose_ru	ru	KEEP	жалеть	dictionary
+357	перед тем	зипун	KEEP	зипун	prose_ru	ru	KEEP	зипун	dictionary
+358	уже	работать	KEEP	работать	prose_ru	ru	KEEP	работать	dictionary
+359	ты знаешь	борьба	KEEP	борьба	prose_ru	ru	KEEP	борьба	dictionary
+360	на самом деле	лететь	KEEP	лететь	prose_ru	ru	KEEP	лететь	dictionary
+361	кроме того	груша	KEEP	груша	prose_ru	ru	KEEP	груша	dictionary
+362	разве	вода	KEEP	вода	prose_ru	ru	KEEP	вода	dictionary
+363		ложь	KEEP	ложь	prose_ru	ru	KEEP	ложь	dictionary
+364	после того	землетрясение	KEEP	землетрясение	prose_ru	ru	KEEP	землетрясение	dictionary
+365	вообще	честный	KEEP	честный	prose_ru	ru	KEEP	честный	dictionary
+366	они шли	острог	KEEP	острог	prose_ru	ru	KEEP	острог	dictionary
+367	перед тем	океан	KEEP	океан	prose_ru	ru	KEEP	океан	dictionary
+368	неужели	человеку	KEEP	человеку	prose_ru	ru	KEEP	человеку	dictionary
+369	на самом деле	спокойный	KEEP	спокойный	prose_ru	ru	KEEP	спокойный	dictionary
+370	вокруг дома	старость	KEEP	старость	prose_ru	ru	KEEP	старость	dictionary
+371		учиться	KEEP	учиться	prose_ru	ru	KEEP	учиться	dictionary
+372	она была	доброта	KEEP	доброта	prose_ru	ru	KEEP	доброта	dictionary
+373	мой	комод	KEEP	комод	prose_ru	ru	KEEP	комод	dictionary
+374	наверное это	лук	KEEP	лук	prose_ru	ru	KEEP	лук	dictionary
+375	мы видели	мясо	KEEP	мясо	prose_ru	ru	KEEP	мясо	dictionary
+376	теперь	поссориться	KEEP	поссориться	prose_ru	ru	KEEP	поссориться	dictionary
+377		приятель	KEEP	приятель	prose_ru	ru	KEEP	приятель	dictionary
+378	просто	полати	KEEP	полати	prose_ru	ru	KEEP	полати	dictionary
+379	вообще	кедр	KEEP	кедр	prose_ru	ru	KEEP	кедр	dictionary
+380	наверное это	встать	KEEP	встать	prose_ru	ru	KEEP	встать	dictionary
+381	кажется мне	тяжёлый	KEEP	тяжёлый	prose_ru	ru	KEEP	тяжёлый	dictionary
+382	оттуда	бежать	KEEP	бежать	prose_ru	ru	KEEP	бежать	dictionary
+383	это	солнце	KEEP	солнце	prose_ru	ru	KEEP	солнце	dictionary
+384	она была	парень	KEEP	парень	prose_ru	ru	KEEP	парень	dictionary
+385		вспомнить	KEEP	вспомнить	prose_ru	ru	KEEP	вспомнить	dictionary
+386	вокруг дома	секретарь	KEEP	секретарь	prose_ru	ru	KEEP	секретарь	dictionary
+387	они шли	наушники	KEEP	наушники	prose_ru	ru	KEEP	наушники	dictionary
+388		городов	KEEP	городов	prose_ru	ru	KEEP	городов	dictionary
+389	рядом со	дом	KEEP	дом	prose_ru	ru	KEEP	дом	dictionary
+390	перед тем	ледник	KEEP	ледник	prose_ru	ru	KEEP	ледник	dictionary
+391	опять	файл	KEEP	файл	prose_ru	ru	KEEP	файл	dictionary
+392	просто	улей	KEEP	улей	prose_ru	ru	KEEP	улей	dictionary
+393	рядом со	кухня	KEEP	кухня	prose_ru	ru	KEEP	кухня	dictionary
+394	если честно	коллега	KEEP	коллега	prose_ru	ru	KEEP	коллега	dictionary
+395	наш	музыка	KEEP	музыка	prose_ru	ru	KEEP	музыка	dictionary
+396	оттуда	сахар	KEEP	сахар	prose_ru	ru	KEEP	сахар	dictionary
+397	вокруг дома	слово	KEEP	слово	prose_ru	ru	KEEP	слово	dictionary
+398	здесь	кушак	KEEP	кушак	prose_ru	ru	KEEP	кушак	dictionary
+399	себе	опять	KEEP	опять	prose_ru	ru	KEEP	опять	dictionary
+400		клавиатура	KEEP	клавиатура	prose_ru	ru	KEEP	клавиатура	dictionary
+401		овин	KEEP	овин	prose_ru	ru	KEEP	овин	dictionary
+402		хозяйка	KEEP	хозяйка	prose_ru	ru	KEEP	хозяйка	dictionary
+403	туда	театр	KEEP	театр	prose_ru	ru	KEEP	театр	dictionary
+404	вокруг дома	слива	KEEP	слива	prose_ru	ru	KEEP	слива	dictionary
+405	оттуда	часто	KEEP	часто	prose_ru	ru	KEEP	часто	dictionary
+406	после того	богатый	KEEP	богатый	prose_ru	ru	KEEP	богатый	dictionary
+407	и	поверить	KEEP	поверить	prose_ru	ru	KEEP	поверить	dictionary
+408	в общем	двадцать	KEEP	двадцать	prose_ru	ru	KEEP	двадцать	dictionary
+409		спокойствие	KEEP	спокойствие	prose_ru	ru	KEEP	спокойствие	dictionary
+410		болезнь	KEEP	болезнь	prose_ru	ru	KEEP	болезнь	dictionary
+411		племянница	KEEP	племянница	prose_ru	ru	KEEP	племянница	dictionary
+412		города	KEEP	города	prose_ru	ru	KEEP	города	dictionary
+413		паук	KEEP	паук	prose_ru	ru	KEEP	паук	dictionary
+414	теперь	взрослый	KEEP	взрослый	prose_ru	ru	KEEP	взрослый	dictionary
+415		год	KEEP	год	prose_ru	ru	KEEP	год	dictionary
+416		прочитать	KEEP	прочитать	prose_ru	ru	KEEP	прочитать	dictionary
+417		слабый	KEEP	слабый	prose_ru	ru	KEEP	слабый	dictionary
+418	если честно	немного	KEEP	немного	prose_ru	ru	KEEP	немного	dictionary
+419	на самом деле	море	KEEP	море	prose_ru	ru	KEEP	море	dictionary
+420		почта	KEEP	почта	prose_ru	ru	KEEP	почта	dictionary
+421		услышать	KEEP	услышать	prose_ru	ru	KEEP	услышать	dictionary
+422	они шли	лист	KEEP	лист	prose_ru	ru	KEEP	лист	dictionary
+423	очень	вежливый	KEEP	вежливый	prose_ru	ru	KEEP	вежливый	dictionary
+424	сразу	старинный	KEEP	старинный	prose_ru	ru	KEEP	старинный	dictionary
+425	теперь	амбар	KEEP	амбар	prose_ru	ru	KEEP	амбар	dictionary
+426		липа	KEEP	липа	prose_ru	ru	KEEP	липа	dictionary
+427	неужели	ставень	KEEP	ставень	prose_ru	ru	KEEP	ставень	dictionary
+428	я думаю	другу	KEEP	другу	prose_ru	ru	KEEP	другу	dictionary
+429	теперь	гостиная	KEEP	гостиная	prose_ru	ru	KEEP	гостиная	dictionary
+430	тот	тревога	KEEP	тревога	prose_ru	ru	KEEP	тревога	dictionary
+431	наш	отдыхать	KEEP	отдыхать	prose_ru	ru	KEEP	отдыхать	dictionary
+432	сразу	словом	KEEP	словом	prose_ru	ru	KEEP	словом	dictionary
+433	вдруг	человеком	KEEP	человеком	prose_ru	ru	KEEP	человеком	dictionary
+434	она была	странами	KEEP	странами	prose_ru	ru	KEEP	странами	dictionary
+435	тем не менее	дозор	KEEP	дозор	prose_ru	ru	KEEP	дозор	dictionary
+436	мы часто	соль	KEEP	соль	prose_ru	ru	KEEP	соль	dictionary
+437	после того	менеджер	KEEP	менеджер	prose_ru	ru	KEEP	менеджер	dictionary
+438		открывать	KEEP	открывать	prose_ru	ru	KEEP	открывать	dictionary
+439	она была	камера	KEEP	камера	prose_ru	ru	KEEP	камера	dictionary
+440	разве	сила	KEEP	сила	prose_ru	ru	KEEP	сила	dictionary
+441	тем не менее	болото	KEEP	болото	prose_ru	ru	KEEP	болото	dictionary
+442	это	лёд	KEEP	лёд	prose_ru	ru	KEEP	лёд	dictionary
+443	после того	мышка	KEEP	мышка	prose_ru	ru	KEEP	мышка	dictionary
+444		смеяться	KEEP	смеяться	prose_ru	ru	KEEP	смеяться	dictionary
+445	мы видели	трюмо	KEEP	трюмо	prose_ru	ru	KEEP	трюмо	dictionary
+446		орех	KEEP	орех	prose_ru	ru	KEEP	орех	dictionary
+447	они шли	месяц	KEEP	месяц	prose_ru	ru	KEEP	месяц	dictionary
+448	тот	долина	KEEP	долина	prose_ru	ru	KEEP	долина	dictionary
+449	в общем	ответить	KEEP	ответить	prose_ru	ru	KEEP	ответить	dictionary
+450		постепенно	KEEP	постепенно	prose_ru	ru	KEEP	постепенно	dictionary
+451		закрывать	KEEP	закрывать	prose_ru	ru	KEEP	закрывать	dictionary
+452	не	дядя	KEEP	дядя	prose_ru	ru	KEEP	дядя	dictionary
+453	я думаю	дыня	KEEP	дыня	prose_ru	ru	KEEP	дыня	dictionary
+454	по сути	спальня	KEEP	спальня	prose_ru	ru	KEEP	спальня	dictionary
+455		успокаиваться	KEEP	успокаиваться	prose_ru	ru	KEEP	успокаиваться	dictionary
+456	если честно	осень	KEEP	осень	prose_ru	ru	KEEP	осень	dictionary
+457	вокруг дома	поздравлять	KEEP	поздравлять	prose_ru	ru	KEEP	поздравлять	dictionary
+458	просто	окно	KEEP	окно	prose_ru	ru	KEEP	окно	dictionary
+459	тем не менее	побережье	KEEP	побережье	prose_ru	ru	KEEP	побережье	dictionary
+460	в общем	офис	KEEP	офис	prose_ru	ru	KEEP	офис	dictionary
+461	мы часто	лестница	KEEP	лестница	prose_ru	ru	KEEP	лестница	dictionary
+462	просто	полезный	KEEP	полезный	prose_ru	ru	KEEP	полезный	dictionary
+463	вообще	волк	KEEP	волк	prose_ru	ru	KEEP	волк	dictionary
+464	после того	батарея	KEEP	батарея	prose_ru	ru	KEEP	батарея	dictionary
+465		холодный	KEEP	холодный	prose_ru	ru	KEEP	холодный	dictionary
+466	сразу	яркий	KEEP	яркий	prose_ru	ru	KEEP	яркий	dictionary
+467	неужели	известный	KEEP	известный	prose_ru	ru	KEEP	известный	dictionary
+468	она была	ответом	KEEP	ответом	prose_ru	ru	KEEP	ответом	dictionary
+469		обрадоваться	KEEP	обрадоваться	prose_ru	ru	KEEP	обрадоваться	dictionary
+470	вдруг	гром	KEEP	гром	prose_ru	ru	KEEP	гром	dictionary
+471	теперь	домах	KEEP	домах	prose_ru	ru	KEEP	домах	dictionary
+472	на самом деле	робот	KEEP	робот	prose_ru	ru	KEEP	робот	dictionary
+473		шапка	KEEP	шапка	prose_ru	ru	KEEP	шапка	dictionary
+474	очень	мокрый	KEEP	мокрый	prose_ru	ru	KEEP	мокрый	dictionary
+475	между прочим	время	KEEP	время	prose_ru	ru	KEEP	время	dictionary
+476	он сказал	набережная	KEEP	набережная	prose_ru	ru	KEEP	набережная	dictionary
+477	они шли	улыбаться	KEEP	улыбаться	prose_ru	ru	KEEP	улыбаться	dictionary
+478	он сказал	архитектор	KEEP	архитектор	prose_ru	ru	KEEP	архитектор	dictionary
+479	я думаю	дать	KEEP	дать	prose_ru	ru	KEEP	дать	dictionary
+480		биолог	KEEP	биолог	prose_ru	ru	KEEP	биолог	dictionary
+481	тем не менее	картофель	KEEP	картофель	prose_ru	ru	KEEP	картофель	dictionary
+482	на	думать	KEEP	думать	prose_ru	ru	KEEP	думать	dictionary
+483	не	дети	KEEP	дети	prose_ru	ru	KEEP	дети	dictionary
+484		любить	KEEP	любить	prose_ru	ru	KEEP	любить	dictionary
+485	опять	дедушка	KEEP	дедушка	prose_ru	ru	KEEP	дедушка	dictionary
+486	кажется мне	стране	KEEP	стране	prose_ru	ru	KEEP	стране	dictionary
+487	мой	вообще	KEEP	вообще	prose_ru	ru	KEEP	вообще	dictionary
+488	я думаю	книгам	KEEP	книгам	prose_ru	ru	KEEP	книгам	dictionary
+489		сайт	KEEP	сайт	prose_ru	ru	KEEP	сайт	dictionary
+490	потом	преподаватель	KEEP	преподаватель	prose_ru	ru	KEEP	преподаватель	dictionary
+491		продавец	KEEP	продавец	prose_ru	ru	KEEP	продавец	dictionary
+492	неужели	влюбиться	KEEP	влюбиться	prose_ru	ru	KEEP	влюбиться	dictionary
+493	они шли	перец	KEEP	перец	prose_ru	ru	KEEP	перец	dictionary
+494	тот	машина	KEEP	машина	prose_ru	ru	KEEP	машина	dictionary
+495	после того	одуванчик	KEEP	одуванчик	prose_ru	ru	KEEP	одуванчик	dictionary
+496	какой-то	современный	KEEP	современный	prose_ru	ru	KEEP	современный	dictionary
+497		выпить	KEEP	выпить	prose_ru	ru	KEEP	выпить	dictionary
+498	я думаю	написать	KEEP	написать	prose_ru	ru	KEEP	написать	dictionary
+499	мой	полночь	KEEP	полночь	prose_ru	ru	KEEP	полночь	dictionary
+500	теперь	лягушка	KEEP	лягушка	prose_ru	ru	KEEP	лягушка	dictionary
+501	не	товарищ	KEEP	товарищ	prose_ru	ru	KEEP	товарищ	dictionary
+502	на самом деле	одиннадцать	KEEP	одиннадцать	prose_ru	ru	KEEP	одиннадцать	dictionary
+503		подснежник	KEEP	подснежник	prose_ru	ru	KEEP	подснежник	dictionary
+504	оттуда	напарник	KEEP	напарник	prose_ru	ru	KEEP	напарник	dictionary
+505	вдруг	близко	KEEP	близко	prose_ru	ru	KEEP	близко	dictionary
+506		гора	KEEP	гора	prose_ru	ru	KEEP	гора	dictionary
+507	и	тёмный	KEEP	тёмный	prose_ru	ru	KEEP	тёмный	dictionary
+508		иногда	KEEP	иногда	prose_ru	ru	KEEP	иногда	dictionary
+509	если честно	низкий	KEEP	низкий	prose_ru	ru	KEEP	низкий	dictionary
+510	он сказал	вельможа	KEEP	вельможа	prose_ru	ru	KEEP	вельможа	dictionary
+511	мы видели	принтер	KEEP	принтер	prose_ru	ru	KEEP	принтер	dictionary
+512		книге	KEEP	книге	prose_ru	ru	KEEP	книге	dictionary
+513	на самом деле	ездить	KEEP	ездить	prose_ru	ru	KEEP	ездить	dictionary
+514		продавать	KEEP	продавать	prose_ru	ru	KEEP	продавать	dictionary
+515		работник	KEEP	работник	prose_ru	ru	KEEP	работник	dictionary
+516	вокруг дома	крыша	KEEP	крыша	prose_ru	ru	KEEP	крыша	dictionary
+517	сразу	высокий	KEEP	высокий	prose_ru	ru	KEEP	высокий	dictionary
+518		пещера	KEEP	пещера	prose_ru	ru	KEEP	пещера	dictionary
+519	мы часто	георгин	KEEP	георгин	prose_ru	ru	KEEP	георгин	dictionary
+520	потом	писатель	KEEP	писатель	prose_ru	ru	KEEP	писатель	dictionary
+521	вокруг дома	тысяча	KEEP	тысяча	prose_ru	ru	KEEP	тысяча	dictionary
+522		лев	KEEP	лев	prose_ru	ru	KEEP	лев	dictionary
+523	не	юрист	KEEP	юрист	prose_ru	ru	KEEP	юрист	dictionary
+524	снова	степь	KEEP	степь	prose_ru	ru	KEEP	степь	dictionary
+525	в	ночь	KEEP	ночь	prose_ru	ru	KEEP	ночь	dictionary
+526		олень	KEEP	олень	prose_ru	ru	KEEP	олень	dictionary
+527	кажется мне	помочь	KEEP	помочь	prose_ru	ru	KEEP	помочь	dictionary
+528		василёк	KEEP	василёк	prose_ru	ru	KEEP	василёк	dictionary
+529		ходить	KEEP	ходить	prose_ru	ru	KEEP	ходить	dictionary
+530		микрофон	KEEP	микрофон	prose_ru	ru	KEEP	микрофон	dictionary
+531	если честно	стиральная	KEEP	стиральная	prose_ru	ru	KEEP	стиральная	dictionary
+532	по сути	институт	KEEP	институт	prose_ru	ru	KEEP	институт	dictionary
+533	после того	удивиться	KEEP	удивиться	prose_ru	ru	KEEP	удивиться	dictionary
+534	тем не менее	борозда	KEEP	борозда	prose_ru	ru	KEEP	борозда	dictionary
+535	в	музей	KEEP	музей	prose_ru	ru	KEEP	музей	dictionary
+536		характер	KEEP	характер	prose_ru	ru	KEEP	характер	dictionary
+537	между прочим	вечер	KEEP	вечер	prose_ru	ru	KEEP	вечер	dictionary
+538	наверное это	луг	KEEP	луг	prose_ru	ru	KEEP	луг	dictionary
+539	вообще	волноваться	KEEP	волноваться	prose_ru	ru	KEEP	волноваться	dictionary
+540	мой	сапожник	KEEP	сапожник	prose_ru	ru	KEEP	сапожник	dictionary
+541	вообще	надеяться	KEEP	надеяться	prose_ru	ru	KEEP	надеяться	dictionary
+542		сыграть	KEEP	сыграть	prose_ru	ru	KEEP	сыграть	dictionary
+543	теперь	плавать	KEEP	плавать	prose_ru	ru	KEEP	плавать	dictionary
+544	тогда	петух	KEEP	петух	prose_ru	ru	KEEP	петух	dictionary
+545	точно	городом	KEEP	городом	prose_ru	ru	KEEP	городом	dictionary
+546		безопасный	KEEP	безопасный	prose_ru	ru	KEEP	безопасный	dictionary
+547	совсем	чеснок	KEEP	чеснок	prose_ru	ru	KEEP	чеснок	dictionary
+548	если честно	лось	KEEP	лось	prose_ru	ru	KEEP	лось	dictionary
+549	снова	радость	KEEP	радость	prose_ru	ru	KEEP	радость	dictionary
+550	тот	комната	KEEP	комната	prose_ru	ru	KEEP	комната	dictionary
+551	наш	директор	KEEP	директор	prose_ru	ru	KEEP	директор	dictionary
+552	кажется мне	узнать	KEEP	узнать	prose_ru	ru	KEEP	узнать	dictionary
+553		тюльпан	KEEP	тюльпан	prose_ru	ru	KEEP	тюльпан	dictionary
+554	это	тыква	KEEP	тыква	prose_ru	ru	KEEP	тыква	dictionary
+555	в	наковальня	KEEP	наковальня	prose_ru	ru	KEEP	наковальня	dictionary
+556		спеть	KEEP	спеть	prose_ru	ru	KEEP	спеть	dictionary
+557	на самом деле	вулкан	KEEP	вулкан	prose_ru	ru	KEEP	вулкан	dictionary
+558	по сути	забывать	KEEP	забывать	prose_ru	ru	KEEP	забывать	dictionary
+559	они шли	кинотеатр	KEEP	кинотеатр	prose_ru	ru	KEEP	кинотеатр	dictionary
+560		начинать	KEEP	начинать	prose_ru	ru	KEEP	начинать	dictionary
+561	мы видели	смотреть	KEEP	смотреть	prose_ru	ru	KEEP	смотреть	dictionary
+562	перед тем	зарядка	KEEP	зарядка	prose_ru	ru	KEEP	зарядка	dictionary
+563		пасека	KEEP	пасека	prose_ru	ru	KEEP	пасека	dictionary
+564	потом	подросток	KEEP	подросток	prose_ru	ru	KEEP	подросток	dictionary
+565	не	балкон	KEEP	балкон	prose_ru	ru	KEEP	балкон	dictionary
+566	сразу	тоннель	KEEP	тоннель	prose_ru	ru	KEEP	тоннель	dictionary
+567		влюбляться	KEEP	влюбляться	prose_ru	ru	KEEP	влюбляться	dictionary
+568	между прочим	час	KEEP	час	prose_ru	ru	KEEP	час	dictionary
+569		мечта	KEEP	мечта	prose_ru	ru	KEEP	мечта	dictionary
+570		град	KEEP	град	prose_ru	ru	KEEP	град	dictionary
+571	точно	поздравить	KEEP	поздравить	prose_ru	ru	KEEP	поздравить	dictionary
+572	и	коса	KEEP	коса	prose_ru	ru	KEEP	коса	dictionary
+573	неужели	ёж	KEEP	ёж	prose_ru	ru	KEEP	ёж	undecided
+574		роса	KEEP	роса	prose_ru	ru	KEEP	роса	dictionary
+575	она была	весёлый	KEEP	весёлый	prose_ru	ru	KEEP	весёлый	dictionary
+576		вчера	KEEP	вчера	prose_ru	ru	KEEP	вчера	dictionary
+577		утро	KEEP	утро	prose_ru	ru	KEEP	утро	dictionary
+578	на самом деле	курица	KEEP	курица	prose_ru	ru	KEEP	курица	dictionary
+579		ратуша	KEEP	ратуша	prose_ru	ru	KEEP	ратуша	dictionary
+580	ты знаешь	роща	KEEP	роща	prose_ru	ru	KEEP	роща	dictionary
+581	совсем	танцевать	KEEP	танцевать	prose_ru	ru	KEEP	танцевать	dictionary
+582	почти	новый	KEEP	новый	prose_ru	ru	KEEP	новый	dictionary
+583		делах	KEEP	делах	prose_ru	ru	KEEP	делах	dictionary
+584	туда	ссориться	KEEP	ссориться	prose_ru	ru	KEEP	ссориться	dictionary
+585		другом	KEEP	другом	prose_ru	ru	KEEP	другом	dictionary
+586		терпение	KEEP	терпение	prose_ru	ru	KEEP	терпение	dictionary
+587		учитель	KEEP	учитель	prose_ru	ru	KEEP	учитель	dictionary
+588	ты знаешь	скучный	KEEP	скучный	prose_ru	ru	KEEP	скучный	dictionary
+589		корова	KEEP	корова	prose_ru	ru	KEEP	корова	dictionary
+590	тогда	берёза	KEEP	берёза	prose_ru	ru	KEEP	берёза	dictionary
+591	какой-то	ландыш	KEEP	ландыш	prose_ru	ru	KEEP	ландыш	dictionary
+592	между прочим	тайга	KEEP	тайга	prose_ru	ru	KEEP	тайга	dictionary
+593	туда	делать	KEEP	делать	prose_ru	ru	KEEP	делать	dictionary
+594		машин	KEEP	машин	prose_ru	ru	KEEP	машин	dictionary
+595		холодильник	KEEP	холодильник	prose_ru	ru	KEEP	холодильник	dictionary
+596	оттуда	площадь	KEEP	площадь	prose_ru	ru	KEEP	площадь	dictionary
+597	тогда	озеро	KEEP	озеро	prose_ru	ru	KEEP	озеро	dictionary
+598	неужели	деньги	KEEP	деньги	prose_ru	ru	KEEP	деньги	dictionary
+599	себе	морковь	KEEP	морковь	prose_ru	ru	KEEP	морковь	dictionary
+600	наш	суета	KEEP	суета	prose_ru	ru	KEEP	суета	dictionary
+601	на	le,	CONVERT	дуб	prose_ru	us	CONVERT	дуб	dictionary
+602		djghjcf[	CONVERT	вопросах	prose_ru	us	CONVERT	вопросах	dictionary
+603	здесь	gkfrfnm	CONVERT	плакать	prose_ru	us	CONVERT	плакать	dictionary
+604		ujke,m	CONVERT	голубь	prose_ru	us	CONVERT	голубь	dictionary
+605	на самом деле	pfcvtznmcz	CONVERT	засмеяться	prose_ru	us	CONVERT	засмеяться	dictionary
+606		,jznmcz	CONVERT	бояться	prose_ru	us	CONVERT	бояться	dictionary
+607	просто	gjnjv	CONVERT	потом	prose_ru	us	CONVERT	потом	dictionary
+608	просто	jkm[f	CONVERT	ольха	prose_ru	us	CONVERT	ольха	dictionary
+609		ht,`yjr	CONVERT	ребёнок	prose_ru	us	CONVERT	ребёнок	dictionary
+610		ajnjuhfa	CONVERT	фотограф	prose_ru	us	CONVERT	фотограф	dictionary
+611		hf,jnjq	CONVERT	работой	prose_ru	us	CONVERT	работой	dictionary
+612	она была	vtlktyyj	CONVERT	медленно	prose_ru	us	CONVERT	медленно	dictionary
+613	туда	rybuf	CONVERT	книга	prose_ru	us	CONVERT	книга	dictionary
+614	мы часто	vj;;tdtkmybr	CONVERT	можжевельник	prose_ru	us	CONVERT	можжевельник	dictionary
+615	себе	lhepmz	CONVERT	друзья	prose_ru	us	CONVERT	друзья	dictionary
+616	тем не менее	pyfrjvsq	CONVERT	знакомый	prose_ru	us	CONVERT	знакомый	dictionary
+617	точно	ckexfq	CONVERT	случай	prose_ru	us	CONVERT	случай	dictionary
+618		hf,jnt	CONVERT	работе	prose_ru	us	CONVERT	работе	dictionary
+619	разве	rhjkbr	CONVERT	кролик	prose_ru	us	CONVERT	кролик	dictionary
+620	вообще	rbn	CONVERT	кит	prose_ru	us	CONVERT	кит	dictionary
+621		yfqnb	CONVERT	найти	prose_ru	us	CONVERT	найти	dictionary
+622	уже	kfgjnm	CONVERT	лапоть	prose_ru	us	CONVERT	лапоть	dictionary
+623	тем не менее	ajynfy	CONVERT	фонтан	prose_ru	us	CONVERT	фонтан	dictionary
+624		lkbyysq	CONVERT	длинный	prose_ru	us	CONVERT	длинный	dictionary
+625	теперь	dyer	CONVERT	внук	prose_ru	us	KEEP	dyer	dictionary
+626	опять	htfkmyjcnm	CONVERT	реальность	prose_ru	us	CONVERT	реальность	dictionary
+627	тот	lthtdj	CONVERT	дерево	prose_ru	us	CONVERT	дерево	dictionary
+628	перед тем	ecgt[	CONVERT	успех	prose_ru	us	CONVERT	успех	dictionary
+629	я думаю	gj,kfujlfhbnm	CONVERT	поблагодарить	prose_ru	us	CONVERT	поблагодарить	dictionary
+630	тот	vtlktyysq	CONVERT	медленный	prose_ru	us	CONVERT	медленный	dictionary
+631	наверное это	cjdf	CONVERT	сова	prose_ru	us	CONVERT	сова	dictionary
+632	если честно	ctreylf	CONVERT	секунда	prose_ru	us	CONVERT	секунда	dictionary
+633		df;ysq	CONVERT	важный	prose_ru	us	CONVERT	важный	dictionary
+634		jdwf	CONVERT	овца	prose_ru	us	CONVERT	овца	dictionary
+635	вокруг дома	xtkjdtrf	CONVERT	человека	prose_ru	us	CONVERT	человека	dictionary
+636	кроме того	,tufnm	CONVERT	бегать	prose_ru	us	CONVERT	бегать	dictionary
+637		cvfhnajy	CONVERT	смартфон	prose_ru	us	CONVERT	смартфон	dictionary
+638		xfqybr	CONVERT	чайник	prose_ru	us	CONVERT	чайник	dictionary
+639	снова	pfgkfrfnm	CONVERT	заплакать	prose_ru	us	CONVERT	заплакать	dictionary
+640	уже	djj,hf;tybt	CONVERT	воображение	prose_ru	us	CONVERT	воображение	dictionary
+641		gjkbrkbybrf	CONVERT	поликлиника	prose_ru	us	CONVERT	поликлиника	dictionary
+642	точно	lj,hsq	CONVERT	добрый	prose_ru	us	CONVERT	добрый	dictionary
+643	кроме того	cj[f	CONVERT	соха	prose_ru	us	CONVERT	соха	dictionary
+644	перед тем	ltke	CONVERT	делу	prose_ru	us	CONVERT	делу	dictionary
+645	сразу	pfyfdtcrf	CONVERT	занавеска	prose_ru	us	CONVERT	занавеска	dictionary
+646	он сказал	hfpdjkyjdfnmcz	CONVERT	разволноваться	prose_ru	us	CONVERT	разволноваться	dictionary
+647	вокруг дома	nf,ehtnrf	CONVERT	табуретка	prose_ru	us	CONVERT	табуретка	dictionary
+648	наш	;fcvby	CONVERT	жасмин	prose_ru	us	CONVERT	жасмин	dictionary
+649		k`urbq	CONVERT	лёгкий	prose_ru	us	CONVERT	лёгкий	dictionary
+650	рядом со	ht;bcc`h	CONVERT	режиссёр	prose_ru	us	CONVERT	режиссёр	dictionary
+651		;thyjd	CONVERT	жернов	prose_ru	us	CONVERT	жернов	dictionary
+652	после того	rfif	CONVERT	каша	prose_ru	us	CONVERT	каша	dictionary
+653	ты знаешь	dvtcnt	CONVERT	вместе	prose_ru	us	CONVERT	вместе	dictionary
+654		cktcfhm	CONVERT	слесарь	prose_ru	us	CONVERT	слесарь	dictionary
+655	снова	dfyyfz	CONVERT	ванная	prose_ru	us	CONVERT	ванная	dictionary
+656	ты знаешь	nthznm	CONVERT	терять	prose_ru	us	CONVERT	терять	dictionary
+657	не	ckbirjv	CONVERT	слишком	prose_ru	us	CONVERT	слишком	dictionary
+658		cyjdf	CONVERT	снова	prose_ru	us	CONVERT	снова	dictionary
+659	рядом со	dcgjvbyfnm	CONVERT	вспоминать	prose_ru	us	CONVERT	вспоминать	dictionary
+660	после того	en.u	CONVERT	утюг	prose_ru	us	CONVERT	утюг	dictionary
+661	не	kj;bnmcz	CONVERT	ложиться	prose_ru	us	CONVERT	ложиться	dictionary
+662	тогда	[jkv	CONVERT	холм	prose_ru	us	CONVERT	холм	dictionary
+663	точно	jcnfyjdrf	CONVERT	остановка	prose_ru	us	CONVERT	остановка	dictionary
+664	опять	ukegsq	CONVERT	глупый	prose_ru	us	CONVERT	глупый	dictionary
+665	на	cndjk	CONVERT	ствол	prose_ru	us	CONVERT	ствол	dictionary
+666		rhfcbdsq	CONVERT	красивый	prose_ru	us	CONVERT	красивый	dictionary
+667	перед тем	pf,jh	CONVERT	забор	prose_ru	us	CONVERT	забор	dictionary
+668	тем не менее	uhecnbnm	CONVERT	грустить	prose_ru	us	CONVERT	грустить	dictionary
+669	мы часто	gjvbljh	CONVERT	помидор	prose_ru	us	CONVERT	помидор	dictionary
+670	кажется мне	phtkjcnm	CONVERT	зрелость	prose_ru	us	CONVERT	зрелость	dictionary
+671	совсем	n`gksq	CONVERT	тёплый	prose_ru	us	CONVERT	тёплый	dictionary
+672	они шли	vfufpby	CONVERT	магазин	prose_ru	us	CONVERT	магазин	dictionary
+673	здесь	vbyenf	CONVERT	минута	prose_ru	us	CONVERT	минута	dictionary
+674	они шли	k.lzv	CONVERT	людям	prose_ru	us	CONVERT	людям	dictionary
+675	кроме того	gjk.,bnm	CONVERT	полюбить	prose_ru	us	CONVERT	полюбить	dictionary
+676		gjcnhjbnm	CONVERT	построить	prose_ru	us	CONVERT	построить	dictionary
+677	мой	jhtiybr	CONVERT	орешник	prose_ru	us	CONVERT	орешник	dictionary
+678	рядом со	cgenybr	CONVERT	спутник	prose_ru	us	CONVERT	спутник	dictionary
+679		ckf,jcnm	CONVERT	слабость	prose_ru	us	CONVERT	слабость	dictionary
+680	по сути	xfirf	CONVERT	чашка	prose_ru	us	CONVERT	чашка	dictionary
+681	я думаю	cnhfye	CONVERT	страну	prose_ru	us	CONVERT	страну	dictionary
+682	на	gjvbhbnmcz	CONVERT	помириться	prose_ru	us	CONVERT	помириться	dictionary
+683		jgthfnjh	CONVERT	оператор	prose_ru	us	CONVERT	оператор	dictionary
+684		gjcvjnhtnm	CONVERT	посмотреть	prose_ru	us	CONVERT	посмотреть	dictionary
+685		cjnyz	CONVERT	сотня	prose_ru	us	CONVERT	сотня	dictionary
+686	опять	ghbujnjdbnm	CONVERT	приготовить	prose_ru	us	CONVERT	приготовить	dictionary
+687	и	enrf	CONVERT	утка	prose_ru	us	CONVERT	утка	dictionary
+688	тот	if[n`h	CONVERT	шахтёр	prose_ru	us	CONVERT	шахтёр	dictionary
+689		gb[nf	CONVERT	пихта	prose_ru	us	CONVERT	пихта	dictionary
+690	здесь	jabwbfyn	CONVERT	официант	prose_ru	us	CONVERT	официант	dictionary
+691	наверное это	vbhf	CONVERT	мира	prose_ru	us	CONVERT	мира	dictionary
+692	перед тем	jujhjl	CONVERT	огород	prose_ru	us	CONVERT	огород	dictionary
+693		gjrjq	CONVERT	покой	prose_ru	us	CONVERT	покой	dictionary
+694		crjdjhjlf	CONVERT	сковорода	prose_ru	us	CONVERT	сковорода	dictionary
+695		[jhjij	CONVERT	хорошо	prose_ru	us	CONVERT	хорошо	dictionary
+696		repybwf	CONVERT	кузница	prose_ru	us	CONVERT	кузница	dictionary
+697	вокруг дома	djghjcf	CONVERT	вопроса	prose_ru	us	CONVERT	вопроса	dictionary
+698	это	lfdfnm	CONVERT	давать	prose_ru	us	CONVERT	давать	dictionary
+699	наверное это	ktc	CONVERT	лес	prose_ru	us	CONVERT	лес	dictionary
+700		gjckeifnm	CONVERT	послушать	prose_ru	us	CONVERT	послушать	dictionary
+701	опять	vjkybz	CONVERT	молния	prose_ru	us	CONVERT	молния	dictionary
+702	снова	bytq	CONVERT	иней	prose_ru	us	CONVERT	иней	dictionary
+703		gfgf	CONVERT	папа	prose_ru	us	CONVERT	папа	dictionary
+704	потом	,jho	CONVERT	борщ	prose_ru	us	CONVERT	борщ	dictionary
+705	теперь	ujhybwf	CONVERT	горница	prose_ru	us	CONVERT	горница	dictionary
+706	наверное это	,b,kbjntrf	CONVERT	библиотека	prose_ru	us	CONVERT	библиотека	dictionary
+707	наверное это	cltkfnm	CONVERT	сделать	prose_ru	us	CONVERT	сделать	dictionary
+708	в общем	nhfdf	CONVERT	трава	prose_ru	us	CONVERT	трава	dictionary
+709	себе	,tlysq	CONVERT	бедный	prose_ru	us	CONVERT	бедный	dictionary
+710		t[fnm	CONVERT	ехать	prose_ru	us	CONVERT	ехать	dictionary
+711	сразу	,jlhjcnm	CONVERT	бодрость	prose_ru	us	CONVERT	бодрость	dictionary
+712		nbibyf	CONVERT	тишина	prose_ru	us	CONVERT	тишина	dictionary
+713	разве	djghjce	CONVERT	вопросу	prose_ru	us	CONVERT	вопросу	dictionary
+714		kexbyf	CONVERT	лучина	prose_ru	us	CONVERT	лучина	dictionary
+715	туда	hjvfirf	CONVERT	ромашка	prose_ru	us	CONVERT	ромашка	dictionary
+716	себе	ghzkrf	CONVERT	прялка	prose_ru	us	CONVERT	прялка	dictionary
+717	вдруг	ptvkz	CONVERT	земля	prose_ru	us	CONVERT	земля	dictionary
+718	я думаю	ukegjcnm	CONVERT	глупость	prose_ru	us	CONVERT	глупость	dictionary
+719		ujhlbnmcz	CONVERT	гордиться	prose_ru	us	CONVERT	гордиться	dictionary
+720	опять	k.lb	CONVERT	люди	prose_ru	us	CONVERT	люди	dictionary
+721	какой-то	ghjcnbnm	CONVERT	простить	prose_ru	us	CONVERT	простить	dictionary
+722	оттуда	gjkt	CONVERT	поле	prose_ru	us	CONVERT	поле	dictionary
+723		nb[j	CONVERT	тихо	prose_ru	us	CONVERT	тихо	dictionary
+724	перед тем	.yjif	CONVERT	юноша	prose_ru	us	CONVERT	юноша	dictionary
+725	между прочим	ctqxfc	CONVERT	сейчас	prose_ru	us	CONVERT	сейчас	dictionary
+726	и	elbdkznmcz	CONVERT	удивляться	prose_ru	us	CONVERT	удивляться	dictionary
+727	очень	gjregfntkm	CONVERT	покупатель	prose_ru	us	CONVERT	покупатель	dictionary
+728	по сути	lhe;,f	CONVERT	дружба	prose_ru	us	CONVERT	дружба	dictionary
+729	между прочим	dhtvtytv	CONVERT	временем	prose_ru	us	CONVERT	временем	dictionary
+730	наверное это	gecnsyz	CONVERT	пустыня	prose_ru	us	CONVERT	пустыня	dictionary
+731	она была	ctujlyz	CONVERT	сегодня	prose_ru	us	CONVERT	сегодня	dictionary
+732		vtkmybwf	CONVERT	мельница	prose_ru	us	CONVERT	мельница	dictionary
+733	рядом со	lheu	CONVERT	друг	prose_ru	us	CONVERT	друг	dictionary
+734	снова	gtxfkm	CONVERT	печаль	prose_ru	us	CONVERT	печаль	dictionary
+735	какой-то	vfibys	CONVERT	машины	prose_ru	us	CONVERT	машины	dictionary
+736	в общем	cdj,jlf	CONVERT	свобода	prose_ru	us	CONVERT	свобода	dictionary
+737	на	gjxbybnm	CONVERT	починить	prose_ru	us	CONVERT	починить	dictionary
+738	опять	ljve	CONVERT	дому	prose_ru	us	CONVERT	дому	dictionary
+739	в общем	rybub	CONVERT	книги	prose_ru	us	CONVERT	книги	dictionary
+740	тот	ujdjhbnm	CONVERT	говорить	prose_ru	us	CONVERT	говорить	dictionary
+741	мы часто	rjirf	CONVERT	кошка	prose_ru	us	CONVERT	кошка	dictionary
+742	сразу	hbcjdfnm	CONVERT	рисовать	prose_ru	us	CONVERT	рисовать	dictionary
+743	после того	uevyj	CONVERT	гумно	prose_ru	us	CONVERT	гумно	dictionary
+744	мы видели	ghjcgtrn	CONVERT	проспект	prose_ru	us	CONVERT	проспект	dictionary
+745		zhvfhrf	CONVERT	ярмарка	prose_ru	us	CONVERT	ярмарка	dictionary
+746	вокруг дома	ltytu	CONVERT	денег	prose_ru	us	CONVERT	денег	dictionary
+747	мы часто	vkfltytw	CONVERT	младенец	prose_ru	us	CONVERT	младенец	dictionary
+748		ldthm	CONVERT	дверь	prose_ru	us	CONVERT	дверь	dictionary
+749	просто	ltncndj	CONVERT	детство	prose_ru	us	CONVERT	детство	dictionary
+750		cnfrfy	CONVERT	стакан	prose_ru	us	CONVERT	стакан	dictionary
+751	в	cnjkbwf	CONVERT	столица	prose_ru	us	CONVERT	столица	dictionary
+752	она была	,ehz	CONVERT	буря	prose_ru	us	CONVERT	буря	dictionary
+753	в общем	nexf	CONVERT	туча	prose_ru	us	CONVERT	туча	dictionary
+754	вообще	yfdthyjt	CONVERT	наверное	prose_ru	us	CONVERT	наверное	dictionary
+755	вроде	kjiflm	CONVERT	лошадь	prose_ru	us	CONVERT	лошадь	dictionary
+756	сразу	ltcznm	CONVERT	десять	prose_ru	us	CONVERT	десять	dictionary
+757		pyfvtybnsq	CONVERT	знаменитый	prose_ru	us	CONVERT	знаменитый	dictionary
+758	опять	ujnjdbnm	CONVERT	готовить	prose_ru	us	CONVERT	готовить	dictionary
+759	неужели	dbkrf	CONVERT	вилка	prose_ru	us	CONVERT	вилка	dictionary
+760	она была	djple[	CONVERT	воздух	prose_ru	us	CONVERT	воздух	dictionary
+761	тогда	gjkjntywt	CONVERT	полотенце	prose_ru	us	CONVERT	полотенце	dictionary
+762	на самом деле	frekf	CONVERT	акула	prose_ru	us	CONVERT	акула	dictionary
+763	рядом со	dthbnm	CONVERT	верить	prose_ru	us	CONVERT	верить	dictionary
+764	почти	cghfdtlkbdjcnm	CONVERT	справедливость	prose_ru	us	CONVERT	справедливость	dictionary
+765	вокруг дома	cjctlrf	CONVERT	соседка	prose_ru	us	CONVERT	соседка	dictionary
+766		dcnfdfnm	CONVERT	вставать	prose_ru	us	CONVERT	вставать	dictionary
+767	уже	ljxm	CONVERT	дочь	prose_ru	us	CONVERT	дочь	dictionary
+768		n`nz	CONVERT	тётя	prose_ru	us	CONVERT	тётя	dictionary
+769		ghjuhfvvbcn	CONVERT	программист	prose_ru	us	CONVERT	программист	dictionary
+770	тем не менее	'rhfy	CONVERT	экран	prose_ru	us	CONVERT	экран	dictionary
+771	опять	cnju	CONVERT	стог	prose_ru	us	CONVERT	стог	dictionary
+772		jnrhsnm	CONVERT	открыть	prose_ru	us	CONVERT	открыть	dictionary
+773	если честно	cbkmysq	CONVERT	сильный	prose_ru	us	CONVERT	сильный	dictionary
+774		ldf	CONVERT	два	prose_ru	us	CONVERT	два	dictionary
+775		cdtn`krf	CONVERT	светёлка	prose_ru	us	CONVERT	светёлка	dictionary
+776	ты знаешь	cjcyf	CONVERT	сосна	prose_ru	us	CONVERT	сосна	dictionary
+777	вдруг	rfvtym	CONVERT	камень	prose_ru	us	CONVERT	камень	dictionary
+778	она была	ytpyfrjvtw	CONVERT	незнакомец	prose_ru	us	CONVERT	незнакомец	dictionary
+779		lheptq	CONVERT	друзей	prose_ru	us	CONVERT	друзей	dictionary
+780		vjybnjh	CONVERT	монитор	prose_ru	us	CONVERT	монитор	dictionary
+781	после того	j,]zcyznm	CONVERT	объяснять	prose_ru	us	CONVERT	объяснять	dictionary
+782		cdbymz	CONVERT	свинья	prose_ru	us	CONVERT	свинья	dictionary
+783	уже	hf,jns	CONVERT	работы	prose_ru	us	CONVERT	работы	dictionary
+784		gjplyj	CONVERT	поздно	prose_ru	us	CONVERT	поздно	dictionary
+785	наверное это	pfdnhf	CONVERT	завтра	prose_ru	us	CONVERT	завтра	dictionary
+786	я думаю	zqwj	CONVERT	яйцо	prose_ru	us	CONVERT	яйцо	dictionary
+787	туда	hjdtcybr	CONVERT	ровесник	prose_ru	us	CONVERT	ровесник	dictionary
+788	потом	ghfdlf	CONVERT	правда	prose_ru	us	CONVERT	правда	dictionary
+789	в	lth.uf	CONVERT	дерюга	prose_ru	us	CONVERT	дерюга	dictionary
+790	тем не менее	yflt;lf	CONVERT	надежда	prose_ru	us	CONVERT	надежда	dictionary
+791	я думаю	lheuf	CONVERT	друга	prose_ru	us	CONVERT	друга	dictionary
+792	себе	dyexrf	CONVERT	внучка	prose_ru	us	CONVERT	внучка	dictionary
+793	если честно	gjceljvjtxyfz	CONVERT	посудомоечная	prose_ru	us	CONVERT	посудомоечная	dictionary
+794		gjc`kjr	CONVERT	посёлок	prose_ru	us	CONVERT	посёлок	dictionary
+795		xbnfnm	CONVERT	читать	prose_ru	us	CONVERT	читать	dictionary
+796	кажется мне	cnhjbnm	CONVERT	строить	prose_ru	us	CONVERT	строить	dictionary
+797		cneltyn	CONVERT	студент	prose_ru	us	CONVERT	студент	dictionary
+798		rhjrjlbk	CONVERT	крокодил	prose_ru	us	CONVERT	крокодил	dictionary
+799		tkm	CONVERT	ель	prose_ru	us	CONVERT	ель	dictionary
+800		crfpfnm	CONVERT	сказать	prose_ru	us	CONVERT	сказать	dictionary
+801	очень	djkytybt	CONVERT	волнение	prose_ru	us	CONVERT	волнение	dictionary
+802	она была	[elj;ybr	CONVERT	художник	prose_ru	us	CONVERT	художник	dictionary
+803	в	jujym	CONVERT	огонь	prose_ru	us	CONVERT	огонь	dictionary
+804		ctvm	CONVERT	семь	prose_ru	us	CONVERT	семь	dictionary
+805	кажется мне	pvtz	CONVERT	змея	prose_ru	us	CONVERT	змея	dictionary
+806	между прочим	pljhjdmt	CONVERT	здоровье	prose_ru	us	CONVERT	здоровье	dictionary
+807	на самом деле	cjdctv	CONVERT	совсем	prose_ru	us	CONVERT	совсем	dictionary
+808	перед тем	gjdfh	CONVERT	повар	prose_ru	us	CONVERT	повар	dictionary
+809	на	cdfhobr	CONVERT	сварщик	prose_ru	us	CONVERT	сварщик	dictionary
+810	тогда	gkjnybr	CONVERT	плотник	prose_ru	us	CONVERT	плотник	dictionary
+811	на	ghjdfk	CONVERT	провал	prose_ru	us	CONVERT	провал	dictionary
+812	разве	ljvjv	CONVERT	домом	prose_ru	us	CONVERT	домом	dictionary
+813	вокруг дома	jujhxbnmcz	CONVERT	огорчиться	prose_ru	us	CONVERT	огорчиться	dictionary
+814	кажется мне	xbybnm	CONVERT	чинить	prose_ru	us	CONVERT	чинить	dictionary
+815		[jpzby	CONVERT	хозяин	prose_ru	us	CONVERT	хозяин	dictionary
+816	мы часто	njkcnsq	CONVERT	толстый	prose_ru	us	CONVERT	толстый	dictionary
+817	она была	dtnrf	CONVERT	ветка	prose_ru	us	CONVERT	ветка	dictionary
+818	мы видели	ceg	CONVERT	суп	prose_ru	us	CONVERT	суп	dictionary
+819	совсем	gjuht,	CONVERT	погреб	prose_ru	us	CONVERT	погреб	dictionary
+820	она была	cnhf[	CONVERT	страх	prose_ru	us	CONVERT	страх	dictionary
+821	просто	rjkmxeuf	CONVERT	кольчуга	prose_ru	us	CONVERT	кольчуга	dictionary
+822	теперь	k.lmvb	CONVERT	людьми	prose_ru	us	CONVERT	людьми	dictionary
+823	по сути	ghjwtccjh	CONVERT	процессор	prose_ru	us	CONVERT	процессор	dictionary
+824		,tkrf	CONVERT	белка	prose_ru	us	CONVERT	белка	dictionary
+825	вообще	ljdthbt	CONVERT	доверие	prose_ru	us	CONVERT	доверие	dictionary
+826	очень	ve;	CONVERT	муж	prose_ru	us	CONVERT	муж	dictionary
+827	снова	ibhjrbq	CONVERT	широкий	prose_ru	us	CONVERT	широкий	dictionary
+828		j,vfy	CONVERT	обман	prose_ru	us	CONVERT	обман	dictionary
+829	ты знаешь	xthlfr	CONVERT	чердак	prose_ru	us	CONVERT	чердак	dictionary
+830		ghjofnm	CONVERT	прощать	prose_ru	us	CONVERT	прощать	dictionary
+831	себе	ltymufvb	CONVERT	деньгами	prose_ru	us	CONVERT	деньгами	dictionary
+832		pdtplf	CONVERT	звезда	prose_ru	us	CONVERT	звезда	dictionary
+833	оттуда	ujhzxbq	CONVERT	горячий	prose_ru	us	CONVERT	горячий	dictionary
+834	разве	v`l	CONVERT	мёд	prose_ru	us	CONVERT	мёд	dictionary
+835	какой-то	nhb	CONVERT	три	prose_ru	us	CONVERT	три	dictionary
+836	наш	'rjyjvbcn	CONVERT	экономист	prose_ru	us	CONVERT	экономист	dictionary
+837		gjlevfnm	CONVERT	подумать	prose_ru	us	CONVERT	подумать	dictionary
+838	сразу	ytltkz	CONVERT	неделя	prose_ru	us	CONVERT	неделя	dictionary
+839	потом	jdhfu	CONVERT	овраг	prose_ru	us	CONVERT	овраг	dictionary
+840	в общем	gjnjkjr	CONVERT	потолок	prose_ru	us	CONVERT	потолок	dictionary
+841	в общем	pfcjd	CONVERT	засов	prose_ru	us	CONVERT	засов	dictionary
+842	потом	vfkbyf	CONVERT	малина	prose_ru	us	CONVERT	малина	dictionary
+843	это	hfljdfnmcz	CONVERT	радоваться	prose_ru	us	CONVERT	радоваться	dictionary
+844	точно	vfibyt	CONVERT	машине	prose_ru	us	CONVERT	машине	dictionary
+845		vtifnm	CONVERT	мешать	prose_ru	us	CONVERT	мешать	dictionary
+846		ecnhjqcndj	CONVERT	устройство	prose_ru	us	CONVERT	устройство	dictionary
+847	тот	vfvf	CONVERT	мама	prose_ru	us	CONVERT	мама	dictionary
+848	туда	hjpf	CONVERT	роза	prose_ru	us	CONVERT	роза	dictionary
+849	просто	ujhjle	CONVERT	городу	prose_ru	us	CONVERT	городу	dictionary
+850	теперь	ckjvfnm	CONVERT	сломать	prose_ru	us	CONVERT	сломать	dictionary
+851		tomato	KEEP	tomato	prose_en	us	KEEP	tomato	dictionary
+852		suitcase	KEEP	suitcase	prose_en	us	KEEP	suitcase	dictionary
+853	our	watermelon	KEEP	watermelon	prose_en	us	KEEP	watermelon	dictionary
+854	my	strength	KEEP	strength	prose_en	us	KEEP	strength	dictionary
+855	finally	daffodil	KEEP	daffodil	prose_en	us	KEEP	daffodil	dictionary
+856	now	boots	KEEP	boots	prose_en	us	KEEP	boots	dictionary
+857	finally	buys	KEEP	buys	prose_en	us	KEEP	buys	dictionary
+858	after the	written	KEEP	written	prose_en	us	KEEP	written	dictionary
+859		avenue	KEEP	avenue	prose_en	us	KEEP	avenue	dictionary
+860		species	KEEP	species	prose_en	us	KEEP	species	dictionary
+861	around the	truth	KEEP	truth	prose_en	us	KEEP	truth	dictionary
+862	finally	salad	KEEP	salad	prose_en	us	KEEP	salad	dictionary
+863	you know	hairdresser	KEEP	hairdresser	prose_en	us	KEEP	hairdresser	dictionary
+864	because of	fixing	KEEP	fixing	prose_en	us	KEEP	fixing	dictionary
+865	finally	strong	KEEP	strong	prose_en	us	KEEP	strong	dictionary
+866	they saw	program	KEEP	program	prose_en	us	KEEP	program	dictionary
+867	almost	biggest	KEEP	biggest	prose_en	us	KEEP	biggest	dictionary
+868		keyboard	KEEP	keyboard	prose_en	us	KEEP	keyboard	dictionary
+869		apple	KEEP	apple	prose_en	us	KEEP	apple	dictionary
+870	because of	hare	KEEP	hare	prose_en	us	KEEP	hare	dictionary
+871		seller	KEEP	seller	prose_en	us	KEEP	seller	dictionary
+872		diagnosis	KEEP	diagnosis	prose_en	us	KEEP	diagnosis	dictionary
+873	our	biologist	KEEP	biologist	prose_en	us	KEEP	biologist	dictionary
+874	the	farmer	KEEP	farmer	prose_en	us	KEEP	farmer	dictionary
+875	that was	bought	KEEP	bought	prose_en	us	KEEP	bought	dictionary
+876		wall	KEEP	wall	prose_en	us	KEEP	wall	dictionary
+877	still	runway	KEEP	runway	prose_en	us	KEEP	runway	dictionary
+878	this	together	KEEP	together	prose_en	us	KEEP	together	dictionary
+879	usually	staircase	KEEP	staircase	prose_en	us	KEEP	staircase	dictionary
+880		bridge	KEEP	bridge	prose_en	us	KEEP	bridge	dictionary
+881	the	bathroom	KEEP	bathroom	prose_en	us	KEEP	bathroom	dictionary
+882	not a	angry	KEEP	angry	prose_en	us	KEEP	angry	dictionary
+883	she went	rude	KEEP	rude	prose_en	us	KEEP	rude	dictionary
+884	finally	host	KEEP	host	prose_en	us	KEEP	host	dictionary
+885	very	river	KEEP	river	prose_en	us	KEEP	river	dictionary
+886	here	virus	KEEP	virus	prose_en	us	KEEP	virus	dictionary
+887		fear	KEEP	fear	prose_en	us	KEEP	fear	dictionary
+888	then	storage	KEEP	storage	prose_en	us	KEEP	storage	dictionary
+889	clearly	vineyard	KEEP	vineyard	prose_en	us	KEEP	vineyard	dictionary
+890		spruce	KEEP	spruce	prose_en	us	KEEP	spruce	dictionary
+891		young	KEEP	young	prose_en	us	KEEP	young	dictionary
+892	with the	recollection	KEEP	recollection	prose_en	us	KEEP	recollection	dictionary
+893	we found	goose	KEEP	goose	prose_en	us	KEEP	goose	dictionary
+894	perhaps	pharmacy	KEEP	pharmacy	prose_en	us	KEEP	pharmacy	dictionary
+895	not a	dinner	KEEP	dinner	prose_en	us	KEEP	dinner	dictionary
+896	because of	learn	KEEP	learn	prose_en	us	KEEP	learn	dictionary
+897	in the	ran	KEEP	ran	prose_en	us	KEEP	ran	dictionary
+898		night	KEEP	night	prose_en	us	KEEP	night	dictionary
+899	after the	visitor	KEEP	visitor	prose_en	us	KEEP	visitor	dictionary
+900	usually	employee	KEEP	employee	prose_en	us	KEEP	employee	dictionary
+901	perhaps	photographer	KEEP	photographer	prose_en	us	KEEP	photographer	dictionary
+902		couch	KEEP	couch	prose_en	us	KEEP	couch	dictionary
+903	just	owl	KEEP	owl	prose_en	us	KEEP	owl	dictionary
+904		soup	KEEP	soup	prose_en	us	KEEP	soup	dictionary
+905		engine	KEEP	engine	prose_en	us	KEEP	engine	dictionary
+906	almost	younger	KEEP	younger	prose_en	us	KEEP	younger	dictionary
+907		generally	KEEP	generally	prose_en	us	KEEP	generally	dictionary
+908	and the	rich	KEEP	rich	prose_en	us	KEEP	rich	dictionary
+909	our	elevator	KEEP	elevator	prose_en	us	KEEP	elevator	dictionary
+910	they saw	write	KEEP	write	prose_en	us	KEEP	write	dictionary
+911	obviously	headphones	KEEP	headphones	prose_en	us	KEEP	headphones	dictionary
+912	perhaps	important	KEEP	important	prose_en	us	KEEP	important	dictionary
+913		pear	KEEP	pear	prose_en	us	KEEP	pear	dictionary
+914	again	castle	KEEP	castle	prose_en	us	KEEP	castle	dictionary
+915	really	cliff	KEEP	cliff	prose_en	us	KEEP	cliff	dictionary
+916	without a	far	KEEP	far	prose_en	us	KEEP	far	dictionary
+917	on my	harder	KEEP	harder	prose_en	us	KEEP	harder	dictionary
+918		library	KEEP	library	prose_en	us	KEEP	library	dictionary
+919	finally	people	KEEP	people	prose_en	us	KEEP	people	dictionary
+920	basically	programmer	KEEP	programmer	prose_en	us	KEEP	programmer	dictionary
+921		laptop	KEEP	laptop	prose_en	us	KEEP	laptop	dictionary
+922		gone	KEEP	gone	prose_en	us	KEEP	gone	dictionary
+923		morning	KEEP	morning	prose_en	us	KEEP	morning	dictionary
+924	suddenly	steppe	KEEP	steppe	prose_en	us	KEEP	steppe	dictionary
+925		harmful	KEEP	harmful	prose_en	us	KEEP	harmful	dictionary
+926	almost	stool	KEEP	stool	prose_en	us	KEEP	stool	dictionary
+927		know	KEEP	know	prose_en	us	KEEP	know	dictionary
+928	for the	broken	KEEP	broken	prose_en	us	KEEP	broken	dictionary
+929	without a	well	KEEP	well	prose_en	us	KEEP	well	dictionary
+930	after the	mother	KEEP	mother	prose_en	us	KEEP	mother	dictionary
+931		danced	KEEP	danced	prose_en	us	KEEP	danced	dictionary
+932	without a	disease	KEEP	disease	prose_en	us	KEEP	disease	dictionary
+933	very	market	KEEP	market	prose_en	us	KEEP	market	dictionary
+934		boy	KEEP	boy	prose_en	us	KEEP	boy	dictionary
+935	we were	surgery	KEEP	surgery	prose_en	us	KEEP	surgery	dictionary
+936	in the	mouse	KEEP	mouse	prose_en	us	KEEP	mouse	dictionary
+937		hot	KEEP	hot	prose_en	us	KEEP	hot	dictionary
+938	without a	late	KEEP	late	prose_en	us	KEEP	late	dictionary
+939	as a	velocity	KEEP	velocity	prose_en	us	KEEP	velocity	dictionary
+940		swims	KEEP	swims	prose_en	us	KEEP	swims	dictionary
+941	before the	thin	KEEP	thin	prose_en	us	KEEP	thin	dictionary
+942		sometimes	KEEP	sometimes	prose_en	us	KEEP	sometimes	dictionary
+943	I think	boredom	KEEP	boredom	prose_en	us	KEEP	boredom	dictionary
+944	in the	health	KEEP	health	prose_en	us	KEEP	health	dictionary
+945	around the	fuss	KEEP	fuss	prose_en	us	KEEP	fuss	dictionary
+946	very	calendar	KEEP	calendar	prose_en	us	KEEP	calendar	dictionary
+947	with the	cheerful	KEEP	cheerful	prose_en	us	KEEP	cheerful	dictionary
+948	clearly	sword	KEEP	sword	prose_en	us	KEEP	sword	dictionary
+949	actually	teenager	KEEP	teenager	prose_en	us	KEEP	teenager	dictionary
+950	because of	oxygen	KEEP	oxygen	prose_en	us	KEEP	oxygen	dictionary
+951	you know	reality	KEEP	reality	prose_en	us	KEEP	reality	dictionary
+952		hostess	KEEP	hostess	prose_en	us	KEEP	hostess	dictionary
+953		cow	KEEP	cow	prose_en	us	KEEP	cow	dictionary
+954		hedgehog	KEEP	hedgehog	prose_en	us	KEEP	hedgehog	dictionary
+955	suddenly	motorcycle	KEEP	motorcycle	prose_en	us	KEEP	motorcycle	dictionary
+956	not a	chair	KEEP	chair	prose_en	us	KEEP	chair	dictionary
+957	there	walnut	KEEP	walnut	prose_en	us	KEEP	walnut	dictionary
+958	without a	joy	KEEP	joy	prose_en	us	KEEP	joy	dictionary
+959	perhaps	roof	KEEP	roof	prose_en	us	KEEP	roof	dictionary
+960	a	wagon	KEEP	wagon	prose_en	us	KEEP	wagon	dictionary
+961	next to	widest	KEEP	widest	prose_en	us	KEEP	widest	dictionary
+962	again	shoes	KEEP	shoes	prose_en	us	KEEP	shoes	dictionary
+963	on my	person	KEEP	person	prose_en	us	KEEP	person	dictionary
+964	usually	happy	KEEP	happy	prose_en	us	KEEP	happy	dictionary
+965	he said	terrace	KEEP	terrace	prose_en	us	KEEP	terrace	dictionary
+966		cedar	KEEP	cedar	prose_en	us	KEEP	cedar	dictionary
+967	in the	screen	KEEP	screen	prose_en	us	KEEP	screen	dictionary
+968	they saw	window	KEEP	window	prose_en	us	KEEP	window	dictionary
+969	usually	bottle	KEEP	bottle	prose_en	us	KEEP	bottle	dictionary
+970		snow	KEEP	snow	prose_en	us	KEEP	snow	dictionary
+971	you know	sings	KEEP	sings	prose_en	us	KEEP	sings	dictionary
+972	without a	fly	KEEP	fly	prose_en	us	KEEP	fly	dictionary
+973	that was	valley	KEEP	valley	prose_en	us	KEEP	valley	dictionary
+974		sees	KEEP	sees	prose_en	us	KEEP	sees	dictionary
+975	that	software	KEEP	software	prose_en	us	KEEP	software	dictionary
+976	obviously	town	KEEP	town	prose_en	us	KEEP	town	dictionary
+977		smart	KEEP	smart	prose_en	us	KEEP	smart	dictionary
+978	and the	welder	KEEP	welder	prose_en	us	KEEP	welder	dictionary
+979		district	KEEP	district	prose_en	us	KEEP	district	dictionary
+980	almost	lobby	KEEP	lobby	prose_en	us	KEEP	lobby	dictionary
+981	almost	therapy	KEEP	therapy	prose_en	us	KEEP	therapy	dictionary
+982		island	KEEP	island	prose_en	us	KEEP	island	dictionary
+983	my	month	KEEP	month	prose_en	us	KEEP	month	dictionary
+984		throne	KEEP	throne	prose_en	us	KEEP	throne	dictionary
+985	we found	shirt	KEEP	shirt	prose_en	us	KEEP	shirt	dictionary
+986	then	loudly	KEEP	loudly	prose_en	us	KEEP	loudly	dictionary
+987	quite	rested	KEEP	rested	prose_en	us	KEEP	rested	dictionary
+988	around the	separately	KEEP	separately	prose_en	us	KEEP	separately	dictionary
+989	they saw	glass	KEEP	glass	prose_en	us	KEEP	glass	dictionary
+990		customer	KEEP	customer	prose_en	us	KEEP	customer	dictionary
+991	because of	rabbit	KEEP	rabbit	prose_en	us	KEEP	rabbit	dictionary
+992	just	meat	KEEP	meat	prose_en	us	KEEP	meat	dictionary
+993		knowing	KEEP	knowing	prose_en	us	KEEP	knowing	dictionary
+994	the	dolphin	KEEP	dolphin	prose_en	us	KEEP	dolphin	dictionary
+995	before the	banana	KEEP	banana	prose_en	us	KEEP	banana	dictionary
+996		smartphone	KEEP	smartphone	prose_en	us	KEEP	smartphone	dictionary
+997	really	alley	KEEP	alley	prose_en	us	KEEP	alley	dictionary
+998	this is	strawberry	KEEP	strawberry	prose_en	us	KEEP	strawberry	dictionary
+999	this is	sang	KEEP	sang	prose_en	us	KEEP	sang	dictionary
+1000	around the	suburb	KEEP	suburb	prose_en	us	KEEP	suburb	dictionary
+1001	for the	bank	KEEP	bank	prose_en	us	KEEP	bank	dictionary
+1002	without a	landmark	KEEP	landmark	prose_en	us	KEEP	landmark	dictionary
+1003		purse	KEEP	purse	prose_en	us	KEEP	purse	dictionary
+1004		waterfall	KEEP	waterfall	prose_en	us	KEEP	waterfall	dictionary
+1005	you know	poorest	KEEP	poorest	prose_en	us	KEEP	poorest	dictionary
+1006	they saw	warmer	KEEP	warmer	prose_en	us	KEEP	warmer	dictionary
+1007		plant	KEEP	plant	prose_en	us	KEEP	plant	dictionary
+1008	there	friction	KEEP	friction	prose_en	us	KEEP	friction	dictionary
+1009	my	chemistry	KEEP	chemistry	prose_en	us	KEEP	chemistry	dictionary
+1010	finally	colony	KEEP	colony	prose_en	us	KEEP	colony	dictionary
+1011	the	century	KEEP	century	prose_en	us	KEEP	century	dictionary
+1012	maybe	shark	KEEP	shark	prose_en	us	KEEP	shark	dictionary
+1013		crossroad	KEEP	crossroad	prose_en	us	KEEP	crossroad	dictionary
+1014	here	willow	KEEP	willow	prose_en	us	KEEP	willow	dictionary
+1015		ate	KEEP	ate	prose_en	us	KEEP	ate	dictionary
+1016	basically	photo	KEEP	photo	prose_en	us	KEEP	photo	dictionary
+1017	almost	coworker	KEEP	coworker	prose_en	us	KEEP	coworker	dictionary
+1018	we found	dull	KEEP	dull	prose_en	us	KEEP	dull	dictionary
+1019		dream	KEEP	dream	prose_en	us	KEEP	dream	dictionary
+1020		building	KEEP	building	prose_en	us	KEEP	building	dictionary
+1021	without a	salt	KEEP	salt	prose_en	us	KEEP	salt	dictionary
+1022		wardrobe	KEEP	wardrobe	prose_en	us	KEEP	wardrobe	dictionary
+1023	suddenly	bicycle	KEEP	bicycle	prose_en	us	KEEP	bicycle	dictionary
+1024		motion	KEEP	motion	prose_en	us	KEEP	motion	dictionary
+1025		astronomy	KEEP	astronomy	prose_en	us	KEEP	astronomy	dictionary
+1026	without a	elm	KEEP	elm	prose_en	us	KEEP	elm	dictionary
+1027	with the	sugar	KEEP	sugar	prose_en	us	KEEP	sugar	dictionary
+1028	not a	habitat	KEEP	habitat	prose_en	us	KEEP	habitat	dictionary
+1029		bluebell	KEEP	bluebell	prose_en	us	KEEP	bluebell	dictionary
+1030	obviously	cucumber	KEEP	cucumber	prose_en	us	KEEP	cucumber	dictionary
+1031	after the	wrote	KEEP	wrote	prose_en	us	KEEP	wrote	dictionary
+1032	in the	sister	KEEP	sister	prose_en	us	KEEP	sister	dictionary
+1033	indeed	lion	KEEP	lion	prose_en	us	KEEP	lion	dictionary
+1034	here	chicken	KEEP	chicken	prose_en	us	KEEP	chicken	dictionary
+1035	now	gradually	KEEP	gradually	prose_en	us	KEEP	gradually	dictionary
+1036	with the	network	KEEP	network	prose_en	us	KEEP	network	dictionary
+1037	it was	sell	KEEP	sell	prose_en	us	KEEP	sell	dictionary
+1038	on my	dangerous	KEEP	dangerous	prose_en	us	KEEP	dangerous	dictionary
+1039	perhaps	refrigerator	KEEP	refrigerator	prose_en	us	KEEP	refrigerator	dictionary
+1040	here	towel	KEEP	towel	prose_en	us	KEEP	towel	dictionary
+1041	you know	sing	KEEP	sing	prose_en	us	KEEP	sing	dictionary
+1042		stone	KEEP	stone	prose_en	us	KEEP	stone	dictionary
+1043	finally	run	KEEP	run	prose_en	us	KEEP	run	dictionary
+1044	not a	music	KEEP	music	prose_en	us	KEEP	music	dictionary
+1045	indeed	vitamin	KEEP	vitamin	prose_en	us	KEEP	vitamin	dictionary
+1046	actually	knife	KEEP	knife	prose_en	us	KEEP	knife	dictionary
+1047	a	sun	KEEP	sun	prose_en	us	KEEP	sun	dictionary
+1048	not a	especially	KEEP	especially	prose_en	us	KEEP	especially	dictionary
+1049	here	cherry	KEEP	cherry	prose_en	us	KEEP	cherry	dictionary
+1050	again	economist	KEEP	economist	prose_en	us	KEEP	economist	dictionary
+1051	now	field	KEEP	field	prose_en	us	KEEP	field	dictionary
+1052	this	honest	KEEP	honest	prose_en	us	KEEP	honest	dictionary
+1053	around the	sung	KEEP	sung	prose_en	us	KEEP	sung	dictionary
+1054	perhaps	frog	KEEP	frog	prose_en	us	KEEP	frog	dictionary
+1055		richest	KEEP	richest	prose_en	us	KEEP	richest	dictionary
+1056	indeed	thought	KEEP	thought	prose_en	us	KEEP	thought	dictionary
+1057		pig	KEEP	pig	prose_en	us	KEEP	pig	dictionary
+1058	already	pumpkin	KEEP	pumpkin	prose_en	us	KEEP	pumpkin	dictionary
+1059		sad	KEEP	sad	prose_en	us	KEEP	sad	dictionary
+1060	perhaps	cloud	KEEP	cloud	prose_en	us	KEEP	cloud	dictionary
+1061		youth	KEEP	youth	prose_en	us	KEEP	youth	dictionary
+1062	this is	rooster	KEEP	rooster	prose_en	us	KEEP	rooster	dictionary
+1063	actually	roommate	KEEP	roommate	prose_en	us	KEEP	roommate	dictionary
+1064	maybe	brave	KEEP	brave	prose_en	us	KEEP	brave	dictionary
+1065		broke	KEEP	broke	prose_en	us	KEEP	broke	dictionary
+1066	already	tiger	KEEP	tiger	prose_en	us	KEEP	tiger	dictionary
+1067	I think	jacket	KEEP	jacket	prose_en	us	KEEP	jacket	dictionary
+1068		drawer	KEEP	drawer	prose_en	us	KEEP	drawer	dictionary
+1069	basically	spring	KEEP	spring	prose_en	us	KEEP	spring	dictionary
+1070		again	KEEP	again	prose_en	us	KEEP	again	dictionary
+1071	finally	yard	KEEP	yard	prose_en	us	KEEP	yard	dictionary
+1072	for the	butter	KEEP	butter	prose_en	us	KEEP	butter	dictionary
+1073	as a	early	KEEP	early	prose_en	us	KEEP	early	dictionary
+1074	the	thinking	KEEP	thinking	prose_en	us	KEEP	thinking	dictionary
+1075		voyage	KEEP	voyage	prose_en	us	KEEP	voyage	dictionary
+1076	he said	day	KEEP	day	prose_en	us	KEEP	day	dictionary
+1077		grape	KEEP	grape	prose_en	us	KEEP	grape	dictionary
+1078	this	running	KEEP	running	prose_en	us	KEEP	running	dictionary
+1079	maybe	fish	KEEP	fish	prose_en	us	KEEP	fish	dictionary
+1080		application	KEEP	application	prose_en	us	KEEP	application	dictionary
+1081		oasis	KEEP	oasis	prose_en	us	KEEP	oasis	dictionary
+1082	some	noise	KEEP	noise	prose_en	us	KEEP	noise	dictionary
+1083		anxious	KEEP	anxious	prose_en	us	KEEP	anxious	dictionary
+1084	we found	girlfriend	KEEP	girlfriend	prose_en	us	KEEP	girlfriend	dictionary
+1085		journey	KEEP	journey	prose_en	us	KEEP	journey	dictionary
+1086	here	success	KEEP	success	prose_en	us	KEEP	success	dictionary
+1087		coldest	KEEP	coldest	prose_en	us	KEEP	coldest	dictionary
+1088	finally	atom	KEEP	atom	prose_en	us	KEEP	atom	dictionary
+1089		porch	KEEP	porch	prose_en	us	KEEP	porch	dictionary
+1090	obviously	tourist	KEEP	tourist	prose_en	us	KEEP	tourist	dictionary
+1091	on my	slowly	KEEP	slowly	prose_en	us	KEEP	slowly	dictionary
+1092	then	baby	KEEP	baby	prose_en	us	KEEP	baby	dictionary
+1093	almost	game	KEEP	game	prose_en	us	KEEP	game	dictionary
+1094	my	almost	KEEP	almost	prose_en	us	KEEP	almost	dictionary
+1095		battery	KEEP	battery	prose_en	us	KEEP	battery	dictionary
+1096	now	patient	KEEP	patient	prose_en	us	KEEP	patient	dictionary
+1097	without a	son	KEEP	son	prose_en	us	KEEP	son	dictionary
+1098	actually	storm	KEEP	storm	prose_en	us	KEEP	storm	dictionary
+1099		courage	KEEP	courage	prose_en	us	KEEP	courage	dictionary
+1100	they saw	mechanic	KEEP	mechanic	prose_en	us	KEEP	mechanic	dictionary
+1101	that was	works	KEEP	works	prose_en	us	KEEP	works	dictionary
+1102	here	dishwasher	KEEP	dishwasher	prose_en	us	KEEP	dishwasher	dictionary
+1103	perhaps	new	KEEP	new	prose_en	us	KEEP	new	dictionary
+1104		muscle	KEEP	muscle	prose_en	us	KEEP	muscle	dictionary
+1105		weak	KEEP	weak	prose_en	us	KEEP	weak	dictionary
+1106	and the	city	KEEP	city	prose_en	us	KEEP	city	dictionary
+1107	quite	tomorrow	KEEP	tomorrow	prose_en	us	KEEP	tomorrow	dictionary
+1108		client	KEEP	client	prose_en	us	KEEP	client	dictionary
+1109	instead of	hundred	KEEP	hundred	prose_en	us	KEEP	hundred	dictionary
+1110	in the	beautifully	KEEP	beautifully	prose_en	us	KEEP	beautifully	dictionary
+1111		dances	KEEP	dances	prose_en	us	KEEP	dances	dictionary
+1112	before the	meadow	KEEP	meadow	prose_en	us	KEEP	meadow	dictionary
+1113	already	street	KEEP	street	prose_en	us	KEEP	street	dictionary
+1114	a	biology	KEEP	biology	prose_en	us	KEEP	biology	dictionary
+1115	my	plumber	KEEP	plumber	prose_en	us	KEEP	plumber	dictionary
+1116	indeed	taller	KEEP	taller	prose_en	us	KEEP	taller	dictionary
+1117	here	camera	KEEP	camera	prose_en	us	KEEP	camera	dictionary
+1118	after the	richer	KEEP	richer	prose_en	us	KEEP	richer	dictionary
+1119		floor	KEEP	floor	prose_en	us	KEEP	floor	dictionary
+1120	next to	skeleton	KEEP	skeleton	prose_en	us	KEEP	skeleton	dictionary
+1121		leaf	KEEP	leaf	prose_en	us	KEEP	leaf	dictionary
+1122	with the	era	KEEP	era	prose_en	us	KEEP	era	dictionary
+1123	also	breaks	KEEP	breaks	prose_en	us	KEEP	breaks	dictionary
+1124	they saw	physics	KEEP	physics	prose_en	us	KEEP	physics	dictionary
+1125	before the	matter	KEEP	matter	prose_en	us	KEEP	matter	dictionary
+1126	that	week	KEEP	week	prose_en	us	KEEP	week	dictionary
+1127		excitement	KEEP	excitement	prose_en	us	KEEP	excitement	dictionary
+1128	clearly	play	KEEP	play	prose_en	us	KEEP	play	dictionary
+1129	in the	minute	KEEP	minute	prose_en	us	KEEP	minute	dictionary
+1130		interest	KEEP	interest	prose_en	us	KEEP	interest	dictionary
+1131	finally	wallet	KEEP	wallet	prose_en	us	KEEP	wallet	dictionary
+1132	usually	cleanest	KEEP	cleanest	prose_en	us	KEEP	cleanest	dictionary
+1133	suddenly	cyclist	KEEP	cyclist	prose_en	us	KEEP	cyclist	dictionary
+1134	there	geology	KEEP	geology	prose_en	us	KEEP	geology	dictionary
+1135		suddenly	KEEP	suddenly	prose_en	us	KEEP	suddenly	dictionary
+1136	you know	working	KEEP	working	prose_en	us	KEEP	working	dictionary
+1137		enzyme	KEEP	enzyme	prose_en	us	KEEP	enzyme	dictionary
+1138		bright	KEEP	bright	prose_en	us	KEEP	bright	dictionary
+1139		kind	KEEP	kind	prose_en	us	KEEP	kind	dictionary
+1140	she went	pigeon	KEEP	pigeon	prose_en	us	KEEP	pigeon	dictionary
+1141	my	breaking	KEEP	breaking	prose_en	us	KEEP	breaking	dictionary
+1142	for the	squirrel	KEEP	squirrel	prose_en	us	KEEP	squirrel	dictionary
+1143	here	eaten	KEEP	eaten	prose_en	us	KEEP	eaten	dictionary
+1144	for the	eagle	KEEP	eagle	prose_en	us	KEEP	eagle	dictionary
+1145	there	year	KEEP	year	prose_en	us	KEEP	year	dictionary
+1146	as a	scarf	KEEP	scarf	prose_en	us	KEEP	scarf	dictionary
+1147	that was	actor	KEEP	actor	prose_en	us	KEEP	actor	dictionary
+1148		sweater	KEEP	sweater	prose_en	us	KEEP	sweater	dictionary
+1149		kingdom	KEEP	kingdom	prose_en	us	KEEP	kingdom	dictionary
+1150	quite	boyfriend	KEEP	boyfriend	prose_en	us	KEEP	boyfriend	dictionary
+1151		television	KEEP	television	prose_en	us	KEEP	television	dictionary
+1152		grass	KEEP	grass	prose_en	us	KEEP	grass	dictionary
+1153	that	always	KEEP	always	prose_en	us	KEEP	always	dictionary
+1154	next to	sparrow	KEEP	sparrow	prose_en	us	KEEP	sparrow	dictionary
+1155		mirror	KEEP	mirror	prose_en	us	KEEP	mirror	dictionary
+1156	actually	heavy	KEEP	heavy	prose_en	us	KEEP	heavy	dictionary
+1157	that was	pressure	KEEP	pressure	prose_en	us	KEEP	pressure	dictionary
+1158	indeed	square	KEEP	square	prose_en	us	KEEP	square	dictionary
+1159		played	KEEP	played	prose_en	us	KEEP	played	dictionary
+1160		going	KEEP	going	prose_en	us	KEEP	going	dictionary
+1161	you know	wife	KEEP	wife	prose_en	us	KEEP	wife	dictionary
+1162	with the	temperature	KEEP	temperature	prose_en	us	KEEP	temperature	dictionary
+1163	we were	station	KEEP	station	prose_en	us	KEEP	station	dictionary
+1164	with the	bacteria	KEEP	bacteria	prose_en	us	KEEP	bacteria	dictionary
+1165	our	learned	KEEP	learned	prose_en	us	KEEP	learned	dictionary
+1166	then	volume	KEEP	volume	prose_en	us	KEEP	volume	dictionary
+1167	as a	yesterday	KEEP	yesterday	prose_en	us	KEEP	yesterday	dictionary
+1168	that was	seeing	KEEP	seeing	prose_en	us	KEEP	seeing	dictionary
+1169		thirty	KEEP	thirty	prose_en	us	KEEP	thirty	dictionary
+1170	maybe	gravity	KEEP	gravity	prose_en	us	KEEP	gravity	dictionary
+1171	they saw	grandson	KEEP	grandson	prose_en	us	KEEP	grandson	dictionary
+1172	around the	strongest	KEEP	strongest	prose_en	us	KEEP	strongest	dictionary
+1173	after the	carbon	KEEP	carbon	prose_en	us	KEEP	carbon	dictionary
+1174		astronomer	KEEP	astronomer	prose_en	us	KEEP	astronomer	dictionary
+1175	this	hatchery	KEEP	hatchery	prose_en	us	KEEP	hatchery	dictionary
+1176		hears	KEEP	hears	prose_en	us	KEEP	hears	dictionary
+1177	we were	colleague	KEEP	colleague	prose_en	us	KEEP	colleague	dictionary
+1178		ticket	KEEP	ticket	prose_en	us	KEEP	ticket	dictionary
+1179		horse	KEEP	horse	prose_en	us	KEEP	horse	dictionary
+1180		heard	KEEP	heard	prose_en	us	KEEP	heard	dictionary
+1181	clearly	anger	KEEP	anger	prose_en	us	KEEP	anger	dictionary
+1182	also	youngest	KEEP	youngest	prose_en	us	KEEP	youngest	dictionary
+1183	suddenly	defeat	KEEP	defeat	prose_en	us	KEEP	defeat	dictionary
+1184		hope	KEEP	hope	prose_en	us	KEEP	hope	dictionary
+1185	indeed	organism	KEEP	organism	prose_en	us	KEEP	organism	dictionary
+1186	this is	warm	KEEP	warm	prose_en	us	KEEP	warm	dictionary
+1187	just	granddaughter	KEEP	granddaughter	prose_en	us	KEEP	granddaughter	dictionary
+1188		giraffe	KEEP	giraffe	prose_en	us	KEEP	giraffe	dictionary
+1189		probably	KEEP	probably	prose_en	us	KEEP	probably	dictionary
+1190	before the	ugly	KEEP	ugly	prose_en	us	KEEP	ugly	dictionary
+1191		compass	KEEP	compass	prose_en	us	KEEP	compass	dictionary
+1192	we found	worked	KEEP	worked	prose_en	us	KEEP	worked	dictionary
+1193	clearly	electrician	KEEP	electrician	prose_en	us	KEEP	electrician	dictionary
+1194	before the	faster	KEEP	faster	prose_en	us	KEEP	faster	dictionary
+1195		reading	KEEP	reading	prose_en	us	KEEP	reading	dictionary
+1196	some	supper	KEEP	supper	prose_en	us	KEEP	supper	dictionary
+1197		museum	KEEP	museum	prose_en	us	KEEP	museum	dictionary
+1198	maybe	geologist	KEEP	geologist	prose_en	us	KEEP	geologist	dictionary
+1199	maybe	boss	KEEP	boss	prose_en	us	KEEP	boss	dictionary
+1200	this is	second	KEEP	second	prose_en	us	KEEP	second	dictionary
+1201	after the	eating	KEEP	eating	prose_en	us	KEEP	eating	dictionary
+1202		physicist	KEEP	physicist	prose_en	us	KEEP	physicist	dictionary
+1203	just	tailor	KEEP	tailor	prose_en	us	KEEP	tailor	dictionary
+1204	instead of	potato	KEEP	potato	prose_en	us	KEEP	potato	dictionary
+1205		fifty	KEEP	fifty	prose_en	us	KEEP	fifty	dictionary
+1206	without a	computer	KEEP	computer	prose_en	us	KEEP	computer	dictionary
+1207		capital	KEEP	capital	prose_en	us	KEEP	capital	dictionary
+1208		fixes	KEEP	fixes	prose_en	us	KEEP	fixes	dictionary
+1209	instead of	carnation	KEEP	carnation	prose_en	us	KEEP	carnation	dictionary
+1210		runs	KEEP	runs	prose_en	us	KEEP	runs	dictionary
+1211	really	fast	KEEP	fast	prose_en	us	KEEP	fast	dictionary
+1212	here	dirty	KEEP	dirty	prose_en	us	KEEP	dirty	dictionary
+1213		bedroom	KEEP	bedroom	prose_en	us	KEEP	bedroom	dictionary
+1214	already	wilderness	KEEP	wilderness	prose_en	us	KEEP	wilderness	dictionary
+1215		tunnel	KEEP	tunnel	prose_en	us	KEEP	tunnel	dictionary
+1216	you know	napkin	KEEP	napkin	prose_en	us	KEEP	napkin	dictionary
+1217	just	worst	KEEP	worst	prose_en	us	KEEP	worst	dictionary
+1218	then	basement	KEEP	basement	prose_en	us	KEEP	basement	dictionary
+1219		volcano	KEEP	volcano	prose_en	us	KEEP	volcano	dictionary
+1220	because of	acceleration	KEEP	acceleration	prose_en	us	KEEP	acceleration	dictionary
+1221		peony	KEEP	peony	prose_en	us	KEEP	peony	dictionary
+1222		long	KEEP	long	prose_en	us	KEEP	long	dictionary
+1223	instead of	friendship	KEEP	friendship	prose_en	us	KEEP	friendship	dictionary
+1224	usually	nitrogen	KEEP	nitrogen	prose_en	us	KEEP	nitrogen	dictionary
+1225	without a	struggle	KEEP	struggle	prose_en	us	KEEP	struggle	dictionary
+1226	usually	sadness	KEEP	sadness	prose_en	us	KEEP	sadness	dictionary
+1227	for the	fatigue	KEEP	fatigue	prose_en	us	KEEP	fatigue	dictionary
+1228	not a	rests	KEEP	rests	prose_en	us	KEEP	rests	dictionary
+1229		noon	KEEP	noon	prose_en	us	KEEP	noon	dictionary
+1230	that was	harbor	KEEP	harbor	prose_en	us	KEEP	harbor	dictionary
+1231	in the	sheep	KEEP	sheep	prose_en	us	KEEP	sheep	dictionary
+1232	next to	granary	KEEP	granary	prose_en	us	KEEP	granary	dictionary
+1233	that was	wind	KEEP	wind	prose_en	us	KEEP	wind	dictionary
+1234	in the	seen	KEEP	seen	prose_en	us	KEEP	seen	dictionary
+1235	quite	pedestrian	KEEP	pedestrian	prose_en	us	KEEP	pedestrian	dictionary
+1236		sausage	KEEP	sausage	prose_en	us	KEEP	sausage	dictionary
+1237	they saw	flew	KEEP	flew	prose_en	us	KEEP	flew	dictionary
+1238	here	cleaner	KEEP	cleaner	prose_en	us	KEEP	cleaner	dictionary
+1239		shield	KEEP	shield	prose_en	us	KEEP	shield	dictionary
+1240	again	tall	KEEP	tall	prose_en	us	KEEP	tall	dictionary
+1241	some	neighborhood	KEEP	neighborhood	prose_en	us	KEEP	neighborhood	dictionary
+1242	this	irrigation	KEEP	irrigation	prose_en	us	KEEP	irrigation	dictionary
+1243	you know	husband	KEEP	husband	prose_en	us	KEEP	husband	dictionary
+1244	now	sunset	KEEP	sunset	prose_en	us	KEEP	sunset	dictionary
+1245	around the	hill	KEEP	hill	prose_en	us	KEEP	hill	dictionary
+1246	we found	tranquility	KEEP	tranquility	prose_en	us	KEEP	tranquility	dictionary
+1247	in the	escalator	KEEP	escalator	prose_en	us	KEEP	escalator	dictionary
+1248	for the	element	KEEP	element	prose_en	us	KEEP	element	dictionary
+1249		code	KEEP	code	prose_en	us	KEEP	code	dictionary
+1250	the	crow	KEEP	crow	prose_en	us	KEEP	crow	dictionary
+1251		tractor	KEEP	tractor	prose_en	us	KEEP	tractor	dictionary
+1252	just	sky	KEEP	sky	prose_en	us	KEEP	sky	dictionary
+1253		lizard	KEEP	lizard	prose_en	us	KEEP	lizard	dictionary
+1254		protein	KEEP	protein	prose_en	us	KEEP	protein	dictionary
+1255		locksmith	KEEP	locksmith	prose_en	us	KEEP	locksmith	dictionary
+1256	because of	greenhouse	KEEP	greenhouse	prose_en	us	KEEP	greenhouse	dictionary
+1257		processor	KEEP	processor	prose_en	us	KEEP	processor	dictionary
+1258	also	plow	KEEP	plow	prose_en	us	KEEP	plow	dictionary
+1259	my	cinema	KEEP	cinema	prose_en	us	KEEP	cinema	dictionary
+1260	he said	fence	KEEP	fence	prose_en	us	KEEP	fence	dictionary
+1261	still	apartment	KEEP	apartment	prose_en	us	KEEP	apartment	dictionary
+1262	we were	girl	KEEP	girl	prose_en	us	KEEP	girl	dictionary
+1263	very	molecule	KEEP	molecule	prose_en	us	KEEP	molecule	dictionary
+1264	he said	now	KEEP	now	prose_en	us	KEEP	now	dictionary
+1265	a	horizon	KEEP	horizon	prose_en	us	KEEP	horizon	dictionary
+1266		peace	KEEP	peace	prose_en	us	KEEP	peace	dictionary
+1267	I think	luggage	KEEP	luggage	prose_en	us	KEEP	luggage	dictionary
+1268	not a	polite	KEEP	polite	prose_en	us	KEEP	polite	dictionary
+1269	also	dry	KEEP	dry	prose_en	us	KEEP	dry	dictionary
+1270	you know	device	KEEP	device	prose_en	us	KEEP	device	dictionary
+1271	he said	hallway	KEEP	hallway	prose_en	us	KEEP	hallway	dictionary
+1272	my	secretary	KEEP	secretary	prose_en	us	KEEP	secretary	dictionary
+1273	you know	orchard	KEEP	orchard	prose_en	us	KEEP	orchard	dictionary
+1274	really	crown	KEEP	crown	prose_en	us	KEEP	crown	dictionary
+1275	it was	longer	KEEP	longer	prose_en	us	KEEP	longer	dictionary
+1276	really	database	KEEP	database	prose_en	us	KEEP	database	dictionary
+1277	indeed	fir	KEEP	fir	prose_en	us	KEEP	fir	dictionary
+1278	quite	director	KEEP	director	prose_en	us	KEEP	director	dictionary
+1279		thunder	KEEP	thunder	prose_en	us	KEEP	thunder	dictionary
+1280	already	grandmother	KEEP	grandmother	prose_en	us	KEEP	grandmother	dictionary
+1281	for the	see	KEEP	see	prose_en	us	KEEP	see	dictionary
+1282		desert	KEEP	desert	prose_en	us	KEEP	desert	dictionary
+1283	also	cook	KEEP	cook	prose_en	us	KEEP	cook	dictionary
+1284		failure	KEEP	failure	prose_en	us	KEEP	failure	dictionary
+1285	actually	shoemaker	KEEP	shoemaker	prose_en	us	KEEP	shoemaker	dictionary
+1286	I think	definitely	KEEP	definitely	prose_en	us	KEEP	definitely	dictionary
+1287	again	dock	KEEP	dock	prose_en	us	KEEP	dock	dictionary
+1288		best	KEEP	best	prose_en	us	KEEP	best	dictionary
+1289	this is	sidewalk	KEEP	sidewalk	prose_en	us	KEEP	sidewalk	dictionary
+1290	perhaps	employer	KEEP	employer	prose_en	us	KEEP	employer	dictionary
+1291		earthquake	KEEP	earthquake	prose_en	us	KEEP	earthquake	dictionary
+1292	next to	deception	KEEP	deception	prose_en	us	KEEP	deception	dictionary
+1293		lamp	KEEP	lamp	prose_en	us	KEEP	lamp	dictionary
+1294		daisy	KEEP	daisy	prose_en	us	KEEP	daisy	dictionary
+1295	instead of	aster	KEEP	aster	prose_en	us	KEEP	aster	dictionary
+1296	also	friend	KEEP	friend	prose_en	us	KEEP	friend	dictionary
+1297		longest	KEEP	longest	prose_en	us	KEEP	longest	dictionary
+1298	here	badly	KEEP	badly	prose_en	us	KEEP	badly	dictionary
+1299	they saw	onion	KEEP	onion	prose_en	us	KEEP	onion	dictionary
+1300	and the	vivid	KEEP	vivid	prose_en	us	KEEP	vivid	dictionary
+1301		stadium	KEEP	stadium	prose_en	us	KEEP	stadium	dictionary
+1302	on my	energy	KEEP	energy	prose_en	us	KEEP	energy	dictionary
+1303		density	KEEP	density	prose_en	us	KEEP	density	dictionary
+1304	basically	beet	KEEP	beet	prose_en	us	KEEP	beet	dictionary
+1305	quite	frying	KEEP	frying	prose_en	us	KEEP	frying	dictionary
+1306		curtain	KEEP	curtain	prose_en	us	KEEP	curtain	dictionary
+1307		armchair	KEEP	armchair	prose_en	us	KEEP	armchair	dictionary
+1308	without a	stronger	KEEP	stronger	prose_en	us	KEEP	stronger	dictionary
+1309		plate	KEEP	plate	prose_en	us	KEEP	plate	dictionary
+1310	usually	carrot	KEEP	carrot	prose_en	us	KEEP	carrot	dictionary
+1311	again	prairie	KEEP	prairie	prose_en	us	KEEP	prairie	dictionary
+1312	basically	dawn	KEEP	dawn	prose_en	us	KEEP	dawn	dictionary
+1313	very	vigor	KEEP	vigor	prose_en	us	KEEP	vigor	dictionary
+1314	my	sea	KEEP	sea	prose_en	us	KEEP	sea	dictionary
+1315		buy	KEEP	buy	prose_en	us	KEEP	buy	dictionary
+1316		organ	KEEP	organ	prose_en	us	KEEP	organ	dictionary
+1317	here	wheel	KEEP	wheel	prose_en	us	KEEP	wheel	dictionary
+1318		short	KEEP	short	prose_en	us	KEEP	short	dictionary
+1319	some	mountain	KEEP	mountain	prose_en	us	KEEP	mountain	dictionary
+1320	really	saw	KEEP	saw	prose_en	us	KEEP	saw	dictionary
+1321		boulevard	KEEP	boulevard	prose_en	us	KEEP	boulevard	dictionary
+1322	because of	pond	KEEP	pond	prose_en	us	KEEP	pond	dictionary
+1323	instead of	architect	KEEP	architect	prose_en	us	KEEP	architect	dictionary
+1324	then	resting	KEEP	resting	prose_en	us	KEEP	resting	dictionary
+1325	now	kiosk	KEEP	kiosk	prose_en	us	KEEP	kiosk	dictionary
+1326		poplar	KEEP	poplar	prose_en	us	KEEP	poplar	dictionary
+1327	almost	expedition	KEEP	expedition	prose_en	us	KEEP	expedition	dictionary
+1328		summer	KEEP	summer	prose_en	us	KEEP	summer	dictionary
+1329	very	chestnut	KEEP	chestnut	prose_en	us	KEEP	chestnut	dictionary
+1330		pharmacist	KEEP	pharmacist	prose_en	us	KEEP	pharmacist	dictionary
+1331	she went	wisdom	KEEP	wisdom	prose_en	us	KEEP	wisdom	dictionary
+1332		daughter	KEEP	daughter	prose_en	us	KEEP	daughter	dictionary
+1333		poor	KEEP	poor	prose_en	us	KEEP	poor	dictionary
+1334	you know	garlic	KEEP	garlic	prose_en	us	KEEP	garlic	dictionary
+1335		silly	KEEP	silly	prose_en	us	KEEP	silly	dictionary
+1336	some	cat	KEEP	cat	prose_en	us	KEEP	cat	dictionary
+1337	also	scanner	KEEP	scanner	prose_en	us	KEEP	scanner	dictionary
+1338	around the	weakness	KEEP	weakness	prose_en	us	KEEP	weakness	dictionary
+1339	that	courtyard	KEEP	courtyard	prose_en	us	KEEP	courtyard	dictionary
+1340	just	microphone	KEEP	microphone	prose_en	us	KEEP	microphone	dictionary
+1341	actually	nervous	KEEP	nervous	prose_en	us	KEEP	nervous	dictionary
+1342		pasture	KEEP	pasture	prose_en	us	KEEP	pasture	dictionary
+1343	just	dark	KEEP	dark	prose_en	us	KEEP	dark	dictionary
+1344	also	slow	KEEP	slow	prose_en	us	KEEP	slow	dictionary
+1345	actually	anxiety	KEEP	anxiety	prose_en	us	KEEP	anxiety	dictionary
+1346		fox	KEEP	fox	prose_en	us	KEEP	fox	dictionary
+1347	before the	worker	KEEP	worker	prose_en	us	KEEP	worker	dictionary
+1348	very	tallest	KEEP	tallest	prose_en	us	KEEP	tallest	dictionary
+1349	after the	cabbage	KEEP	cabbage	prose_en	us	KEEP	cabbage	dictionary
+1350		fate	KEEP	fate	prose_en	us	KEEP	fate	dictionary
+1351	and the	accountant	KEEP	accountant	prose_en	us	KEEP	accountant	dictionary
+1352		door	KEEP	door	prose_en	us	KEEP	door	dictionary
+1353		knight	KEEP	knight	prose_en	us	KEEP	knight	dictionary
+1354	suddenly	decade	KEEP	decade	prose_en	us	KEEP	decade	dictionary
+1355	still	cooked	KEEP	cooked	prose_en	us	KEEP	cooked	dictionary
+1356	instead of	grove	KEEP	grove	prose_en	us	KEEP	grove	dictionary
+1357	here	chemist	KEEP	chemist	prose_en	us	KEEP	chemist	dictionary
+1358	clearly	autumn	KEEP	autumn	prose_en	us	KEEP	autumn	dictionary
+1359	clearly	highway	KEEP	highway	prose_en	us	KEEP	highway	dictionary
+1360	then	useful	KEEP	useful	prose_en	us	KEEP	useful	dictionary
+1361		learning	KEEP	learning	prose_en	us	KEEP	learning	dictionary
+1362		mood	KEEP	mood	prose_en	us	KEEP	mood	dictionary
+1363	maybe	thinks	KEEP	thinks	prose_en	us	KEEP	thinks	dictionary
+1364	quite	stranger	KEEP	stranger	prose_en	us	KEEP	stranger	dictionary
+1365	clearly	brighter	KEEP	brighter	prose_en	us	KEEP	brighter	dictionary
+1366	again	writer	KEEP	writer	prose_en	us	KEEP	writer	dictionary
+1367		really	KEEP	really	prose_en	us	KEEP	really	dictionary
+1368	next to	system	KEEP	system	prose_en	us	KEEP	system	dictionary
+1369		moose	KEEP	moose	prose_en	us	KEEP	moose	dictionary
+1370		boar	KEEP	boar	prose_en	us	KEEP	boar	dictionary
+1371	here	swimming	KEEP	swimming	prose_en	us	KEEP	swimming	dictionary
+1372	already	beautiful	KEEP	beautiful	prose_en	us	KEEP	beautiful	dictionary
+1373	he said	carbohydrate	KEEP	carbohydrate	prose_en	us	KEEP	carbohydrate	dictionary
+1374	not a	brother	KEEP	brother	prose_en	us	KEEP	brother	dictionary
+1375	the	backpack	KEEP	backpack	prose_en	us	KEEP	backpack	dictionary
+1376		melon	KEEP	melon	prose_en	us	KEEP	melon	dictionary
+1377		bigger	KEEP	bigger	prose_en	us	KEEP	bigger	dictionary
+1378	they saw	mass	KEEP	mass	prose_en	us	KEEP	mass	dictionary
+1379		hormone	KEEP	hormone	prose_en	us	KEEP	hormone	dictionary
+1380	some	ice	KEEP	ice	prose_en	us	KEEP	ice	dictionary
+1381		easiest	KEEP	easiest	prose_en	us	KEEP	easiest	dictionary
+1382	maybe	knows	KEEP	knows	prose_en	us	KEEP	knows	dictionary
+1383	instead of	tissue	KEEP	tissue	prose_en	us	KEEP	tissue	dictionary
+1384	before the	milk	KEEP	milk	prose_en	us	KEEP	milk	dictionary
+1385	basically	season	KEEP	season	prose_en	us	KEEP	season	dictionary
+1386	quite	kindness	KEEP	kindness	prose_en	us	KEEP	kindness	dictionary
+1387	as a	village	KEEP	village	prose_en	us	KEEP	village	dictionary
+1388	before the	plum	KEEP	plum	prose_en	us	KEEP	plum	dictionary
+1389	for the	boring	KEEP	boring	prose_en	us	KEEP	boring	dictionary
+1390	instead of	kinder	KEEP	kinder	prose_en	us	KEEP	kinder	dictionary
+1391	around the	duck	KEEP	duck	prose_en	us	KEEP	duck	dictionary
+1392	as a	lake	KEEP	lake	prose_en	us	KEEP	lake	dictionary
+1393	in the	shore	KEEP	shore	prose_en	us	KEEP	shore	dictionary
+1394	really	plays	KEEP	plays	prose_en	us	KEEP	plays	dictionary
+1395	she went	man	KEEP	man	prose_en	us	KEEP	man	dictionary
+1396		learns	KEEP	learns	prose_en	us	KEEP	learns	dictionary
+1397	and the	monitor	KEEP	monitor	prose_en	us	KEEP	monitor	dictionary
+1398	really	often	KEEP	often	prose_en	us	KEEP	often	dictionary
+1399	some	luck	KEEP	luck	prose_en	us	KEEP	luck	dictionary
+1400	not a	fortress	KEEP	fortress	prose_en	us	KEEP	fortress	dictionary
+1401	on my	glacier	KEEP	glacier	prose_en	us	KEEP	glacier	dictionary
+1402	suddenly	fountain	KEEP	fountain	prose_en	us	KEEP	fountain	dictionary
+1403	basically	gene	KEEP	gene	prose_en	us	KEEP	gene	dictionary
+1404		safe	KEEP	safe	prose_en	us	KEEP	safe	dictionary
+1405	they saw	known	KEEP	known	prose_en	us	KEEP	known	dictionary
+1406	that was	winter	KEEP	winter	prose_en	us	KEEP	winter	dictionary
+1407	some	ceiling	KEEP	ceiling	prose_en	us	KEEP	ceiling	dictionary
+1408		kindest	KEEP	kindest	prose_en	us	KEEP	kindest	dictionary
+1409	with the	foolishness	KEEP	foolishness	prose_en	us	KEEP	foolishness	dictionary
+1410	it was	lily	KEEP	lily	prose_en	us	KEEP	lily	dictionary
+1411	really	air	KEEP	air	prose_en	us	KEEP	air	dictionary
+1412	she went	swim	KEEP	swim	prose_en	us	KEEP	swim	dictionary
+1413	around the	hardest	KEEP	hardest	prose_en	us	KEEP	hardest	dictionary
+1414		calm	KEEP	calm	prose_en	us	KEEP	calm	dictionary
+1415	quite	went	KEEP	went	prose_en	us	KEEP	went	dictionary
+1416	that was	thousand	KEEP	thousand	prose_en	us	KEEP	thousand	dictionary
+1417	almost	patience	KEEP	patience	prose_en	us	KEEP	patience	dictionary
+1418	she went	forty	KEEP	forty	prose_en	us	KEEP	forty	dictionary
+1419		earth	KEEP	earth	prose_en	us	KEEP	earth	dictionary
+1420	basically	interesting	KEEP	interesting	prose_en	us	KEEP	interesting	dictionary
+1421	finally	slightly	KEEP	slightly	prose_en	us	KEEP	slightly	dictionary
+1422	she went	treasure	KEEP	treasure	prose_en	us	KEEP	treasure	dictionary
+1423	also	umbrella	KEEP	umbrella	prose_en	us	KEEP	umbrella	dictionary
+1424	a	fiber	KEEP	fiber	prose_en	us	KEEP	fiber	dictionary
+1425	obviously	hatred	KEEP	hatred	prose_en	us	KEEP	hatred	dictionary
+1426	without a	sofa	KEEP	sofa	prose_en	us	KEEP	sofa	dictionary
+1427	basically	woman	KEEP	woman	prose_en	us	KEEP	woman	dictionary
+1428	finally	room	KEEP	room	prose_en	us	KEEP	room	dictionary
+1429	around the	big	KEEP	big	prose_en	us	KEEP	big	dictionary
+1430	next to	goat	KEEP	goat	prose_en	us	KEEP	goat	dictionary
+1431	that	character	KEEP	character	prose_en	us	KEEP	character	dictionary
+1432	not a	seed	KEEP	seed	prose_en	us	KEEP	seed	dictionary
+1433	obviously	sorrow	KEEP	sorrow	prose_en	us	KEEP	sorrow	dictionary
+1434	in the	attic	KEEP	attic	prose_en	us	KEEP	attic	dictionary
+1435	not a	imagination	KEEP	imagination	prose_en	us	KEEP	imagination	dictionary
+1436	our	flower	KEEP	flower	prose_en	us	KEEP	flower	dictionary
+1437		doing	KEEP	doing	prose_en	us	KEEP	doing	dictionary
+1438		anchor	KEEP	anchor	prose_en	us	KEEP	anchor	dictionary
+1439	here	force	KEEP	force	prose_en	us	KEEP	force	dictionary
+1440	now	worse	KEEP	worse	prose_en	us	KEEP	worse	dictionary
+1441		office	KEEP	office	prose_en	us	KEEP	office	dictionary
+1442		plaza	KEEP	plaza	prose_en	us	KEEP	plaza	dictionary
+1443	this	rose	KEEP	rose	prose_en	us	KEEP	rose	dictionary
+1444		kettle	KEEP	kettle	prose_en	us	KEEP	kettle	dictionary
+1445		mason	KEEP	mason	prose_en	us	KEEP	mason	dictionary
+1446	indeed	dungeon	KEEP	dungeon	prose_en	us	KEEP	dungeon	dictionary
+1447	very	habit	KEEP	habit	prose_en	us	KEEP	habit	dictionary
+1448		pier	KEEP	pier	prose_en	us	KEEP	pier	dictionary
+1449	very	never	KEEP	never	prose_en	us	KEEP	never	dictionary
+1450	indeed	roundabout	KEEP	roundabout	prose_en	us	KEEP	roundabout	dictionary
+1451	for the	сфтнщт	CONVERT	canyon	prose_en	ru	CONVERT	canyon	dictionary
+1452	just	ыньзещь	CONVERT	symptom	prose_en	ru	CONVERT	symptom	dictionary
+1453	still	ыщдв	CONVERT	sold	prose_en	ru	CONVERT	sold	dictionary
+1454	a	цфшеук	CONVERT	waiter	prose_en	ru	CONVERT	waiter	dictionary
+1455	really	кфштищц	CONVERT	rainbow	prose_en	ru	CONVERT	rainbow	dictionary
+1456	I think	удузрфте	CONVERT	elephant	prose_en	ru	CONVERT	elephant	dictionary
+1457	that was	вщп	CONVERT	dog	prose_en	ru	CONVERT	dog	dictionary
+1458	now	ишкср	CONVERT	birch	prose_en	ru	CONVERT	birch	dictionary
+1459	clearly	рфззштуыы	CONVERT	happiness	prose_en	ru	CONVERT	happiness	dictionary
+1460		здфнштп	CONVERT	playing	prose_en	ru	CONVERT	playing	dictionary
+1461		руфкштп	CONVERT	hearing	prose_en	ru	CONVERT	hearing	dictionary
+1462		пфквут	CONVERT	garden	prose_en	ru	CONVERT	garden	dictionary
+1463	next to	ыекуфь	CONVERT	stream	prose_en	ru	CONVERT	stream	dictionary
+1464		афыеуые	CONVERT	fastest	prose_en	ru	CONVERT	fastest	dictionary
+1465	indeed	тфккщц	CONVERT	narrow	prose_en	ru	CONVERT	narrow	dictionary
+1466		щкфтпу	CONVERT	orange	prose_en	ru	CONVERT	orange	dictionary
+1467	next to	здфеуфг	CONVERT	plateau	prose_en	ru	CONVERT	plateau	dictionary
+1468	that	ащкл	CONVERT	fork	prose_en	ru	CONVERT	fork	dictionary
+1469	perhaps	ьщтлун	CONVERT	monkey	prose_en	ru	CONVERT	monkey	dictionary
+1470	basically	аукешдшяук	CONVERT	fertilizer	prose_en	ru	CONVERT	fertilizer	dictionary
+1471	still	уьифтльуте	CONVERT	embankment	prose_en	ru	CONVERT	embankment	dictionary
+1472	instead of	ьшддшщт	CONVERT	million	prose_en	ru	CONVERT	million	dictionary
+1473	that	фкешые	CONVERT	artist	prose_en	ru	CONVERT	artist	dictionary
+1474	with the	цшву	CONVERT	wide	prose_en	ru	CONVERT	wide	dictionary
+1475	then	фдпщкшерь	CONVERT	algorithm	prose_en	ru	CONVERT	algorithm	dictionary
+1476		вкшмук	CONVERT	driver	prose_en	ru	CONVERT	driver	dictionary
+1477	and the	рфшд	CONVERT	hail	prose_en	ru	CONVERT	hail	dictionary
+1478	really	ашду	CONVERT	file	prose_en	ru	CONVERT	file	dictionary
+1479	here	кфшт	CONVERT	rain	prose_en	ru	CONVERT	rain	dictionary
+1480	that was	сфккшфпу	CONVERT	carriage	prose_en	ru	CONVERT	carriage	dictionary
+1481	I think	ышдщ	CONVERT	silo	prose_en	ru	CONVERT	silo	dictionary
+1482	obviously	огыешсу	CONVERT	justice	prose_en	ru	CONVERT	justice	dictionary
+1483		дшпретштп	CONVERT	lightning	prose_en	ru	CONVERT	lightning	dictionary
+1484	maybe	игшдв	CONVERT	build	prose_en	ru	CONVERT	build	dictionary
+1485	usually	кщще	CONVERT	root	prose_en	ru	CONVERT	root	dictionary
+1486	that	ыфеуддшеу	CONVERT	satellite	prose_en	ru	CONVERT	satellite	dictionary
+1487	here	икуфл	CONVERT	break	prose_en	ru	CONVERT	break	dictionary
+1488	he said	щдв	CONVERT	old	prose_en	ru	CONVERT	old	dictionary
+1489		зшддщц	CONVERT	pillow	prose_en	ru	CONVERT	pillow	dictionary
+1490	on my	пфеу	CONVERT	gate	prose_en	ru	CONVERT	gate	dictionary
+1491	after the	дщц	CONVERT	low	prose_en	ru	CONVERT	low	dictionary
+1492	almost	фвгде	CONVERT	adult	prose_en	ru	CONVERT	adult	dictionary
+1493	very	лтуц	CONVERT	knew	prose_en	ru	CONVERT	knew	dictionary
+1494	again	вкщту	CONVERT	drone	prose_en	ru	CONVERT	drone	dictionary
+1495	our	ьштук	CONVERT	miner	prose_en	ru	CONVERT	miner	dictionary
+1496	she went	ыегвуте	CONVERT	student	prose_en	ru	CONVERT	student	dictionary
+1497	that was	ыштпштп	CONVERT	singing	prose_en	ru	CONVERT	singing	dictionary
+1498		егтвкф	CONVERT	tundra	prose_en	ru	CONVERT	tundra	dictionary
+1499	obviously	егдшз	CONVERT	tulip	prose_en	ru	CONVERT	tulip	dictionary
+1500	this is	вуц	CONVERT	dew	prose_en	ru	CONVERT	dew	dictionary
+1501		идщщв	CONVERT	blood	prose_en	ru	CONVERT	blood	dictionary
+1502	in the	иуфк	CONVERT	bear	prose_en	ru	CONVERT	bear	dictionary
+1503		мшсещкн	CONVERT	victory	prose_en	ru	CONVERT	victory	dictionary
+1504	after the	кщсл	CONVERT	rock	prose_en	ru	CONVERT	rock	dictionary
+1505	still	цшвук	CONVERT	wider	prose_en	ru	CONVERT	wider	dictionary
+1506	now	кщище	CONVERT	robot	prose_en	ru	CONVERT	robot	dictionary
+1507		куые	CONVERT	rest	prose_en	ru	CONVERT	rest	dictionary
+1508	finally	судд	CONVERT	cell	prose_en	ru	CONVERT	cell	dictionary
+1509		афьщгы	CONVERT	famous	prose_en	ru	CONVERT	famous	dictionary
+1510	maybe	икшпреуые	CONVERT	brightest	prose_en	ru	CONVERT	brightest	dictionary
+1511	after the	цуиышеу	CONVERT	website	prose_en	ru	CONVERT	website	dictionary
+1512	really	игнук	CONVERT	buyer	prose_en	ru	CONVERT	buyer	dictionary
+1513		ыфшд	CONVERT	sail	prose_en	ru	CONVERT	sail	dictionary
+1514	again	ьшкфпу	CONVERT	mirage	prose_en	ru	CONVERT	mirage	dictionary
+1515	not a	ьшыащкегту	CONVERT	misfortune	prose_en	ru	CONVERT	misfortune	dictionary
+1516	some	ыефиду	CONVERT	stable	prose_en	ru	CONVERT	stable	dictionary
+1517	the	цщда	CONVERT	wolf	prose_en	ru	CONVERT	wolf	dictionary
+1518	you know	ыефк	CONVERT	star	prose_en	ru	CONVERT	star	dictionary
+1519	almost	сщккшвщк	CONVERT	corridor	prose_en	ru	CONVERT	corridor	dictionary
+1520	still	игшдвы	CONVERT	builds	prose_en	ru	CONVERT	builds	dictionary
+1521	we were	цкшеуы	CONVERT	writes	prose_en	ru	CONVERT	writes	dictionary
+1522	also	акщтешук	CONVERT	frontier	prose_en	ru	CONVERT	frontier	dictionary
+1523		цкшештп	CONVERT	writing	prose_en	ru	CONVERT	writing	dictionary
+1524	that was	шддтуыы	CONVERT	illness	prose_en	ru	CONVERT	illness	dictionary
+1525		цфеук	CONVERT	water	prose_en	ru	CONVERT	water	dictionary
+1526	usually	ырщз	CONVERT	shop	prose_en	ru	CONVERT	shop	dictionary
+1527	she went	акуувщь	CONVERT	freedom	prose_en	ru	CONVERT	freedom	dictionary
+1528	you know	уфышук	CONVERT	easier	prose_en	ru	CONVERT	easier	dictionary
+1529	we were	ашч	CONVERT	fix	prose_en	ru	CONVERT	fix	dictionary
+1530	obviously	тушприщк	CONVERT	neighbor	prose_en	ru	CONVERT	neighbor	dictionary
+1531		ьщщт	CONVERT	moon	prose_en	ru	CONVERT	moon	dictionary
+1532	that	сщфыедшту	CONVERT	coastline	prose_en	ru	CONVERT	coastline	dictionary
+1533	there	срууыу	CONVERT	cheese	prose_en	ru	CONVERT	cheese	dictionary
+1534	we were	сщдв	CONVERT	cold	prose_en	ru	CONVERT	cold	dictionary
+1535	clearly	сщщлы	CONVERT	cooks	prose_en	ru	CONVERT	cooks	dictionary
+1536	and the	ытфлу	CONVERT	snake	prose_en	ru	CONVERT	snake	dictionary
+1537		еруфеук	CONVERT	theater	prose_en	ru	CONVERT	theater	dictionary
+1538		ызщщт	CONVERT	spoon	prose_en	ru	CONVERT	spoon	dictionary
+1539	for the	црфду	CONVERT	whale	prose_en	ru	CONVERT	whale	dictionary
+1540	we found	екуу	CONVERT	tree	prose_en	ru	CONVERT	tree	dictionary
+1541	there	сдщсл	CONVERT	clock	prose_en	ru	CONVERT	clock	dictionary
+1542	maybe	фвмутегку	CONVERT	adventure	prose_en	ru	CONVERT	adventure	dictionary
+1543	here	ьфтфпук	CONVERT	manager	prose_en	ru	CONVERT	manager	dictionary
+1544	they saw	ащп	CONVERT	fog	prose_en	ru	CONVERT	fog	dictionary
+1545	suddenly	фтсшуте	CONVERT	ancient	prose_en	ru	CONVERT	ancient	dictionary
+1546	basically	мшвущ	CONVERT	video	prose_en	ru	CONVERT	video	dictionary
+1547	just	тузруц	CONVERT	nephew	prose_en	ru	CONVERT	nephew	dictionary
+1548	around the	уфеы	CONVERT	eats	prose_en	ru	CONVERT	eats	dictionary
+1549	still	зщккшвпу	CONVERT	porridge	prose_en	ru	CONVERT	porridge	dictionary
+1550		рнвкщпут	CONVERT	hydrogen	prose_en	ru	CONVERT	hydrogen	dictionary
+1551		вуышптук	CONVERT	designer	prose_en	ru	CONVERT	designer	dictionary
+1552	again	ефиду	CONVERT	table	prose_en	ru	CONVERT	table	dictionary
+1553	she went	ьщвукт	CONVERT	modern	prose_en	ru	CONVERT	modern	dictionary
+1554	that was	куфсешщт	CONVERT	reaction	prose_en	ru	CONVERT	reaction	dictionary
+1555	clearly	щдвук	CONVERT	older	prose_en	ru	CONVERT	older	dictionary
+1556	some	игееукадн	CONVERT	butterfly	prose_en	ru	CONVERT	butterfly	dictionary
+1557	you know	аферук	CONVERT	father	prose_en	ru	CONVERT	father	dictionary
+1558	a	ысрщщд	CONVERT	school	prose_en	ru	CONVERT	school	dictionary
+1559	basically	икуфлафые	CONVERT	breakfast	prose_en	ru	CONVERT	breakfast	dictionary
+1560	not a	вфтсу	CONVERT	dance	prose_en	ru	CONVERT	dance	dictionary
+1561	next to	вфтвудшщт	CONVERT	dandelion	prose_en	ru	CONVERT	dandelion	dictionary
+1562		ащдвук	CONVERT	folder	prose_en	ru	CONVERT	folder	dictionary
+1563	the	усщыныеуь	CONVERT	ecosystem	prose_en	ru	CONVERT	ecosystem	dictionary
+1564		скщыыштп	CONVERT	crossing	prose_en	ru	CONVERT	crossing	dictionary
+1565	we found	кщщаещз	CONVERT	rooftop	prose_en	ru	CONVERT	rooftop	dictionary
+1566		скщсщвшду	CONVERT	crocodile	prose_en	ru	CONVERT	crocodile	dictionary
+1567	almost	рщызшефд	CONVERT	hospital	prose_en	ru	CONVERT	hospital	dictionary
+1568	obviously	сщаауу	CONVERT	coffee	prose_en	ru	CONVERT	coffee	dictionary
+1569	as a	щзукфещк	CONVERT	operator	prose_en	ru	CONVERT	operator	dictionary
+1570	and the	штеуктуе	CONVERT	internet	prose_en	ru	CONVERT	internet	dictionary
+1571	for the	уфе	CONVERT	eat	prose_en	ru	CONVERT	eat	dictionary
+1572	also	сршдврщщв	CONVERT	childhood	prose_en	ru	CONVERT	childhood	dictionary
+1573		игшде	CONVERT	built	prose_en	ru	CONVERT	built	dictionary
+1574	just	умщдгешщт	CONVERT	evolution	prose_en	ru	CONVERT	evolution	dictionary
+1575	I think	ырузрукв	CONVERT	shepherd	prose_en	ru	CONVERT	shepherd	dictionary
+1576	it was	сршдв	CONVERT	child	prose_en	ru	CONVERT	child	dictionary
+1577	that was	сщдвук	CONVERT	colder	prose_en	ru	CONVERT	colder	dictionary
+1578	almost	вщуы	CONVERT	does	prose_en	ru	CONVERT	does	dictionary
+1579		дщму	CONVERT	love	prose_en	ru	CONVERT	love	dictionary
+1580	also	туфк	CONVERT	near	prose_en	ru	CONVERT	near	dictionary
+1581	actually	зфкл	CONVERT	park	prose_en	ru	CONVERT	park	dictionary
+1582	a	удумут	CONVERT	eleven	prose_en	ru	CONVERT	eleven	dictionary
+1583	basically	йгшслдн	CONVERT	quickly	prose_en	ru	CONVERT	quickly	dictionary
+1584	you know	икуфв	CONVERT	bread	prose_en	ru	CONVERT	bread	dictionary
+1585	with the	екщгыукы	CONVERT	trousers	prose_en	ru	CONVERT	trousers	dictionary
+1586	here	екфаашс	CONVERT	traffic	prose_en	ru	CONVERT	traffic	dictionary
+1587	on my	цуе	CONVERT	wet	prose_en	ru	CONVERT	wet	dictionary
+1588	they saw	сукефштдн	CONVERT	certainly	prose_en	ru	CONVERT	certainly	dictionary
+1589		екгые	CONVERT	trust	prose_en	ru	CONVERT	trust	dictionary
+1590		ысгдзещк	CONVERT	sculptor	prose_en	ru	CONVERT	sculptor	dictionary
+1591	he said	куфвы	CONVERT	reads	prose_en	ru	CONVERT	reads	dictionary
+1592	now	ащкуые	CONVERT	forest	prose_en	ru	CONVERT	forest	dictionary
+1593	he said	фгте	CONVERT	aunt	prose_en	ru	CONVERT	aunt	dictionary
+1594	in the	ьщтгьуте	CONVERT	monument	prose_en	ru	CONVERT	monument	dictionary
+1595	as a	игввн	CONVERT	buddy	prose_en	ru	CONVERT	buddy	dictionary
+1596	she went	зрщту	CONVERT	phone	prose_en	ru	CONVERT	phone	dictionary
+1597	not a	удвукдн	CONVERT	elderly	prose_en	ru	CONVERT	elderly	dictionary
+1598		упп	CONVERT	egg	prose_en	ru	CONVERT	egg	dictionary
+1599	he said	идфтлуе	CONVERT	blanket	prose_en	ru	CONVERT	blanket	dictionary
+1600	almost	ыукмук	CONVERT	server	prose_en	ru	CONVERT	server	dictionary
+1601	you know	афсещкн	CONVERT	factory	prose_en	ru	CONVERT	factory	dictionary
+1602	now	адшуы	CONVERT	flies	prose_en	ru	CONVERT	flies	dictionary
+1603	my	зшту	CONVERT	pine	prose_en	ru	CONVERT	pine	dictionary
+1604	because of	сфтвду	CONVERT	candle	prose_en	ru	CONVERT	candle	dictionary
+1605		ьгышсшфт	CONVERT	musician	prose_en	ru	CONVERT	musician	dictionary
+1606		рщгыу	CONVERT	house	prose_en	ru	CONVERT	house	dictionary
+1607	this is	зуззук	CONVERT	pepper	prose_en	ru	CONVERT	pepper	dictionary
+1608		ыуеедуьуте	CONVERT	settlement	prose_en	ru	CONVERT	settlement	dictionary
+1609	on my	рщгк	CONVERT	hour	prose_en	ru	CONVERT	hour	dictionary
+1610	because of	ыфгсузфт	CONVERT	saucepan	prose_en	ru	CONVERT	saucepan	dictionary
+1611		уьзшку	CONVERT	empire	prose_en	ru	CONVERT	empire	dictionary
+1612		дфеук	CONVERT	later	prose_en	ru	CONVERT	later	dictionary
+1613		ьфзду	CONVERT	maple	prose_en	ru	CONVERT	maple	dictionary
+1614	before the	екуфеьуте	CONVERT	treatment	prose_en	ru	CONVERT	treatment	dictionary
+1615	without a	ифдсщтн	CONVERT	balcony	prose_en	ru	CONVERT	balcony	dictionary
+1616	already	кфызиуккн	CONVERT	raspberry	prose_en	ru	CONVERT	raspberry	dictionary
+1617	not a	сщьзщгтв	CONVERT	compound	prose_en	ru	CONVERT	compound	dictionary
+1618	next to	фкьщк	CONVERT	armor	prose_en	ru	CONVERT	armor	dictionary
+1619	some	ещцук	CONVERT	tower	prose_en	ru	CONVERT	tower	dictionary
+1620	also	гтсду	CONVERT	uncle	prose_en	ru	CONVERT	uncle	dictionary
+1621		руфмшук	CONVERT	heavier	prose_en	ru	CONVERT	heavier	dictionary
+1622		дуьщт	CONVERT	lemon	prose_en	ru	CONVERT	lemon	dictionary
+1623	perhaps	гтшмукышен	CONVERT	university	prose_en	ru	CONVERT	university	dictionary
+1624	this is	иуееук	CONVERT	better	prose_en	ru	CONVERT	better	dictionary
+1625	quite	вфырищфкв	CONVERT	dashboard	prose_en	ru	CONVERT	dashboard	dictionary
+1626	actually	ышдутсу	CONVERT	silence	prose_en	ru	CONVERT	silence	dictionary
+1627	actually	ышьздук	CONVERT	simpler	prose_en	ru	CONVERT	simpler	dictionary
+1628	maybe	куфв	CONVERT	read	prose_en	ru	CONVERT	read	dictionary
+1629	very	ылндшту	CONVERT	skyline	prose_en	ru	CONVERT	skyline	dictionary
+1630		фееутешщт	CONVERT	attention	prose_en	ru	CONVERT	attention	dictionary
+1631	because of	сщьздуч	CONVERT	complex	prose_en	ru	CONVERT	complex	dictionary
+1632	not a	щфл	CONVERT	oak	prose_en	ru	CONVERT	oak	dictionary
+1633	we found	пкфтваферук	CONVERT	grandfather	prose_en	ru	CONVERT	grandfather	dictionary
+1634	indeed	мфссшту	CONVERT	vaccine	prose_en	ru	CONVERT	vaccine	dictionary
+1635	a	сфкзуе	CONVERT	carpet	prose_en	ru	CONVERT	carpet	dictionary
+1636	actually	руфк	CONVERT	hear	prose_en	ru	CONVERT	hear	dictionary
+1637	still	икфтср	CONVERT	branch	prose_en	ru	CONVERT	branch	dictionary
+1638	she went	ерштл	CONVERT	think	prose_en	ru	CONVERT	think	dictionary
+1639		пфвпуе	CONVERT	gadget	prose_en	ru	CONVERT	gadget	dictionary
+1640	finally	дшпрерщгыу	CONVERT	lighthouse	prose_en	ru	CONVERT	lighthouse	dictionary
+1641	our	ьштукфд	CONVERT	mineral	prose_en	ru	CONVERT	mineral	dictionary
+1642		срфкпук	CONVERT	charger	prose_en	ru	CONVERT	charger	dictionary
+1643		тгекшешщт	CONVERT	nutrition	prose_en	ru	CONVERT	nutrition	dictionary
+1644	already	ыцфьз	CONVERT	swamp	prose_en	ru	CONVERT	swamp	dictionary
+1645		ыуддштп	CONVERT	selling	prose_en	ru	CONVERT	selling	dictionary
+1646	finally	сдфыыьфеу	CONVERT	classmate	prose_en	ru	CONVERT	classmate	dictionary
+1647	after the	сщщлштп	CONVERT	cooking	prose_en	ru	CONVERT	cooking	dictionary
+1648		сфкзутеук	CONVERT	carpenter	prose_en	ru	CONVERT	carpenter	dictionary
+1649		рфкмуые	CONVERT	harvest	prose_en	ru	CONVERT	harvest	dictionary
+1650	almost	ощгктфдшые	CONVERT	journalist	prose_en	ru	CONVERT	journalist	dictionary
+1651	now	ыудды	CONVERT	sells	prose_en	ru	CONVERT	sells	dictionary
+1652		сщддупу	CONVERT	college	prose_en	ru	CONVERT	college	dictionary
+1653		щдвуые	CONVERT	oldest	prose_en	ru	CONVERT	oldest	dictionary
+1654	basically	ыцфь	CONVERT	swam	prose_en	ru	CONVERT	swam	dictionary
+1655	and the	зщуе	CONVERT	poet	prose_en	ru	CONVERT	poet	dictionary
+1656	as a	тшусу	CONVERT	niece	prose_en	ru	CONVERT	niece	dictionary
+1657	still	кфкудн	CONVERT	rarely	prose_en	ru	CONVERT	rarely	dictionary
+1658	on my	зщщкук	CONVERT	poorer	prose_en	ru	CONVERT	poorer	dictionary
+1659	and the	идщыыщь	CONVERT	blossom	prose_en	ru	CONVERT	blossom	dictionary
+1660		игыр	CONVERT	bush	prose_en	ru	CONVERT	bush	dictionary
+1661		фпу	CONVERT	age	prose_en	ru	CONVERT	age	dictionary
+1662		ышьздуые	CONVERT	simplest	prose_en	ru	CONVERT	simplest	dictionary
+1663		аднштп	CONVERT	flying	prose_en	ru	CONVERT	flying	dictionary
+1664	the	рщтун	CONVERT	honey	prose_en	ru	CONVERT	honey	dictionary
+1665	in the	ершсл	CONVERT	thick	prose_en	ru	CONVERT	thick	dictionary
+1666	actually	дгтср	CONVERT	lunch	prose_en	ru	CONVERT	lunch	dictionary
+1667	now	ецутен	CONVERT	twenty	prose_en	ru	CONVERT	twenty	dictionary
+1668		ышптфд	CONVERT	signal	prose_en	ru	CONVERT	signal	dictionary
+1669		екгтл	CONVERT	trunk	prose_en	ru	CONVERT	trunk	dictionary
+1670	just	акуыр	CONVERT	fresh	prose_en	ru	CONVERT	fresh	dictionary
+1671	really	пдщму	CONVERT	glove	prose_en	ru	CONVERT	glove	dictionary
+1672	that	ьуьщкн	CONVERT	memory	prose_en	ru	CONVERT	memory	dictionary
+1673	around the	вщсещк	CONVERT	doctor	prose_en	ru	CONVERT	doctor	dictionary
+1674	and the	лшесрут	CONVERT	kitchen	prose_en	ru	CONVERT	kitchen	dictionary
+1675	our	умутштп	CONVERT	evening	prose_en	ru	CONVERT	evening	dictionary
+1676	on my	цщкл	CONVERT	work	prose_en	ru	CONVERT	work	dictionary
+1677	very	икфлу	CONVERT	brake	prose_en	ru	CONVERT	brake	dictionary
+1678	finally	ашчув	CONVERT	fixed	prose_en	ru	CONVERT	fixed	dictionary
+1679		вфтсштп	CONVERT	dancing	prose_en	ru	CONVERT	dancing	dictionary
+1680		зфыызщке	CONVERT	passport	prose_en	ru	CONVERT	passport	dictionary
+1681		игнштп	CONVERT	buying	prose_en	ru	CONVERT	buying	dictionary
+1682	this is	ьшвтшпре	CONVERT	midnight	prose_en	ru	CONVERT	midnight	dictionary
+1683	just	ифкт	CONVERT	barn	prose_en	ru	CONVERT	barn	dictionary
+1684	suddenly	цфкьуые	CONVERT	warmest	prose_en	ru	CONVERT	warmest	dictionary
+1685	we found	акщые	CONVERT	frost	prose_en	ru	CONVERT	frost	dictionary
+1686	this is	ьувшсшту	CONVERT	medicine	prose_en	ru	CONVERT	medicine	dictionary
+1687		пгуые	CONVERT	guest	prose_en	ru	CONVERT	guest	dictionary
+1688	almost	еуфсрук	CONVERT	teacher	prose_en	ru	CONVERT	teacher	dictionary
+1689	this	пщуы	CONVERT	goes	prose_en	ru	CONVERT	goes	dictionary
+1690		ещвфн	CONVERT	today	prose_en	ru	CONVERT	today	dictionary
+1691	now	йгшуедн	CONVERT	quietly	prose_en	ru	CONVERT	quietly	dictionary
+1692		зкщвгсук	CONVERT	producer	prose_en	ru	CONVERT	producer	dictionary
+1693	actually	дфцнук	CONVERT	lawyer	prose_en	ru	CONVERT	lawyer	dictionary
+1694	we were	руфмшуые	CONVERT	heaviest	prose_en	ru	CONVERT	heaviest	dictionary
+1695	he said	утпштуук	CONVERT	engineer	prose_en	ru	CONVERT	engineer	dictionary
+1696	you know	ышьзду	CONVERT	simple	prose_en	ru	CONVERT	simple	dictionary
+1697		сфму	CONVERT	cave	prose_en	ru	CONVERT	cave	dictionary
+1698	perhaps	ыфтв	CONVERT	sand	prose_en	ru	CONVERT	sand	dictionary
+1699		сдштшс	CONVERT	clinic	prose_en	ru	CONVERT	clinic	dictionary
+1700	our	зфыыутпук	CONVERT	passenger	prose_en	ru	CONVERT	passenger	dictionary
+1701	мама сказала	а	KEEP	а	short1	ru	KEEP	а	short_word
+1702	он видел	б	KEEP	б	short1	ru	KEEP	б	short_word
+1703	она купила	в	KEEP	в	short1	ru	KEEP	в	short_word
+1704	мы гуляли	ж	KEEP	ж	short1	ru	KEEP	ж	short_word
+1705	ты знаешь	и	KEEP	и	short1	ru	KEEP	и	short_word
+1706	они ждали	к	KEEP	к	short1	ru	KEEP	к	short_word
+1707	я думаю	о	KEEP	о	short1	ru	KEEP	о	short_word
+1708	вчера вечером	с	KEEP	с	short1	ru	KEEP	с	short_word
+1709	рано утром	у	KEEP	у	short1	ru	KEEP	у	short_word
+1710	в парке	я	KEEP	я	short1	ru	KEEP	я	short_word
+1711	на кухне	э	KEEP	э	short1	ru	KEEP	э	short_word
+1712	после школы	а	KEEP	а	short1	ru	KEEP	а	short_word
+1713	перед сном	б	KEEP	б	short1	ru	KEEP	б	short_word
+1714	во дворе	в	KEEP	в	short1	ru	KEEP	в	short_word
+1715	за столом	ж	KEEP	ж	short1	ru	KEEP	ж	short_word
+1716	около дома	и	KEEP	и	short1	ru	KEEP	и	short_word
+1717	возле реки	к	KEEP	к	short1	ru	KEEP	к	short_word
+1718	внутри коробки	о	KEEP	о	short1	ru	KEEP	о	short_word
+1719	снаружи было	с	KEEP	с	short1	ru	KEEP	с	short_word
+1720	кажется мне	у	KEEP	у	short1	ru	KEEP	у	short_word
+1721	точно помню	я	KEEP	я	short1	ru	KEEP	я	short_word
+1722	конечно да	э	KEEP	э	short1	ru	KEEP	э	short_word
+1723	разве нет	а	KEEP	а	short1	ru	KEEP	а	short_word
+1724	неужели правда	б	KEEP	б	short1	ru	KEEP	б	short_word
+1725	теперь понятно	в	KEEP	в	short1	ru	KEEP	в	short_word
+1726	тогда решили	ж	KEEP	ж	short1	ru	KEEP	ж	short_word
+1727	здесь тихо	и	KEEP	и	short1	ru	KEEP	и	short_word
+1728	там холодно	к	KEEP	к	short1	ru	KEEP	к	short_word
+1729	туда идём	о	KEEP	о	short1	ru	KEEP	о	short_word
+1730	оттуда видно	с	KEEP	с	short1	ru	KEEP	с	short_word
+1731	she said	a	KEEP	a	short1	us	KEEP	a	short_word
+1732	he saw	i	KEEP	i	short1	us	KEEP	i	short_word
+1733	we walked	o	KEEP	o	short1	us	KEEP	o	short_word
+1734	you know	a	KEEP	a	short1	us	KEEP	a	short_word
+1735	they waited	i	KEEP	i	short1	us	KEEP	i	short_word
+1736	I think	o	KEEP	o	short1	us	KEEP	o	short_word
+1737	last night	a	KEEP	a	short1	us	KEEP	a	short_word
+1738	early morning	i	KEEP	i	short1	us	KEEP	i	short_word
+1739	in the park	o	KEEP	o	short1	us	KEEP	o	short_word
+1740	in the kitchen	a	KEEP	a	short1	us	KEEP	a	short_word
+1741	after school	i	KEEP	i	short1	us	KEEP	i	short_word
+1742	before bed	o	KEEP	o	short1	us	KEEP	o	short_word
+1743	мы гуляли	f	CONVERT	а	short1	us	CONVERT	а	short_word
+1744	ты знаешь	,	CONVERT	б	short1	us	CONVERT	б	short_word
+1745	они ждали	d	CONVERT	в	short1	us	CONVERT	в	short_word
+1746	я думаю	;	CONVERT	ж	short1	us	CONVERT	ж	short_word
+1747	вчера вечером	b	CONVERT	и	short1	us	CONVERT	и	short_word
+1748	рано утром	r	CONVERT	к	short1	us	CONVERT	к	short_word
+1749	в парке	j	CONVERT	о	short1	us	CONVERT	о	short_word
+1750	на кухне	c	CONVERT	с	short1	us	CONVERT	с	short_word
+1751	после школы	e	CONVERT	у	short1	us	CONVERT	у	short_word
+1752	перед сном	z	CONVERT	я	short1	us	CONVERT	я	short_word
+1753	во дворе	'	CONVERT	э	short1	us	CONVERT	э	short_word
+1754	за столом	f	CONVERT	а	short1	us	CONVERT	а	short_word
+1755	около дома	,	CONVERT	б	short1	us	CONVERT	б	short_word
+1756	возле реки	d	CONVERT	в	short1	us	CONVERT	в	short_word
+1757	внутри коробки	;	CONVERT	ж	short1	us	CONVERT	ж	short_word
+1758	снаружи было	b	CONVERT	и	short1	us	CONVERT	и	short_word
+1759	кажется мне	r	CONVERT	к	short1	us	CONVERT	к	short_word
+1760	точно помню	j	CONVERT	о	short1	us	CONVERT	о	short_word
+1761	конечно да	c	CONVERT	с	short1	us	CONVERT	с	short_word
+1762	разве нет	e	CONVERT	у	short1	us	CONVERT	у	short_word
+1763	неужели правда	z	CONVERT	я	short1	us	CONVERT	я	short_word
+1764	теперь понятно	'	CONVERT	э	short1	us	CONVERT	э	short_word
+1765	тогда решили	f	CONVERT	а	short1	us	CONVERT	а	short_word
+1766	здесь тихо	,	CONVERT	б	short1	us	CONVERT	б	short_word
+1767	там холодно	d	CONVERT	в	short1	us	CONVERT	в	short_word
+1768	туда идём	;	CONVERT	ж	short1	us	CONVERT	ж	short_word
+1769	оттуда видно	b	CONVERT	и	short1	us	CONVERT	и	short_word
+1770	мама сказала	r	CONVERT	к	short1	us	CONVERT	к	short_word
+1771	он видел	j	CONVERT	о	short1	us	CONVERT	о	short_word
+1772	она купила	c	CONVERT	с	short1	us	CONVERT	с	short_word
+1773	I think	ф	CONVERT	a	short1	ru	CONVERT	a	short_word
+1774	last night	ш	CONVERT	i	short1	ru	CONVERT	i	short_word
+1775	early morning	щ	CONVERT	o	short1	ru	CONVERT	o	short_word
+1776	in the park	ф	CONVERT	a	short1	ru	CONVERT	a	short_word
+1777	in the kitchen	ш	CONVERT	i	short1	ru	CONVERT	i	short_word
+1778	after school	щ	CONVERT	o	short1	ru	CONVERT	o	short_word
+1779	before bed	ф	CONVERT	a	short1	ru	CONVERT	a	short_word
+1780	in the yard	ш	CONVERT	i	short1	ru	CONVERT	i	short_word
+1781	at the table	щ	CONVERT	o	short1	ru	CONVERT	o	short_word
+1782	near the house	ф	CONVERT	a	short1	ru	CONVERT	a	short_word
+1783	by the river	ш	CONVERT	i	short1	ru	CONVERT	i	short_word
+1784	inside the box	щ	CONVERT	o	short1	ru	CONVERT	o	short_word
+1785	outside it was	ф	CONVERT	a	short1	ru	CONVERT	a	short_word
+1786	it seems	ш	CONVERT	i	short1	ru	CONVERT	i	short_word
+1787	I remember	щ	CONVERT	o	short1	ru	CONVERT	o	short_word
+1788	in the yard	j	KEEP	j	short1	us	KEEP	j	undecided
+1789	last night	f	KEEP	f	short1	us	KEEP	f	undecided
+1790	she said	f	KEEP	f	short1	us	KEEP	f	undecided
+1791	they waited	b	KEEP	b	short1	us	KEEP	b	undecided
+1792	inside the box	'	KEEP	'	short1	us	KEEP	'	undecided
+1793	я думаю	ф	KEEP	ф	short1	ru	KEEP	ф	undecided
+1794	by the river	z	KEEP	z	short1	us	KEEP	z	undecided
+1795	after school	b	KEEP	b	short1	us	KEEP	b	undecided
+1796	I think	r	KEEP	r	short1	us	KEEP	r	undecided
+1797	before bed	r	KEEP	r	short1	us	KEEP	r	undecided
+1798	мама сказала	ф	KEEP	ф	short1	ru	KEEP	ф	undecided
+1799	in the kitchen	z	KEEP	z	short1	us	KEEP	z	undecided
+1800	we walked	d	KEEP	d	short1	us	KEEP	d	undecided
+1801	near the house	e	KEEP	e	short1	us	KEEP	e	undecided
+1802	after school	'	KEEP	'	short1	us	KEEP	'	undecided
+1803	in the kitchen	;	KEEP	;	short1	us	KEEP	;	undecided
+1804	рано утром	щ	KEEP	щ	short1	ru	KEEP	щ	undecided
+1805	last night	j	KEEP	j	short1	us	KEEP	j	undecided
+1806		d	KEEP	d	short1	us	KEEP	d	undecided
+1807		'	KEEP	'	short1	us	KEEP	'	undecided
+1808		щ	KEEP	щ	short1	ru	KEEP	щ	undecided
+1809		f	KEEP	f	short1	us	KEEP	f	undecided
+1810		ф	KEEP	ф	short1	ru	KEEP	ф	undecided
+1811		,	KEEP	,	short1	us	KEEP	,	undecided
+1812		r	KEEP	r	short1	us	KEEP	r	undecided
+1813		z	KEEP	z	short1	us	KEEP	z	undecided
+1814		b	KEEP	b	short1	us	KEEP	b	undecided
+1815		;	KEEP	;	short1	us	KEEP	;	undecided
+1816	for (int i = 0;	c	KEEP	c	short1	us	KEEP	c	undecided
+1817	char	c	KEEP	c	short1	us	KEEP	c	undecided
+1818	int	c	KEEP	c	short1	us	KEEP	c	undecided
+1819	for (auto	c	KEEP	c	short1	us	KEEP	c	undecided
+1820	typedef	c	KEEP	c	short1	us	KEEP	c	undecided
+1821	мама сказала	аж	KEEP	аж	short2	ru	KEEP	аж	short_word
+1822	он видел	ай	KEEP	ай	short2	ru	KEEP	ай	short_word
+1823	она купила	ах	KEEP	ах	short2	ru	KEEP	ах	short_word
+1824	мы гуляли	бы	KEEP	бы	short2	ru	KEEP	бы	short_word
+1825	ты знаешь	во	KEEP	во	short2	ru	KEEP	во	short_word
+1826	они ждали	вы	KEEP	вы	short2	ru	KEEP	вы	short_word
+1827	я думаю	да	KEEP	да	short2	ru	KEEP	да	short_word
+1828	вчера вечером	до	KEEP	до	short2	ru	KEEP	до	short_word
+1829	рано утром	ее	KEEP	ее	short2	ru	KEEP	ее	short_word
+1830	в парке	её	KEEP	её	short2	ru	KEEP	её	short_word
+1831	на кухне	ей	KEEP	ей	short2	ru	KEEP	ей	short_word
+1832	после школы	ем	KEEP	ем	short2	ru	KEEP	ем	short_word
+1833	перед сном	ею	KEEP	ею	short2	ru	KEEP	ею	short_word
+1834	во дворе	же	KEEP	же	short2	ru	KEEP	же	short_word
+1835	за столом	за	KEEP	за	short2	ru	KEEP	за	short_word
+1836	около дома	из	KEEP	из	short2	ru	KEEP	из	short_word
+1837	возле реки	им	KEEP	им	short2	ru	KEEP	им	short_word
+1838	внутри коробки	их	KEEP	их	short2	ru	KEEP	их	short_word
+1839	снаружи было	ко	KEEP	ко	short2	ru	KEEP	ко	short_word
+1840	кажется мне	ли	KEEP	ли	short2	ru	KEEP	ли	short_word
+1841	точно помню	мы	KEEP	мы	short2	ru	KEEP	мы	short_word
+1842	конечно да	на	KEEP	на	short2	ru	KEEP	на	short_word
+1843	разве нет	не	KEEP	не	short2	ru	KEEP	не	short_word
+1844	неужели правда	ни	KEEP	ни	short2	ru	KEEP	ни	short_word
+1845	теперь понятно	но	KEEP	но	short2	ru	KEEP	но	short_word
+1846	тогда решили	ну	KEEP	ну	short2	ru	KEEP	ну	short_word
+1847	здесь тихо	об	KEEP	об	short2	ru	KEEP	об	short_word
+1848	там холодно	он	KEEP	он	short2	ru	KEEP	он	short_word
+1849	туда идём	от	KEEP	от	short2	ru	KEEP	от	short_word
+1850	оттуда видно	ой	KEEP	ой	short2	ru	KEEP	ой	short_word
+1851	she said	am	KEEP	am	short2	us	KEEP	am	short_word
+1852	he saw	an	KEEP	an	short2	us	KEEP	an	short_word
+1853	we walked	as	KEEP	as	short2	us	KEEP	as	short_word
+1854	you know	at	KEEP	at	short2	us	KEEP	at	short_word
+1855	they waited	be	KEEP	be	short2	us	KEEP	be	short_word
+1856	I think	by	KEEP	by	short2	us	KEEP	by	short_word
+1857	last night	do	KEEP	do	short2	us	KEEP	do	short_word
+1858	early morning	go	KEEP	go	short2	us	KEEP	go	short_word
+1859	in the park	he	KEEP	he	short2	us	KEEP	he	short_word
+1860	in the kitchen	hi	KEEP	hi	short2	us	KEEP	hi	short_word
+1861	after school	id	KEEP	id	short2	us	KEEP	id	short_word
+1862	before bed	if	KEEP	if	short2	us	KEEP	if	short_word
+1863	in the yard	in	KEEP	in	short2	us	KEEP	in	short_word
+1864	at the table	is	KEEP	is	short2	us	KEEP	is	short_word
+1865	near the house	it	KEEP	it	short2	us	KEEP	it	short_word
+1866	by the river	me	KEEP	me	short2	us	KEEP	me	short_word
+1867	inside the box	my	KEEP	my	short2	us	KEEP	my	short_word
+1868	outside it was	no	KEEP	no	short2	us	KEEP	no	short_word
+1869	it seems	of	KEEP	of	short2	us	KEEP	of	short_word
+1870	I remember	oh	KEEP	oh	short2	us	KEEP	oh	short_word
+1871	вчера вечером	f;	CONVERT	аж	short2	us	CONVERT	аж	short_word
+1872	рано утром	fq	CONVERT	ай	short2	us	CONVERT	ай	short_word
+1873	в парке	f[	CONVERT	ах	short2	us	CONVERT	ах	short_word
+1874	на кухне	,s	CONVERT	бы	short2	us	CONVERT	бы	short_word
+1875	после школы	dj	CONVERT	во	short2	us	CONVERT	во	short_word
+1876	перед сном	ds	CONVERT	вы	short2	us	CONVERT	вы	short_word
+1877	во дворе	lf	CONVERT	да	short2	us	CONVERT	да	short_word
+1878	за столом	lj	CONVERT	до	short2	us	CONVERT	до	short_word
+1879	около дома	tt	CONVERT	ее	short2	us	CONVERT	ее	short_word
+1880	возле реки	t`	CONVERT	её	short2	us	CONVERT	её	short_word
+1881	внутри коробки	tq	CONVERT	ей	short2	us	CONVERT	ей	short_word
+1882	снаружи было	tv	CONVERT	ем	short2	us	CONVERT	ем	short_word
+1883	кажется мне	t.	CONVERT	ею	short2	us	CONVERT	ею	short_word
+1884	точно помню	;t	CONVERT	же	short2	us	CONVERT	же	short_word
+1885	конечно да	pf	CONVERT	за	short2	us	CONVERT	за	short_word
+1886	разве нет	bp	CONVERT	из	short2	us	CONVERT	из	short_word
+1887	неужели правда	bv	CONVERT	им	short2	us	CONVERT	им	short_word
+1888	теперь понятно	b[	CONVERT	их	short2	us	CONVERT	их	short_word
+1889	тогда решили	rj	CONVERT	ко	short2	us	CONVERT	ко	short_word
+1890	здесь тихо	kb	CONVERT	ли	short2	us	CONVERT	ли	short_word
+1891	там холодно	vs	CONVERT	мы	short2	us	CONVERT	мы	short_word
+1892	туда идём	yf	CONVERT	на	short2	us	CONVERT	на	short_word
+1893	оттуда видно	yt	CONVERT	не	short2	us	CONVERT	не	short_word
+1894	мама сказала	yb	CONVERT	ни	short2	us	CONVERT	ни	short_word
+1895	он видел	yj	CONVERT	но	short2	us	CONVERT	но	short_word
+1896	она купила	ye	CONVERT	ну	short2	us	KEEP	ye	short_word
+1897	мы гуляли	j,	CONVERT	об	short2	us	CONVERT	об	short_word
+1898	ты знаешь	jy	CONVERT	он	short2	us	CONVERT	он	short_word
+1899	они ждали	jn	CONVERT	от	short2	us	CONVERT	от	short_word
+1900	я думаю	jq	CONVERT	ой	short2	us	CONVERT	ой	short_word
+1901	before bed	фь	CONVERT	am	short2	ru	CONVERT	am	short_word
+1902	in the yard	фт	CONVERT	an	short2	ru	CONVERT	an	short_word
+1903	at the table	фы	CONVERT	as	short2	ru	CONVERT	as	short_word
+1904	near the house	фе	CONVERT	at	short2	ru	CONVERT	at	short_word
+1905	by the river	иу	CONVERT	be	short2	ru	CONVERT	be	short_word
+1906	inside the box	ин	CONVERT	by	short2	ru	CONVERT	by	short_word
+1907	outside it was	вщ	CONVERT	do	short2	ru	CONVERT	do	short_word
+1908	it seems	пщ	CONVERT	go	short2	ru	CONVERT	go	short_word
+1909	I remember	ру	CONVERT	he	short2	ru	CONVERT	he	short_word
+1910	of course	рш	CONVERT	hi	short2	ru	CONVERT	hi	short_word
+1911	really though	шв	CONVERT	id	short2	ru	CONVERT	id	short_word
+1912	now it's clear	ша	CONVERT	if	short2	ru	CONVERT	if	short_word
+1913	then we decided	шт	CONVERT	in	short2	ru	CONVERT	in	short_word
+1914	here it's quiet	шы	CONVERT	is	short2	ru	CONVERT	is	short_word
+1915	there it's cold	ше	CONVERT	it	short2	ru	CONVERT	it	short_word
+1916	we're going there	ьу	CONVERT	me	short2	ru	CONVERT	me	short_word
+1917	from there you can see	ьн	CONVERT	my	short2	ru	CONVERT	my	short_word
+1918	she said	тщ	CONVERT	no	short2	ru	CONVERT	no	short_word
+1919	he saw	ща	CONVERT	of	short2	ru	CONVERT	of	short_word
+1920	we walked	щр	CONVERT	oh	short2	ru	CONVERT	oh	short_word
+1921	снаружи было	ща	KEEP	ща	short2	ru	KEEP	ща	undecided
+1922	кажется мне	щр	KEEP	щр	short2	ru	KEEP	щр	undecided
+1923	there it's cold	ye	KEEP	ye	short2	us	KEEP	ye	short_word
+1924	I remember	kb	KEEP	kb	short2	us	KEEP	kb	undecided
+1925	here it's quiet	yj	KEEP	yj	short2	us	KEEP	yj	undecided
+1926	before bed	tv	KEEP	tv	short2	us	KEEP	tv	undecided
+1927	she said	jn	KEEP	jn	short2	us	KEEP	jn	undecided
+1928	точно помню	щл	KEEP	щл	short2	ru	KEEP	щл	undecided
+1929	in the yard	t.	KEEP	t.	short2	us	KEEP	t.	undecided
+1930	they waited	dj	KEEP	dj	short2	us	KEEP	dj	undecided
+1931	во дворе	шы	KEEP	шы	short2	ru	KEEP	шы	undecided
+1932	здесь тихо	гз	KEEP	гз	short2	ru	KEEP	гз	undecided
+1933	you know	gj	KEEP	gj	short2	us	KEEP	gj	undecided
+1934	last night	nt	KEEP	nt	short2	us	KEEP	nt	undecided
+1935	конечно да	щт	KEEP	щт	short2	ru	KEEP	щт	undecided
+1936		fq	KEEP	fq	short2	us	KEEP	fq	undecided
+1937		фь	KEEP	фь	short2	ru	KEEP	фь	undecided
+1938		f[	KEEP	f[	short2	us	KEEP	f[	undecided
+1939		фт	KEEP	фт	short2	ru	KEEP	фт	undecided
+1940		f;	KEEP	f;	short2	us	KEEP	f;	undecided
+1941		Qw3rty!x	KEEP	Qw3rty!x	password	us	KEEP	Qw3rty!x	stop_rule
+1942		P@ssw0rd2024	KEEP	P@ssw0rd2024	password	us	KEEP	P@ssw0rd2024	stop_rule
+1943		Tr0ub4dor&3	KEEP	Tr0ub4dor&3	password	us	KEEP	Tr0ub4dor&3	stop_rule
+1944		C0rrectHorse9	KEEP	C0rrectHorse9	password	us	KEEP	C0rrectHorse9	stop_rule
+1945		myS3cr3t#1	KEEP	myS3cr3t#1	password	us	KEEP	myS3cr3t#1	stop_rule
+1946		xK9$mLp2	KEEP	xK9$mLp2	password	us	KEEP	xK9$mLp2	stop_rule
+1947		Zx29!vBn	KEEP	Zx29!vBn	password	us	KEEP	Zx29!vBn	stop_rule
+1948		Adm1n$2024	KEEP	Adm1n$2024	password	us	KEEP	Adm1n$2024	stop_rule
+1949		R00t#Pass!	KEEP	R00t#Pass!	password	us	KEEP	R00t#Pass!	stop_rule
+1950		Qaz2wsx!@	KEEP	Qaz2wsx!@	password	us	KEEP	Qaz2wsx!@	stop_rule
+1951		Summer2024!	KEEP	Summer2024!	password	us	KEEP	Summer2024!	stop_rule
+1952		Winter@2023	KEEP	Winter@2023	password	us	KEEP	Winter@2023	stop_rule
+1953		J0hnDoe#99	KEEP	J0hnDoe#99	password	us	KEEP	J0hnDoe#99	stop_rule
+1954		aB3fG7!kL	KEEP	aB3fG7!kL	password	us	KEEP	aB3fG7!kL	stop_rule
+1955		N3wYorkCity1!	KEEP	N3wYorkCity1!	password	us	KEEP	N3wYorkCity1!	stop_rule
+1956		L0ndonBr1dge#	KEEP	L0ndonBr1dge#	password	us	KEEP	L0ndonBr1dge#	stop_rule
+1957		Berl1nWall9!	KEEP	Berl1nWall9!	password	us	KEEP	Berl1nWall9!	stop_rule
+1958		Tokyo2024$X	KEEP	Tokyo2024$X	password	us	KEEP	Tokyo2024$X	stop_rule
+1959		Par1s1234!Z	KEEP	Par1s1234!Z	password	us	KEEP	Par1s1234!Z	stop_rule
+1960		Mosc0wCity#	KEEP	Mosc0wCity#	password	us	KEEP	Mosc0wCity#	stop_rule
+1961		s3cr3tK3y!Q	KEEP	s3cr3tK3y!Q	password	us	KEEP	s3cr3tK3y!Q	stop_rule
+1962		myP@ss1234Z	KEEP	myP@ss1234Z	password	us	KEEP	myP@ss1234Z	stop_rule
+1963		admin2024Q!	KEEP	admin2024Q!	password	us	KEEP	admin2024Q!	stop_rule
+1964		r00tP@ss1X	KEEP	r00tP@ss1X	password	us	KEEP	r00tP@ss1X	stop_rule
+1965		D3v3loper#1	KEEP	D3v3loper#1	password	us	KEEP	D3v3loper#1	stop_rule
+1966		C0derLife$9	KEEP	C0derLife$9	password	us	KEEP	C0derLife$9	stop_rule
+1967		G1tHub2024!	KEEP	G1tHub2024!	password	us	KEEP	G1tHub2024!	stop_rule
+1968		St@ckOverflow9	KEEP	St@ckOverflow9	password	us	KEEP	St@ckOverflow9	stop_rule
+1969		Dr@gon2024!Z	KEEP	Dr@gon2024!Z	password	us	KEEP	Dr@gon2024!Z	stop_rule
+1970		Ph03nix9x!	KEEP	Ph03nix9x!	password	us	KEEP	Ph03nix9x!	stop_rule
+1971		Th3Matr1x1!	KEEP	Th3Matr1x1!	password	us	KEEP	Th3Matr1x1!	stop_rule
+1972		Ne0Zion99$	KEEP	Ne0Zion99$	password	us	KEEP	Ne0Zion99$	stop_rule
+1973		Sk1pper88#	KEEP	Sk1pper88#	password	us	KEEP	Sk1pper88#	stop_rule
+1974		C@ptainJack3!	KEEP	C@ptainJack3!	password	us	KEEP	C@ptainJack3!	stop_rule
+1975		Bl@ckPanther9	KEEP	Bl@ckPanther9	password	us	KEEP	Bl@ckPanther9	stop_rule
+1976		Wonder1Woman!	KEEP	Wonder1Woman!	password	us	KEEP	Wonder1Woman!	stop_rule
+1977		Superman123$	KEEP	Superman123$	password	us	KEEP	Superman123$	stop_rule
+1978		B@tman2024!	KEEP	B@tman2024!	password	us	KEEP	B@tman2024!	stop_rule
+1979		IronMan99#	KEEP	IronMan99#	password	us	KEEP	IronMan99#	stop_rule
+1980		Thor1Odin88!	KEEP	Thor1Odin88!	password	us	KEEP	Thor1Odin88!	stop_rule
+1981		Lok1Trick$9	KEEP	Lok1Trick$9	password	us	KEEP	Lok1Trick$9	stop_rule
+1982		Gr00t1234!	KEEP	Gr00t1234!	password	us	KEEP	Gr00t1234!	stop_rule
+1983		RocketRacc0on#	KEEP	RocketRacc0on#	password	us	KEEP	RocketRacc0on#	stop_rule
+1984		SuperP@ss99!	KEEP	SuperP@ss99!	password	us	KEEP	SuperP@ss99!	stop_rule
+1985		Xk7pL9mQ2!	KEEP	Xk7pL9mQ2!	password	us	KEEP	Xk7pL9mQ2!	stop_rule
+1986		Vb3nM8zX1$	KEEP	Vb3nM8zX1$	password	us	KEEP	Vb3nM8zX1$	stop_rule
+1987		Qw12eR34@9	KEEP	Qw12eR34@9	password	us	KEEP	Qw12eR34@9	stop_rule
+1988		As56dF78$1	KEEP	As56dF78$1	password	us	KEEP	As56dF78$1	stop_rule
+1989		Zx90cV12@8	KEEP	Zx90cV12@8	password	us	KEEP	Zx90cV12@8	stop_rule
+1990		T3stng123!	KEEP	T3stng123!	password	us	KEEP	T3stng123!	stop_rule
+1991		Debug#M0de9	KEEP	Debug#M0de9	password	us	KEEP	Debug#M0de9	stop_rule
+1992		Rel3ase2024!	KEEP	Rel3ase2024!	password	us	KEEP	Rel3ase2024!	stop_rule
+1993		BuildNumb3r9	KEEP	BuildNumb3r9	password	us	KEEP	BuildNumb3r9	stop_rule
+1994		Vers1on2024!	KEEP	Vers1on2024!	password	us	KEEP	Vers1on2024!	stop_rule
+1995		PatchN0tes9	KEEP	PatchN0tes9	password	us	KEEP	PatchN0tes9	stop_rule
+1996		Update2024!Z	KEEP	Update2024!Z	password	us	KEEP	Update2024!Z	stop_rule
+1997		Comm1tHash#9	KEEP	Comm1tHash#9	password	us	KEEP	Comm1tHash#9	stop_rule
+1998		BranchMa1n9!	KEEP	BranchMa1n9!	password	us	KEEP	BranchMa1n9!	stop_rule
+1999		Merge#Requ3st	KEEP	Merge#Requ3st	password	us	KEEP	Merge#Requ3st	stop_rule
+2000		F1nalBoss99!	KEEP	F1nalBoss99!	password	us	KEEP	F1nalBoss99!	stop_rule
+2001		https://example.com/path/to/page	KEEP	https://example.com/path/to/page	url	us	KEEP	https://example.com/path/to/page	stop_rule
+2002		http://sub.domain.co.uk/index.html	KEEP	http://sub.domain.co.uk/index.html	url	us	KEEP	http://sub.domain.co.uk/index.html	stop_rule
+2003		www.google.com	KEEP	www.google.com	url	us	KEEP	www.google.com	stop_rule
+2004		ftp://files.server.net/data.zip	KEEP	ftp://files.server.net/data.zip	url	us	KEEP	ftp://files.server.net/data.zip	stop_rule
+2005		user@example.com	KEEP	user@example.com	url	us	KEEP	user@example.com	stop_rule
+2006		john.doe+news@gmail.com	KEEP	john.doe+news@gmail.com	url	us	KEEP	john.doe+news@gmail.com	stop_rule
+2007		support@company.org	KEEP	support@company.org	url	us	KEEP	support@company.org	stop_rule
+2008		/usr/local/bin/python3	KEEP	/usr/local/bin/python3	url	us	KEEP	/usr/local/bin/python3	stop_rule
+2009		/home/user/documents/report.docx	KEEP	/home/user/documents/report.docx	url	us	KEEP	/home/user/documents/report.docx	stop_rule
+2010		C:\Users\Admin\Desktop\file.txt	KEEP	C:\Users\Admin\Desktop\file.txt	url	us	KEEP	C:\Users\Admin\Desktop\file.txt	stop_rule
+2011		D:\Projects\pulinto\src\main.rs	KEEP	D:\Projects\pulinto\src\main.rs	url	us	KEEP	D:\Projects\pulinto\src\main.rs	stop_rule
+2012		git@github.com:owner/repo.git	KEEP	git@github.com:owner/repo.git	url	us	KEEP	git@github.com:owner/repo.git	stop_rule
+2013		https://github.com/owner/repo/pull/42	KEEP	https://github.com/owner/repo/pull/42	url	us	KEEP	https://github.com/owner/repo/pull/42	stop_rule
+2014		https://stackoverflow.com/questions/12345	KEEP	https://stackoverflow.com/questions/12345	url	us	KEEP	https://stackoverflow.com/questions/12345	stop_rule
+2015		mailto:info@site.ru	KEEP	mailto:info@site.ru	url	us	KEEP	mailto:info@site.ru	stop_rule
+2016		smb://server/share/folder	KEEP	smb://server/share/folder	url	us	KEEP	smb://server/share/folder	stop_rule
+2017		ssh://user@192.168.1.1:22	KEEP	ssh://user@192.168.1.1:22	url	us	KEEP	ssh://user@192.168.1.1:22	stop_rule
+2018		127.0.0.1:8080	KEEP	127.0.0.1:8080	url	us	KEEP	127.0.0.1:8080	bigram
+2019		localhost:3000	KEEP	localhost:3000	url	us	KEEP	localhost:3000	bigram
+2020		https://api.service.io/v2/users?id=7	KEEP	https://api.service.io/v2/users?id=7	url	us	KEEP	https://api.service.io/v2/users?id=7	stop_rule
+2021		www.wikipedia.org/wiki/Rust_language	KEEP	www.wikipedia.org/wiki/Rust_language	url	us	KEEP	www.wikipedia.org/wiki/Rust_language	stop_rule
+2022		ftp.example.com	KEEP	ftp.example.com	url	us	KEEP	ftp.example.com	rule
+2023		https://docs.rs/serde/latest/serde/	KEEP	https://docs.rs/serde/latest/serde/	url	us	KEEP	https://docs.rs/serde/latest/serde/	stop_rule
+2024		https://crates.io/crates/tokio	KEEP	https://crates.io/crates/tokio	url	us	KEEP	https://crates.io/crates/tokio	stop_rule
+2025		admin@localhost	KEEP	admin@localhost	url	us	KEEP	admin@localhost	stop_rule
+2026		noreply@service.com	KEEP	noreply@service.com	url	us	KEEP	noreply@service.com	stop_rule
+2027		https://t.me/channel_name	KEEP	https://t.me/channel_name	url	us	KEEP	https://t.me/channel_name	stop_rule
+2028		https://vk.com/id123456	KEEP	https://vk.com/id123456	url	us	KEEP	https://vk.com/id123456	stop_rule
+2029		https://yandex.ru/search/?text=погода	KEEP	https://yandex.ru/search/?text=погода	url	us	KEEP	https://yandex.ru/search/?text=погода	stop_rule
+2030		почта@яндекс.рф	KEEP	почта@яндекс.рф	url	ru	KEEP	почта@яндекс.рф	stop_rule
+2031		ivan.petrov@mail.ru	KEEP	ivan.petrov@mail.ru	url	us	KEEP	ivan.petrov@mail.ru	stop_rule
+2032		https://ru.wikipedia.org/wiki/Заглавная_страница	KEEP	https://ru.wikipedia.org/wiki/Заглавная_страница	url	us	KEEP	https://ru.wikipedia.org/wiki/Заглавная_страница	stop_rule
+2033		C:\Windows\System32\drivers\etc\hosts	KEEP	C:\Windows\System32\drivers\etc\hosts	url	us	KEEP	C:\Windows\System32\drivers\etc\hosts	stop_rule
+2034		/etc/nginx/nginx.conf	KEEP	/etc/nginx/nginx.conf	url	us	KEEP	/etc/nginx/nginx.conf	stop_rule
+2035		/var/log/syslog	KEEP	/var/log/syslog	url	us	KEEP	/var/log/syslog	stop_rule
+2036		~/.bashrc	KEEP	~/.bashrc	url	us	KEEP	~/.bashrc	stop_rule
+2037		~/.ssh/id_rsa.pub	KEEP	~/.ssh/id_rsa.pub	url	us	KEEP	~/.ssh/id_rsa.pub	stop_rule
+2038		https://example.com:8443/secure	KEEP	https://example.com:8443/secure	url	us	KEEP	https://example.com:8443/secure	stop_rule
+2039		https://192.0.2.1/status	KEEP	https://192.0.2.1/status	url	us	KEEP	https://192.0.2.1/status	stop_rule
+2040		udp://239.255.255.250:1900	KEEP	udp://239.255.255.250:1900	url	us	KEEP	udp://239.255.255.250:1900	stop_rule
+2041		https://example.com/search?q=привет	KEEP	https://example.com/search?q=привет	url	us	KEEP	https://example.com/search?q=привет	stop_rule
+2042		https://en.wikipedia.org/wiki/Keyboard_layout	KEEP	https://en.wikipedia.org/wiki/Keyboard_layout	url	us	KEEP	https://en.wikipedia.org/wiki/Keyboard_layout	stop_rule
+2043		https://www.linkedin.com/in/username	KEEP	https://www.linkedin.com/in/username	url	us	KEEP	https://www.linkedin.com/in/username	stop_rule
+2044		https://twitter.com/handle	KEEP	https://twitter.com/handle	url	us	KEEP	https://twitter.com/handle	stop_rule
+2045		https://example.io/#section-2	KEEP	https://example.io/#section-2	url	us	KEEP	https://example.io/#section-2	stop_rule
+2046		file:///home/user/index.html	KEEP	file:///home/user/index.html	url	us	KEEP	file:///home/user/index.html	stop_rule
+2047		https://example.com/path%20with%20space	KEEP	https://example.com/path%20with%20space	url	us	KEEP	https://example.com/path%20with%20space	stop_rule
+2048		jdbc:postgresql://localhost:5432/mydb	KEEP	jdbc:postgresql://localhost:5432/mydb	url	us	KEEP	jdbc:postgresql://localhost:5432/mydb	stop_rule
+2049		redis://localhost:6379/0	KEEP	redis://localhost:6379/0	url	us	KEEP	redis://localhost:6379/0	stop_rule
+2050		amqp://guest:guest@localhost:5672	KEEP	amqp://guest:guest@localhost:5672	url	us	KEEP	amqp://guest:guest@localhost:5672	stop_rule
+2051		postgres://user:pass@host:5432/db	KEEP	postgres://user:pass@host:5432/db	url	us	KEEP	postgres://user:pass@host:5432/db	stop_rule
+2052		https://example.com/very/long/deep/path/structure	KEEP	https://example.com/very/long/deep/path/structure	url	us	KEEP	https://example.com/very/long/deep/path/structure	stop_rule
+2053		www.example.com/ru/catalog/item-12345	KEEP	www.example.com/ru/catalog/item-12345	url	us	KEEP	www.example.com/ru/catalog/item-12345	stop_rule
+2054		https://example.com?utm_source=news&utm_medium=email	KEEP	https://example.com?utm_source=news&utm_medium=email	url	us	KEEP	https://example.com?utm_source=news&utm_medium=email	stop_rule
+2055		https://example.com/#!/route	KEEP	https://example.com/#!/route	url	us	KEEP	https://example.com/#!/route	stop_rule
+2056		tel:+79161234567	KEEP	tel:+79161234567	url	us	KEEP	tel:+79161234567	bigram
+2057		sip:user@voip.example.com	KEEP	sip:user@voip.example.com	url	us	KEEP	sip:user@voip.example.com	stop_rule
+2058		market://details?id=com.example.app	KEEP	market://details?id=com.example.app	url	us	KEEP	market://details?id=com.example.app	stop_rule
+2059		steam://run/123456	KEEP	steam://run/123456	url	us	KEEP	steam://run/123456	stop_rule
+2060		https://example.com/api/v1/token?refresh=true	KEEP	https://example.com/api/v1/token?refresh=true	url	us	KEEP	https://example.com/api/v1/token?refresh=true	stop_rule
+2061		@param	KEEP	@param	code	us	KEEP	@param	stop_rule
+2062		std::vector	KEEP	std::vector	code	us	KEEP	std::vector	stop_rule
+2063		--verbose	KEEP	--verbose	code	us	KEEP	--verbose	stop_rule
+2064		snake_case	KEEP	snake_case	code	us	KEEP	snake_case	stop_rule
+2065		camelCase	KEEP	camelCase	code	us	KEEP	camelCase	bigram
+2066		PascalCase	KEEP	PascalCase	code	us	KEEP	PascalCase	bigram
+2067		SCREAMING_SNAKE_CASE	KEEP	SCREAMING_SNAKE_CASE	code	us	KEEP	SCREAMING_SNAKE_CASE	stop_rule
+2068		$variable	KEEP	$variable	code	us	KEEP	$variable	stop_rule
+2069		#define	KEEP	#define	code	us	KEEP	#define	stop_rule
+2070		::method	KEEP	::method	code	us	KEEP	::method	stop_rule
+2071		func()	KEEP	func()	code	us	KEEP	func()	stop_rule
+2072		arr[0]	KEEP	arr[0]	code	us	KEEP	arr[0]	stop_rule
+2073		a+=1	KEEP	a+=1	code	us	KEEP	a+=1	bigram
+2074		x::y::z	KEEP	x::y::z	code	us	KEEP	x::y::z	stop_rule
+2075		--help	KEEP	--help	code	us	KEEP	--help	stop_rule
+2076		-v	KEEP	-v	code	us	KEEP	-v	undecided
+2077		__init__	KEEP	__init__	code	us	KEEP	__init__	stop_rule
+2078		self.value	KEEP	self.value	code	us	KEEP	self.value	bigram
+2079		obj->method	KEEP	obj->method	code	us	KEEP	obj->method	bigram
+2080		a&&b	KEEP	a&&b	code	us	KEEP	a&&b	bigram
+2081		x||y	KEEP	x||y	code	us	KEEP	x||y	bigram
+2082		#include	KEEP	#include	code	us	KEEP	#include	stop_rule
+2083		template<T>	KEEP	template<T>	code	us	KEEP	template<T>	stop_rule
+2084		constexpr	KEEP	constexpr	code	us	KEEP	constexpr	bigram
+2085		nullptr	KEEP	nullptr	code	us	KEEP	nullptr	bigram
+2086		std::string	KEEP	std::string	code	us	KEEP	std::string	stop_rule
+2087		std::cout	KEEP	std::cout	code	us	KEEP	std::cout	stop_rule
+2088		std::endl	KEEP	std::endl	code	us	KEEP	std::endl	stop_rule
+2089		console.log	KEEP	console.log	code	us	KEEP	console.log	bigram
+2090		module.exports	KEEP	module.exports	code	us	KEEP	module.exports	bigram
+2091		require('fs')	KEEP	require('fs')	code	us	KEEP	require('fs')	bigram
+2092		@Override	KEEP	@Override	code	us	KEEP	@Override	stop_rule
+2093		@Test	KEEP	@Test	code	us	KEEP	@Test	stop_rule
+2094		#!/bin/bash	KEEP	#!/bin/bash	code	us	KEEP	#!/bin/bash	stop_rule
+2095		$HOME	KEEP	$HOME	code	us	KEEP	$HOME	stop_rule
+2096		$PATH	KEEP	$PATH	code	us	KEEP	$PATH	stop_rule
+2097		%APPDATA%	KEEP	%APPDATA%	code	us	KEEP	%APPDATA%	stop_rule
+2098		argv[1]	KEEP	argv[1]	code	us	KEEP	argv[1]	stop_rule
+2099		argc	KEEP	argc	code	us	KEEP	argc	bigram
+2100		malloc()	KEEP	malloc()	code	us	KEEP	malloc()	stop_rule
+2101		free()	KEEP	free()	code	us	KEEP	free()	stop_rule
+2102		sizeof(int)	KEEP	sizeof(int)	code	us	KEEP	sizeof(int)	bigram
+2103		std::unique_ptr	KEEP	std::unique_ptr	code	us	KEEP	std::unique_ptr	stop_rule
+2104		std::shared_ptr	KEEP	std::shared_ptr	code	us	KEEP	std::shared_ptr	stop_rule
+2105		Vec<T>	KEEP	Vec<T>	code	us	KEEP	Vec<T>	bigram
+2106		HashMap<K,V>	KEEP	HashMap<K,V>	code	us	KEEP	HashMap<K,V>	stop_rule
+2107		Option<T>	KEEP	Option<T>	code	us	KEEP	Option<T>	stop_rule
+2108		Result<T,E>	KEEP	Result<T,E>	code	us	KEEP	Result<T,E>	stop_rule
+2109		async fn	KEEP	async fn	code	us	KEEP	async fn	bigram
+2110		lambda x:x+1	KEEP	lambda x:x+1	code	us	KEEP	lambda x:x+1	bigram
+2111		foo.bar.baz	KEEP	foo.bar.baz	code	us	KEEP	foo.bar.baz	bigram
+2112		obj.prop	KEEP	obj.prop	code	us	KEEP	obj.prop	bigram
+2113		this.state	KEEP	this.state	code	us	KEEP	this.state	bigram
+2114		req.body	KEEP	req.body	code	us	KEEP	req.body	bigram
+2115		res.json()	KEEP	res.json()	code	us	KEEP	res.json()	stop_rule
+2116		process.env	KEEP	process.env	code	us	KEEP	process.env	bigram
+2117		os.environ	KEEP	os.environ	code	us	KEEP	os.environ	bigram
+2118		sys.argv	KEEP	sys.argv	code	us	KEEP	sys.argv	bigram
+2119		@app.route	KEEP	@app.route	code	us	KEEP	@app.route	stop_rule
+2120		@staticmethod	KEEP	@staticmethod	code	us	KEEP	@staticmethod	stop_rule
+2121		СССР	KEEP	СССР	abbrev	ru	KEEP	СССР	stop_rule
+2122		ГОСТ	KEEP	ГОСТ	abbrev	ru	KEEP	ГОСТ	stop_rule
+2123		США	KEEP	США	abbrev	ru	KEEP	США	stop_rule
+2124		ООН	KEEP	ООН	abbrev	ru	KEEP	ООН	stop_rule
+2125		ФСБ	KEEP	ФСБ	abbrev	ru	KEEP	ФСБ	stop_rule
+2126		МВД	KEEP	МВД	abbrev	ru	KEEP	МВД	stop_rule
+2127		ГИБДД	KEEP	ГИБДД	abbrev	ru	KEEP	ГИБДД	stop_rule
+2128		ВУЗ	KEEP	ВУЗ	abbrev	ru	KEEP	ВУЗ	stop_rule
+2129		НИИ	KEEP	НИИ	abbrev	ru	KEEP	НИИ	stop_rule
+2130		ЖКХ	KEEP	ЖКХ	abbrev	ru	KEEP	ЖКХ	stop_rule
+2131		СМИ	KEEP	СМИ	abbrev	ru	KEEP	СМИ	stop_rule
+2132		ЦРУ	KEEP	ЦРУ	abbrev	ru	KEEP	ЦРУ	stop_rule
+2133		НАТО	KEEP	НАТО	abbrev	ru	KEEP	НАТО	stop_rule
+2134		ЕС	KEEP	ЕС	abbrev	ru	KEEP	ЕС	stop_rule
+2135		ВВП	KEEP	ВВП	abbrev	ru	KEEP	ВВП	stop_rule
+2136		ФБР	KEEP	ФБР	abbrev	ru	KEEP	ФБР	stop_rule
+2137		РФ	KEEP	РФ	abbrev	ru	KEEP	РФ	stop_rule
+2138		ЧП	KEEP	ЧП	abbrev	ru	KEEP	ЧП	stop_rule
+2139		ИП	KEEP	ИП	abbrev	ru	KEEP	ИП	stop_rule
+2140		ТВ	KEEP	ТВ	abbrev	ru	KEEP	ТВ	stop_rule
+2141		NASA	KEEP	NASA	abbrev	us	KEEP	NASA	stop_rule
+2142		USA	KEEP	USA	abbrev	us	KEEP	USA	stop_rule
+2143		UK	KEEP	UK	abbrev	us	KEEP	UK	stop_rule
+2144		EU	KEEP	EU	abbrev	us	KEEP	EU	stop_rule
+2145		UN	KEEP	UN	abbrev	us	KEEP	UN	stop_rule
+2146		HTTP	KEEP	HTTP	abbrev	us	KEEP	HTTP	stop_rule
+2147		HTTPS	KEEP	HTTPS	abbrev	us	KEEP	HTTPS	stop_rule
+2148		URL	KEEP	URL	abbrev	us	KEEP	URL	stop_rule
+2149		HTML	KEEP	HTML	abbrev	us	KEEP	HTML	stop_rule
+2150		CSS	KEEP	CSS	abbrev	us	KEEP	CSS	stop_rule
+2151		API	KEEP	API	abbrev	us	KEEP	API	stop_rule
+2152		CPU	KEEP	CPU	abbrev	us	KEEP	CPU	stop_rule
+2153		GPU	KEEP	GPU	abbrev	us	KEEP	GPU	stop_rule
+2154		RAM	KEEP	RAM	abbrev	us	KEEP	RAM	stop_rule
+2155		USB	KEEP	USB	abbrev	us	KEEP	USB	stop_rule
+2156		DVD	KEEP	DVD	abbrev	us	KEEP	DVD	stop_rule
+2157		PDF	KEEP	PDF	abbrev	us	KEEP	PDF	stop_rule
+2158		JSON	KEEP	JSON	abbrev	us	KEEP	JSON	stop_rule
+2159		XML	KEEP	XML	abbrev	us	KEEP	XML	stop_rule
+2160		SQL	KEEP	SQL	abbrev	us	KEEP	SQL	stop_rule
+2161		Александр	KEEP	Александр	name	ru	KEEP	Александр	dictionary
+2162		Мария	KEEP	Мария	name	ru	KEEP	Мария	dictionary
+2163		Дмитрий	KEEP	Дмитрий	name	ru	KEEP	Дмитрий	dictionary
+2164		Иван	KEEP	Иван	name	ru	KEEP	Иван	dictionary
+2165		Ольга	KEEP	Ольга	name	ru	KEEP	Ольга	dictionary
+2166		Сергей	KEEP	Сергей	name	ru	KEEP	Сергей	dictionary
+2167		Наталья	KEEP	Наталья	name	ru	KEEP	Наталья	dictionary
+2168		Андрей	KEEP	Андрей	name	ru	KEEP	Андрей	dictionary
+2169		Владимир	KEEP	Владимир	name	ru	KEEP	Владимир	dictionary
+2170		Татьяна	KEEP	Татьяна	name	ru	KEEP	Татьяна	dictionary
+2171		Николай	KEEP	Николай	name	ru	KEEP	Николай	dictionary
+2172		Елена	KEEP	Елена	name	ru	KEEP	Елена	dictionary
+2173		Максим	KEEP	Максим	name	ru	KEEP	Максим	dictionary
+2174		Виктория	KEEP	Виктория	name	ru	KEEP	Виктория	dictionary
+2175		Anna	KEEP	Anna	name	us	KEEP	Anna	dictionary
+2176		John	KEEP	John	name	us	KEEP	John	dictionary
+2177		Smith	KEEP	Smith	name	us	KEEP	Smith	dictionary
+2178		Ivanov	KEEP	Ivanov	name	us	KEEP	Ivanov	bigram
+2179		Ekaterina	KEEP	Ekaterina	name	us	KEEP	Ekaterina	bigram
+2180		Michael	KEEP	Michael	name	us	KEEP	Michael	dictionary
+2181		Johnson	KEEP	Johnson	name	us	KEEP	Johnson	dictionary
+2182		Williams	KEEP	Williams	name	us	KEEP	Williams	dictionary
+2183		Brown	KEEP	Brown	name	us	KEEP	Brown	dictionary
+2184		Davis	KEEP	Davis	name	us	KEEP	Davis	dictionary
+2185		Miller	KEEP	Miller	name	us	KEEP	Miller	dictionary
+2186		Wilson	KEEP	Wilson	name	us	KEEP	Wilson	dictionary
+2187		Anderson	KEEP	Anderson	name	us	KEEP	Anderson	dictionary
+2188		Thompson	KEEP	Thompson	name	us	KEEP	Thompson	dictionary
+2189		Garcia	KEEP	Garcia	name	us	KEEP	Garcia	dictionary
+2190		Martinez	KEEP	Martinez	name	us	KEEP	Martinez	dictionary
+2191		nikname_92	KEEP	nikname_92	name	us	KEEP	nikname_92	stop_rule
+2192		xXx_Killer_xXx	KEEP	xXx_Killer_xXx	name	us	KEEP	xXx_Killer_xXx	stop_rule
+2193		dark_wolf777	KEEP	dark_wolf777	name	us	KEEP	dark_wolf777	stop_rule
+2194		kitty_cat	KEEP	kitty_cat	name	us	KEEP	kitty_cat	stop_rule
+2195		SuperMario	KEEP	SuperMario	name	us	KEEP	SuperMario	bigram
+2196		Pavel_Durov	KEEP	Pavel_Durov	name	us	KEEP	Pavel_Durov	stop_rule
+2197		CaptainJack	KEEP	CaptainJack	name	us	KEEP	CaptainJack	bigram
+2198		ivan.petrov	KEEP	ivan.petrov	name	us	KEEP	ivan.petrov	bigram
+2199		j.smith	KEEP	j.smith	name	us	KEEP	j.smith	bigram
+2200		Petrov	KEEP	Petrov	name	us	KEEP	Petrov	bigram
+2201		privet	KEEP	privet	translit	us	KEEP	privet	dictionary
+2202		spasibo	KEEP	spasibo	translit	us	KEEP	spasibo	bigram
+2203		pozhaluysta	KEEP	pozhaluysta	translit	us	KEEP	pozhaluysta	bigram
+2204		zdravstvuyte	KEEP	zdravstvuyte	translit	us	KEEP	zdravstvuyte	bigram
+2205		dosvidaniya	KEEP	dosvidaniya	translit	us	KEEP	dosvidaniya	bigram
+2206		molodets	KEEP	molodets	translit	us	KEEP	molodets	bigram
+2207		normalno	KEEP	normalno	translit	us	KEEP	normalno	bigram
+2208		konechno	KEEP	konechno	translit	us	KEEP	konechno	bigram
+2209		nichego	KEEP	nichego	translit	us	KEEP	nichego	bigram
+2210		tochno	KEEP	tochno	translit	us	KEEP	tochno	bigram
+2211		ladno	KEEP	ladno	translit	us	KEEP	ladno	bigram
+2212		vobshe	KEEP	vobshe	translit	us	KEEP	vobshe	bigram
+2213		kstati	KEEP	kstati	translit	us	KEEP	kstati	bigram
+2214		blin	KEEP	blin	translit	us	KEEP	blin	bigram
+2215		nu	KEEP	nu	translit	us	KEEP	nu	undecided
+2216		davai	KEEP	davai	translit	us	KEEP	davai	bigram
+2217		poka	KEEP	poka	translit	us	KEEP	poka	bigram
+2218		horosho	KEEP	horosho	translit	us	KEEP	horosho	bigram
+2219		ploho	KEEP	ploho	translit	us	KEEP	ploho	bigram
+2220		otlichno	KEEP	otlichno	translit	us	KEEP	otlichno	bigram
+2221		prekrasno	KEEP	prekrasno	translit	us	KEEP	prekrasno	bigram
+2222		zamechatelno	KEEP	zamechatelno	translit	us	KEEP	zamechatelno	bigram
+2223		super	KEEP	super	translit	us	KEEP	super	dictionary
+2224		klass	KEEP	klass	translit	us	KEEP	klass	bigram
+2225		prikolno	KEEP	prikolno	translit	us	KEEP	prikolno	bigram
+2226		smeshno	KEEP	smeshno	translit	us	KEEP	smeshno	bigram
+2227		grustno	KEEP	grustno	translit	us	KEEP	grustno	bigram
+2228		ustala	KEEP	ustala	translit	us	KEEP	ustala	bigram
+2229		ustal	KEEP	ustal	translit	us	KEEP	ustal	bigram
+2230		rabotayu	KEEP	rabotayu	translit	us	KEEP	rabotayu	bigram
+2231		uchus	KEEP	uchus	translit	us	KEEP	uchus	bigram
+2232		otdyhayu	KEEP	otdyhayu	translit	us	KEEP	otdyhayu	bigram
+2233		gulyayu	KEEP	gulyayu	translit	us	KEEP	gulyayu	bigram
+2234		dumayu	KEEP	dumayu	translit	us	KEEP	dumayu	bigram
+2235		znayu	KEEP	znayu	translit	us	KEEP	znayu	bigram
+2236		ponyala	KEEP	ponyala	translit	us	KEEP	ponyala	bigram
+2237		ponyal	KEEP	ponyal	translit	us	KEEP	ponyal	bigram
+2238		soglasen	KEEP	soglasen	translit	us	KEEP	soglasen	bigram
+2239		soglasna	KEEP	soglasna	translit	us	KEEP	soglasna	bigram
+2240		privetik	KEEP	privetik	translit	us	KEEP	privetik	bigram
+2241		Wi-Fiкой	KEEP	Wi-Fiкой	mixed	us	KEEP	Wi-Fiкой	stop_rule
+2242		USBпорт	KEEP	USBпорт	mixed	us	KEEP	USBпорт	stop_rule
+2243		SMSка	KEEP	SMSка	mixed	us	KEEP	SMSка	stop_rule
+2244		iPhoneов	KEEP	iPhoneов	mixed	us	KEEP	iPhoneов	stop_rule
+2245		ITшник	KEEP	ITшник	mixed	us	KEEP	ITшник	stop_rule
+2246		PRщик	KEEP	PRщик	mixed	us	KEEP	PRщик	stop_rule
+2247		VIP-зал	KEEP	VIP-зал	mixed	us	KEEP	VIP-зал	stop_rule
+2248		СМС-код	KEEP	СМС-код	mixed	ru	KEEP	СМС-код	stop_rule
+2249		HTMLка	KEEP	HTMLка	mixed	us	KEEP	HTMLка	stop_rule
+2250		DVDишник	KEEP	DVDишник	mixed	us	KEEP	DVDишник	stop_rule
+2251		iPadом	KEEP	iPadом	mixed	us	KEEP	iPadом	stop_rule
+2252		iOSе	KEEP	iOSе	mixed	us	KEEP	iOSе	stop_rule
+2253		Bluetoothом	KEEP	Bluetoothом	mixed	us	KEEP	Bluetoothом	stop_rule
+2254		USB-флешка	KEEP	USB-флешка	mixed	us	KEEP	USB-флешка	stop_rule
+2255		VPNом	KEEP	VPNом	mixed	us	KEEP	VPNом	stop_rule
+2256		SEOшник	KEEP	SEOшник	mixed	us	KEEP	SEOшник	stop_rule
+2257		GIF-ка	KEEP	GIF-ка	mixed	us	KEEP	GIF-ка	stop_rule
+2258		PDFка	KEEP	PDFка	mixed	us	KEEP	PDFка	stop_rule
+2259		CDшка	KEEP	CDшка	mixed	us	KEEP	CDшка	stop_rule
+2260		DVD-диск	KEEP	DVD-диск	mixed	us	KEEP	DVD-диск	stop_rule
+2261		HR-отдел	KEEP	HR-отдел	mixed	us	KEEP	HR-отдел	stop_rule
+2262		CEOшка	KEEP	CEOшка	mixed	us	KEEP	CEOшка	stop_rule
+2263		PR-акция	KEEP	PR-акция	mixed	us	KEEP	PR-акция	stop_rule
+2264		SPAшка	KEEP	SPAшка	mixed	us	KEEP	SPAшка	stop_rule
+2265		PHPшник	KEEP	PHPшник	mixed	us	KEEP	PHPшник	stop_rule
+2266		SQLщик	KEEP	SQLщик	mixed	us	KEEP	SQLщик	stop_rule
+2267		Wi-Fiщик	KEEP	Wi-Fiщик	mixed	us	KEEP	Wi-Fiщик	stop_rule
+2268		USB-кабель	KEEP	USB-кабель	mixed	us	KEEP	USB-кабель	stop_rule
+2269		IT-отдел	KEEP	IT-отдел	mixed	us	KEEP	IT-отдел	stop_rule
+2270		HTML-вёрстка	KEEP	HTML-вёрстка	mixed	us	KEEP	HTML-вёрстка	stop_rule
+2271		A4	KEEP	A4	number	us	KEEP	A4	short_word
+2272		ГОСТ-2024	KEEP	ГОСТ-2024	number	ru	KEEP	ГОСТ-2024	stop_rule
+2273		x86_64	KEEP	x86_64	number	us	KEEP	x86_64	stop_rule
+2274		IPv4	KEEP	IPv4	number	us	KEEP	IPv4	bigram
+2275		IPv6	KEEP	IPv6	number	us	KEEP	IPv6	bigram
+2276		3D	KEEP	3D	number	us	KEEP	3D	stop_rule
+2277		4K	KEEP	4K	number	us	KEEP	4K	stop_rule
+2278		Windows10	KEEP	Windows10	number	us	KEEP	Windows10	stop_rule
+2279		COVID-19	KEEP	COVID-19	number	us	KEEP	COVID-19	stop_rule
+2280		Т-34	KEEP	Т-34	number	ru	KEEP	Т-34	undecided
+2281		Ту-154	KEEP	Ту-154	number	ru	KEEP	Ту-154	dictionary
+2282		АК-47	KEEP	АК-47	number	ru	KEEP	АК-47	stop_rule
+2283		М16	KEEP	М16	number	ru	KEEP	М16	undecided
+2284		Boeing747	KEEP	Boeing747	number	us	KEEP	Boeing747	stop_rule
+2285		Wi-Fi5	KEEP	Wi-Fi5	number	us	KEEP	Wi-Fi5	bigram
+2286		4G	KEEP	4G	number	us	KEEP	4G	stop_rule
+2287		5G	KEEP	5G	number	us	KEEP	5G	stop_rule
+2288		H2O	KEEP	H2O	number	us	KEEP	H2O	stop_rule
+2289		CO2	KEEP	CO2	number	us	KEEP	CO2	stop_rule
+2290		Windows11	KEEP	Windows11	number	us	KEEP	Windows11	stop_rule
+2291		iOS17	KEEP	iOS17	number	us	KEEP	iOS17	dictionary
+2292		USB3.0	KEEP	USB3.0	number	us	KEEP	USB3.0	stop_rule
+2293		HDMI2.1	KEEP	HDMI2.1	number	us	KEEP	HDMI2.1	stop_rule
+2294		3G	KEEP	3G	number	us	KEEP	3G	stop_rule
+2295		Formula1	KEEP	Formula1	number	us	KEEP	Formula1	stop_rule
+2296		GTA5	KEEP	GTA5	number	us	KEEP	GTA5	stop_rule
+2297		PlayStation5	KEEP	PlayStation5	number	us	KEEP	PlayStation5	stop_rule
+2298		Apollo11	KEEP	Apollo11	number	us	KEEP	Apollo11	stop_rule
+2299		Sputnik1	KEEP	Sputnik1	number	us	KEEP	Sputnik1	stop_rule
+2300		Falcon9	KEEP	Falcon9	number	us	KEEP	Falcon9	stop_rule

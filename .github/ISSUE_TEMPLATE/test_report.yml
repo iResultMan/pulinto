@@ -1,0 +1,46 @@
+name: Отчёт о тесте
+description: Я поставил PuLinTo на своей системе и хочу рассказать, что работает
+labels: [testing]
+body:
+  - type: markdown
+    attributes:
+      value: "Список проверок: [docs/TESTING.md](../blob/main/docs/TESTING.md)."
+  - type: input
+    id: system
+    attributes:
+      label: Дистрибутив и версия
+      description: Например, RHEL 9.4, Fedora 41, AlmaLinux 9, Debian 12, openSUSE Tumbleweed.
+    validations:
+      required: true
+  - type: input
+    id: desktop
+    attributes:
+      label: Рабочий стол и сеанс
+      description: Например, GNOME 46 на Wayland, XFCE на X11.
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Как устанавливали
+      options:
+        - Командой curl
+        - Пакет .deb
+        - Пакет .rpm
+        - Архив tar.gz
+        - Из исходников
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Что работает, а что нет
+      description: Пройдите пункты списка из docs/TESTING.md и отметьте, что не сработало.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Журнал
+      description: Вывод `journalctl --user -u pulintod -n 50`, если что-то не заработало.
+      render: text

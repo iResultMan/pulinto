@@ -1,0 +1,827 @@
+msgid ""
+msgstr "Project-Id-Version: pulinto\nLanguage: ru\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Off"
+msgstr "Выключено"
+
+msgid "Observe"
+msgstr "Наблюдение"
+
+msgid "Grab"
+msgstr "Захват"
+
+msgid "Diagnostics"
+msgstr "Диагностика"
+
+msgid "Got it"
+msgstr "Понятно"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Learned automatically"
+msgstr "Выучено автоматически"
+
+msgid "Added by hand"
+msgstr "Добавлено вручную"
+
+msgid "Added earlier"
+msgstr "Ранее добавлено"
+
+msgid "Automatic"
+msgstr "Автоматически"
+
+msgid "Hotkey only"
+msgstr "Только по горячей клавише"
+
+msgid "Completely off"
+msgstr "Полностью выключено"
+
+msgid "Overview"
+msgstr "Обзор"
+
+msgid "Fixes the word you are typing; right after a word, undoes the last replacement. Pressing again cycles through the readings."
+msgstr "Исправляет слово, которое вы печатаете; сразу после слова откатывает последнюю замену. Повторное нажатие переключает прочтения."
+
+msgid "Replaces the selected text with its reading in the other layout."
+msgstr "Заменяет выделенный текст его прочтением в другой раскладке."
+
+msgid "Cycles the mode for the application you are in: automatic, hotkey only, off."
+msgstr "Переключает по кругу режим приложения, в котором вы работаете: автоматически, только по горячей клавише, выключено."
+
+msgid "Writes the last eight decisions to reports.jsonl."
+msgstr "Записывает последние восемь решений в reports.jsonl."
+
+msgid "Hotkeys"
+msgstr "Горячие клавиши"
+
+msgid "Help"
+msgstr "Справка"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Delete and forget"
+msgstr "Удалить и забыть"
+
+msgid "Allow"
+msgstr "Разрешить"
+
+msgid "Applications"
+msgstr "Приложения"
+
+msgid "For each application you can choose: fix automatically, fix only on the hotkey, or leave alone completely. Your rules take precedence over the safe defaults."
+msgstr "Для каждого приложения можно выбрать: исправлять автоматически, исправлять только по горячей клавише или совсем не трогать. Ваши правила важнее безопасных значений по умолчанию."
+
+msgid "No rules yet"
+msgstr "Правил пока нет"
+
+msgid "PuLinTo works in all applications in automatic mode."
+msgstr "PuLinTo работает во всех приложениях в автоматическом режиме."
+
+msgid "Add a rule"
+msgstr "Добавить правило"
+
+msgid "You have no rules yet. PuLinTo handles all other applications automatically."
+msgstr "Своих правил пока нет. Остальные приложения PuLinTo обрабатывает автоматически."
+
+msgid "PuLinTo's safe defaults for terminals, editors, password managers, remote desktops and games. Click a row to set your own."
+msgstr "Безопасные значения PuLinTo для терминалов, редакторов, менеджеров паролей, удалённых рабочих столов и игр. Нажмите на строку, чтобы задать своё."
+
+msgid "Rule reset"
+msgstr "Правило сброшено"
+
+msgid "Turn on the Apple layout (comma and full stop on Shift+6 and Shift+7, ё on the \\ key)?"
+msgstr "Включить раскладку Apple (запятая и точка на Shift+6 и Shift+7, ё на клавише \\)?"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Changed from the tray menu"
+msgstr "Меняется из меню в трее"
+
+msgid "Fixed this session"
+msgstr "Исправлено за сеанс"
+
+msgid "PuLinTo service"
+msgstr "Служба PuLinTo"
+
+msgid "Currently in the system"
+msgstr "Сейчас в системе"
+
+msgid "setxkbmap not found (package x11-xkb-utils): the layout cannot be switched from here."
+msgstr "Не найден setxkbmap (пакет x11-xkb-utils): переключить раскладку отсюда нельзя."
+
+msgid "You can press and release a single modifier: Alt, Ctrl, Shift or Super. While recording, the other keys do nothing. Esc cancels."
+msgstr "Можно нажать и отпустить один модификатор — Alt, Ctrl, Shift или Super. Пока идёт запись, остальные клавиши ничего не делают. Esc — отмена."
+
+msgid "Press a key combination"
+msgstr "Нажмите сочетание клавиш"
+
+msgid "Auto — by keyboard"
+msgstr "Авто — по клавиатуре"
+
+msgid "Always the Apple set"
+msgstr "Всегда набор Apple"
+
+msgid "Always the PC set"
+msgstr "Всегда набор PC"
+
+msgid "Emergency release of the grab"
+msgstr "Аварийное снятие захвата"
+
+msgid "Press all three together: PuLinTo releases the keyboard until restart."
+msgstr "Нажмите все три вместе: PuLinTo отпустит клавиатуру до перезапуска."
+
+msgid "New shortcut"
+msgstr "Новое сочетание"
+
+msgid "Change shortcut"
+msgstr "Изменить сочетание"
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid "Set reset"
+msgstr "Набор сброшен"
+
+msgid "Set choice saved"
+msgstr "Выбор набора сохранён"
+
+msgid "Autocorrections"
+msgstr "Автозамены"
+
+msgid "Never change"
+msgstr "Не менять"
+
+msgid "Always change"
+msgstr "Всегда менять"
+
+msgid "Refresh lists"
+msgstr "Обновить списки"
+
+msgid "Re-check keyboards"
+msgstr "Перепроверить клавиатуры"
+
+msgid "Import rules…"
+msgstr "Импорт правил…"
+
+msgid "Export rules…"
+msgstr "Экспорт правил…"
+
+msgid "Help and hotkeys"
+msgstr "Справка и горячие клавиши"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Could not reach pulintod"
+msgstr "Не удалось связаться с pulintod"
+
+msgid "Lists refreshed"
+msgstr "Списки обновлены"
+
+msgid "Applying…"
+msgstr "Применяется…"
+
+msgid "Restarting PuLinTo…"
+msgstr "Перезапуск PuLinTo…"
+
+msgid "PuLinTo restarted, keyboards re-checked"
+msgstr "PuLinTo перезапущен, клавиатуры проверены заново"
+
+msgid "PuLinTo did not come back after the restart"
+msgstr "PuLinTo не вернулся после перезапуска"
+
+msgid "Try starting PuLinTo from the application menu."
+msgstr "Попробуйте запустить PuLinTo из меню приложений."
+
+msgid "Replace current"
+msgstr "Заменить текущие"
+
+msgid "Merge"
+msgstr "Объединить"
+
+msgid "pulintod is running but did not register on D-Bus: {error}"
+msgstr "pulintod запущен, но не зарегистрировался в D-Bus: {error}"
+
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+msgid "Replace a word or abbreviation after a space or punctuation mark. The replacement may contain spaces. Click a row to edit."
+msgstr "Заменяют слово или сокращение после пробела либо знака. Замена может содержать пробелы. Нажмите на строку, чтобы изменить."
+
+msgid "No autocorrections yet"
+msgstr "Автозамен пока нет"
+
+msgid "Add an abbreviation: PuLinTo expands it as soon as you finish the word."
+msgstr "Добавьте сокращение — PuLinTo развернёт его, как только вы закончите слово."
+
+msgid "Add an autocorrection"
+msgstr "Добавить автозамену"
+
+msgid "Words for which automatic layout switching is forbidden. Click a row to edit."
+msgstr "Слова, для которых автоматическая смена раскладки запрещена. Нажмите на строку, чтобы изменить."
+
+msgid "No exceptions yet"
+msgstr "Исключений пока нет"
+
+msgid "PuLinTo does not touch the words in this list, in any application, unless you limit the rule."
+msgstr "Слова из этого списка PuLinTo не трогает — ни в одном приложении, если вы не ограничите правило."
+
+msgid "Add a word"
+msgstr "Добавить слово"
+
+msgid "Words that must be converted even when the automatic logic is unsure. Click a row to edit."
+msgstr "Слова, которые нужно исправлять, даже если автоматика сомневается. Нажмите на строку, чтобы изменить."
+
+msgid "No words of your own yet"
+msgstr "Своих слов пока нет"
+
+msgid "Words from here will be converted even when PuLinTo is unsure."
+msgstr "Слова отсюда будут исправляться, даже когда PuLinTo сомневается."
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "Autocorrection deleted"
+msgstr "Автозамена удалена"
+
+msgid "\"Delete\" lets PuLinTo learn the word again. \"Delete and forget\" forbids learning it again; only a protected fingerprint is written to disk."
+msgstr "«Удалить» позволит PuLinTo выучить слово снова. «Удалить и забыть» запретит повторное автообучение; на диск будет записан только защищённый отпечаток."
+
+msgid "Word deleted"
+msgstr "Слово удалено"
+
+msgid "Allow forgotten words to be learned again?"
+msgstr "Разрешить повторное обучение забытых слов?"
+
+msgid "The words themselves are not stored, so the whole set of protected fingerprints is cleared."
+msgstr "Сами слова не хранятся, поэтому сбрасывается весь набор защищённых отпечатков."
+
+msgid "Forgotten words reset"
+msgstr "Забытые слова сброшены"
+
+msgid "Edit autocorrection"
+msgstr "Изменить автозамену"
+
+msgid "New autocorrection"
+msgstr "Новая автозамена"
+
+msgid "Edit word"
+msgstr "Изменить слово"
+
+msgid "Never change a word"
+msgstr "Не менять слово"
+
+msgid "Always change a word"
+msgstr "Всегда менять слово"
+
+msgid "The rule was not saved. Check that the fields are filled in; a word for the layout lists must be at least 3 characters."
+msgstr "Правило не сохранено. Проверьте, что поля заполнены; слово для списков раскладки — минимум 3 символа."
+
+msgid "Saved"
+msgstr "Сохранено"
+
+msgid "Where it applies"
+msgstr "Где действует"
+
+msgid "Leave empty and the rule works in all applications. You can list several, separated by commas: Navigator, code, jetbrains-* (a star at the end means the whole family)."
+msgstr "Оставьте пустым — правило работает во всех приложениях. Можно перечислить через запятую: Navigator, code, jetbrains-* (звёздочка в конце — всё семейство)."
+
+msgid "Applications (WM_CLASS)"
+msgstr "Приложения (WM_CLASS)"
+
+msgid "Your rules"
+msgstr "Ваши правила"
+
+msgid "Defaults"
+msgstr "По умолчанию"
+
+msgid "default"
+msgstr "по умолчанию"
+
+msgid "The rule was not saved."
+msgstr "Правило не сохранено."
+
+msgid "Rule for an application"
+msgstr "Правило для приложения"
+
+msgid "New rule"
+msgstr "Новое правило"
+
+msgid "Window class (WM_CLASS), for example Navigator or jetbrains-*."
+msgstr "Класс окна (WM_CLASS), например Navigator или jetbrains-*."
+
+msgid "Application"
+msgstr "Приложение"
+
+msgid "Automatic: automatic fixes and the hotkey.\nHotkey only: no automatic replacements.\nCompletely off: PuLinTo handles nothing, not even the hotkey.\nThe key is set on the \"Hotkeys\" page: Alt or Pause/Break on an Apple keyboard, Pause/Break or the right Ctrl on the others."
+msgstr "Автоматически — автоматические исправления и горячая клавиша.\nТолько по горячей клавише — без автоматических замен.\nПолностью выключено — PuLinTo не обрабатывает даже горячую клавишу.\nКлавиша задаётся на странице «Горячие клавиши»: у клавиатуры Apple это Alt или Pause/Break, у остальных — Pause/Break или правый Ctrl."
+
+msgid "An Apple keyboard was found"
+msgstr "Найдена клавиатура Apple"
+
+msgid "Do not suggest"
+msgstr "Не предлагать"
+
+msgid "Turn on"
+msgstr "Включить"
+
+msgid "Fix automatically"
+msgstr "Исправлять автоматически"
+
+msgid "When it is off, words are fixed only when you press the hotkey (see \"Hotkeys\")."
+msgstr "Когда выключено, слова исправляются только по горячей клавише (см. «Горячие клавиши»)."
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "Apple layout"
+msgstr "Раскладка Apple"
+
+msgid "The Cmd and Option keys and the function row are configured in the system itself, not in PuLinTo: they are parameters of the hid_apple kernel module (root needed) and XKB options such as ctrl:swap_lwin_lctl. Details are in the manual, section \"Apple keyboard\"."
+msgstr "Клавиши Cmd и Option, а также ряд функциональных клавиш настраиваются в самой системе, а не в PuLinTo: это параметры модуля ядра hid_apple (нужен root) и опции XKB, например ctrl:swap_lwin_lctl. Подробности — в руководстве, раздел «Клавиатура Apple»."
+
+msgid "unavailable"
+msgstr "недоступно"
+
+msgid "unknown"
+msgstr "неизвестно"
+
+msgid "Restart"
+msgstr "Перезапустить"
+
+msgid "The layout was not changed"
+msgstr "Раскладка не изменена"
+
+msgid "Apple layout turned on"
+msgstr "Раскладка Apple включена"
+
+msgid "Standard layout restored"
+msgstr "Обычная раскладка возвращена"
+
+msgid "Assign"
+msgstr "Назначить"
+
+msgid "Record again"
+msgstr "Записать ещё раз"
+
+msgid "Recorded"
+msgstr "Записано"
+
+msgid "Recording cancelled"
+msgstr "Запись отменена"
+
+msgid "Which set to use"
+msgstr "Какой набор использовать"
+
+msgid "The set is chosen by keyboard: Apple keyboards use the Apple set, all others the PC set. A laptop and an Apple keyboard plugged into it each keep to their own habits."
+msgstr "Набор выбирается по клавиатуре: клавиатуры Apple живут по набору Apple, остальные — по набору PC. Ноутбук и подключённая к нему клавиатура Apple живут каждая по своим привычкам."
+
+msgid "No keyboards found."
+msgstr "Клавиатуры не найдены."
+
+msgid "Cannot be changed"
+msgstr "Не меняется"
+
+msgid "Reset the set"
+msgstr "Сбросить набор"
+
+msgid "There is no combination: the action does not trigger."
+msgstr "Нет ни одного сочетания: действие не срабатывает."
+
+msgid "Add a shortcut…"
+msgstr "Добавить сочетание…"
+
+msgid "Remove this shortcut"
+msgstr "Убрать это сочетание"
+
+msgid "Could not save."
+msgstr "Не удалось сохранить."
+
+msgid "It did not work"
+msgstr "Не получилось"
+
+msgid "All shortcuts of this set will return to their defaults."
+msgstr "Все сочетания этого набора вернутся к значениям по умолчанию."
+
+msgid "PuLinTo hotkeys"
+msgstr "Горячие клавиши PuLinTo"
+
+msgid "They work in any application where PuLinTo is not off. Apple keyboards and all others have their own sets, and every combination can be changed on the \"Hotkeys\" page."
+msgstr "Работают в любом приложении, где PuLinTo не выключен. У клавиатур Apple и у остальных свои наборы, и каждое сочетание можно сменить на странице «Горячие клавиши»."
+
+msgid "Fix the word"
+msgstr "Исправить слово"
+
+msgid "The selected text, the word being typed or the last word. Pressing again cycles through the readings. By default: on an Apple keyboard a single Alt or Pause/Break; on the others Pause/Break or a single right Ctrl (a lone Alt is left to application menus there)."
+msgstr "Выделенный текст, слово в наборе или последнее слово. Повторное нажатие переключает прочтения. По умолчанию: на клавиатуре Apple — одиночный Alt или Pause/Break; на остальных — Pause/Break или одиночный правый Ctrl (одиночный Alt там отдан меню приложений)."
+
+msgid "Selected text only"
+msgstr "Только выделенный текст"
+
+msgid "Shift+Pause/Break by default."
+msgstr "По умолчанию Shift+Pause/Break."
+
+msgid "Cycles: automatic, hotkey only, off."
+msgstr "По кругу: автоматически, только по горячей клавише, выключено."
+
+msgid "In this window"
+msgstr "В этом окне"
+
+msgid "Search the list"
+msgstr "Поиск по списку"
+
+msgid "Delete the selected row"
+msgstr "Удалить выбранную строку"
+
+msgid "What is stored"
+msgstr "Что хранится"
+
+msgid "Only the rules, added by hand or learned after repeated corrections. Ordinary typing and the clipboard are not stored."
+msgstr "Только правила — добавленные вручную или выученные после повторных исправлений. Обычный набор и буфер обмена не сохраняются."
+
+msgid "Search (Ctrl+F)"
+msgstr "Поиск (Ctrl+F)"
+
+msgid "Add (Ctrl+N)"
+msgstr "Добавить (Ctrl+N)"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Undo"
+msgstr "Отменить"
+
+msgid "PuLinTo rules (JSON)"
+msgstr "Правила PuLinTo (JSON)"
+
+msgid "Export PuLinTo rules"
+msgstr "Экспорт правил PuLinTo"
+
+msgid "Rules saved to the file"
+msgstr "Правила сохранены в файл"
+
+msgid "Import PuLinTo rules"
+msgstr "Импорт правил PuLinTo"
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "How should the rules be imported?"
+msgstr "Как импортировать правила?"
+
+msgid "Merging updates matching rules. Replacing first deletes the current user rules."
+msgstr "Объединение обновит совпадающие правила. Замена сначала удалит текущие пользовательские правила."
+
+msgid "Rules imported"
+msgstr "Правила импортированы"
+
+msgid "This is not a PuLinTo rules file"
+msgstr "Это не файл правил PuLinTo"
+
+msgid "Unsupported format version"
+msgstr "Неподдерживаемая версия формата"
+
+msgid "Invalid applications section"
+msgstr "Некорректный раздел applications"
+
+msgid "PuLinTo is unavailable"
+msgstr "PuLinTo недоступен"
+
+msgid "Try again"
+msgstr "Повторить"
+
+msgid "could not start pulintod: {error}"
+msgstr "не удалось запустить pulintod: {error}"
+
+msgid "Forgotten words"
+msgstr "Забытые слова"
+
+msgid "Reset…"
+msgstr "Сбросить…"
+
+msgid "learned"
+msgstr "выучено"
+
+msgid "The rule was learned automatically after repeated corrections"
+msgstr "Правило выучено автоматически после повторных исправлений"
+
+msgid "Word deleted and forgotten"
+msgstr "Слово удалено и забыто"
+
+msgid "No connection to PuLinTo."
+msgstr "Нет связи с PuLinTo."
+
+msgid "What was typed"
+msgstr "Что набрано"
+
+msgid "Word"
+msgstr "Слово"
+
+msgid "Replace with"
+msgstr "Заменить на"
+
+msgid "The application the settings were opened from"
+msgstr "Приложение, из которого открыты настройки"
+
+msgid "Restore the default"
+msgstr "Вернуть значение по умолчанию"
+
+msgid "No connection to PuLinTo"
+msgstr "Нет связи с PuLinTo"
+
+msgid "The service is not responding. Try refreshing the page (Ctrl+R) or restarting PuLinTo."
+msgstr "Служба не отвечает. Попробуйте обновить страницу (Ctrl+R) или перезапустить PuLinTo."
+
+msgid "Not responding"
+msgstr "Не отвечает"
+
+msgid "PuLinTo is off"
+msgstr "PuLinTo выключен"
+
+msgid "The \"Off\" mode is set from the tray menu."
+msgstr "Режим «Выключено» задаётся в меню в трее."
+
+msgid "Working"
+msgstr "Работает"
+
+msgid "The system layout changed after PuLinTo started. Restart it."
+msgstr "Раскладка в системе изменилась после запуска PuLinTo. Перезапустите его."
+
+msgid "{seconds} s left"
+msgstr "Осталось {seconds} с"
+
+msgid "The daemon did not respond."
+msgstr "Демон не ответил."
+
+msgid "Time is up"
+msgstr "Время вышло"
+
+msgid "Currently connected: "
+msgstr "Сейчас подключены: "
+
+msgid "Single press"
+msgstr "Одиночное нажатие"
+
+msgid "Combination"
+msgstr "Сочетание"
+
+msgid "Saved. "
+msgstr "Сохранено. "
+
+msgid "the daemon rejected the restart"
+msgstr "демон отклонил перезапуск"
+
+msgid "Could not restart PuLinTo"
+msgstr "Не удалось перезапустить PuLinTo"
+
+msgid "Export failed"
+msgstr "Экспорт не выполнен"
+
+msgid "The rules file is invalid"
+msgstr "Файл правил некорректен"
+
+msgid "The import was not completed"
+msgstr "Импорт выполнен не полностью"
+
+msgid "applications must be an array"
+msgstr "applications должно быть массивом"
+
+msgid "Invalid autocorrection"
+msgstr "Некорректная автозамена"
+
+msgid "Invalid never_change rule"
+msgstr "Некорректное правило never_change"
+
+msgid "Invalid always_change rule"
+msgstr "Некорректное правило always_change"
+
+msgid "The daemon rejected the autocorrection"
+msgstr "Демон отклонил автозамену"
+
+msgid "The daemon rejected the \"never change\" rule"
+msgstr "Демон отклонил правило «не менять»"
+
+msgid "The daemon rejected the \"always change\" rule"
+msgstr "Демон отклонил правило «всегда менять»"
+
+msgid "Only in: {scope}"
+msgstr "Только в: {scope}"
+
+msgid "{count} forbidden from being learned again"
+msgstr "{count} с запретом на повторное обучение"
+
+msgid "Delete \"{source}\"?"
+msgstr "Удалить «{source}»?"
+
+msgid "Becomes"
+msgstr "Станет"
+
+msgid "The layout fixes itself"
+msgstr "Раскладка исправляется сама"
+
+msgid "PuLinTo watches your typing and switches the layout when a word is typed in the wrong one."
+msgstr "PuLinTo следит за набором и меняет раскладку, когда слово набрано не в той."
+
+msgid "Automatic fixes are off: you change the layout with the hotkey."
+msgstr "Автоматические исправления выключены — раскладку меняете вы горячей клавишей."
+
+msgid "The Russian layout uses the \"{variant}\" variant; the Apple layout is not applied over it, so your choice is kept."
+msgstr "Для русской раскладки выбран вариант «{variant}»: поверх него раскладка Apple не включается, чтобы не отменить ваш выбор."
+
+msgid "This combination cannot be assigned"
+msgstr "Это сочетание нельзя назначить"
+
+msgid "Recording is unavailable"
+msgstr "Запись недоступна"
+
+msgid "Reset the {name} set?"
+msgstr "Сбросить набор {name}?"
+
+msgid "Add — {title} (Ctrl+N)"
+msgstr "Добавить — {title} (Ctrl+N)"
+
+msgid "Could not reach the pulintod service.\n{error}"
+msgstr "Не удалось связаться со службой pulintod.\n{error}"
+
+msgid "becomes: {replacement}"
+msgstr "станет: {replacement}"
+
+msgid "Add \"{app}\""
+msgstr "Добавить «{app}»"
+
+msgid "Invalid field {name}"
+msgstr "Некорректное поле {name}"
+
+msgid "Field {name} contains an invalid control character"
+msgstr "Поле {name} содержит недопустимый управляющий символ"
+
+msgid "applications.{name} must be an array"
+msgstr "applications.{name} должно быть массивом"
+
+msgid "{name} — set {scheme}"
+msgstr "{name} — набор {scheme}"
+
+msgid "fix"
+msgid_plural "fixes"
+msgstr[0] "исправление"
+msgstr[1] "исправления"
+msgstr[2] "исправлений"
+
+msgid "word"
+msgid_plural "words"
+msgstr[0] "слово"
+msgstr[1] "слова"
+msgstr[2] "слов"
+
+msgid "Interface language"
+msgstr "Язык интерфейса"
+
+msgid "System language"
+msgstr "Язык системы"
+
+msgid "Could not save the language"
+msgstr "Не удалось сохранить язык"
+
+msgid "Apple keyboard"
+msgstr "Клавиатура Apple"
+
+msgid "found"
+msgstr "найдена"
+
+msgid "not found"
+msgstr "не найдена"
+
+msgid "For people who use an Apple keyboard (a Mac or a Magic Keyboard) on a PC: its comma, full stop and letter ё are on different keys than on an ordinary keyboard. With an ordinary keyboard there is nothing to set here."
+msgstr "Для тех, кто работает на компьютере с клавиатурой Apple (от Mac или Magic Keyboard): на ней запятая, точка и буква ё стоят не на тех клавишах, что на обычной. С обычной клавиатурой здесь ничего настраивать не нужно."
+
+msgid "Comma and full stop on Shift+6 and Shift+7, the letter ё on the \\ key, as on a Mac. It changes the system layout, so it applies to every keyboard, an ordinary one too; the choice is remembered and applied at every login."
+msgstr "Запятая и точка на Shift+6 и Shift+7, буква ё на клавише \\ — как на Mac. Меняет раскладку системы, поэтому действует на все клавиатуры, в том числе обычную; выбор запоминается и применяется при каждом входе."
+
+msgid "Turns the Apple layout of the system on or off, at once. Useful when an Apple and an ordinary keyboard are connected together: the Apple layout applies to both, and this key brings the ordinary one back."
+msgstr "Сразу включает или выключает раскладку Apple в системе. Нужно, когда вместе подключены клавиатура Apple и обычная: раскладка Apple действует на обе, и этой клавишей возвращается обычная."
+
+msgid "Change the layout of the word"
+msgstr "Сменить раскладку слова"
+
+msgid "Convert the selected text"
+msgstr "Переложить выделенный текст"
+
+msgid "Cycle the mode for the application"
+msgstr "Режим в приложении по кругу"
+
+msgid "Report a wrong correction"
+msgstr "Сообщить об ошибке исправления"
+
+msgid "Turn the Apple layout on or off"
+msgstr "Включить или выключить раскладку Apple"
+
+msgid "An Apple and an ordinary keyboard together?"
+msgstr "Клавиатура Apple и обычная вместе?"
+
+msgid "Ctrl+Pause/Break returns the ordinary layout at once"
+msgstr "Ctrl+Pause/Break сразу возвращает обычную раскладку"
+
+msgid "The Apple layout applies to the whole system, the ordinary keyboard included. Press Ctrl+Pause/Break (Ctrl+Alt+' on the Apple keyboard) to turn it off or on again without opening this window; the key can be changed on the Hotkeys page."
+msgstr "Раскладка Apple действует на всю систему, включая обычную клавиатуру. Нажмите Ctrl+Pause/Break (на клавиатуре Apple Ctrl+Alt+'), чтобы выключить её или включить снова, не открывая это окно; клавишу можно изменить на странице «Горячие клавиши»."
+
+msgid "By default: on an Apple keyboard Ctrl+Alt+'; on the others Ctrl+Pause/Break. Brings back the ordinary layout when an Apple and an ordinary keyboard are connected."
+msgstr "По умолчанию: на клавиатуре Apple — Ctrl+Alt+'; на остальных — Ctrl+Pause/Break. Возвращает обычную раскладку, когда подключены клавиатура Apple и обычная."
+
+msgid "Left {key}"
+msgstr "Левый {key}"
+
+msgid "Right {key}"
+msgstr "Правый {key}"
+
+msgid "Full text of a crash"
+msgstr "Полный текст сбоя"
+
+msgid "The message and the backtrace of a panic. Without it the log only says where it happened."
+msgstr "Сообщение и стек паники. Без этого в журнале только место сбоя."
+
+msgid "Every decision"
+msgstr "Каждое решение"
+
+msgid "A line for each word, including the ones left alone: the stage, the layout, the time."
+msgstr "Строка на каждое слово, в том числе на оставленные без изменений: ступень, раскладка, время."
+
+msgid "Typed words"
+msgstr "Набранные слова"
+
+msgid "The words and what they became. Words that the stop rules take out (passwords, addresses) are not written."
+msgstr "Слова и то, во что они превратились. Слова, которые убирают стоп-правила (пароли, адреса), не записываются."
+
+msgid "Every key"
+msgstr "Каждая клавиша"
+
+msgid "Each key read and each key sent, with the time. This records passwords too; it stops after 15 minutes."
+msgstr "Каждая прочитанная и отправленная клавиша со временем. Записываются и пароли; запись остановится через 15 минут."
+
+msgid "PuLinTo keeps the last lines of its work in memory only, never in a file. They hold no words you typed. Copy them to attach to a bug report."
+msgstr "PuLinTo хранит последние строки своей работы только в памяти, не в файле. Набранных вами слов в них нет. Скопируйте их, чтобы приложить к сообщению об ошибке."
+
+msgid "Last lines of the log"
+msgstr "Последние строки журнала"
+
+msgid "Copy"
+msgstr "Копировать"
+
+msgid "Debug mode"
+msgstr "Режим отладки"
+
+msgid "For finding a fault together with the developer. While it records, a red dot shows on the tray icon. The record is kept in memory, not on the disk; it stops by itself after an hour and is deleted when you switch the mode off."
+msgstr "Чтобы найти неполадку вместе с разработчиком. Пока идёт запись, на значке в трее горит красная точка. Запись хранится в памяти, а не на диске; через час она остановится сама, а при выключении режима будет удалена."
+
+msgid "Start recording"
+msgstr "Начать запись"
+
+msgid "Stop and save a copy"
+msgstr "Остановить и сохранить копию"
+
+msgid "Stop and delete"
+msgstr "Остановить и удалить"
+
+msgid "Copied"
+msgstr "Скопировано"
+
+msgid "Choose at least one option"
+msgstr "Выберите хотя бы одну опцию"
+
+msgid "Record what you type?"
+msgstr "Записывать то, что вы печатаете?"
+
+msgid "The record will hold your texts. Passwords typed while \"Every key\" is on are recorded too. Nothing is written to the disk, and the record is deleted when you stop; you decide whether to save a copy."
+msgstr "В записи будут ваши тексты. Пароли, набранные при включённом пункте «Каждая клавиша», тоже записываются. На диск ничего не пишется, а при остановке запись удаляется; сохранять ли копию, решаете вы."
+
+msgid "Start"
+msgstr "Начать"
+
+msgid "Debug mode did not start"
+msgstr "Режим отладки не включился"
+
+msgid "See the daemon log: journalctl --user -u pulintod -n 20"
+msgstr "Смотрите журнал демона: journalctl --user -u pulintod -n 20"
+
+msgid "A copy is saved"
+msgstr "Копия сохранена"
+
+msgid "{path}\n\nLook through it before sending: it may hold your texts. The record itself is deleted."
+msgstr "{path}\n\nПросмотрите её перед отправкой: в ней могут быть ваши тексты. Сама запись удалена."
+
+msgid "The record is deleted"
+msgstr "Запись удалена"
+
+msgid "Recording · {minutes} min left"
+msgstr "Идёт запись · осталось {minutes} мин"
+
+msgid "A finished record is kept in memory"
+msgstr "Законченная запись хранится в памяти"
+
+msgid "Not recording"
+msgstr "Запись не ведётся"

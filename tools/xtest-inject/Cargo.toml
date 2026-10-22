@@ -1,0 +1,8 @@
+[package]
+name = "xtest-inject"
+version = "0.1.0"
+edition = "2021"
+description = "PoC: type arbitrary Unicode via XTest + scratch-keycode remapping"
+
+[dependencies]
+x11rb = { version = "0.13", features = ["xtest"] }

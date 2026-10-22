@@ -1,0 +1,7 @@
+# Stage 1 rules: a word matching any of these belongs to this language.
+# PuLinTo project data, licensed CC BY 4.0 (see data/ATTRIBUTION.md).
+^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$
+^..:..:..:..:..:..$
+(?i)^https?$
+(?i)^ftp$
+(?i)^www$

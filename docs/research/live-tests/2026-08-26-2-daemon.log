@@ -1,0 +1,32 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+Layout controller: X11 (XKB)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+XTest-доставка готова: 10 свободных keycode
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: Logitech K520
+Захват: System Administrator’s Keyboard
+Замена: 'Ctujlyz' → 'Сегодня' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ltlkfqy' → 'дедлайн' (ступень: Dictionary, решение за 0 мс)
+Замена: 'gj' → 'по' (ступень: ShortWord, решение за 0 мс)
+Замена: 'ghjtrne' → 'проекту' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ye;yj' → 'нужно' (ступень: Dictionary, решение за 0 мс)
+Замена: 'cltkfnm' → 'сделать' (ступень: Dictionary, решение за 0 мс)
+Замена: 'b' → 'и' (ступень: ShortWord, решение за 0 мс)
+Замена: 'lj' → 'до' (ступень: ShortWord, решение за 0 мс)
+Замена: 'dtxthf' → 'вечера' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Vs' → 'Мы' (ступень: ShortWord, решение за 0 мс)
+Замена: 'j,celbkb' → 'обсудили' (ступень: Dictionary, решение за 0 мс)
+Замена: 'gkfys' → 'планы' (ступень: Dictionary, решение за 0 мс)
+Замена: 'yf' → 'на' (ступень: ShortWord, решение за 0 мс)
+Замена: 'jctyn' → 'осент' (ступень: Bigram, решение за 0 мс)
+Замена: 'Еру' → 'The' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ghsuftn' → 'прыгает' (ступень: Dictionary, решение за 0 мс)
+Замена: 'xthtp' → 'через' (ступень: Dictionary, решение за 0 мс)
+Замена: 'djpkt' → 'возле' (ступень: Dictionary, решение за 0 мс)
+Замена: 'YBB' → 'НИИ' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Rjhjnrbt' → 'Короткие' (ступень: Dictionary, решение за 0 мс)
+Замена: 'kjdf' → 'лова' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Руддщ' → 'Hello' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ujnjdj' → 'готово' (ступень: Dictionary, решение за 0 мс)

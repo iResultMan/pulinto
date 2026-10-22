@@ -1,0 +1,120 @@
+{"t":1785825150860,"t_end":1785825150974,"seq":0,"word":"fiscal","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ашысфд","delimiter":53,"codes":[33, 23, 31, 46, 30, 38]}
+{"t":1785825151274,"t_end":1785825151393,"seq":1,"word":"camper","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"camper","delimiter":53,"codes":[46, 30, 50, 25, 18, 19]}
+{"t":1785825151693,"t_end":1785825151822,"seq":2,"word":"никогда","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"ybrjulf","delimiter":51,"codes":[21, 48, 19, 36, 22, 38, 33]}
+{"t":1785825152289,"t_end":1785825152337,"seq":3,"word":"ea","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"ea","delimiter":57,"codes":[18, 30]}
+{"t":1785825152804,"t_end":1785825152983,"seq":4,"word":"молодежный","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"молодежный","delimiter":57,"codes":[47, 36, 37, 36, 38, 20, 39, 21, 31, 16]}
+{"t":1785825153283,"t_end":1785825153478,"seq":5,"word":"соискателей","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"cjbcrfntktq","delimiter":53,"codes":[46, 36, 48, 46, 19, 33, 49, 20, 37, 20, 16]}
+{"t":1785825153778,"t_end":1785825153827,"seq":6,"word":"ll","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"ll","delimiter":57,"codes":[38, 38]}
+{"t":1785825154293,"t_end":1785825154423,"seq":7,"word":"трубили","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"трубили","delimiter":57,"codes":[49, 35, 18, 51, 48, 37, 48]}
+{"t":1785825154889,"t_end":1785825155019,"seq":8,"word":"support","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"support","delimiter":57,"codes":[31, 22, 25, 25, 24, 19, 20]}
+{"t":1785825155319,"t_end":1785825155400,"seq":9,"word":"make","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"make","delimiter":57,"codes":[50, 30, 37, 18]}
+{"t":1785825155700,"t_end":1785825155749,"seq":10,"word":"no","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"no","delimiter":57,"codes":[49, 24]}
+{"t":1785825156049,"t_end":1785825156113,"seq":11,"word":"out","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"out","delimiter":57,"codes":[24, 22, 20]}
+{"t":1785825156414,"t_end":1785825156462,"seq":12,"word":"ты","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"ns","delimiter":57,"codes":[49, 31]}
+{"t":1785825156929,"t_end":1785825157026,"seq":13,"word":"while","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"цршду","delimiter":57,"codes":[17, 35, 23, 38, 18]}
+{"t":1785825157492,"t_end":1785825157687,"seq":14,"word":"Владивосток","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"Владивосток","delimiter":53,"codes":[32, 37, 33, 38, 48, 32, 36, 46, 49, 36, 19]}
+{"t":1785825157987,"t_end":1785825158052,"seq":15,"word":"not","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"тще","delimiter":57,"codes":[49, 24, 20]}
+{"t":1785825158519,"t_end":1785825158584,"seq":16,"word":"www","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ццц","delimiter":57,"codes":[17, 17, 17]}
+{"t":1785825158885,"t_end":1785825158935,"seq":17,"word":"на","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"yf","delimiter":57,"codes":[21, 33]}
+{"t":1785825159401,"t_end":1785825159515,"seq":18,"word":"России","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"Hjccbb","delimiter":57,"codes":[35, 36, 46, 46, 48, 48]}
+{"t":1785825159815,"t_end":1785825159880,"seq":19,"word":"his","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ршы","delimiter":57,"codes":[35, 23, 31]}
+{"t":1785825160180,"t_end":1785825160261,"seq":20,"word":"part","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"part","delimiter":57,"codes":[25, 30, 19, 20]}
+{"t":1785825160561,"t_end":1785825160610,"seq":21,"word":"не","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"yt","delimiter":51,"codes":[21, 20]}
+{"t":1785825160910,"t_end":1785825160959,"seq":22,"word":"на","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"yf","delimiter":51,"codes":[21, 33]}
+{"t":1785825161259,"t_end":1785825161308,"seq":23,"word":"to","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"to","delimiter":57,"codes":[20, 24]}
+{"t":1785825161608,"t_end":1785825161656,"seq":24,"word":"is","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"is","delimiter":52,"codes":[23, 31]}
+{"t":1785825161956,"t_end":1785825162118,"seq":25,"word":"агентства","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"futyncndf","delimiter":39,"codes":[33, 22, 20, 21, 49, 46, 49, 32, 33]}
+{"t":1785825162419,"t_end":1785825162483,"seq":26,"word":"com","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"com","delimiter":57,"codes":[46, 24, 50]}
+{"t":1785825162783,"t_end":1785825162945,"seq":27,"word":"превысило","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"ghtdscbkj","delimiter":52,"codes":[34, 35, 20, 32, 31, 46, 48, 37, 36]}
+{"t":1785825163412,"t_end":1785825163460,"seq":28,"word":"in","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"шт","delimiter":57,"codes":[23, 49]}
+{"t":1785825163927,"t_end":1785825164122,"seq":29,"word":"authorities","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"authorities","delimiter":39,"codes":[30, 22, 20, 35, 24, 19, 23, 20, 23, 18, 31]}
+{"t":1785825164422,"t_end":1785825164535,"seq":30,"word":"vanity","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"vanity","delimiter":57,"codes":[47, 30, 49, 23, 20, 21]}
+{"t":1785825164835,"t_end":1785825164965,"seq":31,"word":"городах","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"ujhjlf[","delimiter":52,"codes":[22, 36, 35, 36, 38, 33, 26]}
+{"t":1785825165265,"t_end":1785825165411,"seq":32,"word":"supports","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ыгззщкеы","delimiter":57,"codes":[31, 22, 25, 25, 24, 19, 20, 31]}
+{"t":1785825165877,"t_end":1785825166120,"seq":33,"word":"communications","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"сщььгтшсфешщты","delimiter":53,"codes":[46, 24, 50, 50, 22, 49, 23, 46, 30, 20, 23, 24, 49, 31]}
+{"t":1785825166587,"t_end":1785825166652,"seq":34,"word":"hat","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"hat","delimiter":57,"codes":[35, 30, 20]}
+{"t":1785825166952,"t_end":1785825167049,"seq":35,"word":"время","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"dhtvz","delimiter":53,"codes":[32, 35, 20, 47, 44]}
+{"t":1785825167349,"t_end":1785825167446,"seq":36,"word":"reels","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"кууды","delimiter":53,"codes":[19, 18, 18, 38, 31]}
+{"t":1785825167747,"t_end":1785825167812,"seq":37,"word":"ФСБ","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"AC<","delimiter":57,"codes":[30, 46, 51]}
+{"t":1785825168278,"t_end":1785825168376,"seq":38,"word":"Order","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"Order","delimiter":52,"codes":[24, 19, 32, 18, 19]}
+{"t":1785825168842,"t_end":1785825168907,"seq":39,"word":"for","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ащк","delimiter":57,"codes":[33, 24, 19]}
+{"t":1785825169373,"t_end":1785825169519,"seq":40,"word":"Economic","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"Усщтщьшс","delimiter":57,"codes":[18, 46, 24, 49, 24, 50, 23, 46]}
+{"t":1785825169819,"t_end":1785825169900,"seq":41,"word":"дней","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"lytq","delimiter":57,"codes":[38, 21, 20, 16]}
+{"t":1785825170367,"t_end":1785825170448,"seq":42,"word":"млрд","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"vkhl","delimiter":57,"codes":[47, 37, 35, 38]}
+{"t":1785825170748,"t_end":1785825170846,"seq":43,"word":"begin","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"иупшт","delimiter":53,"codes":[48, 18, 34, 23, 49]}
+{"t":1785825171146,"t_end":1785825171276,"seq":44,"word":"freedom","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"freedom","delimiter":57,"codes":[33, 19, 18, 18, 32, 24, 50]}
+{"t":1785825171576,"t_end":1785825171657,"seq":45,"word":"jobs","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"jobs","delimiter":52,"codes":[36, 24, 48, 31]}
+{"t":1785825172124,"t_end":1785825172253,"seq":46,"word":"высокой","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"высокой","delimiter":53,"codes":[32, 31, 46, 36, 19, 36, 16]}
+{"t":1785825172553,"t_end":1785825172667,"seq":47,"word":"рамках","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"рамках","delimiter":53,"codes":[35, 33, 47, 19, 33, 26]}
+{"t":1785825173135,"t_end":1785825173216,"seq":48,"word":"pull","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"pull","delimiter":57,"codes":[25, 22, 38, 38]}
+{"t":1785825173682,"t_end":1785825173844,"seq":49,"word":"Пятерочке","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"Пятерочке","delimiter":57,"codes":[34, 44, 49, 20, 35, 36, 45, 19, 20]}
+{"t":1785825174144,"t_end":1785825174209,"seq":50,"word":"com","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"сщь","delimiter":53,"codes":[46, 24, 50]}
+{"t":1785825174675,"t_end":1785825174724,"seq":51,"word":"is","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"шы","delimiter":57,"codes":[23, 31]}
+{"t":1785825175190,"t_end":1785825175401,"seq":52,"word":"condemnation","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"condemnation","delimiter":57,"codes":[46, 24, 49, 32, 18, 50, 49, 30, 20, 23, 24, 49]}
+{"t":1785825175701,"t_end":1785825175766,"seq":53,"word":"you","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"you","delimiter":53,"codes":[21, 24, 22]}
+{"t":1785825176232,"t_end":1785825176347,"seq":54,"word":"School","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"Ысрщщд","delimiter":57,"codes":[31, 46, 35, 24, 24, 38]}
+{"t":1785825176814,"t_end":1785825176992,"seq":55,"word":"understood","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"гтвукыещщв","delimiter":57,"codes":[22, 49, 32, 18, 19, 31, 20, 24, 24, 32]}
+{"t":1785825177459,"t_end":1785825177540,"seq":56,"word":"фоне","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"ajyt","delimiter":52,"codes":[30, 36, 21, 20]}
+{"t":1785825177840,"t_end":1785825177905,"seq":57,"word":"his","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ршы","delimiter":53,"codes":[35, 23, 31]}
+{"t":1785825178205,"t_end":1785825178367,"seq":58,"word":"presently","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"presently","delimiter":57,"codes":[25, 19, 18, 31, 18, 49, 20, 38, 21]}
+{"t":1785825178834,"t_end":1785825178996,"seq":59,"word":"disparity","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"вшызфкшен","delimiter":53,"codes":[32, 23, 31, 25, 30, 19, 23, 20, 21]}
+{"t":1785825179296,"t_end":1785825179345,"seq":60,"word":"at","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"фе","delimiter":57,"codes":[30, 20]}
+{"t":1785825179645,"t_end":1785825179791,"seq":61,"word":"Dynamite","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"Внтфьшеу","delimiter":57,"codes":[32, 21, 49, 30, 50, 23, 20, 18]}
+{"t":1785825180091,"t_end":1785825180270,"seq":62,"word":"associated","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"фыыщсшфеув","delimiter":53,"codes":[30, 31, 31, 24, 46, 23, 30, 20, 18, 32]}
+{"t":1785825180570,"t_end":1785825180635,"seq":63,"word":"let","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"дуе","delimiter":57,"codes":[38, 18, 20]}
+{"t":1785825180935,"t_end":1785825181065,"seq":64,"word":"открыть","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"jnrhsnm","delimiter":39,"codes":[36, 49, 19, 35, 31, 49, 50]}
+{"t":1785825181365,"t_end":1785825181430,"seq":65,"word":"the","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"еру","delimiter":53,"codes":[20, 35, 18]}
+{"t":1785825181897,"t_end":1785825181978,"seq":66,"word":"node","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"node","delimiter":57,"codes":[49, 24, 32, 18]}
+{"t":1785825182278,"t_end":1785825182391,"seq":67,"word":"ubuntu","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"ubuntu","delimiter":53,"codes":[22, 48, 22, 49, 20, 22]}
+{"t":1785825182691,"t_end":1785825182805,"seq":68,"word":"nodejs","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"nodejs","delimiter":53,"codes":[49, 24, 32, 18, 36, 31]}
+{"t":1785825183271,"t_end":1785825183336,"seq":69,"word":"com","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"сщь","delimiter":57,"codes":[46, 24, 50]}
+{"t":1785825183636,"t_end":1785825183701,"seq":70,"word":"any","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"any","delimiter":57,"codes":[30, 49, 21]}
+{"t":1785825184167,"t_end":1785825184345,"seq":71,"word":"начинается","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"начинается","delimiter":53,"codes":[21, 33, 45, 48, 21, 33, 20, 49, 46, 44]}
+{"t":1785825184645,"t_end":1785825184743,"seq":72,"word":"times","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ешьуы","delimiter":57,"codes":[20, 23, 50, 18, 31]}
+{"t":1785825185043,"t_end":1785825185092,"seq":73,"word":"is","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"is","delimiter":57,"codes":[23, 31]}
+{"t":1785825185558,"t_end":1785825185704,"seq":74,"word":"сообщила","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"cjj,obkf","delimiter":52,"codes":[46, 36, 36, 51, 24, 48, 37, 33]}
+{"t":1785825186170,"t_end":1785825186235,"seq":75,"word":"Feb","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"Feb","delimiter":57,"codes":[33, 18, 48]}
+{"t":1785825186535,"t_end":1785825186616,"seq":76,"word":"John","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"John","delimiter":53,"codes":[36, 24, 35, 49]}
+{"t":1785825187083,"t_end":1785825187148,"seq":77,"word":"are","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"фку","delimiter":57,"codes":[30, 19, 18]}
+{"t":1785825187615,"t_end":1785825187663,"seq":78,"word":"то","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"то","delimiter":57,"codes":[49, 36]}
+{"t":1785825188130,"t_end":1785825188195,"seq":79,"word":"нет","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"ytn","delimiter":39,"codes":[21, 20, 49]}
+{"t":1785825188495,"t_end":1785825188576,"seq":80,"word":"даже","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"даже","delimiter":53,"codes":[38, 33, 39, 20]}
+{"t":1785825188876,"t_end":1785825189103,"seq":81,"word":"использовании","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"использовании","delimiter":57,"codes":[48, 46, 34, 36, 37, 50, 25, 36, 32, 33, 21, 48, 48]}
+{"t":1785825189569,"t_end":1785825189796,"seq":82,"word":"спецэффектами","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"спецэффектами","delimiter":57,"codes":[46, 34, 20, 17, 40, 30, 30, 20, 19, 49, 33, 47, 48]}
+{"t":1785825190262,"t_end":1785825190311,"seq":83,"word":"AB","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"AB","delimiter":57,"codes":[30, 48]}
+{"t":1785825190611,"t_end":1785825190757,"seq":84,"word":"выглядит","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"dsukzlbn","delimiter":51,"codes":[32, 31, 22, 37, 44, 38, 48, 49]}
+{"t":1785825191223,"t_end":1785825191272,"seq":85,"word":"on","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"on","delimiter":57,"codes":[24, 49]}
+{"t":1785825191739,"t_end":1785825191852,"seq":86,"word":"Бежать","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"Бежать","delimiter":53,"codes":[51, 20, 39, 33, 49, 50]}
+{"t":1785825192319,"t_end":1785825192416,"seq":87,"word":"также","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"nfr;t","delimiter":57,"codes":[49, 33, 19, 39, 20]}
+{"t":1785825192716,"t_end":1785825192765,"seq":88,"word":"to","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ещ","delimiter":57,"codes":[20, 24]}
+{"t":1785825193231,"t_end":1785825193328,"seq":89,"word":"земле","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"земле","delimiter":57,"codes":[25, 20, 47, 37, 20]}
+{"t":1785825193795,"t_end":1785825193844,"seq":90,"word":"то","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"nj","delimiter":57,"codes":[49, 36]}
+{"t":1785825194144,"t_end":1785825194209,"seq":91,"word":"the","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"the","delimiter":57,"codes":[20, 35, 18]}
+{"t":1785825194509,"t_end":1785825194622,"seq":92,"word":"energy","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"energy","delimiter":53,"codes":[18, 49, 18, 19, 34, 21]}
+{"t":1785825194922,"t_end":1785825195149,"seq":93,"word":"супермаркетов","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"cegthvfhrtnjd","delimiter":51,"codes":[46, 18, 34, 20, 35, 47, 33, 35, 19, 20, 49, 36, 32]}
+{"t":1785825195616,"t_end":1785825195681,"seq":94,"word":"при","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"при","delimiter":57,"codes":[34, 35, 48]}
+{"t":1785825195981,"t_end":1785825196159,"seq":95,"word":"составляет","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"составляет","delimiter":57,"codes":[46, 36, 46, 49, 33, 32, 37, 44, 20, 49]}
+{"t":1785825196459,"t_end":1785825196540,"seq":96,"word":"двух","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"двух","delimiter":53,"codes":[38, 32, 18, 26]}
+{"t":1785825197007,"t_end":1785825197104,"seq":97,"word":"https","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"https","delimiter":57,"codes":[35, 20, 20, 25, 31]}
+{"t":1785825197571,"t_end":1785825197638,"seq":98,"word":"his","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ршы","delimiter":53,"codes":[35, 23, 31]}
+{"t":1785825198104,"t_end":1785825198169,"seq":99,"word":"and","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"фтв","delimiter":53,"codes":[30, 49, 32]}
+{"t":1785825198469,"t_end":1785825198534,"seq":100,"word":"his","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"his","delimiter":57,"codes":[35, 23, 31]}
+{"t":1785825199001,"t_end":1785825199130,"seq":101,"word":"который","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"который","delimiter":53,"codes":[19, 36, 49, 36, 35, 31, 16]}
+{"t":1785825199430,"t_end":1785825199495,"seq":102,"word":"том","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"том","delimiter":57,"codes":[49, 36, 47]}
+{"t":1785825199962,"t_end":1785825200140,"seq":103,"word":"пересказом","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"gthtcrfpjv","delimiter":57,"codes":[34, 20, 35, 20, 46, 19, 33, 25, 36, 47]}
+{"t":1785825200606,"t_end":1785825200671,"seq":104,"word":"are","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"фку","delimiter":53,"codes":[30, 19, 18]}
+{"t":1785825200971,"t_end":1785825201068,"seq":105,"word":"часть","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"xfcnm","delimiter":57,"codes":[45, 33, 46, 49, 50]}
+{"t":1785825201369,"t_end":1785825201417,"seq":106,"word":"on","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"щт","delimiter":53,"codes":[24, 49]}
+{"t":1785825201884,"t_end":1785825201935,"seq":107,"word":"не","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"yt","delimiter":51,"codes":[21, 20]}
+{"t":1785825202235,"t_end":1785825202349,"seq":108,"word":"system","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"system","delimiter":57,"codes":[31, 21, 31, 20, 18, 50]}
+{"t":1785825202815,"t_end":1785825202929,"seq":109,"word":"nodejs","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"тщвуоы","delimiter":57,"codes":[49, 24, 32, 18, 36, 31]}
+{"t":1785825203229,"t_end":1785825203310,"seq":110,"word":"НДФЛ","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"YLAK","delimiter":57,"codes":[21, 38, 30, 37]}
+{"t":1785825203610,"t_end":1785825203691,"seq":111,"word":"show","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"ырщц","delimiter":53,"codes":[31, 35, 24, 17]}
+{"t":1785825204158,"t_end":1785825204336,"seq":112,"word":"ассоциации","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"ассоциации","delimiter":57,"codes":[33, 46, 46, 36, 17, 48, 33, 17, 48, 48]}
+{"t":1785825204802,"t_end":1785825204899,"seq":113,"word":"night","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"night","delimiter":52,"codes":[49, 23, 34, 35, 20]}
+{"t":1785825205200,"t_end":1785825205378,"seq":114,"word":"избавилась","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"bp,fdbkfcm","delimiter":57,"codes":[48, 25, 51, 33, 32, 48, 37, 33, 46, 50]}
+{"t":1785825205678,"t_end":1785825205872,"seq":115,"word":"вымышленный","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"dsvsiktyysq","delimiter":57,"codes":[32, 31, 47, 31, 23, 37, 20, 21, 21, 31, 16]}
+{"t":1785825206339,"t_end":1785825206468,"seq":116,"word":"ceiling","native":"us","typed_in":"ru","layout_was":"ru","expect":"CONVERT","shown":"сушдштп","delimiter":53,"codes":[46, 18, 23, 38, 23, 49, 34]}
+{"t":1785825206935,"t_end":1785825207033,"seq":117,"word":"одной","native":"ru","typed_in":"ru","layout_was":"ru","expect":"KEEP","shown":"одной","delimiter":57,"codes":[36, 38, 21, 36, 16]}
+{"t":1785825207500,"t_end":1785825207629,"seq":118,"word":"section","native":"us","typed_in":"us","layout_was":"us","expect":"KEEP","shown":"section","delimiter":57,"codes":[31, 18, 46, 20, 23, 24, 49]}
+{"t":1785825207929,"t_end":1785825208075,"seq":119,"word":"площадки","native":"ru","typed_in":"us","layout_was":"us","expect":"CONVERT","shown":"gkjoflrb","delimiter":57,"codes":[34, 37, 36, 24, 33, 38, 19, 48]}

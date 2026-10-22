@@ -1,0 +1,88 @@
+name: Release
+
+# A tag like v0.1.0 builds the archive, .rpm and .deb and publishes them as a
+# pre-release. File names carry no version, so releases/latest/download/<name>
+# is a stable link (the site and install.sh use it).
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # Built on AlmaLinux 9 (glibc 2.34): the binary then runs on RHEL 9 and
+  # later, Debian 12, Ubuntu 22.04 and later, Fedora.
+  build:
+    runs-on: ubuntu-latest
+    container: almalinux:9
+    steps:
+      - name: Install build tools
+        run: dnf install -y gcc gcc-c++ make git tar gzip findutils which python3 pkgconf-pkg-config dbus-devel systemd-devel rpm-build
+      - uses: actions/checkout@v4
+      - name: Install Rust
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --profile minimal
+          echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
+      - name: Tag matches Cargo.toml
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          version="$(sed -n '/^\[workspace.package\]/,/^\[/{s/^version *= *"\(.*\)"/\1/p}' Cargo.toml | head -1)"
+          test "v$version" = "$GITHUB_REF_NAME" || { echo "тег $GITHUB_REF_NAME, а в Cargo.toml версия $version"; exit 1; }
+      - name: Build
+        run: cargo build --release --locked --bin pulintod --bin pulinto
+      - name: Archive and rpm
+        run: |
+          packaging/make-release.sh --bin-dir target/release --out dist --formats tar
+          packaging/make-rpm.sh --archive dist/pulinto-x86_64.tar.gz --out dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rpm-and-archive
+          path: |
+            dist/pulinto-x86_64.tar.gz
+            dist/pulinto-x86_64.rpm
+      - uses: actions/upload-artifact@v4
+        with:
+          name: binaries
+          path: |
+            target/release/pulintod
+            target/release/pulinto
+
+  deb:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: binaries
+          path: bin
+      - name: Build the .deb
+        run: |
+          chmod +x bin/pulintod bin/pulinto
+          packaging/make-release.sh --bin-dir bin --out dist --formats deb
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deb
+          path: dist/pulinto-x86_64.deb
+
+  publish:
+    needs: [build, deb]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: assets
+          merge-multiple: true
+      - name: Checksums
+        run: cd assets && sha256sum pulinto-* > SHA256SUMS && cat SHA256SUMS
+      - name: Publish a pre-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" assets/* \
+            --title "PuLinTo ${GITHUB_REF_NAME#v} (пре-релиз)" \
+            --notes-file packaging/release-notes.md \
+            --prerelease

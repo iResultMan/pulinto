@@ -1,0 +1,18 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+IBus раскладкой не управляет (X11 layout error: IBus следует системной раскладке (GetUseSysLayout=true), раскладку задаёт XKB), беру XKB
+Layout controller: Wayland (Synthetic uinput)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: System Administrator’s Keyboard
+Захват: PuLinTo Test Typist
+Захват: Logitech K520
+Замена: 'dcgjvybk' → 'вспомнил' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Cthutq' → 'Сергей' (ступень: Dictionary, решение за 0 мс)
+Замена: 'bp' → 'из' (ступень: ShortWord, решение за 0 мс)
+Замена: 'ghblevfq' → 'придумай' (ступень: Bigram, решение за 0 мс)
+Замена: 'j[hfyztvs[' → 'охраняемых' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ujdjhbncz' → 'говорится' (ступень: Dictionary, решение за 0 мс)
+Замена отброшена: 'yf.lfkf' — знак на позиции 2 оказался концом слова
+Клавиатура PuLinTo Test Typist отвалилась: No such device (os error 19)

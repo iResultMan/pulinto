@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+# Let the daemon read the keyboard: pick up the new udev rule right away.
+if command -v udevadm >/dev/null 2>&1; then
+    udevadm control --reload 2>/dev/null || true
+    udevadm trigger --subsystem-match=input --subsystem-match=misc 2>/dev/null || true
+fi
+# Start the daemon in every user's graphical session from the next login.
+if command -v systemctl >/dev/null 2>&1; then
+    systemctl --global enable pulintod.service >/dev/null 2>&1 || true
+fi
+gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor 2>/dev/null || true
+# Start (or restart after an upgrade) the daemon for everyone who is logged in on a graphical
+# session; the others get it at their next login. No second step for the user.
+if command -v loginctl >/dev/null 2>&1 && command -v runuser >/dev/null 2>&1; then
+    loginctl list-sessions --no-legend 2>/dev/null | while read -r id uid user _rest; do
+        type="$(loginctl show-session "$id" -p Type --value 2>/dev/null || true)"
+        case "$type" in x11|wayland) ;; *) continue ;; esac
+        [ -S "/run/user/$uid/bus" ] || continue
+        runuser -u "$user" -- env XDG_RUNTIME_DIR="/run/user/$uid" \
+            DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$uid/bus" \
+            sh -c 'systemctl --user daemon-reload && systemctl --user restart pulintod.service' >/dev/null 2>&1 || true
+    done
+fi
+case "${LC_ALL:-${LC_MESSAGES:-${LANG:-}}}" in
+    ru*) echo "PuLinTo установлен и запущен." ;;
+    *) echo "PuLinTo is installed and running." ;;
+esac
+exit 0

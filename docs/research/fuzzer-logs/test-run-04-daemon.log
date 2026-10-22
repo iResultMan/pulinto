@@ -1,0 +1,13 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+IBus раскладкой не управляет (X11 layout error: IBus следует системной раскладке (GetUseSysLayout=true), раскладку задаёт XKB), беру XKB
+Layout controller: Wayland (Synthetic uinput)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+WindowObserver: не удалось подключиться к X11: Connection refused (os error 111)
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: PuLinTo Test Typist
+Захват: Logitech K520
+Захват: System Administrator’s Keyboard
+Замена: 'dcgjvybk' → 'вспомнил' (ступень: Dictionary, решение за 0 мс)
+Клавиатура PuLinTo Test Typist отвалилась: No such device (os error 19)

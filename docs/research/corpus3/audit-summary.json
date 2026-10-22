@@ -1,0 +1,72 @@
+{
+  "rows": 2061533,
+  "unique_true_forms": 63521,
+  "unique_contexts": 665027,
+  "empty_context": 10930,
+  "variants": {
+    "A": 640505,
+    "B": 495784,
+    "C": 481754,
+    "phrase": 443490
+  },
+  "categories": {
+    "literature": 244978,
+    "speech": 109400,
+    "names": 108718,
+    "it": 253311,
+    "gaming": 119691,
+    "stem": 150781,
+    "law": 134575,
+    "medicine": 122816,
+    "finance": 150007,
+    "construction": 163161,
+    "auto": 130817,
+    "geo": 136113
+  },
+  "traps": {
+    "trap_abbrev": 52484,
+    "trap_url": 46204,
+    "trap_code": 46086,
+    "trap_password": 46163,
+    "trap_url_garbled": 46228
+  },
+  "per_cell": {
+    "literature_ru": 6930,
+    "literature_en": 8401,
+    "speech_ru": 2765,
+    "speech_en": 4896,
+    "names_ru": 3872,
+    "names_en": 4190,
+    "it_ru": 6279,
+    "it_en": 7485,
+    "gaming_ru": 2679,
+    "gaming_en": 4827,
+    "stem_ru": 5275,
+    "stem_en": 4783,
+    "law_ru": 3821,
+    "law_en": 4600,
+    "medicine_ru": 4329,
+    "medicine_en": 4715,
+    "finance_ru": 4135,
+    "finance_en": 4658,
+    "construction_ru": 7856,
+    "construction_en": 4758,
+    "auto_ru": 5878,
+    "auto_en": 3877,
+    "geo_ru": 4497,
+    "geo_en": 5043
+  },
+  "lengths": {
+    "5+": 1261364,
+    "3": 270763,
+    "2": 238335,
+    "4": 193771,
+    "1": 97300
+  },
+  "duplicate_ids": 0,
+  "duplicate_pairs": 43009,
+  "keep_mismatch": 0,
+  "convert_mismatch": 0,
+  "numeric_suffix_contexts": 14855,
+  "short_true_forms_without_C": 68
+}

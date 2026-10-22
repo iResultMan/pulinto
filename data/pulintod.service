@@ -1,0 +1,13 @@
+[Unit]
+Description=PuLinTo Daemon
+# install.sh rewrites ExecStart to the absolute path it installed to.
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/local/bin/pulintod
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=graphical-session.target

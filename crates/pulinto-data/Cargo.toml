@@ -1,0 +1,14 @@
+[package]
+name = "pulinto-data"
+description = "Parsers and loaders for language data (proto, proto3, dictionary)"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+pulinto-core = { workspace = true }
+regex = "1"
+fst = "0.4"

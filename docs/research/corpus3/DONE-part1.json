@@ -1,0 +1,349 @@
+{
+  "agent": 1,
+  "rows": 523298,
+  "unique_true_forms": 24449,
+  "unique_per_cell": {
+    "literature_ru": 6930,
+    "literature_en": 8401,
+    "speech_ru": 2765,
+    "speech_en": 4896,
+    "names_ru": 3872,
+    "names_en": 4190
+  },
+  "sha256": "5ff85ca9f5235d0d07da670f5611be5c19da928700dcd0c17e524472caccc6d2",
+  "variants": {
+    "A": 114237,
+    "B": 114235,
+    "C": 121687,
+    "phrase": 112937
+  },
+  "categories": {
+    "literature": 65274,
+    "speech": 29574,
+    "names": 30355
+  },
+  "traps": {
+    "trap_url": 11784,
+    "trap_code": 11717,
+    "trap_password": 11748,
+    "trap_abbrev": 13226,
+    "trap_url_garbled": 11727
+  },
+  "length_histogram": {
+    "1": 7421,
+    "2": 17041,
+    "3": 18780,
+    "4": 13194,
+    "5+": 68767
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Русская_литература",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Романтизм",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D0%B7%D0%BC",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Серебряный_век_русской_поэзии",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D1%8F%D0%BD%D1%8B%D0%B9_%D0%B2%D0%B5%D0%BA_%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9_%D0%BF%D0%BE%D1%8D%D0%B7%D0%B8%D0%B8",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Повесть",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B2%D0%B5%D1%81%D1%82%D1%8C",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Литературоведение",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: English_literature",
+      "url": "https://en.wikipedia.org/wiki/English_literature",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Romanticism",
+      "url": "https://en.wikipedia.org/wiki/Romanticism",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Charles_Dickens",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Jane_Austen",
+      "url": "https://en.wikipedia.org/wiki/Jane_Austen",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Novella",
+      "url": "https://en.wikipedia.org/wiki/Novella",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Literary_criticism",
+      "url": "https://en.wikipedia.org/wiki/Literary_criticism",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/literature_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Ораторское_искусство",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Риторика",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Дискурс",
+      "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%83%D1%80%D1%81",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Оратор",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B0%D1%82%D0%BE%D1%80",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Убеждение",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Public_speaking",
+      "url": "https://en.wikipedia.org/wiki/Public_speaking",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Rhetoric",
+      "url": "https://en.wikipedia.org/wiki/Rhetoric",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Debate",
+      "url": "https://en.wikipedia.org/wiki/Debate",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Persuasion",
+      "url": "https://en.wikipedia.org/wiki/Persuasion",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Discourse_analysis",
+      "url": "https://en.wikipedia.org/wiki/Discourse_analysis",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Oratory",
+      "url": "https://en.wikipedia.org/wiki/Oratory",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/speech_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Русское_имя",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B5_%D0%B8%D0%BC%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Антропонимика",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Топонимика",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Фамилия",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Ономастика",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9E%D0%BD%D0%BE%D0%BC%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Отчество",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Personal_name",
+      "url": "https://en.wikipedia.org/wiki/Personal_name",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Onomastics",
+      "url": "https://en.wikipedia.org/wiki/Onomastics",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Toponymy",
+      "url": "https://en.wikipedia.org/wiki/Toponymy",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Surname",
+      "url": "https://en.wikipedia.org/wiki/Surname",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Etymology",
+      "url": "https://en.wikipedia.org/wiki/Etymology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Patronymic",
+      "url": "https://en.wikipedia.org/wiki/Patronymic",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/names_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    }
+  ],
+  "validator": "passed",
+  "notes": "Generated cleanly from non-synthetic verbatim Wikimedia sources."
+}

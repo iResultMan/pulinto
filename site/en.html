@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PuLinTo — Automatic Keyboard Layout Switcher for Linux</title>
+<meta name="description" content="Automatic keyboard layout switcher for Linux on X11 and GNOME Wayland. Seamlessly erases mistyped words and retypes them in the correct layout. Zero typing logs.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PuLinTo — Automatic Keyboard Layout Switcher for Linux">
+<meta property="og:description" content="Automatic keyboard layout switcher for Linux on X11 and GNOME Wayland. 99.38% accuracy, zero typing logs.">
+<meta property="og:url" content="{{SITE}}/en.html">
+<meta property="og:image" content="{{SITE}}/img/og.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PuLinTo","applicationCategory":"UtilitiesApplication","operatingSystem":"Linux","description":"Automatic keyboard layout switcher for Linux on X11 and GNOME Wayland: mistyped words are erased and retyped in the right layout seamlessly.","url":"{{SITE}}/en.html","downloadUrl":"{{REPO}}","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"inLanguage":"en"}
+</script>
+<link rel="canonical" href="{{SITE}}/en.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<header class="wrap top">
+  <a class="mark" href="./en.html">PuLinTo</a>
+  <nav class="nav" aria-label="Navigation">
+    <a class="opt" href="#trust">Accuracy</a>
+    <a class="opt" href="#how">Architecture</a>
+    <a href="#install">Install</a>
+    <a href="docs/">Docs</a>
+    <a href="{{REPO}}" target="_blank" rel="noopener">Star ⭐</a>
+    <div class="lang-switch" aria-label="Language / Язык">
+      <a class="lang-alt" href="./" title="Русская версия">RU</a>
+      <span class="lang-sep">/</span>
+      <span class="lang-cur" aria-current="page">EN</span>
+    </div>
+  </nav>
+</header>
+
+<main id="content">
+
+<section class="wrap hero" aria-labelledby="h-top">
+  <div>
+    <div class="hero-star-banner">
+      <a class="star-badge" href="{{REPO}}" target="_blank" rel="noopener">
+        <span class="star-icon" aria-hidden="true">⭐</span>
+        <span>Enjoying the concept? <b>Star us on GitHub</b></span>
+        <span class="badge-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+    <h1 id="h-top">THE MAGIC OF NEVER THINKING ABOUT LAYOUTS</h1>
+    <p class="hero-sub">Instant habit, impossible to give up</p>
+    <p class="lead">Words are corrected on the fly as you type, and the next word begins in the right layout. Fast. Private. Written from scratch. Free and open source.</p>
+    <div class="cta">
+      <a class="btn" href="#install">Install Now</a>
+      <a class="btn-github" href="{{REPO}}" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <span>Star ⭐</span>
+      </a>
+    </div>
+    <div class="hero-install-cmd">
+      <code>curl -fsSL {{SITE}}/install.sh | bash</code>
+    </div>
+    <p class="hint">One command or package installer (.deb, .rpm). Works on X11 and GNOME on Wayland. If a word is missed, a single tap fixes it: <kbd>Alt</kbd> (Apple) or <kbd>Pause/Break</kbd> (PC).</p>
+  </div>
+
+  <div class="demo" role="region" aria-label="Interactive demonstration of automatic layout switching">
+    <div class="demo-screen" id="demo-screen">
+      <div class="demo-line demo-line-wrong">
+        <span id="demo-wrong" class="wrong-word"></span><span id="demo-wrong-caret" class="caret"></span>
+      </div>
+      <div class="demo-line demo-line-right">
+        <span id="demo-right" class="right-word"></span><span id="demo-right-caret" class="caret" style="display:none"></span>
+      </div>
+    </div>
+
+    <div class="demo-footer">
+      <p class="demo-caption">
+        <strong>PuLinTo fixes layout mistakes automatically.</strong>
+        Auto-correction accuracy — <b class="num-accent">99.38%</b>.<br>
+        For everything else, there's a hotkey: <kbd>Alt</kbd> (Apple) or <kbd>Pause/Break</kbd> (PC).
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="trust" aria-labelledby="h-trust">
+  <div class="wrap split">
+    <div class="trust-side">
+      <div>
+        <h2 id="h-trust">A carefully calibrated decision cascade</h2>
+        <p class="sub">One of the most accurate layout engines on the market.</p>
+      </div>
+
+      <div class="accuracy-cta">
+        <p class="accuracy-cta-title">Found an accuracy gap?</p>
+        <p class="accuracy-cta-text">Send it to us for correction so PuLinTo gets even better for everyone.</p>
+        <div class="accuracy-cta-links">
+          <a class="btn-subtle" href="{{REPO}}/issues/new?template=hard_word.yml" target="_blank" rel="noopener">Submit a hard word &rarr;</a>
+          <a class="link-faint" href="https://t.me/pulinto_bot" target="_blank" rel="noopener">or via bot</a>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="tablewrap" tabindex="0" role="region" aria-label="Accuracy benchmark table">
+        <table>
+          <caption>Held-out test corpus: 21,300 words (20,000 real-world text, 1,300 traps: URLs, code identifiers, abbreviations)</caption>
+          <thead><tr><th scope="col">Program</th><th scope="col">Accuracy</th><th scope="col">False Positives</th><th scope="col">Misses</th></tr></thead>
+          <tbody>
+            <tr class="us"><th scope="row">PuLinTo</th><td>99.38%</td><td>0.06%</td><td>2.13%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small faint">False positive: a correctly typed word mistakenly altered. Full methodology in <a href="docs/measurements/">«Measurements and Methodology»</a>.</p>
+
+      <h3 style="margin-top:2.5rem">Four checks — first match decides</h3>
+      <ol class="cascade">
+        <li><div><b>Stop rules</b><span>Passwords, URLs, code and mixed-script tokens are never touched.</span></div></li>
+        <li><div><b>Short 1–2 letter words</b><span>Only if context agrees: neighboring words' language is taken into account.</span></div></li>
+        <li><div><b>Frequency dictionary</b><span>If both interpretations are real words, frequency wins with a strict 4x margin.</span></div></li>
+        <li><div><b>Forbidden n-grams</b><span>Decides only if it clearly separates interpretations; otherwise the word remains as is.</span></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="privacy" aria-labelledby="h-privacy">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-privacy">Zero typing logs. Period.</h2>
+      <p class="sub">Your keystrokes stay strictly yours.</p>
+    </div>
+    <div class="body">
+      <ul class="plain">
+        <li>The daemon stores neither typed nor corrected text. Logs contain only operation type, word length, and decision stage.</li>
+        <li>Diagnostic reports with the last 8 decisions are written only if you explicitly press <kbd>Ctrl+Alt+\</kbd>.</li>
+        <li>User rule files are created with strict <code>0600</code> permissions. Words marked «delete and forget» never touch disk: only a salted SHA-256 hash is kept.</li>
+        <li>The preferences window does not access your clipboard or selections; it speaks to the daemon via D-Bus.</li>
+        <li>The GNOME Shell extension only transmits the focused window ID; it never inspects window content.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="how" aria-labelledby="h-how">
+  <div class="wrap">
+    <h2 id="h-how">Engineered differently for X11 and Wayland</h2>
+    <div class="cols">
+      <div>
+        <h3>X11</h3>
+        <p>The daemon acquires an exclusive evdev grab on keyboard devices. Delimiters (space, Enter, punctuation) are withheld while decisions are computed, so words enter applications already corrected — even before Enter. Replacements are delivered via XTest: erasure, UTF-8 symbols, and the delimiter travel in a single queue over a single X connection.</p>
+      </div>
+      <div>
+        <h3>Wayland (GNOME Shell)</h3>
+        <p>Wayland isolates windows by design, preventing background keystroke injection. Under GNOME Shell, PuLinTo combines an evdev grab with virtual keyboard emulation through <code>/dev/uinput</code>, paired with a lightweight GNOME Shell extension that tracks focused application IDs. Layout changes are dispatched via your system shortcut.</p>
+        <ul class="plain">
+          <li>Exclusive evdev grab before the compositor;</li>
+          <li>Synthetic input via <code>/dev/uinput</code>;</li>
+          <li>Focused window ID via GNOME Shell extension.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="settings" aria-labelledby="h-settings">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-settings">Custom rules made easy</h2>
+      <p class="sub">Preferences window built with native GTK 4 and libadwaita.</p>
+    </div>
+    <div class="body">
+      <ul class="plain">
+        <li>Text replacements: exact expansions such as <code>brb\</code> into «be right back».</li>
+        <li>«Never change» and «Always change» rules for custom technical terms and abbreviations.</li>
+        <li>Per-app modes: «Automatic», «Hotkey only», or «Disabled». Switched on the fly via hotkey.</li>
+        <li>JSON export and import for rule backups and synchronization.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap shots">
+    <figure>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="img/settings-replacements-dark.webp">
+        <img src="img/settings-replacements-light.webp" width="940" height="640" loading="lazy" alt="Preferences window, Replacements tab: list of expansion rules">
+      </picture>
+      <figcaption>Replacements tab. Trailing slash rules consume the trigger character seamlessly.</figcaption>
+    </figure>
+    <figure>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="img/settings-apps-dark.webp">
+        <img src="img/settings-apps-light.webp" width="940" height="640" loading="lazy" alt="Preferences window, Applications tab: per-app rules and defaults">
+      </picture>
+      <figcaption>Applications tab. Set rules per application: terminals, browsers, code editors, or games.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sec" id="apple" aria-labelledby="h-apple">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-apple">Apple keyboards on Linux, just like on Mac</h2>
+      <p class="sub">Native Mac punctuation and letter keys restored with a single toggle.</p>
+      <p>When an Apple keyboard (built-in MacBook keyboard or external Magic Keyboard) is connected to Linux, punctuation keys are often scattered in unfamiliar spots. PuLinTo detects Apple hardware automatically and restores native layout conventions:</p>
+      <ul class="plain">
+        <li>Punctuation marks on <kbd>Shift+6</kbd> and <kbd>Shift+7</kbd>;</li>
+        <li>The «ё» / backslash key next to Enter or left Shift;</li>
+        <li>Single <kbd>Alt</kbd> tap corrects word without breaking desktop shortcuts (on PC: <kbd>Pause/Break</kbd>).</li>
+      </ul>
+    </div>
+    <div class="body">
+      <figure class="frame-card">
+        <picture>
+          <img src="docs/img/manual/keyboard-ru.png" width="600" loading="lazy" alt="Apple Keyboard tab in PuLinTo Preferences">
+        </picture>
+        <figcaption>Preferences window: auto-detection of Apple keyboards and enabling native punctuation without hacking system xkb files.</figcaption>
+      </figure>
+
+      <div class="apple-shortcut-card">
+        <p>Hotkey <kbd>Ctrl+Alt+'</kbd> (on PC: <kbd>Ctrl+Pause/Break</kbd>) instantly toggles between PC and Apple modes. Convenient when using two keyboards.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="install" aria-labelledby="h-install">
+  <div class="wrap">
+    <h2 id="h-install">Installation</h2>
+    <p class="sub" style="max-width:38rem">One command or package installer. Requires Linux with X11 or GNOME on Wayland.</p>
+
+    <div class="onecmd">
+      <h3>One command</h3>
+      <pre tabindex="0"><code>curl -fsSL {{SITE}}/install.sh | bash</code></pre>
+      <p class="small faint">Downloads the latest verified binary, verifies its checksum, and installs for your user. Prompts once for sudo password to install the udev keyboard rule. You can <a href="install.sh">inspect the script</a> before running.</p>
+    </div>
+
+    <div class="onecmd">
+      <h3>Package installers</h3>
+      <ul class="downloads">
+        <li><a class="btn" href="{{REPO}}/releases/latest/download/pulinto-x86_64.deb">Download .deb</a><span>Ubuntu, Debian, Linux Mint</span></li>
+        <li><a class="btn" href="{{REPO}}/releases/latest/download/pulinto-x86_64.rpm">Download .rpm</a><span>Fedora, RHEL, openSUSE</span></li>
+        <li><a class="btn" href="{{REPO}}/releases/latest/download/pulinto-x86_64.tar.gz">Download .tar.gz</a><span>Arch, generic x86_64 Linux</span></li>
+      </ul>
+    </div>
+
+    <details class="src">
+      <summary>Building from source</summary>
+      <p>Requires Rust 1.82+ and D-Bus development headers (in Debian/Ubuntu: <code>sudo apt install libdbus-1-dev</code>). Preferences window requires Python 3, PyGObject, GTK 4, and libadwaita. Dictionaries for English and Russian are included.</p>
+      <pre tabindex="0"><code>git clone {{REPO}}
+cd pulinto
+./install.sh</code></pre>
+      <p>The script builds the binary (<code>cargo build --release</code>), installs it for your user, and sets up the udev rule. System-wide installation to <code>/usr/local</code>: <code>sudo ./install.sh --system</code>. See <a href="docs/contributing/">Contributing Guide</a>.</p>
+    </details>
+  </div>
+</section>
+
+<section class="sec" id="keys" aria-labelledby="h-keys">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-keys">Hotkeys</h2>
+      <p class="sub">Works in any application, customizable in Preferences.</p>
+    </div>
+    <div class="body">
+      <ul class="keys">
+        <li>
+          <div class="key-pair">
+            <div><kbd>Alt</kbd> <span class="key-hint">single tap / Apple</span></div>
+            <div><kbd>Pause/Break</kbd> <span class="key-hint">for PC</span></div>
+          </div>
+          <span>Fix mistyped word, undo last correction, or convert selected text. Each press gives the next candidate. With <kbd>Shift</kbd> — selected text only.</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Ctrl+Alt+'</kbd> <span class="key-hint">Apple</span></div>
+            <div><kbd>Ctrl+Pause/Break</kbd> <span class="key-hint">for PC</span></div>
+          </div>
+          <span>Instantly toggle mode between PC and Apple keyboards.</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Ctrl+Alt+P</kbd> <span class="key-hint">Apple & PC</span></div>
+          </div>
+          <span>Cycle focused app mode: «Automatic», «Hotkey only», «Disabled».</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Ctrl+Alt+\</kbd> <span class="key-hint">Apple & PC</span></div>
+          </div>
+          <span>Write diagnostic dump report for correction troubleshooting.</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Backspace</kbd> + <kbd>Esc</kbd> + <kbd>Enter</kbd> <span class="key-hint">Apple & PC</span></div>
+          </div>
+          <span>Emergency release of keyboard grabs (press all three simultaneously).</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="status" aria-labelledby="h-status">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-status">Status: version 1.0.0</h2>
+    </div>
+    <div class="body">
+      <p>Actively maintained with live field testing underway. What is planned for upcoming releases:</p>
+      <ul class="plain">
+        <li><b>KDE Plasma on Wayland</b>: currently supported under X11; Wayland protocol support for KDE is planned.</li>
+        <li><b>Additional languages</b>: dictionaries for other languages are prepared on request via testers.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="help" aria-labelledby="h-help">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-help">Help wanted</h2>
+      <p class="sub">One author, many Linux distributions and languages.</p>
+    </div>
+    <div class="body">
+      <h3>Testers on other Linux distributions</h3>
+      <p>Testers are particularly welcome on Red Hat Enterprise Linux, Fedora, AlmaLinux, Rocky, openSUSE, and Arch Linux. Packages are assembled and ready, but field testing has primarily focused on Ubuntu. A quick 10-minute check: install, type mistyped words, send report.</p>
+      <p class="cta"><a class="btn" href="docs/testing/">Testing Guide</a><a href="{{REPO}}/issues/new?template=test_report.yml">Submit report</a></p>
+
+      <h3 style="margin-top:2.5rem">Hard words and new languages</h3>
+      <p>Found a word where the daemon makes a mistake, or a mixed sentence it misinterprets? Send it in: we tune our dictionaries and ngram tables based on these real-world cases. Want your native language added? Reach out and test on your keyboard: we compile the dictionaries, you test on real input.</p>
+      <p class="cta"><a class="btn" href="{{REPO}}/issues/new?template=hard_word.yml">Submit word</a><a href="docs/languages/">Other languages</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="feedback" aria-labelledby="h-feedback">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-feedback">Feedback & Support</h2>
+      <p class="sub">Where the program tripped, what you are missing.</p>
+    </div>
+    <div class="body">
+      <div class="feedback-list">
+        <a class="feedback-item" href="https://t.me/pulinto_bot" target="_blank" rel="noopener">
+          <div class="feedback-item-header">
+            <span class="feedback-item-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2L2 9.5l7 3 2.5 7.5L15 15l6.5 5.5L21.5 2z"/></svg>
+              Telegram Support &rarr;
+            </span>
+            <span class="feedback-item-badge">@pulinto_bot</span>
+          </div>
+          <p class="feedback-item-desc">Documentation AI assistant answers first; type <code>/human</code> to connect directly with the author.</p>
+        </a>
+
+        <a class="feedback-item" href="mailto:{{CONTACT}}">
+          <div class="feedback-item-header">
+            <span class="feedback-item-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Author Email &rarr;
+            </span>
+            <span class="feedback-item-badge">{{CONTACT}}</span>
+          </div>
+          <p class="feedback-item-desc">For private questions, partnership ideas, and detailed feedback.</p>
+        </a>
+
+        <a class="feedback-item" href="{{REPO}}/issues" target="_blank" rel="noopener">
+          <div class="feedback-item-header">
+            <span class="feedback-item-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub Issues &rarr;
+            </span>
+            <span class="feedback-item-badge">Bug tracker</span>
+          </div>
+          <p class="feedback-item-desc">Report an issue, share a diagnostic log, or propose improvements.</p>
+        </a>
+      </div>
+      <p class="small faint" style="margin-top:1.5rem">If a word was corrected incorrectly, press <kbd>Ctrl+Alt+\</kbd> immediately after the error to attach relevant diagnostic entries: the program logs decisions only upon your shortcut press.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="why" aria-labelledby="h-why">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-why">Why PuLinTo?</h2>
+      <p class="sub">Switching to Linux, the author missed macOS layout ergonomics and built a solution from scratch — no compromises, no keystroke logging.</p>
+    </div>
+    <div class="body">
+      <p>On macOS, I used Punto Switcher for years. When I migrated to Linux, I couldn't find anything comparable and built my own switcher with custom dictionaries from the ground up.</p>
+      <p>Searching for «punto switcher linux» yielded either xneur or programs where layout switches only on hotkeys. I tried xneur: it was unstable, unusable for daily work, and doesn't launch under Wayland at all. Building my own daemon made it clear why others stopped at hotkeys: achieving reliable automatic switching in Linux is tough. You must intercept input before it reaches the window, never lose keystrokes, and never freeze the keyboard — and under Wayland, do so without access to other windows. Manual hotkeys were not enough for me: I was used to layout mistakes fixing themselves seamlessly with zero extra keypresses. That's why in PuLinTo, automatic switching is primary, not an afterthought.</p>
+      <p>Punto Switcher provided the inspiration. The codebase, detection algorithms, and dictionaries were developed completely independently.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <ul>
+      <li><a href="{{REPO}}" target="_blank" rel="noopener">Star ⭐ on GitHub</a></li>
+      <li><a href="https://t.me/pulinto_bot" target="_blank" rel="noopener">Telegram @pulinto_bot</a></li>
+      <li><a href="mailto:{{CONTACT}}">{{CONTACT}}</a></li>
+      <li><a href="{{REPO}}/issues" target="_blank" rel="noopener">Report Issue</a></li>
+      <li><a href="docs/manual/">Manual</a></li>
+      <li><a href="docs/faq/">FAQ</a></li>
+      <li><a href="docs/testing/">Testing Guide</a></li>
+      <li><a href="docs/languages/">Languages</a></li>
+      <li><a href="docs/languagepack/">Language Packs</a></li>
+    </ul>
+    <p>PuLinTo is an independent open-source project and is not affiliated with or endorsed by Yandex or Punto Switcher.</p>
+    <p class="faint">© Yury ResultMan. Code licensed under MIT or Apache-2.0 at your choice. Language data licensed under CC BY 4.0 (sources listed in «Data &amp; Attribution»).</p>
+  </div>
+</footer>
+
+<script src="demo.js" defer></script>
+</body>
+</html>

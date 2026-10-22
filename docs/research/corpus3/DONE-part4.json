@@ -1,0 +1,340 @@
+{
+  "agent": 4,
+  "rows": 486002,
+  "unique_true_forms": 24770,
+  "unique_per_cell": {
+    "construction_ru": 7856,
+    "construction_en": 4758,
+    "auto_ru": 5878,
+    "auto_en": 3877,
+    "geo_ru": 4497,
+    "geo_en": 5043
+  },
+  "sha256": "bd7bd3ab988567a700902de4f527ddcd68aed99f45e250cc8ce68976fead37c7",
+  "variants": {
+    "A": 106155,
+    "B": 106152,
+    "C": 113340,
+    "phrase": 104444
+  },
+  "categories": {
+    "construction": 43016,
+    "auto": 35113,
+    "geo": 36867
+  },
+  "traps": {
+    "trap_url": 10969,
+    "trap_code": 10911,
+    "trap_password": 10921,
+    "trap_abbrev": 12184,
+    "trap_url_garbled": 10926
+  },
+  "length_histogram": {
+    "1": 7019,
+    "2": 13499,
+    "3": 14906,
+    "4": 10613,
+    "5+": 68959
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Строительство",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Архитектура",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Железобетон",
+      "url": "https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BE%D0%B1%D0%B5%D1%82%D0%BE%D0%BD",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Градостроительство",
+      "url": "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Фундамент",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Строительные_материалы",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Construction",
+      "url": "https://en.wikipedia.org/wiki/Construction",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Architecture",
+      "url": "https://en.wikipedia.org/wiki/Architecture",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Reinforced_concrete",
+      "url": "https://en.wikipedia.org/wiki/Reinforced_concrete",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Urban_planning",
+      "url": "https://en.wikipedia.org/wiki/Urban_planning",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Foundation_(engineering)",
+      "url": "https://en.wikipedia.org/wiki/Foundation_%28engineering%29",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Building_material",
+      "url": "https://en.wikipedia.org/wiki/Building_material",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/construction_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Автомобиль",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Двигатель_внутреннего_сгорания",
+      "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B3%D0%BE_%D1%81%D0%B3%D0%BE%D1%80%D0%B0%D0%BD%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Подвеска_автомобиля",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B4%D0%B2%D0%B5%D1%81%D0%BA%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Трансмиссия",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Электромобиль",
+      "url": "https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Автомобильная_промышленность",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Internal_combustion_engine",
+      "url": "https://en.wikipedia.org/wiki/Internal_combustion_engine",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Electric_vehicle",
+      "url": "https://en.wikipedia.org/wiki/Electric_vehicle",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Automotive_industry",
+      "url": "https://en.wikipedia.org/wiki/Automotive_industry",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/auto_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: География",
+      "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Физическая_география",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Тектоника_плит",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BA%D1%82%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0_%D0%BF%D0%BB%D0%B8%D1%82",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Климатология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Океанология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Картография",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Geography",
+      "url": "https://en.wikipedia.org/wiki/Geography",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Physical_geography",
+      "url": "https://en.wikipedia.org/wiki/Physical_geography",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Plate_tectonics",
+      "url": "https://en.wikipedia.org/wiki/Plate_tectonics",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Climatology",
+      "url": "https://en.wikipedia.org/wiki/Climatology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Oceanography",
+      "url": "https://en.wikipedia.org/wiki/Oceanography",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Cartography",
+      "url": "https://en.wikipedia.org/wiki/Cartography",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/geo_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    }
+  ],
+  "validator": "passed",
+  "notes": "Generated cleanly from non-synthetic verbatim Wikimedia sources."
+}

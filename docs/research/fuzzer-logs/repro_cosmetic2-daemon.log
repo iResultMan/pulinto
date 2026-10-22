@@ -1,0 +1,15 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+Layout controller: X11 (XKB)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+XTest-доставка недоступна (X11 connection error: свободных X11 keycode не хватает для вставки Unicode), замена пойдёт скан-кодами
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: PuLinTo Test Typist
+Захват: System Administrator’s Keyboard
+Захват: Logitech K520
+1787703322733 Замена: 'Утсфктфсшщт' → 'Encarnacion' (ступень: Bigram, решение за 0 мс)
+1787703323398 Замена: 'rfr' → 'как' (ступень: Dictionary, решение за 0 мс)
+1787703325758 Замена: 'еру' → 'the' (ступень: Dictionary, решение за 0 мс)
+1787703326606 Замена: 'пфму' → 'gave' (ступень: Dictionary, решение за 0 мс)
+Клавиатура PuLinTo Test Typist отвалилась: No such device (os error 19)

@@ -1,0 +1,11 @@
+outcome	seq	layout_was	native	expect	shown	got	context
+missed	74	us	ru	и	b	b	Department of Energy,
+missed	75	us	ru	Г.	U/	U/	of Energy, и
+missed	114	us	ru	А.	F/	F/	следующими государствоведами С.
+missed	152	us	ru	И.	B/	B/	Aero Engines. PSL.
+corrupt	168	ru	us	in-cylinder	шт-сндштвук	шт-cylinder	ISBN Combustion video
+false	240	ru	ru	к	к	r	несут от сердца
+false	374	ru	us	a	ф	ф	испытаний notion of
+false	459	us	ru	на	yf	yf	в настоящем, несмотря
+corrupt	460	us	ru	сдерживающую	clth;bdf.oe.	сдерживающу.	настоящем, несмотря на
+false	529	ru	us	a	ф	ф	Cut-away images and

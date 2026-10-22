@@ -1,0 +1,2301 @@
+id	context	input	expect	correct	category	guessed_cur_lang	predicted_decision	predicted_output	decision_stage
+1	на самом деле	молодость	KEEP	молодость	prose_ru	ru	KEEP	молодость	enchant
+2	почти	ворота	KEEP	ворота	prose_ru	ru	KEEP	ворота	enchant
+3	очень	сеть	KEEP	сеть	prose_ru	ru	KEEP	сеть	enchant
+4		водитель	KEEP	водитель	prose_ru	ru	KEEP	водитель	enchant
+5	после того	река	KEEP	река	prose_ru	ru	KEEP	река	enchant
+6	я думаю	рынок	KEEP	рынок	prose_ru	ru	KEEP	рынок	enchant
+7	вроде	скирда	KEEP	скирда	prose_ru	ru	KEEP	скирда	enchant
+8		поэт	KEEP	поэт	prose_ru	ru	KEEP	поэт	enchant
+9		цеп	KEEP	цеп	prose_ru	ru	KEEP	цеп	enchant
+10	между прочим	крыльцо	KEEP	крыльцо	prose_ru	ru	KEEP	крыльцо	enchant
+11		скала	KEEP	скала	prose_ru	ru	KEEP	скала	enchant
+12		сутки	KEEP	сутки	prose_ru	ru	KEEP	сутки	enchant
+13	наверное это	радуга	KEEP	радуга	prose_ru	ru	KEEP	радуга	enchant
+14		гроза	KEEP	гроза	prose_ru	ru	KEEP	гроза	enchant
+15		сантехник	KEEP	сантехник	prose_ru	ru	KEEP	сантехник	enchant
+16	не	салат	KEEP	салат	prose_ru	ru	KEEP	салат	enchant
+17		высоко	KEEP	высоко	prose_ru	ru	KEEP	высоко	enchant
+18		десятилетие	KEEP	десятилетие	prose_ru	ru	KEEP	десятилетие	enchant
+19	они шли	ковёр	KEEP	ковёр	prose_ru	ru	KEEP	ковёр	enchant
+20		грусть	KEEP	грусть	prose_ru	ru	KEEP	грусть	enchant
+21	после того	небо	KEEP	небо	prose_ru	ru	KEEP	небо	enchant
+22	сразу	завидовать	KEEP	завидовать	prose_ru	ru	KEEP	завидовать	enchant
+23		летать	KEEP	летать	prose_ru	ru	KEEP	летать	enchant
+24		идти	KEEP	идти	prose_ru	ru	KEEP	идти	enchant
+25		продать	KEEP	продать	prose_ru	ru	KEEP	продать	enchant
+26	он сказал	диск	KEEP	диск	prose_ru	ru	KEEP	диск	enchant
+27		мальчик	KEEP	мальчик	prose_ru	ru	KEEP	мальчик	enchant
+28	тогда	гаджет	KEEP	гаджет	prose_ru	ru	KEEP	гаджет	enchant
+29	тот	калитка	KEEP	калитка	prose_ru	ru	KEEP	калитка	enchant
+30	теперь	инженер	KEEP	инженер	prose_ru	ru	KEEP	инженер	enchant
+31	тем не менее	память	KEEP	память	prose_ru	ru	KEEP	память	enchant
+32	в	соскучиться	KEEP	соскучиться	prose_ru	ru	KEEP	соскучиться	enchant
+33	я думаю	черёмуха	KEEP	черёмуха	prose_ru	ru	KEEP	черёмуха	enchant
+34		конечно	KEEP	конечно	prose_ru	ru	KEEP	конечно	enchant
+35	после того	туман	KEEP	туман	prose_ru	ru	KEEP	туман	enchant
+36	точно	спросить	KEEP	спросить	prose_ru	ru	KEEP	спросить	enchant
+37	кажется мне	мириться	KEEP	мириться	prose_ru	ru	KEEP	мириться	enchant
+38	потом	умный	KEEP	умный	prose_ru	ru	KEEP	умный	enchant
+39	уже	компьютер	KEEP	компьютер	prose_ru	ru	KEEP	компьютер	enchant
+40	мы видели	отдельно	KEEP	отдельно	prose_ru	ru	KEEP	отдельно	enchant
+41	туда	бухгалтер	KEEP	бухгалтер	prose_ru	ru	KEEP	бухгалтер	enchant
+42		ступа	KEEP	ступа	prose_ru	ru	KEEP	ступа	enchant
+43		миром	KEEP	миром	prose_ru	ru	KEEP	миром	enchant
+44		армяк	KEEP	армяк	prose_ru	ru	KEEP	армяк	enchant
+45	мой	дельфин	KEEP	дельфин	prose_ru	ru	KEEP	дельфин	enchant
+46	тем не менее	химик	KEEP	химик	prose_ru	ru	KEEP	химик	enchant
+47		кресло	KEEP	кресло	prose_ru	ru	KEEP	кресло	enchant
+48	он сказал	ответу	KEEP	ответу	prose_ru	ru	KEEP	ответу	enchant
+49	она была	помешать	KEEP	помешать	prose_ru	ru	KEEP	помешать	enchant
+50		капуста	KEEP	капуста	prose_ru	ru	KEEP	капуста	enchant
+51	если честно	сложный	KEEP	сложный	prose_ru	ru	KEEP	сложный	enchant
+52	в общем	девять	KEEP	девять	prose_ru	ru	KEEP	девять	enchant
+53	снова	девушка	KEEP	девушка	prose_ru	ru	KEEP	девушка	enchant
+54		приложение	KEEP	приложение	prose_ru	ru	KEEP	приложение	enchant
+55	почти	папка	KEEP	папка	prose_ru	ru	KEEP	папка	enchant
+56	вдруг	плыть	KEEP	плыть	prose_ru	ru	KEEP	плыть	enchant
+57		жираф	KEEP	жираф	prose_ru	ru	KEEP	жираф	enchant
+58		сени	KEEP	сени	prose_ru	ru	KEEP	сени	enchant
+59		сухой	KEEP	сухой	prose_ru	ru	KEEP	сухой	enchant
+60	это	актёр	KEEP	актёр	prose_ru	ru	KEEP	актёр	enchant
+61	тогда	простой	KEEP	простой	prose_ru	ru	KEEP	простой	enchant
+62	тем не менее	старуха	KEEP	старуха	prose_ru	ru	KEEP	старуха	enchant
+63	не	кабан	KEEP	кабан	prose_ru	ru	KEEP	кабан	enchant
+64	вообще	громко	KEEP	громко	prose_ru	ru	KEEP	громко	enchant
+65		механик	KEEP	механик	prose_ru	ru	KEEP	механик	enchant
+66		полдень	KEEP	полдень	prose_ru	ru	KEEP	полдень	enchant
+67	и	мир	KEEP	мир	prose_ru	ru	KEEP	мир	enchant
+68		большой	KEEP	большой	prose_ru	ru	KEEP	большой	enchant
+69		испугаться	KEEP	испугаться	prose_ru	ru	KEEP	испугаться	enchant
+70	вдруг	кастрюля	KEEP	кастрюля	prose_ru	ru	KEEP	кастрюля	enchant
+71		счастье	KEEP	счастье	prose_ru	ru	KEEP	счастье	enchant
+72		кафтан	KEEP	кафтан	prose_ru	ru	KEEP	кафтан	enchant
+73	перед тем	девочка	KEEP	девочка	prose_ru	ru	KEEP	девочка	enchant
+74		собака	KEEP	собака	prose_ru	ru	KEEP	собака	enchant
+75	оттуда	грубый	KEEP	грубый	prose_ru	ru	KEEP	грубый	enchant
+76	тогда	физик	KEEP	физик	prose_ru	ru	KEEP	физик	enchant
+77	какой-то	судьба	KEEP	судьба	prose_ru	ru	KEEP	судьба	enchant
+78	тот	молоко	KEEP	молоко	prose_ru	ru	KEEP	молоко	enchant
+79		быстрый	KEEP	быстрый	prose_ru	ru	KEEP	быстрый	enchant
+80	очень	скука	KEEP	скука	prose_ru	ru	KEEP	скука	enchant
+81	ты знаешь	писать	KEEP	писать	prose_ru	ru	KEEP	писать	enchant
+82	просто	видеть	KEEP	видеть	prose_ru	ru	KEEP	видеть	enchant
+83	если честно	покупать	KEEP	покупать	prose_ru	ru	KEEP	покупать	enchant
+84		усталость	KEEP	усталость	prose_ru	ru	KEEP	усталость	enchant
+85	точно	закат	KEEP	закат	prose_ru	ru	KEEP	закат	enchant
+86	наш	сирень	KEEP	сирень	prose_ru	ru	KEEP	сирень	enchant
+87		далеко	KEEP	далеко	prose_ru	ru	KEEP	далеко	enchant
+88	на	заканчивать	KEEP	заканчивать	prose_ru	ru	KEEP	заканчивать	enchant
+89		сыр	KEEP	сыр	prose_ru	ru	KEEP	сыр	enchant
+90	совсем	бочка	KEEP	бочка	prose_ru	ru	KEEP	бочка	enchant
+91	он сказал	коромысло	KEEP	коромысло	prose_ru	ru	KEEP	коромысло	enchant
+92	она была	школа	KEEP	школа	prose_ru	ru	KEEP	школа	enchant
+93	это	пятьдесят	KEEP	пятьдесят	prose_ru	ru	KEEP	пятьдесят	enchant
+94	после того	рукавица	KEEP	рукавица	prose_ru	ru	KEEP	рукавица	enchant
+95	тем не менее	один	KEEP	один	prose_ru	ru	KEEP	один	enchant
+96	точно	земляк	KEEP	земляк	prose_ru	ru	KEEP	земляк	enchant
+97	если честно	пожалеть	KEEP	пожалеть	prose_ru	ru	KEEP	пожалеть	enchant
+98	ты знаешь	зима	KEEP	зима	prose_ru	ru	KEEP	зима	enchant
+99	после того	астра	KEEP	астра	prose_ru	ru	KEEP	астра	enchant
+100	тем не менее	взять	KEEP	взять	prose_ru	ru	KEEP	взять	enchant
+101		делом	KEEP	делом	prose_ru	ru	KEEP	делом	enchant
+102	в общем	любовь	KEEP	любовь	prose_ru	ru	KEEP	любовь	enchant
+103	вроде	вокзал	KEEP	вокзал	prose_ru	ru	KEEP	вокзал	enchant
+104	после того	тундра	KEEP	тундра	prose_ru	ru	KEEP	тундра	enchant
+105	какой-то	понимать	KEEP	понимать	prose_ru	ru	KEEP	понимать	enchant
+106		программа	KEEP	программа	prose_ru	ru	KEEP	программа	enchant
+107	просто	нож	KEEP	нож	prose_ru	ru	KEEP	нож	enchant
+108	ты знаешь	миру	KEEP	миру	prose_ru	ru	KEEP	миру	enchant
+109	это	ученик	KEEP	ученик	prose_ru	ru	KEEP	ученик	enchant
+110	здесь	короткий	KEEP	короткий	prose_ru	ru	KEEP	короткий	enchant
+111		действительно	KEEP	действительно	prose_ru	ru	KEEP	действительно	enchant
+112	тем не менее	сканер	KEEP	сканер	prose_ru	ru	KEEP	сканер	enchant
+113	мы часто	скучать	KEEP	скучать	prose_ru	ru	KEEP	скучать	enchant
+114	между прочим	поесть	KEEP	поесть	prose_ru	ru	KEEP	поесть	enchant
+115	на самом деле	масло	KEEP	масло	prose_ru	ru	KEEP	масло	enchant
+116		улица	KEEP	улица	prose_ru	ru	KEEP	улица	enchant
+117	себе	парк	KEEP	парк	prose_ru	ru	KEEP	парк	enchant
+118		деньгам	KEEP	деньгам	prose_ru	ru	KEEP	деньгам	enchant
+119	рядом со	коридор	KEEP	коридор	prose_ru	ru	KEEP	коридор	enchant
+120	кроме того	самовар	KEEP	самовар	prose_ru	ru	KEEP	самовар	enchant
+121	кажется мне	дрон	KEEP	дрон	prose_ru	ru	KEEP	дрон	proto2
+122	в общем	воспоминание	KEEP	воспоминание	prose_ru	ru	KEEP	воспоминание	enchant
+123	наш	рябина	KEEP	рябина	prose_ru	ru	KEEP	рябина	enchant
+124		узкий	KEEP	узкий	prose_ru	ru	KEEP	узкий	enchant
+125		лиственница	KEEP	лиственница	prose_ru	ru	KEEP	лиственница	enchant
+126	просто	помогать	KEEP	помогать	prose_ru	ru	KEEP	помогать	enchant
+127		ложка	KEEP	ложка	prose_ru	ru	KEEP	ложка	enchant
+128	совсем	снег	KEEP	снег	prose_ru	ru	KEEP	снег	enchant
+129	на	улыбнуться	KEEP	улыбнуться	prose_ru	ru	KEEP	улыбнуться	enchant
+130		ручей	KEEP	ручей	prose_ru	ru	KEEP	ручей	enchant
+131	перед тем	мужчина	KEEP	мужчина	prose_ru	ru	KEEP	мужчина	enchant
+132	уже	победа	KEEP	победа	prose_ru	ru	KEEP	победа	enchant
+133	просто	неудача	KEEP	неудача	prose_ru	ru	KEEP	неудача	enchant
+134	в общем	поспать	KEEP	поспать	prose_ru	ru	KEEP	поспать	enchant
+135	мой	фабрика	KEEP	фабрика	prose_ru	ru	KEEP	фабрика	enchant
+136	ты знаешь	яблоко	KEEP	яблоко	prose_ru	ru	KEEP	яблоко	enchant
+137	перед тем	эпоха	KEEP	эпоха	prose_ru	ru	KEEP	эпоха	enchant
+138	на самом деле	ива	KEEP	ива	prose_ru	ru	KEEP	ива	enchant
+139		интересный	KEEP	интересный	prose_ru	ru	KEEP	интересный	enchant
+140	перед тем	зодчий	KEEP	зодчий	prose_ru	ru	KEEP	зодчий	enchant
+141	наверное это	слышать	KEEP	слышать	prose_ru	ru	KEEP	слышать	enchant
+142	кажется мне	пассажир	KEEP	пассажир	prose_ru	ru	KEEP	пассажир	enchant
+143	наверное это	нарцисс	KEEP	нарцисс	prose_ru	ru	KEEP	нарцисс	enchant
+144	на самом деле	тополь	KEEP	тополь	prose_ru	ru	KEEP	тополь	enchant
+145	сразу	тигр	KEEP	тигр	prose_ru	ru	KEEP	тигр	enchant
+146		забыть	KEEP	забыть	prose_ru	ru	KEEP	забыть	enchant
+147	кажется мне	оса	KEEP	оса	prose_ru	ru	KEEP	оса	enchant
+148		словах	KEEP	словах	prose_ru	ru	KEEP	словах	enchant
+149		хлеб	KEEP	хлеб	prose_ru	ru	KEEP	хлеб	enchant
+150		ненавидеть	KEEP	ненавидеть	prose_ru	ru	KEEP	ненавидеть	enchant
+151	оттуда	ломать	KEEP	ломать	prose_ru	ru	KEEP	ломать	enchant
+152	по сути	знать	KEEP	знать	prose_ru	ru	KEEP	знать	enchant
+153		шкаф	KEEP	шкаф	prose_ru	ru	KEEP	шкаф	enchant
+154	это	продюсер	KEEP	продюсер	prose_ru	ru	KEEP	продюсер	enchant
+155	какой-то	ухват	KEEP	ухват	prose_ru	ru	KEEP	ухват	enchant
+156	опять	играть	KEEP	играть	prose_ru	ru	KEEP	играть	enchant
+157	мы часто	опасный	KEEP	опасный	prose_ru	ru	KEEP	опасный	enchant
+158		наличник	KEEP	наличник	prose_ru	ru	KEEP	наличник	enchant
+159	совсем	особенно	KEEP	особенно	prose_ru	ru	KEEP	особенно	enchant
+160	ты знаешь	жизнью	KEEP	жизнью	prose_ru	ru	KEEP	жизнью	enchant
+161	какой-то	домов	KEEP	домов	prose_ru	ru	KEEP	домов	enchant
+162	они шли	женщина	KEEP	женщина	prose_ru	ru	KEEP	женщина	enchant
+163		гвоздика	KEEP	гвоздика	prose_ru	ru	KEEP	гвоздика	enchant
+164	разве	весна	KEEP	весна	prose_ru	ru	KEEP	весна	enchant
+165	снова	интернет	KEEP	интернет	prose_ru	ru	KEEP	интернет	enchant
+166	разве	старый	KEEP	старый	prose_ru	ru	KEEP	старый	enchant
+167		чистый	KEEP	чистый	prose_ru	ru	KEEP	чистый	enchant
+168		телевизор	KEEP	телевизор	prose_ru	ru	KEEP	телевизор	enchant
+169		ясень	KEEP	ясень	prose_ru	ru	KEEP	ясень	enchant
+170		научиться	KEEP	научиться	prose_ru	ru	KEEP	научиться	enchant
+171	на самом деле	тридцать	KEEP	тридцать	prose_ru	ru	KEEP	тридцать	enchant
+172		времени	KEEP	времени	prose_ru	ru	KEEP	времени	enchant
+173	на самом деле	слова	KEEP	слова	prose_ru	ru	KEEP	слова	enchant
+174		племянник	KEEP	племянник	prose_ru	ru	KEEP	племянник	enchant
+175		лимон	KEEP	лимон	prose_ru	ru	KEEP	лимон	enchant
+176		посох	KEEP	посох	prose_ru	ru	KEEP	посох	enchant
+177	почти	ответа	KEEP	ответа	prose_ru	ru	KEEP	ответа	enchant
+178	снова	врач	KEEP	врач	prose_ru	ru	KEEP	врач	enchant
+179		пять	KEEP	пять	prose_ru	ru	KEEP	пять	enchant
+180	он сказал	тонкий	KEEP	тонкий	prose_ru	ru	KEEP	тонкий	enchant
+181		рассвет	KEEP	рассвет	prose_ru	ru	KEEP	рассвет	enchant
+182	кроме того	машину	KEEP	машину	prose_ru	ru	KEEP	машину	enchant
+183	почти	вопросом	KEEP	вопросом	prose_ru	ru	KEEP	вопросом	enchant
+184	уже	сапог	KEEP	сапог	prose_ru	ru	KEEP	сапог	enchant
+185	тот	дизайнер	KEEP	дизайнер	prose_ru	ru	KEEP	дизайнер	enchant
+186	разве	никогда	KEEP	никогда	prose_ru	ru	KEEP	никогда	enchant
+187		гнев	KEEP	гнев	prose_ru	ru	KEEP	гнев	enchant
+188	тогда	смелость	KEEP	смелость	prose_ru	ru	KEEP	смелость	enchant
+189		ковш	KEEP	ковш	prose_ru	ru	KEEP	ковш	enchant
+190	по сути	страны	KEEP	страны	prose_ru	ru	KEEP	страны	enchant
+191		клубника	KEEP	клубника	prose_ru	ru	KEEP	клубника	enchant
+192	рядом со	астроном	KEEP	астроном	prose_ru	ru	KEEP	астроном	enchant
+193	вроде	стадион	KEEP	стадион	prose_ru	ru	KEEP	стадион	enchant
+194	вдруг	тревожный	KEEP	тревожный	prose_ru	ru	KEEP	тревожный	enchant
+195		игра	KEEP	игра	prose_ru	ru	KEEP	игра	enchant
+196	точно	сорок	KEEP	сорок	prose_ru	ru	KEEP	сорок	enchant
+197	не	успокоиться	KEEP	успокоиться	prose_ru	ru	KEEP	успокоиться	enchant
+198		калина	KEEP	калина	prose_ru	ru	KEEP	калина	enchant
+199	точно	грустный	KEEP	грустный	prose_ru	ru	KEEP	грустный	enchant
+200		осина	KEEP	осина	prose_ru	ru	KEEP	осина	enchant
+201	оттуда	сервер	KEEP	сервер	prose_ru	ru	KEEP	сервер	enchant
+202	на	интерес	KEEP	интерес	prose_ru	ru	KEEP	интерес	enchant
+203	на самом деле	дома	KEEP	дома	prose_ru	ru	KEEP	дома	enchant
+204		объяснить	KEEP	объяснить	prose_ru	ru	KEEP	объяснить	enchant
+205		шесть	KEEP	шесть	prose_ru	ru	KEEP	шесть	enchant
+206	между прочим	сестра	KEEP	сестра	prose_ru	ru	KEEP	сестра	enchant
+207		каменщик	KEEP	каменщик	prose_ru	ru	KEEP	каменщик	enchant
+208	оттуда	городах	KEEP	городах	prose_ru	ru	KEEP	городах	enchant
+209	мы видели	книгой	KEEP	книгой	prose_ru	ru	KEEP	книгой	enchant
+210	если честно	музыкант	KEEP	музыкант	prose_ru	ru	KEEP	музыкант	enchant
+211		купить	KEEP	купить	prose_ru	ru	KEEP	купить	enchant
+212	кроме того	арбуз	KEEP	арбуз	prose_ru	ru	KEEP	арбуз	enchant
+213		сын	KEEP	сын	prose_ru	ru	KEEP	сын	enchant
+214	вроде	грязный	KEEP	грязный	prose_ru	ru	KEEP	грязный	enchant
+215	перед тем	дела	KEEP	дела	prose_ru	ru	KEEP	дела	enchant
+216		четыре	KEEP	четыре	prose_ru	ru	KEEP	четыре	enchant
+217	если честно	пациент	KEEP	пациент	prose_ru	ru	KEEP	пациент	enchant
+218	в общем	клён	KEEP	клён	prose_ru	ru	KEEP	клён	enchant
+219	в	парикмахер	KEEP	парикмахер	prose_ru	ru	KEEP	парикмахер	enchant
+220	снова	геолог	KEEP	геолог	prose_ru	ru	KEEP	геолог	enchant
+221	в общем	брат	KEEP	брат	prose_ru	ru	KEEP	брат	enchant
+222	мы часто	двор	KEEP	двор	prose_ru	ru	KEEP	двор	enchant
+223	в общем	свежий	KEEP	свежий	prose_ru	ru	KEEP	свежий	enchant
+224	мы часто	увидеть	KEEP	увидеть	prose_ru	ru	KEEP	увидеть	enchant
+225	тот	серп	KEEP	серп	prose_ru	ru	KEEP	серп	enchant
+226	на самом деле	внезапно	KEEP	внезапно	prose_ru	ru	KEEP	внезапно	enchant
+227		ненависть	KEEP	ненависть	prose_ru	ru	KEEP	ненависть	enchant
+228	оттуда	лечь	KEEP	лечь	prose_ru	ru	KEEP	лечь	enchant
+229	если честно	мудрость	KEEP	мудрость	prose_ru	ru	KEEP	мудрость	enchant
+230	мы часто	миллион	KEEP	миллион	prose_ru	ru	KEEP	миллион	enchant
+231		портной	KEEP	портной	prose_ru	ru	KEEP	портной	enchant
+232	после того	маленький	KEEP	маленький	prose_ru	ru	KEEP	маленький	enchant
+233	в общем	подвал	KEEP	подвал	prose_ru	ru	KEEP	подвал	enchant
+234	не	редко	KEEP	редко	prose_ru	ru	KEEP	редко	enchant
+235	какой-то	вредный	KEEP	вредный	prose_ru	ru	KEEP	вредный	enchant
+236	себе	лукошко	KEEP	лукошко	prose_ru	ru	KEEP	лукошко	enchant
+237	потом	гость	KEEP	гость	prose_ru	ru	KEEP	гость	enchant
+238	себе	сквер	KEEP	сквер	prose_ru	ru	KEEP	сквер	enchant
+239	кроме того	кадка	KEEP	кадка	prose_ru	ru	KEEP	кадка	enchant
+240	очень	туесок	KEEP	туесок	prose_ru	ru	KEEP	туесок	enchant
+241	мой	искать	KEEP	искать	prose_ru	ru	KEEP	искать	enchant
+242	между прочим	орёл	KEEP	орёл	prose_ru	ru	KEEP	орёл	enchant
+243	в общем	дождь	KEEP	дождь	prose_ru	ru	KEEP	дождь	enchant
+244	вообще	пылесос	KEEP	пылесос	prose_ru	ru	KEEP	пылесос	enchant
+245	разве	впечатление	KEEP	впечатление	prose_ru	ru	KEEP	впечатление	enchant
+246		памятник	KEEP	памятник	prose_ru	ru	KEEP	памятник	enchant
+247		луна	KEEP	луна	prose_ru	ru	KEEP	луна	enchant
+248	оттуда	людей	KEEP	людей	prose_ru	ru	KEEP	людей	enchant
+249		банан	KEEP	банан	prose_ru	ru	KEEP	банан	enchant
+250	просто	потерять	KEEP	потерять	prose_ru	ru	KEEP	потерять	enchant
+251	мы часто	завод	KEEP	завод	prose_ru	ru	KEEP	завод	enchant
+252	тот	молодой	KEEP	молодой	prose_ru	ru	KEEP	молодой	enchant
+253	между прочим	кистень	KEEP	кистень	prose_ru	ru	KEEP	кистень	enchant
+254	уже	лапти	KEEP	лапти	prose_ru	ru	KEEP	лапти	enchant
+255	кроме того	деревня	KEEP	деревня	prose_ru	ru	KEEP	деревня	enchant
+256	на самом деле	пион	KEEP	пион	prose_ru	ru	KEEP	пион	enchant
+257		рано	KEEP	рано	prose_ru	ru	KEEP	рано	enchant
+258	перед тем	счастливый	KEEP	счастливый	prose_ru	ru	KEEP	счастливый	enchant
+259	вдруг	город	KEEP	город	prose_ru	ru	KEEP	город	enchant
+260		отвечать	KEEP	отвечать	prose_ru	ru	KEEP	отвечать	enchant
+261		брать	KEEP	брать	prose_ru	ru	KEEP	брать	enchant
+262		куст	KEEP	куст	prose_ru	ru	KEEP	куст	enchant
+263	он сказал	закрыть	KEEP	закрыть	prose_ru	ru	KEEP	закрыть	enchant
+264	рядом со	светофор	KEEP	светофор	prose_ru	ru	KEEP	светофор	enchant
+265		квартира	KEEP	квартира	prose_ru	ru	KEEP	квартира	enchant
+266	мы видели	бабушка	KEEP	бабушка	prose_ru	ru	KEEP	бабушка	enchant
+267	мы видели	лето	KEEP	лето	prose_ru	ru	KEEP	лето	enchant
+268	если честно	ящерица	KEEP	ящерица	prose_ru	ru	KEEP	ящерица	enchant
+269	вдруг	бабочка	KEEP	бабочка	prose_ru	ru	KEEP	бабочка	enchant
+270	наверное это	телефон	KEEP	телефон	prose_ru	ru	KEEP	телефон	enchant
+271	после того	стена	KEEP	стена	prose_ru	ru	KEEP	стена	enchant
+272	рядом со	восемь	KEEP	восемь	prose_ru	ru	KEEP	восемь	enchant
+273	снова	колокольчик	KEEP	колокольчик	prose_ru	ru	KEEP	колокольчик	enchant
+274		песок	KEEP	песок	prose_ru	ru	KEEP	песок	enchant
+275	я думаю	переулок	KEEP	переулок	prose_ru	ru	KEEP	переулок	enchant
+276		ветер	KEEP	ветер	prose_ru	ru	KEEP	ветер	enchant
+277	тогда	петь	KEEP	петь	prose_ru	ru	KEEP	петь	enchant
+278	вокруг дома	спрашивать	KEEP	спрашивать	prose_ru	ru	KEEP	спрашивать	enchant
+279	себе	некрасивый	KEEP	некрасивый	prose_ru	ru	KEEP	некрасивый	enchant
+280	тем не менее	полиция	KEEP	полиция	prose_ru	ru	KEEP	полиция	enchant
+281	если честно	слушать	KEEP	слушать	prose_ru	ru	KEEP	слушать	enchant
+282	просто	юность	KEEP	юность	prose_ru	ru	KEEP	юность	enchant
+283	я думаю	извиниться	KEEP	извиниться	prose_ru	ru	KEEP	извиниться	enchant
+284	рядом со	гусь	KEEP	гусь	prose_ru	ru	KEEP	гусь	enchant
+285		тусклый	KEEP	тусклый	prose_ru	ru	KEEP	тусклый	enchant
+286	и	начать	KEEP	начать	prose_ru	ru	KEEP	начать	enchant
+287	наверное это	система	KEEP	система	prose_ru	ru	KEEP	система	enchant
+288	я думаю	муравей	KEEP	муравей	prose_ru	ru	KEEP	муравей	enchant
+289		всегда	KEEP	всегда	prose_ru	ru	KEEP	всегда	enchant
+290	на самом деле	апельсин	KEEP	апельсин	prose_ru	ru	KEEP	апельсин	enchant
+291		внимание	KEEP	внимание	prose_ru	ru	KEEP	внимание	enchant
+292		аэропорт	KEEP	аэропорт	prose_ru	ru	KEEP	аэропорт	enchant
+293	вдруг	начальник	KEEP	начальник	prose_ru	ru	KEEP	начальник	enchant
+294	в	банк	KEEP	банк	prose_ru	ru	KEEP	банк	enchant
+295	они шли	колбаса	KEEP	колбаса	prose_ru	ru	KEEP	колбаса	enchant
+296	наверное это	закончить	KEEP	закончить	prose_ru	ru	KEEP	закончить	enchant
+297	мы видели	мост	KEEP	мост	prose_ru	ru	KEEP	мост	enchant
+298	мы часто	коза	KEEP	коза	prose_ru	ru	KEEP	коза	enchant
+299		шишка	KEEP	шишка	prose_ru	ru	KEEP	шишка	enchant
+300		обезьяна	KEEP	обезьяна	prose_ru	ru	KEEP	обезьяна	enchant
+301	просто	извиняться	KEEP	извиняться	prose_ru	ru	KEEP	извиняться	enchant
+302	и	корень	KEEP	корень	prose_ru	ru	KEEP	корень	enchant
+303	по сути	низко	KEEP	низко	prose_ru	ru	KEEP	низко	enchant
+304	между прочим	столяр	KEEP	столяр	prose_ru	ru	KEEP	столяр	enchant
+305	рядом со	изба	KEEP	изба	prose_ru	ru	KEEP	изба	enchant
+306	если честно	обязательно	KEEP	обязательно	prose_ru	ru	KEEP	обязательно	enchant
+307		лиса	KEEP	лиса	prose_ru	ru	KEEP	лиса	enchant
+308		настроение	KEEP	настроение	prose_ru	ru	KEEP	настроение	enchant
+309	если честно	остров	KEEP	остров	prose_ru	ru	KEEP	остров	enchant
+310		заяц	KEEP	заяц	prose_ru	ru	KEEP	заяц	enchant
+311	он сказал	вишня	KEEP	вишня	prose_ru	ru	KEEP	вишня	enchant
+312		понять	KEEP	понять	prose_ru	ru	KEEP	понять	enchant
+313	себе	водопад	KEEP	водопад	prose_ru	ru	KEEP	водопад	enchant
+314		электрик	KEEP	электрик	prose_ru	ru	KEEP	электрик	enchant
+315	он сказал	воробей	KEEP	воробей	prose_ru	ru	KEEP	воробей	enchant
+316		машиной	KEEP	машиной	prose_ru	ru	KEEP	машиной	enchant
+317		пчела	KEEP	пчела	prose_ru	ru	KEEP	пчела	enchant
+318	между прочим	сосед	KEEP	сосед	prose_ru	ru	KEEP	сосед	enchant
+319	после того	светлый	KEEP	светлый	prose_ru	ru	KEEP	светлый	enchant
+320		плохо	KEEP	плохо	prose_ru	ru	KEEP	плохо	enchant
+321	ты знаешь	диван	KEEP	диван	prose_ru	ru	KEEP	диван	enchant
+322	опять	книг	KEEP	книг	prose_ru	ru	KEEP	книг	enchant
+323	я думаю	слон	KEEP	слон	prose_ru	ru	KEEP	слон	enchant
+324	он сказал	домами	KEEP	домами	prose_ru	ru	KEEP	домами	enchant
+325	на	медведь	KEEP	медведь	prose_ru	ru	KEEP	медведь	enchant
+326	между прочим	журналист	KEEP	журналист	prose_ru	ru	KEEP	журналист	enchant
+327		дело	KEEP	дело	prose_ru	ru	KEEP	дело	enchant
+328		злой	KEEP	злой	prose_ru	ru	KEEP	злой	enchant
+329		университет	KEEP	университет	prose_ru	ru	KEEP	университет	enchant
+330	оттуда	жизни	KEEP	жизни	prose_ru	ru	KEEP	жизни	enchant
+331	если честно	война	KEEP	война	prose_ru	ru	KEEP	война	enchant
+332	теперь	облако	KEEP	облако	prose_ru	ru	KEEP	облако	enchant
+333	тем не менее	благодарить	KEEP	благодарить	prose_ru	ru	KEEP	благодарить	enchant
+334	они шли	злиться	KEEP	злиться	prose_ru	ru	KEEP	злиться	enchant
+335	она была	чугунок	KEEP	чугунок	prose_ru	ru	KEEP	чугунок	enchant
+336	рядом со	книгу	KEEP	книгу	prose_ru	ru	KEEP	книгу	enchant
+337		ноутбук	KEEP	ноутбук	prose_ru	ru	KEEP	ноутбук	enchant
+338	снова	стыдиться	KEEP	стыдиться	prose_ru	ru	KEEP	стыдиться	enchant
+339	наверное это	аптека	KEEP	аптека	prose_ru	ru	KEEP	аптека	enchant
+340		рогожа	KEEP	рогожа	prose_ru	ru	KEEP	рогожа	enchant
+341	вокруг дома	разозлиться	KEEP	разозлиться	prose_ru	ru	KEEP	разозлиться	enchant
+342	он сказал	старик	KEEP	старик	prose_ru	ru	KEEP	старик	enchant
+343	неужели	позавидовать	KEEP	позавидовать	prose_ru	ru	KEEP	позавидовать	enchant
+344	тот	человек	KEEP	человек	prose_ru	ru	KEEP	человек	enchant
+345	тем не менее	огурец	KEEP	огурец	prose_ru	ru	KEEP	огурец	enchant
+346	наверное это	привычка	KEEP	привычка	prose_ru	ru	KEEP	привычка	enchant
+347	тем не менее	берег	KEEP	берег	prose_ru	ru	KEEP	берег	enchant
+348		подруга	KEEP	подруга	prose_ru	ru	KEEP	подруга	enchant
+349	тот	алгоритм	KEEP	алгоритм	prose_ru	ru	KEEP	алгоритм	enchant
+350	вокруг дома	тарелка	KEEP	тарелка	prose_ru	ru	KEEP	тарелка	enchant
+351		пол	KEEP	пол	prose_ru	ru	KEEP	пол	enchant
+352	они шли	больница	KEEP	больница	prose_ru	ru	KEEP	больница	enchant
+353		красиво	KEEP	красиво	prose_ru	ru	KEEP	красиво	enchant
+354	на	скульптор	KEEP	скульптор	prose_ru	ru	KEEP	скульптор	enchant
+355	потом	удача	KEEP	удача	prose_ru	ru	KEEP	удача	enchant
+356	точно	жалеть	KEEP	жалеть	prose_ru	ru	KEEP	жалеть	enchant
+357	перед тем	зипун	KEEP	зипун	prose_ru	ru	KEEP	зипун	enchant
+358	уже	работать	KEEP	работать	prose_ru	ru	KEEP	работать	enchant
+359	ты знаешь	борьба	KEEP	борьба	prose_ru	ru	KEEP	борьба	enchant
+360	на самом деле	лететь	KEEP	лететь	prose_ru	ru	KEEP	лететь	enchant
+361	кроме того	груша	KEEP	груша	prose_ru	ru	KEEP	груша	enchant
+362	разве	вода	KEEP	вода	prose_ru	ru	KEEP	вода	enchant
+363		ложь	KEEP	ложь	prose_ru	ru	KEEP	ложь	enchant
+364	после того	землетрясение	KEEP	землетрясение	prose_ru	ru	KEEP	землетрясение	enchant
+365	вообще	честный	KEEP	честный	prose_ru	ru	KEEP	честный	enchant
+366	они шли	острог	KEEP	острог	prose_ru	ru	KEEP	острог	enchant
+367	перед тем	океан	KEEP	океан	prose_ru	ru	KEEP	океан	enchant
+368	неужели	человеку	KEEP	человеку	prose_ru	ru	KEEP	человеку	enchant
+369	на самом деле	спокойный	KEEP	спокойный	prose_ru	ru	KEEP	спокойный	enchant
+370	вокруг дома	старость	KEEP	старость	prose_ru	ru	KEEP	старость	enchant
+371		учиться	KEEP	учиться	prose_ru	ru	KEEP	учиться	enchant
+372	она была	доброта	KEEP	доброта	prose_ru	ru	KEEP	доброта	enchant
+373	мой	комод	KEEP	комод	prose_ru	ru	KEEP	комод	enchant
+374	наверное это	лук	KEEP	лук	prose_ru	ru	KEEP	лук	enchant
+375	мы видели	мясо	KEEP	мясо	prose_ru	ru	KEEP	мясо	enchant
+376	теперь	поссориться	KEEP	поссориться	prose_ru	ru	KEEP	поссориться	enchant
+377		приятель	KEEP	приятель	prose_ru	ru	KEEP	приятель	enchant
+378	просто	полати	KEEP	полати	prose_ru	ru	KEEP	полати	enchant
+379	вообще	кедр	KEEP	кедр	prose_ru	ru	KEEP	кедр	enchant
+380	наверное это	встать	KEEP	встать	prose_ru	ru	KEEP	встать	enchant
+381	кажется мне	тяжёлый	KEEP	тяжёлый	prose_ru	ru	KEEP	тяжёлый	enchant
+382	оттуда	бежать	KEEP	бежать	prose_ru	ru	KEEP	бежать	enchant
+383	это	солнце	KEEP	солнце	prose_ru	ru	KEEP	солнце	enchant
+384	она была	парень	KEEP	парень	prose_ru	ru	KEEP	парень	enchant
+385		вспомнить	KEEP	вспомнить	prose_ru	ru	KEEP	вспомнить	enchant
+386	вокруг дома	секретарь	KEEP	секретарь	prose_ru	ru	KEEP	секретарь	enchant
+387	они шли	наушники	KEEP	наушники	prose_ru	ru	KEEP	наушники	enchant
+388		городов	KEEP	городов	prose_ru	ru	KEEP	городов	enchant
+389	рядом со	дом	KEEP	дом	prose_ru	ru	KEEP	дом	enchant
+390	перед тем	ледник	KEEP	ледник	prose_ru	ru	KEEP	ледник	enchant
+391	опять	файл	KEEP	файл	prose_ru	ru	KEEP	файл	enchant
+392	просто	улей	KEEP	улей	prose_ru	ru	KEEP	улей	enchant
+393	рядом со	кухня	KEEP	кухня	prose_ru	ru	KEEP	кухня	enchant
+394	если честно	коллега	KEEP	коллега	prose_ru	ru	KEEP	коллега	enchant
+395	наш	музыка	KEEP	музыка	prose_ru	ru	KEEP	музыка	enchant
+396	оттуда	сахар	KEEP	сахар	prose_ru	ru	KEEP	сахар	enchant
+397	вокруг дома	слово	KEEP	слово	prose_ru	ru	KEEP	слово	enchant
+398	здесь	кушак	KEEP	кушак	prose_ru	ru	KEEP	кушак	enchant
+399	себе	опять	KEEP	опять	prose_ru	ru	KEEP	опять	enchant
+400		клавиатура	KEEP	клавиатура	prose_ru	ru	KEEP	клавиатура	enchant
+401		овин	KEEP	овин	prose_ru	ru	KEEP	овин	enchant
+402		хозяйка	KEEP	хозяйка	prose_ru	ru	KEEP	хозяйка	enchant
+403	туда	театр	KEEP	театр	prose_ru	ru	KEEP	театр	enchant
+404	вокруг дома	слива	KEEP	слива	prose_ru	ru	KEEP	слива	enchant
+405	оттуда	часто	KEEP	часто	prose_ru	ru	KEEP	часто	enchant
+406	после того	богатый	KEEP	богатый	prose_ru	ru	KEEP	богатый	enchant
+407	и	поверить	KEEP	поверить	prose_ru	ru	KEEP	поверить	enchant
+408	в общем	двадцать	KEEP	двадцать	prose_ru	ru	KEEP	двадцать	enchant
+409		спокойствие	KEEP	спокойствие	prose_ru	ru	KEEP	спокойствие	enchant
+410		болезнь	KEEP	болезнь	prose_ru	ru	KEEP	болезнь	enchant
+411		племянница	KEEP	племянница	prose_ru	ru	KEEP	племянница	enchant
+412		города	KEEP	города	prose_ru	ru	KEEP	города	enchant
+413		паук	KEEP	паук	prose_ru	ru	KEEP	паук	enchant
+414	теперь	взрослый	KEEP	взрослый	prose_ru	ru	KEEP	взрослый	enchant
+415		год	KEEP	год	prose_ru	ru	KEEP	год	enchant
+416		прочитать	KEEP	прочитать	prose_ru	ru	KEEP	прочитать	enchant
+417		слабый	KEEP	слабый	prose_ru	ru	KEEP	слабый	enchant
+418	если честно	немного	KEEP	немного	prose_ru	ru	KEEP	немного	enchant
+419	на самом деле	море	KEEP	море	prose_ru	ru	KEEP	море	enchant
+420		почта	KEEP	почта	prose_ru	ru	KEEP	почта	enchant
+421		услышать	KEEP	услышать	prose_ru	ru	KEEP	услышать	enchant
+422	они шли	лист	KEEP	лист	prose_ru	ru	KEEP	лист	enchant
+423	очень	вежливый	KEEP	вежливый	prose_ru	ru	KEEP	вежливый	enchant
+424	сразу	старинный	KEEP	старинный	prose_ru	ru	KEEP	старинный	enchant
+425	теперь	амбар	KEEP	амбар	prose_ru	ru	KEEP	амбар	enchant
+426		липа	KEEP	липа	prose_ru	ru	KEEP	липа	enchant
+427	неужели	ставень	KEEP	ставень	prose_ru	ru	KEEP	ставень	enchant
+428	я думаю	другу	KEEP	другу	prose_ru	ru	KEEP	другу	enchant
+429	теперь	гостиная	KEEP	гостиная	prose_ru	ru	KEEP	гостиная	enchant
+430	тот	тревога	KEEP	тревога	prose_ru	ru	KEEP	тревога	enchant
+431	наш	отдыхать	KEEP	отдыхать	prose_ru	ru	KEEP	отдыхать	enchant
+432	сразу	словом	KEEP	словом	prose_ru	ru	KEEP	словом	enchant
+433	вдруг	человеком	KEEP	человеком	prose_ru	ru	KEEP	человеком	enchant
+434	она была	странами	KEEP	странами	prose_ru	ru	KEEP	странами	enchant
+435	тем не менее	дозор	KEEP	дозор	prose_ru	ru	KEEP	дозор	enchant
+436	мы часто	соль	KEEP	соль	prose_ru	ru	KEEP	соль	enchant
+437	после того	менеджер	KEEP	менеджер	prose_ru	ru	KEEP	менеджер	enchant
+438		открывать	KEEP	открывать	prose_ru	ru	KEEP	открывать	enchant
+439	она была	камера	KEEP	камера	prose_ru	ru	KEEP	камера	enchant
+440	разве	сила	KEEP	сила	prose_ru	ru	KEEP	сила	enchant
+441	тем не менее	болото	KEEP	болото	prose_ru	ru	KEEP	болото	enchant
+442	это	лёд	KEEP	лёд	prose_ru	ru	KEEP	лёд	enchant
+443	после того	мышка	KEEP	мышка	prose_ru	ru	KEEP	мышка	enchant
+444		смеяться	KEEP	смеяться	prose_ru	ru	KEEP	смеяться	enchant
+445	мы видели	трюмо	KEEP	трюмо	prose_ru	ru	KEEP	трюмо	enchant
+446		орех	KEEP	орех	prose_ru	ru	KEEP	орех	enchant
+447	они шли	месяц	KEEP	месяц	prose_ru	ru	KEEP	месяц	enchant
+448	тот	долина	KEEP	долина	prose_ru	ru	KEEP	долина	enchant
+449	в общем	ответить	KEEP	ответить	prose_ru	ru	KEEP	ответить	enchant
+450		постепенно	KEEP	постепенно	prose_ru	ru	KEEP	постепенно	enchant
+451		закрывать	KEEP	закрывать	prose_ru	ru	KEEP	закрывать	enchant
+452	не	дядя	KEEP	дядя	prose_ru	ru	KEEP	дядя	enchant
+453	я думаю	дыня	KEEP	дыня	prose_ru	ru	KEEP	дыня	enchant
+454	по сути	спальня	KEEP	спальня	prose_ru	ru	KEEP	спальня	enchant
+455		успокаиваться	KEEP	успокаиваться	prose_ru	ru	KEEP	успокаиваться	enchant
+456	если честно	осень	KEEP	осень	prose_ru	ru	KEEP	осень	enchant
+457	вокруг дома	поздравлять	KEEP	поздравлять	prose_ru	ru	KEEP	поздравлять	enchant
+458	просто	окно	KEEP	окно	prose_ru	ru	KEEP	окно	enchant
+459	тем не менее	побережье	KEEP	побережье	prose_ru	ru	KEEP	побережье	enchant
+460	в общем	офис	KEEP	офис	prose_ru	ru	KEEP	офис	enchant
+461	мы часто	лестница	KEEP	лестница	prose_ru	ru	KEEP	лестница	enchant
+462	просто	полезный	KEEP	полезный	prose_ru	ru	KEEP	полезный	enchant
+463	вообще	волк	KEEP	волк	prose_ru	ru	KEEP	волк	enchant
+464	после того	батарея	KEEP	батарея	prose_ru	ru	KEEP	батарея	enchant
+465		холодный	KEEP	холодный	prose_ru	ru	KEEP	холодный	enchant
+466	сразу	яркий	KEEP	яркий	prose_ru	ru	KEEP	яркий	enchant
+467	неужели	известный	KEEP	известный	prose_ru	ru	KEEP	известный	enchant
+468	она была	ответом	KEEP	ответом	prose_ru	ru	KEEP	ответом	enchant
+469		обрадоваться	KEEP	обрадоваться	prose_ru	ru	KEEP	обрадоваться	enchant
+470	вдруг	гром	KEEP	гром	prose_ru	ru	KEEP	гром	enchant
+471	теперь	домах	KEEP	домах	prose_ru	ru	KEEP	домах	enchant
+472	на самом деле	робот	KEEP	робот	prose_ru	ru	KEEP	робот	enchant
+473		шапка	KEEP	шапка	prose_ru	ru	KEEP	шапка	enchant
+474	очень	мокрый	KEEP	мокрый	prose_ru	ru	KEEP	мокрый	enchant
+475	между прочим	время	KEEP	время	prose_ru	ru	KEEP	время	enchant
+476	он сказал	набережная	KEEP	набережная	prose_ru	ru	KEEP	набережная	enchant
+477	они шли	улыбаться	KEEP	улыбаться	prose_ru	ru	KEEP	улыбаться	enchant
+478	он сказал	архитектор	KEEP	архитектор	prose_ru	ru	KEEP	архитектор	enchant
+479	я думаю	дать	KEEP	дать	prose_ru	ru	KEEP	дать	enchant
+480		биолог	KEEP	биолог	prose_ru	ru	KEEP	биолог	enchant
+481	тем не менее	картофель	KEEP	картофель	prose_ru	ru	KEEP	картофель	enchant
+482	на	думать	KEEP	думать	prose_ru	ru	KEEP	думать	enchant
+483	не	дети	KEEP	дети	prose_ru	ru	KEEP	дети	enchant
+484		любить	KEEP	любить	prose_ru	ru	KEEP	любить	enchant
+485	опять	дедушка	KEEP	дедушка	prose_ru	ru	KEEP	дедушка	enchant
+486	кажется мне	стране	KEEP	стране	prose_ru	ru	KEEP	стране	enchant
+487	мой	вообще	KEEP	вообще	prose_ru	ru	KEEP	вообще	enchant
+488	я думаю	книгам	KEEP	книгам	prose_ru	ru	KEEP	книгам	enchant
+489		сайт	KEEP	сайт	prose_ru	ru	KEEP	сайт	enchant
+490	потом	преподаватель	KEEP	преподаватель	prose_ru	ru	KEEP	преподаватель	enchant
+491		продавец	KEEP	продавец	prose_ru	ru	KEEP	продавец	enchant
+492	неужели	влюбиться	KEEP	влюбиться	prose_ru	ru	KEEP	влюбиться	enchant
+493	они шли	перец	KEEP	перец	prose_ru	ru	KEEP	перец	enchant
+494	тот	машина	KEEP	машина	prose_ru	ru	KEEP	машина	enchant
+495	после того	одуванчик	KEEP	одуванчик	prose_ru	ru	KEEP	одуванчик	enchant
+496	какой-то	современный	KEEP	современный	prose_ru	ru	KEEP	современный	enchant
+497		выпить	KEEP	выпить	prose_ru	ru	KEEP	выпить	enchant
+498	я думаю	написать	KEEP	написать	prose_ru	ru	KEEP	написать	enchant
+499	мой	полночь	KEEP	полночь	prose_ru	ru	KEEP	полночь	enchant
+500	теперь	лягушка	KEEP	лягушка	prose_ru	ru	KEEP	лягушка	enchant
+501	не	товарищ	KEEP	товарищ	prose_ru	ru	KEEP	товарищ	enchant
+502	на самом деле	одиннадцать	KEEP	одиннадцать	prose_ru	ru	KEEP	одиннадцать	enchant
+503		подснежник	KEEP	подснежник	prose_ru	ru	KEEP	подснежник	enchant
+504	оттуда	напарник	KEEP	напарник	prose_ru	ru	KEEP	напарник	enchant
+505	вдруг	близко	KEEP	близко	prose_ru	ru	KEEP	близко	enchant
+506		гора	KEEP	гора	prose_ru	ru	KEEP	гора	enchant
+507	и	тёмный	KEEP	тёмный	prose_ru	ru	KEEP	тёмный	enchant
+508		иногда	KEEP	иногда	prose_ru	ru	KEEP	иногда	enchant
+509	если честно	низкий	KEEP	низкий	prose_ru	ru	KEEP	низкий	enchant
+510	он сказал	вельможа	KEEP	вельможа	prose_ru	ru	KEEP	вельможа	enchant
+511	мы видели	принтер	KEEP	принтер	prose_ru	ru	KEEP	принтер	enchant
+512		книге	KEEP	книге	prose_ru	ru	KEEP	книге	enchant
+513	на самом деле	ездить	KEEP	ездить	prose_ru	ru	KEEP	ездить	enchant
+514		продавать	KEEP	продавать	prose_ru	ru	KEEP	продавать	enchant
+515		работник	KEEP	работник	prose_ru	ru	KEEP	работник	enchant
+516	вокруг дома	крыша	KEEP	крыша	prose_ru	ru	KEEP	крыша	enchant
+517	сразу	высокий	KEEP	высокий	prose_ru	ru	KEEP	высокий	enchant
+518		пещера	KEEP	пещера	prose_ru	ru	KEEP	пещера	enchant
+519	мы часто	георгин	KEEP	георгин	prose_ru	ru	KEEP	георгин	enchant
+520	потом	писатель	KEEP	писатель	prose_ru	ru	KEEP	писатель	enchant
+521	вокруг дома	тысяча	KEEP	тысяча	prose_ru	ru	KEEP	тысяча	enchant
+522		лев	KEEP	лев	prose_ru	ru	KEEP	лев	enchant
+523	не	юрист	KEEP	юрист	prose_ru	ru	KEEP	юрист	enchant
+524	снова	степь	KEEP	степь	prose_ru	ru	KEEP	степь	enchant
+525	в	ночь	KEEP	ночь	prose_ru	ru	KEEP	ночь	enchant
+526		олень	KEEP	олень	prose_ru	ru	KEEP	олень	enchant
+527	кажется мне	помочь	KEEP	помочь	prose_ru	ru	KEEP	помочь	enchant
+528		василёк	KEEP	василёк	prose_ru	ru	KEEP	василёк	enchant
+529		ходить	KEEP	ходить	prose_ru	ru	KEEP	ходить	enchant
+530		микрофон	KEEP	микрофон	prose_ru	ru	KEEP	микрофон	enchant
+531	если честно	стиральная	KEEP	стиральная	prose_ru	ru	KEEP	стиральная	enchant
+532	по сути	институт	KEEP	институт	prose_ru	ru	KEEP	институт	enchant
+533	после того	удивиться	KEEP	удивиться	prose_ru	ru	KEEP	удивиться	enchant
+534	тем не менее	борозда	KEEP	борозда	prose_ru	ru	KEEP	борозда	enchant
+535	в	музей	KEEP	музей	prose_ru	ru	KEEP	музей	enchant
+536		характер	KEEP	характер	prose_ru	ru	KEEP	характер	enchant
+537	между прочим	вечер	KEEP	вечер	prose_ru	ru	KEEP	вечер	enchant
+538	наверное это	луг	KEEP	луг	prose_ru	ru	KEEP	луг	enchant
+539	вообще	волноваться	KEEP	волноваться	prose_ru	ru	KEEP	волноваться	enchant
+540	мой	сапожник	KEEP	сапожник	prose_ru	ru	KEEP	сапожник	enchant
+541	вообще	надеяться	KEEP	надеяться	prose_ru	ru	KEEP	надеяться	enchant
+542		сыграть	KEEP	сыграть	prose_ru	ru	KEEP	сыграть	enchant
+543	теперь	плавать	KEEP	плавать	prose_ru	ru	KEEP	плавать	enchant
+544	тогда	петух	KEEP	петух	prose_ru	ru	KEEP	петух	enchant
+545	точно	городом	KEEP	городом	prose_ru	ru	KEEP	городом	enchant
+546		безопасный	KEEP	безопасный	prose_ru	ru	KEEP	безопасный	enchant
+547	совсем	чеснок	KEEP	чеснок	prose_ru	ru	KEEP	чеснок	enchant
+548	если честно	лось	KEEP	лось	prose_ru	ru	KEEP	лось	enchant
+549	снова	радость	KEEP	радость	prose_ru	ru	KEEP	радость	enchant
+550	тот	комната	KEEP	комната	prose_ru	ru	KEEP	комната	enchant
+551	наш	директор	KEEP	директор	prose_ru	ru	KEEP	директор	enchant
+552	кажется мне	узнать	KEEP	узнать	prose_ru	ru	KEEP	узнать	enchant
+553		тюльпан	KEEP	тюльпан	prose_ru	ru	KEEP	тюльпан	enchant
+554	это	тыква	KEEP	тыква	prose_ru	ru	KEEP	тыква	enchant
+555	в	наковальня	KEEP	наковальня	prose_ru	ru	KEEP	наковальня	enchant
+556		спеть	KEEP	спеть	prose_ru	ru	KEEP	спеть	enchant
+557	на самом деле	вулкан	KEEP	вулкан	prose_ru	ru	KEEP	вулкан	enchant
+558	по сути	забывать	KEEP	забывать	prose_ru	ru	KEEP	забывать	enchant
+559	они шли	кинотеатр	KEEP	кинотеатр	prose_ru	ru	KEEP	кинотеатр	enchant
+560		начинать	KEEP	начинать	prose_ru	ru	KEEP	начинать	enchant
+561	мы видели	смотреть	KEEP	смотреть	prose_ru	ru	KEEP	смотреть	enchant
+562	перед тем	зарядка	KEEP	зарядка	prose_ru	ru	KEEP	зарядка	enchant
+563		пасека	KEEP	пасека	prose_ru	ru	KEEP	пасека	enchant
+564	потом	подросток	KEEP	подросток	prose_ru	ru	KEEP	подросток	enchant
+565	не	балкон	KEEP	балкон	prose_ru	ru	KEEP	балкон	enchant
+566	сразу	тоннель	KEEP	тоннель	prose_ru	ru	KEEP	тоннель	enchant
+567		влюбляться	KEEP	влюбляться	prose_ru	ru	KEEP	влюбляться	enchant
+568	между прочим	час	KEEP	час	prose_ru	ru	KEEP	час	enchant
+569		мечта	KEEP	мечта	prose_ru	ru	KEEP	мечта	enchant
+570		град	KEEP	град	prose_ru	ru	KEEP	град	enchant
+571	точно	поздравить	KEEP	поздравить	prose_ru	ru	KEEP	поздравить	enchant
+572	и	коса	KEEP	коса	prose_ru	ru	KEEP	коса	enchant
+573	неужели	ёж	KEEP	ёж	prose_ru	ru	KEEP	ёж	enchant
+574		роса	KEEP	роса	prose_ru	ru	KEEP	роса	enchant
+575	она была	весёлый	KEEP	весёлый	prose_ru	ru	KEEP	весёлый	enchant
+576		вчера	KEEP	вчера	prose_ru	ru	KEEP	вчера	enchant
+577		утро	KEEP	утро	prose_ru	ru	KEEP	утро	enchant
+578	на самом деле	курица	KEEP	курица	prose_ru	ru	KEEP	курица	enchant
+579		ратуша	KEEP	ратуша	prose_ru	ru	KEEP	ратуша	enchant
+580	ты знаешь	роща	KEEP	роща	prose_ru	ru	KEEP	роща	enchant
+581	совсем	танцевать	KEEP	танцевать	prose_ru	ru	KEEP	танцевать	enchant
+582	почти	новый	KEEP	новый	prose_ru	ru	KEEP	новый	enchant
+583		делах	KEEP	делах	prose_ru	ru	KEEP	делах	enchant
+584	туда	ссориться	KEEP	ссориться	prose_ru	ru	KEEP	ссориться	enchant
+585		другом	KEEP	другом	prose_ru	ru	KEEP	другом	enchant
+586		терпение	KEEP	терпение	prose_ru	ru	KEEP	терпение	enchant
+587		учитель	KEEP	учитель	prose_ru	ru	KEEP	учитель	enchant
+588	ты знаешь	скучный	KEEP	скучный	prose_ru	ru	KEEP	скучный	enchant
+589		корова	KEEP	корова	prose_ru	ru	KEEP	корова	enchant
+590	тогда	берёза	KEEP	берёза	prose_ru	ru	KEEP	берёза	enchant
+591	какой-то	ландыш	KEEP	ландыш	prose_ru	ru	KEEP	ландыш	enchant
+592	между прочим	тайга	KEEP	тайга	prose_ru	ru	KEEP	тайга	enchant
+593	туда	делать	KEEP	делать	prose_ru	ru	KEEP	делать	enchant
+594		машин	KEEP	машин	prose_ru	ru	KEEP	машин	enchant
+595		холодильник	KEEP	холодильник	prose_ru	ru	KEEP	холодильник	enchant
+596	оттуда	площадь	KEEP	площадь	prose_ru	ru	KEEP	площадь	enchant
+597	тогда	озеро	KEEP	озеро	prose_ru	ru	KEEP	озеро	enchant
+598	неужели	деньги	KEEP	деньги	prose_ru	ru	KEEP	деньги	enchant
+599	себе	морковь	KEEP	морковь	prose_ru	ru	KEEP	морковь	enchant
+600	наш	суета	KEEP	суета	prose_ru	ru	KEEP	суета	enchant
+601	на	le,	CONVERT	дуб	prose_ru	us	CONVERT	дуб	enchant
+602		djghjcf[	CONVERT	вопросах	prose_ru	us	CONVERT	вопросах	enchant
+603	здесь	gkfrfnm	CONVERT	плакать	prose_ru	us	CONVERT	плакать	enchant
+604		ujke,m	CONVERT	голубь	prose_ru	us	CONVERT	голубь	enchant
+605	на самом деле	pfcvtznmcz	CONVERT	засмеяться	prose_ru	us	CONVERT	засмеяться	enchant
+606		,jznmcz	CONVERT	бояться	prose_ru	us	CONVERT	бояться	enchant
+607	просто	gjnjv	CONVERT	потом	prose_ru	us	CONVERT	потом	enchant
+608	просто	jkm[f	CONVERT	ольха	prose_ru	us	CONVERT	ольха	enchant
+609		ht,`yjr	CONVERT	ребёнок	prose_ru	us	CONVERT	ребёнок	enchant
+610		ajnjuhfa	CONVERT	фотограф	prose_ru	us	CONVERT	фотограф	enchant
+611		hf,jnjq	CONVERT	работой	prose_ru	us	CONVERT	работой	enchant
+612	она была	vtlktyyj	CONVERT	медленно	prose_ru	us	CONVERT	медленно	enchant
+613	туда	rybuf	CONVERT	книга	prose_ru	us	CONVERT	книга	enchant
+614	мы часто	vj;;tdtkmybr	CONVERT	можжевельник	prose_ru	us	CONVERT	можжевельник	enchant
+615	себе	lhepmz	CONVERT	друзья	prose_ru	us	CONVERT	друзья	enchant
+616	тем не менее	pyfrjvsq	CONVERT	знакомый	prose_ru	us	CONVERT	знакомый	enchant
+617	точно	ckexfq	CONVERT	случай	prose_ru	us	CONVERT	случай	enchant
+618		hf,jnt	CONVERT	работе	prose_ru	us	CONVERT	работе	enchant
+619	разве	rhjkbr	CONVERT	кролик	prose_ru	us	CONVERT	кролик	enchant
+620	вообще	rbn	CONVERT	кит	prose_ru	us	CONVERT	кит	enchant
+621		yfqnb	CONVERT	найти	prose_ru	us	CONVERT	найти	enchant
+622	уже	kfgjnm	CONVERT	лапоть	prose_ru	us	CONVERT	лапоть	enchant
+623	тем не менее	ajynfy	CONVERT	фонтан	prose_ru	us	CONVERT	фонтан	enchant
+624		lkbyysq	CONVERT	длинный	prose_ru	us	CONVERT	длинный	enchant
+625	теперь	dyer	CONVERT	внук	prose_ru	us	KEEP	dyer	enchant
+626	опять	htfkmyjcnm	CONVERT	реальность	prose_ru	us	CONVERT	реальность	enchant
+627	тот	lthtdj	CONVERT	дерево	prose_ru	us	CONVERT	дерево	enchant
+628	перед тем	ecgt[	CONVERT	успех	prose_ru	us	CONVERT	успех	enchant
+629	я думаю	gj,kfujlfhbnm	CONVERT	поблагодарить	prose_ru	us	CONVERT	поблагодарить	enchant
+630	тот	vtlktyysq	CONVERT	медленный	prose_ru	us	CONVERT	медленный	enchant
+631	наверное это	cjdf	CONVERT	сова	prose_ru	us	CONVERT	сова	enchant
+632	если честно	ctreylf	CONVERT	секунда	prose_ru	us	CONVERT	секунда	enchant
+633		df;ysq	CONVERT	важный	prose_ru	us	CONVERT	важный	enchant
+634		jdwf	CONVERT	овца	prose_ru	us	CONVERT	овца	enchant
+635	вокруг дома	xtkjdtrf	CONVERT	человека	prose_ru	us	CONVERT	человека	enchant
+636	кроме того	,tufnm	CONVERT	бегать	prose_ru	us	CONVERT	бегать	enchant
+637		cvfhnajy	CONVERT	смартфон	prose_ru	us	CONVERT	смартфон	enchant
+638		xfqybr	CONVERT	чайник	prose_ru	us	CONVERT	чайник	enchant
+639	снова	pfgkfrfnm	CONVERT	заплакать	prose_ru	us	CONVERT	заплакать	enchant
+640	уже	djj,hf;tybt	CONVERT	воображение	prose_ru	us	CONVERT	воображение	enchant
+641		gjkbrkbybrf	CONVERT	поликлиника	prose_ru	us	CONVERT	поликлиника	enchant
+642	точно	lj,hsq	CONVERT	добрый	prose_ru	us	CONVERT	добрый	enchant
+643	кроме того	cj[f	CONVERT	соха	prose_ru	us	CONVERT	соха	enchant
+644	перед тем	ltke	CONVERT	делу	prose_ru	us	CONVERT	делу	enchant
+645	сразу	pfyfdtcrf	CONVERT	занавеска	prose_ru	us	CONVERT	занавеска	enchant
+646	он сказал	hfpdjkyjdfnmcz	CONVERT	разволноваться	prose_ru	us	CONVERT	разволноваться	enchant
+647	вокруг дома	nf,ehtnrf	CONVERT	табуретка	prose_ru	us	CONVERT	табуретка	enchant
+648	наш	;fcvby	CONVERT	жасмин	prose_ru	us	CONVERT	жасмин	enchant
+649		k`urbq	CONVERT	лёгкий	prose_ru	us	CONVERT	лёгкий	enchant
+650	рядом со	ht;bcc`h	CONVERT	режиссёр	prose_ru	us	CONVERT	режиссёр	enchant
+651		;thyjd	CONVERT	жернов	prose_ru	us	CONVERT	жернов	enchant
+652	после того	rfif	CONVERT	каша	prose_ru	us	CONVERT	каша	enchant
+653	ты знаешь	dvtcnt	CONVERT	вместе	prose_ru	us	CONVERT	вместе	enchant
+654		cktcfhm	CONVERT	слесарь	prose_ru	us	CONVERT	слесарь	enchant
+655	снова	dfyyfz	CONVERT	ванная	prose_ru	us	CONVERT	ванная	enchant
+656	ты знаешь	nthznm	CONVERT	терять	prose_ru	us	CONVERT	терять	enchant
+657	не	ckbirjv	CONVERT	слишком	prose_ru	us	CONVERT	слишком	enchant
+658		cyjdf	CONVERT	снова	prose_ru	us	CONVERT	снова	enchant
+659	рядом со	dcgjvbyfnm	CONVERT	вспоминать	prose_ru	us	CONVERT	вспоминать	enchant
+660	после того	en.u	CONVERT	утюг	prose_ru	us	CONVERT	утюг	enchant
+661	не	kj;bnmcz	CONVERT	ложиться	prose_ru	us	CONVERT	ложиться	enchant
+662	тогда	[jkv	CONVERT	холм	prose_ru	us	CONVERT	холм	enchant
+663	точно	jcnfyjdrf	CONVERT	остановка	prose_ru	us	CONVERT	остановка	enchant
+664	опять	ukegsq	CONVERT	глупый	prose_ru	us	CONVERT	глупый	enchant
+665	на	cndjk	CONVERT	ствол	prose_ru	us	CONVERT	ствол	enchant
+666		rhfcbdsq	CONVERT	красивый	prose_ru	us	CONVERT	красивый	enchant
+667	перед тем	pf,jh	CONVERT	забор	prose_ru	us	CONVERT	забор	enchant
+668	тем не менее	uhecnbnm	CONVERT	грустить	prose_ru	us	CONVERT	грустить	enchant
+669	мы часто	gjvbljh	CONVERT	помидор	prose_ru	us	CONVERT	помидор	enchant
+670	кажется мне	phtkjcnm	CONVERT	зрелость	prose_ru	us	CONVERT	зрелость	enchant
+671	совсем	n`gksq	CONVERT	тёплый	prose_ru	us	CONVERT	тёплый	enchant
+672	они шли	vfufpby	CONVERT	магазин	prose_ru	us	CONVERT	магазин	enchant
+673	здесь	vbyenf	CONVERT	минута	prose_ru	us	CONVERT	минута	enchant
+674	они шли	k.lzv	CONVERT	людям	prose_ru	us	CONVERT	людям	enchant
+675	кроме того	gjk.,bnm	CONVERT	полюбить	prose_ru	us	CONVERT	полюбить	enchant
+676		gjcnhjbnm	CONVERT	построить	prose_ru	us	CONVERT	построить	enchant
+677	мой	jhtiybr	CONVERT	орешник	prose_ru	us	CONVERT	орешник	enchant
+678	рядом со	cgenybr	CONVERT	спутник	prose_ru	us	CONVERT	спутник	enchant
+679		ckf,jcnm	CONVERT	слабость	prose_ru	us	CONVERT	слабость	enchant
+680	по сути	xfirf	CONVERT	чашка	prose_ru	us	CONVERT	чашка	enchant
+681	я думаю	cnhfye	CONVERT	страну	prose_ru	us	CONVERT	страну	enchant
+682	на	gjvbhbnmcz	CONVERT	помириться	prose_ru	us	CONVERT	помириться	enchant
+683		jgthfnjh	CONVERT	оператор	prose_ru	us	CONVERT	оператор	enchant
+684		gjcvjnhtnm	CONVERT	посмотреть	prose_ru	us	CONVERT	посмотреть	enchant
+685		cjnyz	CONVERT	сотня	prose_ru	us	CONVERT	сотня	enchant
+686	опять	ghbujnjdbnm	CONVERT	приготовить	prose_ru	us	CONVERT	приготовить	enchant
+687	и	enrf	CONVERT	утка	prose_ru	us	CONVERT	утка	enchant
+688	тот	if[n`h	CONVERT	шахтёр	prose_ru	us	CONVERT	шахтёр	enchant
+689		gb[nf	CONVERT	пихта	prose_ru	us	CONVERT	пихта	enchant
+690	здесь	jabwbfyn	CONVERT	официант	prose_ru	us	CONVERT	официант	enchant
+691	наверное это	vbhf	CONVERT	мира	prose_ru	us	CONVERT	мира	enchant
+692	перед тем	jujhjl	CONVERT	огород	prose_ru	us	CONVERT	огород	enchant
+693		gjrjq	CONVERT	покой	prose_ru	us	CONVERT	покой	enchant
+694		crjdjhjlf	CONVERT	сковорода	prose_ru	us	CONVERT	сковорода	enchant
+695		[jhjij	CONVERT	хорошо	prose_ru	us	CONVERT	хорошо	enchant
+696		repybwf	CONVERT	кузница	prose_ru	us	CONVERT	кузница	enchant
+697	вокруг дома	djghjcf	CONVERT	вопроса	prose_ru	us	CONVERT	вопроса	enchant
+698	это	lfdfnm	CONVERT	давать	prose_ru	us	CONVERT	давать	enchant
+699	наверное это	ktc	CONVERT	лес	prose_ru	us	CONVERT	лес	enchant
+700		gjckeifnm	CONVERT	послушать	prose_ru	us	CONVERT	послушать	enchant
+701	опять	vjkybz	CONVERT	молния	prose_ru	us	CONVERT	молния	enchant
+702	снова	bytq	CONVERT	иней	prose_ru	us	CONVERT	иней	enchant
+703		gfgf	CONVERT	папа	prose_ru	us	CONVERT	папа	enchant
+704	потом	,jho	CONVERT	борщ	prose_ru	us	CONVERT	борщ	enchant
+705	теперь	ujhybwf	CONVERT	горница	prose_ru	us	CONVERT	горница	enchant
+706	наверное это	,b,kbjntrf	CONVERT	библиотека	prose_ru	us	CONVERT	библиотека	enchant
+707	наверное это	cltkfnm	CONVERT	сделать	prose_ru	us	CONVERT	сделать	enchant
+708	в общем	nhfdf	CONVERT	трава	prose_ru	us	CONVERT	трава	enchant
+709	себе	,tlysq	CONVERT	бедный	prose_ru	us	CONVERT	бедный	enchant
+710		t[fnm	CONVERT	ехать	prose_ru	us	CONVERT	ехать	enchant
+711	сразу	,jlhjcnm	CONVERT	бодрость	prose_ru	us	CONVERT	бодрость	enchant
+712		nbibyf	CONVERT	тишина	prose_ru	us	CONVERT	тишина	enchant
+713	разве	djghjce	CONVERT	вопросу	prose_ru	us	CONVERT	вопросу	enchant
+714		kexbyf	CONVERT	лучина	prose_ru	us	CONVERT	лучина	enchant
+715	туда	hjvfirf	CONVERT	ромашка	prose_ru	us	CONVERT	ромашка	enchant
+716	себе	ghzkrf	CONVERT	прялка	prose_ru	us	CONVERT	прялка	enchant
+717	вдруг	ptvkz	CONVERT	земля	prose_ru	us	CONVERT	земля	enchant
+718	я думаю	ukegjcnm	CONVERT	глупость	prose_ru	us	CONVERT	глупость	enchant
+719		ujhlbnmcz	CONVERT	гордиться	prose_ru	us	CONVERT	гордиться	enchant
+720	опять	k.lb	CONVERT	люди	prose_ru	us	CONVERT	люди	enchant
+721	какой-то	ghjcnbnm	CONVERT	простить	prose_ru	us	CONVERT	простить	enchant
+722	оттуда	gjkt	CONVERT	поле	prose_ru	us	CONVERT	поле	enchant
+723		nb[j	CONVERT	тихо	prose_ru	us	CONVERT	тихо	enchant
+724	перед тем	.yjif	CONVERT	юноша	prose_ru	us	CONVERT	юноша	enchant
+725	между прочим	ctqxfc	CONVERT	сейчас	prose_ru	us	CONVERT	сейчас	enchant
+726	и	elbdkznmcz	CONVERT	удивляться	prose_ru	us	CONVERT	удивляться	enchant
+727	очень	gjregfntkm	CONVERT	покупатель	prose_ru	us	CONVERT	покупатель	enchant
+728	по сути	lhe;,f	CONVERT	дружба	prose_ru	us	CONVERT	дружба	enchant
+729	между прочим	dhtvtytv	CONVERT	временем	prose_ru	us	CONVERT	временем	enchant
+730	наверное это	gecnsyz	CONVERT	пустыня	prose_ru	us	CONVERT	пустыня	enchant
+731	она была	ctujlyz	CONVERT	сегодня	prose_ru	us	CONVERT	сегодня	enchant
+732		vtkmybwf	CONVERT	мельница	prose_ru	us	CONVERT	мельница	enchant
+733	рядом со	lheu	CONVERT	друг	prose_ru	us	CONVERT	друг	enchant
+734	снова	gtxfkm	CONVERT	печаль	prose_ru	us	CONVERT	печаль	enchant
+735	какой-то	vfibys	CONVERT	машины	prose_ru	us	CONVERT	машины	enchant
+736	в общем	cdj,jlf	CONVERT	свобода	prose_ru	us	CONVERT	свобода	enchant
+737	на	gjxbybnm	CONVERT	починить	prose_ru	us	CONVERT	починить	enchant
+738	опять	ljve	CONVERT	дому	prose_ru	us	CONVERT	дому	enchant
+739	в общем	rybub	CONVERT	книги	prose_ru	us	CONVERT	книги	enchant
+740	тот	ujdjhbnm	CONVERT	говорить	prose_ru	us	CONVERT	говорить	enchant
+741	мы часто	rjirf	CONVERT	кошка	prose_ru	us	CONVERT	кошка	enchant
+742	сразу	hbcjdfnm	CONVERT	рисовать	prose_ru	us	CONVERT	рисовать	enchant
+743	после того	uevyj	CONVERT	гумно	prose_ru	us	CONVERT	гумно	enchant
+744	мы видели	ghjcgtrn	CONVERT	проспект	prose_ru	us	CONVERT	проспект	enchant
+745		zhvfhrf	CONVERT	ярмарка	prose_ru	us	CONVERT	ярмарка	enchant
+746	вокруг дома	ltytu	CONVERT	денег	prose_ru	us	CONVERT	денег	enchant
+747	мы часто	vkfltytw	CONVERT	младенец	prose_ru	us	CONVERT	младенец	enchant
+748		ldthm	CONVERT	дверь	prose_ru	us	CONVERT	дверь	enchant
+749	просто	ltncndj	CONVERT	детство	prose_ru	us	CONVERT	детство	enchant
+750		cnfrfy	CONVERT	стакан	prose_ru	us	CONVERT	стакан	enchant
+751	в	cnjkbwf	CONVERT	столица	prose_ru	us	CONVERT	столица	enchant
+752	она была	,ehz	CONVERT	буря	prose_ru	us	CONVERT	буря	enchant
+753	в общем	nexf	CONVERT	туча	prose_ru	us	CONVERT	туча	enchant
+754	вообще	yfdthyjt	CONVERT	наверное	prose_ru	us	CONVERT	наверное	enchant
+755	вроде	kjiflm	CONVERT	лошадь	prose_ru	us	CONVERT	лошадь	enchant
+756	сразу	ltcznm	CONVERT	десять	prose_ru	us	CONVERT	десять	enchant
+757		pyfvtybnsq	CONVERT	знаменитый	prose_ru	us	CONVERT	знаменитый	enchant
+758	опять	ujnjdbnm	CONVERT	готовить	prose_ru	us	CONVERT	готовить	enchant
+759	неужели	dbkrf	CONVERT	вилка	prose_ru	us	CONVERT	вилка	enchant
+760	она была	djple[	CONVERT	воздух	prose_ru	us	CONVERT	воздух	enchant
+761	тогда	gjkjntywt	CONVERT	полотенце	prose_ru	us	CONVERT	полотенце	enchant
+762	на самом деле	frekf	CONVERT	акула	prose_ru	us	CONVERT	акула	enchant
+763	рядом со	dthbnm	CONVERT	верить	prose_ru	us	CONVERT	верить	enchant
+764	почти	cghfdtlkbdjcnm	CONVERT	справедливость	prose_ru	us	CONVERT	справедливость	enchant
+765	вокруг дома	cjctlrf	CONVERT	соседка	prose_ru	us	CONVERT	соседка	enchant
+766		dcnfdfnm	CONVERT	вставать	prose_ru	us	CONVERT	вставать	enchant
+767	уже	ljxm	CONVERT	дочь	prose_ru	us	CONVERT	дочь	enchant
+768		n`nz	CONVERT	тётя	prose_ru	us	CONVERT	тётя	enchant
+769		ghjuhfvvbcn	CONVERT	программист	prose_ru	us	CONVERT	программист	enchant
+770	тем не менее	'rhfy	CONVERT	экран	prose_ru	us	CONVERT	экран	enchant
+771	опять	cnju	CONVERT	стог	prose_ru	us	CONVERT	стог	enchant
+772		jnrhsnm	CONVERT	открыть	prose_ru	us	CONVERT	открыть	enchant
+773	если честно	cbkmysq	CONVERT	сильный	prose_ru	us	CONVERT	сильный	enchant
+774		ldf	CONVERT	два	prose_ru	us	CONVERT	два	enchant
+775		cdtn`krf	CONVERT	светёлка	prose_ru	us	CONVERT	светёлка	enchant
+776	ты знаешь	cjcyf	CONVERT	сосна	prose_ru	us	CONVERT	сосна	enchant
+777	вдруг	rfvtym	CONVERT	камень	prose_ru	us	CONVERT	камень	enchant
+778	она была	ytpyfrjvtw	CONVERT	незнакомец	prose_ru	us	CONVERT	незнакомец	enchant
+779		lheptq	CONVERT	друзей	prose_ru	us	CONVERT	друзей	enchant
+780		vjybnjh	CONVERT	монитор	prose_ru	us	CONVERT	монитор	enchant
+781	после того	j,]zcyznm	CONVERT	объяснять	prose_ru	us	CONVERT	объяснять	enchant
+782		cdbymz	CONVERT	свинья	prose_ru	us	CONVERT	свинья	enchant
+783	уже	hf,jns	CONVERT	работы	prose_ru	us	CONVERT	работы	enchant
+784		gjplyj	CONVERT	поздно	prose_ru	us	CONVERT	поздно	enchant
+785	наверное это	pfdnhf	CONVERT	завтра	prose_ru	us	CONVERT	завтра	enchant
+786	я думаю	zqwj	CONVERT	яйцо	prose_ru	us	CONVERT	яйцо	enchant
+787	туда	hjdtcybr	CONVERT	ровесник	prose_ru	us	CONVERT	ровесник	enchant
+788	потом	ghfdlf	CONVERT	правда	prose_ru	us	CONVERT	правда	enchant
+789	в	lth.uf	CONVERT	дерюга	prose_ru	us	CONVERT	дерюга	enchant
+790	тем не менее	yflt;lf	CONVERT	надежда	prose_ru	us	CONVERT	надежда	enchant
+791	я думаю	lheuf	CONVERT	друга	prose_ru	us	CONVERT	друга	enchant
+792	себе	dyexrf	CONVERT	внучка	prose_ru	us	CONVERT	внучка	enchant
+793	если честно	gjceljvjtxyfz	CONVERT	посудомоечная	prose_ru	us	CONVERT	посудомоечная	enchant
+794		gjc`kjr	CONVERT	посёлок	prose_ru	us	CONVERT	посёлок	enchant
+795		xbnfnm	CONVERT	читать	prose_ru	us	CONVERT	читать	enchant
+796	кажется мне	cnhjbnm	CONVERT	строить	prose_ru	us	CONVERT	строить	enchant
+797		cneltyn	CONVERT	студент	prose_ru	us	CONVERT	студент	enchant
+798		rhjrjlbk	CONVERT	крокодил	prose_ru	us	CONVERT	крокодил	enchant
+799		tkm	CONVERT	ель	prose_ru	us	CONVERT	ель	enchant
+800		crfpfnm	CONVERT	сказать	prose_ru	us	CONVERT	сказать	enchant
+801	очень	djkytybt	CONVERT	волнение	prose_ru	us	CONVERT	волнение	enchant
+802	она была	[elj;ybr	CONVERT	художник	prose_ru	us	CONVERT	художник	enchant
+803	в	jujym	CONVERT	огонь	prose_ru	us	CONVERT	огонь	enchant
+804		ctvm	CONVERT	семь	prose_ru	us	CONVERT	семь	enchant
+805	кажется мне	pvtz	CONVERT	змея	prose_ru	us	CONVERT	змея	enchant
+806	между прочим	pljhjdmt	CONVERT	здоровье	prose_ru	us	CONVERT	здоровье	enchant
+807	на самом деле	cjdctv	CONVERT	совсем	prose_ru	us	CONVERT	совсем	enchant
+808	перед тем	gjdfh	CONVERT	повар	prose_ru	us	CONVERT	повар	enchant
+809	на	cdfhobr	CONVERT	сварщик	prose_ru	us	CONVERT	сварщик	enchant
+810	тогда	gkjnybr	CONVERT	плотник	prose_ru	us	CONVERT	плотник	enchant
+811	на	ghjdfk	CONVERT	провал	prose_ru	us	CONVERT	провал	enchant
+812	разве	ljvjv	CONVERT	домом	prose_ru	us	CONVERT	домом	enchant
+813	вокруг дома	jujhxbnmcz	CONVERT	огорчиться	prose_ru	us	CONVERT	огорчиться	enchant
+814	кажется мне	xbybnm	CONVERT	чинить	prose_ru	us	CONVERT	чинить	enchant
+815		[jpzby	CONVERT	хозяин	prose_ru	us	CONVERT	хозяин	enchant
+816	мы часто	njkcnsq	CONVERT	толстый	prose_ru	us	CONVERT	толстый	enchant
+817	она была	dtnrf	CONVERT	ветка	prose_ru	us	CONVERT	ветка	enchant
+818	мы видели	ceg	CONVERT	суп	prose_ru	us	CONVERT	суп	enchant
+819	совсем	gjuht,	CONVERT	погреб	prose_ru	us	CONVERT	погреб	enchant
+820	она была	cnhf[	CONVERT	страх	prose_ru	us	CONVERT	страх	enchant
+821	просто	rjkmxeuf	CONVERT	кольчуга	prose_ru	us	CONVERT	кольчуга	enchant
+822	теперь	k.lmvb	CONVERT	людьми	prose_ru	us	CONVERT	людьми	enchant
+823	по сути	ghjwtccjh	CONVERT	процессор	prose_ru	us	CONVERT	процессор	enchant
+824		,tkrf	CONVERT	белка	prose_ru	us	CONVERT	белка	enchant
+825	вообще	ljdthbt	CONVERT	доверие	prose_ru	us	CONVERT	доверие	enchant
+826	очень	ve;	CONVERT	муж	prose_ru	us	CONVERT	муж	enchant
+827	снова	ibhjrbq	CONVERT	широкий	prose_ru	us	CONVERT	широкий	enchant
+828		j,vfy	CONVERT	обман	prose_ru	us	CONVERT	обман	enchant
+829	ты знаешь	xthlfr	CONVERT	чердак	prose_ru	us	CONVERT	чердак	enchant
+830		ghjofnm	CONVERT	прощать	prose_ru	us	CONVERT	прощать	enchant
+831	себе	ltymufvb	CONVERT	деньгами	prose_ru	us	CONVERT	деньгами	enchant
+832		pdtplf	CONVERT	звезда	prose_ru	us	CONVERT	звезда	enchant
+833	оттуда	ujhzxbq	CONVERT	горячий	prose_ru	us	CONVERT	горячий	enchant
+834	разве	v`l	CONVERT	мёд	prose_ru	us	CONVERT	мёд	enchant
+835	какой-то	nhb	CONVERT	три	prose_ru	us	CONVERT	три	enchant
+836	наш	'rjyjvbcn	CONVERT	экономист	prose_ru	us	CONVERT	экономист	enchant
+837		gjlevfnm	CONVERT	подумать	prose_ru	us	CONVERT	подумать	enchant
+838	сразу	ytltkz	CONVERT	неделя	prose_ru	us	CONVERT	неделя	enchant
+839	потом	jdhfu	CONVERT	овраг	prose_ru	us	CONVERT	овраг	enchant
+840	в общем	gjnjkjr	CONVERT	потолок	prose_ru	us	CONVERT	потолок	enchant
+841	в общем	pfcjd	CONVERT	засов	prose_ru	us	CONVERT	засов	enchant
+842	потом	vfkbyf	CONVERT	малина	prose_ru	us	CONVERT	малина	enchant
+843	это	hfljdfnmcz	CONVERT	радоваться	prose_ru	us	CONVERT	радоваться	enchant
+844	точно	vfibyt	CONVERT	машине	prose_ru	us	CONVERT	машине	enchant
+845		vtifnm	CONVERT	мешать	prose_ru	us	CONVERT	мешать	enchant
+846		ecnhjqcndj	CONVERT	устройство	prose_ru	us	CONVERT	устройство	enchant
+847	тот	vfvf	CONVERT	мама	prose_ru	us	CONVERT	мама	enchant
+848	туда	hjpf	CONVERT	роза	prose_ru	us	CONVERT	роза	enchant
+849	просто	ujhjle	CONVERT	городу	prose_ru	us	CONVERT	городу	enchant
+850	теперь	ckjvfnm	CONVERT	сломать	prose_ru	us	CONVERT	сломать	enchant
+851		tomato	KEEP	tomato	prose_en	us	KEEP	tomato	enchant
+852		suitcase	KEEP	suitcase	prose_en	us	KEEP	suitcase	enchant
+853	our	watermelon	KEEP	watermelon	prose_en	us	KEEP	watermelon	enchant
+854	my	strength	KEEP	strength	prose_en	us	KEEP	strength	enchant
+855	finally	daffodil	KEEP	daffodil	prose_en	us	KEEP	daffodil	enchant
+856	now	boots	KEEP	boots	prose_en	us	KEEP	boots	enchant
+857	finally	buys	KEEP	buys	prose_en	us	KEEP	buys	enchant
+858	after the	written	KEEP	written	prose_en	us	KEEP	written	enchant
+859		avenue	KEEP	avenue	prose_en	us	KEEP	avenue	enchant
+860		species	KEEP	species	prose_en	us	KEEP	species	enchant
+861	around the	truth	KEEP	truth	prose_en	us	KEEP	truth	enchant
+862	finally	salad	KEEP	salad	prose_en	us	KEEP	salad	enchant
+863	you know	hairdresser	KEEP	hairdresser	prose_en	us	KEEP	hairdresser	enchant
+864	because of	fixing	KEEP	fixing	prose_en	us	KEEP	fixing	enchant
+865	finally	strong	KEEP	strong	prose_en	us	KEEP	strong	enchant
+866	they saw	program	KEEP	program	prose_en	us	KEEP	program	enchant
+867	almost	biggest	KEEP	biggest	prose_en	us	KEEP	biggest	enchant
+868		keyboard	KEEP	keyboard	prose_en	us	KEEP	keyboard	enchant
+869		apple	KEEP	apple	prose_en	us	KEEP	apple	enchant
+870	because of	hare	KEEP	hare	prose_en	us	KEEP	hare	enchant
+871		seller	KEEP	seller	prose_en	us	KEEP	seller	enchant
+872		diagnosis	KEEP	diagnosis	prose_en	us	KEEP	diagnosis	enchant
+873	our	biologist	KEEP	biologist	prose_en	us	KEEP	biologist	enchant
+874	the	farmer	KEEP	farmer	prose_en	us	KEEP	farmer	enchant
+875	that was	bought	KEEP	bought	prose_en	us	KEEP	bought	enchant
+876		wall	KEEP	wall	prose_en	us	KEEP	wall	enchant
+877	still	runway	KEEP	runway	prose_en	us	KEEP	runway	enchant
+878	this	together	KEEP	together	prose_en	us	KEEP	together	enchant
+879	usually	staircase	KEEP	staircase	prose_en	us	KEEP	staircase	enchant
+880		bridge	KEEP	bridge	prose_en	us	KEEP	bridge	enchant
+881	the	bathroom	KEEP	bathroom	prose_en	us	KEEP	bathroom	enchant
+882	not a	angry	KEEP	angry	prose_en	us	KEEP	angry	enchant
+883	she went	rude	KEEP	rude	prose_en	us	KEEP	rude	enchant
+884	finally	host	KEEP	host	prose_en	us	KEEP	host	enchant
+885	very	river	KEEP	river	prose_en	us	KEEP	river	enchant
+886	here	virus	KEEP	virus	prose_en	us	KEEP	virus	enchant
+887		fear	KEEP	fear	prose_en	us	KEEP	fear	enchant
+888	then	storage	KEEP	storage	prose_en	us	KEEP	storage	enchant
+889	clearly	vineyard	KEEP	vineyard	prose_en	us	KEEP	vineyard	enchant
+890		spruce	KEEP	spruce	prose_en	us	KEEP	spruce	enchant
+891		young	KEEP	young	prose_en	us	KEEP	young	enchant
+892	with the	recollection	KEEP	recollection	prose_en	us	KEEP	recollection	enchant
+893	we found	goose	KEEP	goose	prose_en	us	KEEP	goose	enchant
+894	perhaps	pharmacy	KEEP	pharmacy	prose_en	us	KEEP	pharmacy	enchant
+895	not a	dinner	KEEP	dinner	prose_en	us	KEEP	dinner	enchant
+896	because of	learn	KEEP	learn	prose_en	us	KEEP	learn	enchant
+897	in the	ran	KEEP	ran	prose_en	us	KEEP	ran	enchant
+898		night	KEEP	night	prose_en	us	KEEP	night	enchant
+899	after the	visitor	KEEP	visitor	prose_en	us	KEEP	visitor	enchant
+900	usually	employee	KEEP	employee	prose_en	us	KEEP	employee	enchant
+901	perhaps	photographer	KEEP	photographer	prose_en	us	KEEP	photographer	enchant
+902		couch	KEEP	couch	prose_en	us	KEEP	couch	enchant
+903	just	owl	KEEP	owl	prose_en	us	KEEP	owl	enchant
+904		soup	KEEP	soup	prose_en	us	KEEP	soup	enchant
+905		engine	KEEP	engine	prose_en	us	KEEP	engine	enchant
+906	almost	younger	KEEP	younger	prose_en	us	KEEP	younger	enchant
+907		generally	KEEP	generally	prose_en	us	KEEP	generally	enchant
+908	and the	rich	KEEP	rich	prose_en	us	KEEP	rich	enchant
+909	our	elevator	KEEP	elevator	prose_en	us	KEEP	elevator	enchant
+910	they saw	write	KEEP	write	prose_en	us	KEEP	write	enchant
+911	obviously	headphones	KEEP	headphones	prose_en	us	KEEP	headphones	enchant
+912	perhaps	important	KEEP	important	prose_en	us	KEEP	important	enchant
+913		pear	KEEP	pear	prose_en	us	KEEP	pear	enchant
+914	again	castle	KEEP	castle	prose_en	us	KEEP	castle	enchant
+915	really	cliff	KEEP	cliff	prose_en	us	KEEP	cliff	enchant
+916	without a	far	KEEP	far	prose_en	us	KEEP	far	enchant
+917	on my	harder	KEEP	harder	prose_en	us	KEEP	harder	enchant
+918		library	KEEP	library	prose_en	us	KEEP	library	enchant
+919	finally	people	KEEP	people	prose_en	us	KEEP	people	enchant
+920	basically	programmer	KEEP	programmer	prose_en	us	KEEP	programmer	enchant
+921		laptop	KEEP	laptop	prose_en	us	KEEP	laptop	enchant
+922		gone	KEEP	gone	prose_en	us	KEEP	gone	enchant
+923		morning	KEEP	morning	prose_en	us	KEEP	morning	enchant
+924	suddenly	steppe	KEEP	steppe	prose_en	us	KEEP	steppe	enchant
+925		harmful	KEEP	harmful	prose_en	us	KEEP	harmful	enchant
+926	almost	stool	KEEP	stool	prose_en	us	KEEP	stool	enchant
+927		know	KEEP	know	prose_en	us	KEEP	know	enchant
+928	for the	broken	KEEP	broken	prose_en	us	KEEP	broken	enchant
+929	without a	well	KEEP	well	prose_en	us	KEEP	well	enchant
+930	after the	mother	KEEP	mother	prose_en	us	KEEP	mother	enchant
+931		danced	KEEP	danced	prose_en	us	KEEP	danced	enchant
+932	without a	disease	KEEP	disease	prose_en	us	KEEP	disease	enchant
+933	very	market	KEEP	market	prose_en	us	KEEP	market	enchant
+934		boy	KEEP	boy	prose_en	us	KEEP	boy	enchant
+935	we were	surgery	KEEP	surgery	prose_en	us	KEEP	surgery	enchant
+936	in the	mouse	KEEP	mouse	prose_en	us	KEEP	mouse	enchant
+937		hot	KEEP	hot	prose_en	us	KEEP	hot	enchant
+938	without a	late	KEEP	late	prose_en	us	KEEP	late	enchant
+939	as a	velocity	KEEP	velocity	prose_en	us	KEEP	velocity	enchant
+940		swims	KEEP	swims	prose_en	us	KEEP	swims	enchant
+941	before the	thin	KEEP	thin	prose_en	us	KEEP	thin	enchant
+942		sometimes	KEEP	sometimes	prose_en	us	KEEP	sometimes	enchant
+943	I think	boredom	KEEP	boredom	prose_en	us	KEEP	boredom	enchant
+944	in the	health	KEEP	health	prose_en	us	KEEP	health	enchant
+945	around the	fuss	KEEP	fuss	prose_en	us	KEEP	fuss	enchant
+946	very	calendar	KEEP	calendar	prose_en	us	KEEP	calendar	enchant
+947	with the	cheerful	KEEP	cheerful	prose_en	us	KEEP	cheerful	enchant
+948	clearly	sword	KEEP	sword	prose_en	us	KEEP	sword	enchant
+949	actually	teenager	KEEP	teenager	prose_en	us	KEEP	teenager	enchant
+950	because of	oxygen	KEEP	oxygen	prose_en	us	KEEP	oxygen	enchant
+951	you know	reality	KEEP	reality	prose_en	us	KEEP	reality	enchant
+952		hostess	KEEP	hostess	prose_en	us	KEEP	hostess	enchant
+953		cow	KEEP	cow	prose_en	us	KEEP	cow	enchant
+954		hedgehog	KEEP	hedgehog	prose_en	us	KEEP	hedgehog	enchant
+955	suddenly	motorcycle	KEEP	motorcycle	prose_en	us	KEEP	motorcycle	enchant
+956	not a	chair	KEEP	chair	prose_en	us	KEEP	chair	enchant
+957	there	walnut	KEEP	walnut	prose_en	us	KEEP	walnut	enchant
+958	without a	joy	KEEP	joy	prose_en	us	KEEP	joy	enchant
+959	perhaps	roof	KEEP	roof	prose_en	us	KEEP	roof	enchant
+960	a	wagon	KEEP	wagon	prose_en	us	KEEP	wagon	enchant
+961	next to	widest	KEEP	widest	prose_en	us	KEEP	widest	enchant
+962	again	shoes	KEEP	shoes	prose_en	us	KEEP	shoes	enchant
+963	on my	person	KEEP	person	prose_en	us	KEEP	person	enchant
+964	usually	happy	KEEP	happy	prose_en	us	KEEP	happy	enchant
+965	he said	terrace	KEEP	terrace	prose_en	us	KEEP	terrace	enchant
+966		cedar	KEEP	cedar	prose_en	us	KEEP	cedar	enchant
+967	in the	screen	KEEP	screen	prose_en	us	KEEP	screen	enchant
+968	they saw	window	KEEP	window	prose_en	us	KEEP	window	enchant
+969	usually	bottle	KEEP	bottle	prose_en	us	KEEP	bottle	enchant
+970		snow	KEEP	snow	prose_en	us	KEEP	snow	enchant
+971	you know	sings	KEEP	sings	prose_en	us	KEEP	sings	enchant
+972	without a	fly	KEEP	fly	prose_en	us	KEEP	fly	enchant
+973	that was	valley	KEEP	valley	prose_en	us	KEEP	valley	enchant
+974		sees	KEEP	sees	prose_en	us	KEEP	sees	enchant
+975	that	software	KEEP	software	prose_en	us	KEEP	software	enchant
+976	obviously	town	KEEP	town	prose_en	us	KEEP	town	enchant
+977		smart	KEEP	smart	prose_en	us	KEEP	smart	enchant
+978	and the	welder	KEEP	welder	prose_en	us	KEEP	welder	enchant
+979		district	KEEP	district	prose_en	us	KEEP	district	enchant
+980	almost	lobby	KEEP	lobby	prose_en	us	KEEP	lobby	enchant
+981	almost	therapy	KEEP	therapy	prose_en	us	KEEP	therapy	enchant
+982		island	KEEP	island	prose_en	us	KEEP	island	enchant
+983	my	month	KEEP	month	prose_en	us	KEEP	month	enchant
+984		throne	KEEP	throne	prose_en	us	KEEP	throne	enchant
+985	we found	shirt	KEEP	shirt	prose_en	us	KEEP	shirt	enchant
+986	then	loudly	KEEP	loudly	prose_en	us	KEEP	loudly	enchant
+987	quite	rested	KEEP	rested	prose_en	us	KEEP	rested	enchant
+988	around the	separately	KEEP	separately	prose_en	us	KEEP	separately	enchant
+989	they saw	glass	KEEP	glass	prose_en	us	KEEP	glass	enchant
+990		customer	KEEP	customer	prose_en	us	KEEP	customer	enchant
+991	because of	rabbit	KEEP	rabbit	prose_en	us	KEEP	rabbit	enchant
+992	just	meat	KEEP	meat	prose_en	us	KEEP	meat	enchant
+993		knowing	KEEP	knowing	prose_en	us	KEEP	knowing	enchant
+994	the	dolphin	KEEP	dolphin	prose_en	us	KEEP	dolphin	enchant
+995	before the	banana	KEEP	banana	prose_en	us	KEEP	banana	enchant
+996		smartphone	KEEP	smartphone	prose_en	us	KEEP	smartphone	enchant
+997	really	alley	KEEP	alley	prose_en	us	KEEP	alley	enchant
+998	this is	strawberry	KEEP	strawberry	prose_en	us	KEEP	strawberry	enchant
+999	this is	sang	KEEP	sang	prose_en	us	KEEP	sang	enchant
+1000	around the	suburb	KEEP	suburb	prose_en	us	KEEP	suburb	enchant
+1001	for the	bank	KEEP	bank	prose_en	us	KEEP	bank	enchant
+1002	without a	landmark	KEEP	landmark	prose_en	us	KEEP	landmark	enchant
+1003		purse	KEEP	purse	prose_en	us	KEEP	purse	enchant
+1004		waterfall	KEEP	waterfall	prose_en	us	KEEP	waterfall	enchant
+1005	you know	poorest	KEEP	poorest	prose_en	us	KEEP	poorest	enchant
+1006	they saw	warmer	KEEP	warmer	prose_en	us	KEEP	warmer	enchant
+1007		plant	KEEP	plant	prose_en	us	KEEP	plant	enchant
+1008	there	friction	KEEP	friction	prose_en	us	KEEP	friction	enchant
+1009	my	chemistry	KEEP	chemistry	prose_en	us	KEEP	chemistry	enchant
+1010	finally	colony	KEEP	colony	prose_en	us	KEEP	colony	enchant
+1011	the	century	KEEP	century	prose_en	us	KEEP	century	enchant
+1012	maybe	shark	KEEP	shark	prose_en	us	KEEP	shark	enchant
+1013		crossroad	KEEP	crossroad	prose_en	us	KEEP	crossroad	enchant
+1014	here	willow	KEEP	willow	prose_en	us	KEEP	willow	enchant
+1015		ate	KEEP	ate	prose_en	us	KEEP	ate	enchant
+1016	basically	photo	KEEP	photo	prose_en	us	KEEP	photo	enchant
+1017	almost	coworker	KEEP	coworker	prose_en	us	KEEP	coworker	enchant
+1018	we found	dull	KEEP	dull	prose_en	us	KEEP	dull	enchant
+1019		dream	KEEP	dream	prose_en	us	KEEP	dream	enchant
+1020		building	KEEP	building	prose_en	us	KEEP	building	enchant
+1021	without a	salt	KEEP	salt	prose_en	us	KEEP	salt	enchant
+1022		wardrobe	KEEP	wardrobe	prose_en	us	KEEP	wardrobe	enchant
+1023	suddenly	bicycle	KEEP	bicycle	prose_en	us	KEEP	bicycle	enchant
+1024		motion	KEEP	motion	prose_en	us	KEEP	motion	enchant
+1025		astronomy	KEEP	astronomy	prose_en	us	KEEP	astronomy	enchant
+1026	without a	elm	KEEP	elm	prose_en	us	KEEP	elm	enchant
+1027	with the	sugar	KEEP	sugar	prose_en	us	KEEP	sugar	enchant
+1028	not a	habitat	KEEP	habitat	prose_en	us	KEEP	habitat	enchant
+1029		bluebell	KEEP	bluebell	prose_en	us	KEEP	bluebell	enchant
+1030	obviously	cucumber	KEEP	cucumber	prose_en	us	KEEP	cucumber	enchant
+1031	after the	wrote	KEEP	wrote	prose_en	us	KEEP	wrote	enchant
+1032	in the	sister	KEEP	sister	prose_en	us	KEEP	sister	enchant
+1033	indeed	lion	KEEP	lion	prose_en	us	KEEP	lion	enchant
+1034	here	chicken	KEEP	chicken	prose_en	us	KEEP	chicken	enchant
+1035	now	gradually	KEEP	gradually	prose_en	us	KEEP	gradually	enchant
+1036	with the	network	KEEP	network	prose_en	us	KEEP	network	enchant
+1037	it was	sell	KEEP	sell	prose_en	us	KEEP	sell	enchant
+1038	on my	dangerous	KEEP	dangerous	prose_en	us	KEEP	dangerous	enchant
+1039	perhaps	refrigerator	KEEP	refrigerator	prose_en	us	KEEP	refrigerator	enchant
+1040	here	towel	KEEP	towel	prose_en	us	KEEP	towel	enchant
+1041	you know	sing	KEEP	sing	prose_en	us	KEEP	sing	enchant
+1042		stone	KEEP	stone	prose_en	us	KEEP	stone	enchant
+1043	finally	run	KEEP	run	prose_en	us	KEEP	run	enchant
+1044	not a	music	KEEP	music	prose_en	us	KEEP	music	enchant
+1045	indeed	vitamin	KEEP	vitamin	prose_en	us	KEEP	vitamin	enchant
+1046	actually	knife	KEEP	knife	prose_en	us	KEEP	knife	enchant
+1047	a	sun	KEEP	sun	prose_en	us	KEEP	sun	enchant
+1048	not a	especially	KEEP	especially	prose_en	us	KEEP	especially	enchant
+1049	here	cherry	KEEP	cherry	prose_en	us	KEEP	cherry	enchant
+1050	again	economist	KEEP	economist	prose_en	us	KEEP	economist	enchant
+1051	now	field	KEEP	field	prose_en	us	KEEP	field	enchant
+1052	this	honest	KEEP	honest	prose_en	us	KEEP	honest	enchant
+1053	around the	sung	KEEP	sung	prose_en	us	KEEP	sung	enchant
+1054	perhaps	frog	KEEP	frog	prose_en	us	KEEP	frog	enchant
+1055		richest	KEEP	richest	prose_en	us	KEEP	richest	enchant
+1056	indeed	thought	KEEP	thought	prose_en	us	KEEP	thought	enchant
+1057		pig	KEEP	pig	prose_en	us	KEEP	pig	enchant
+1058	already	pumpkin	KEEP	pumpkin	prose_en	us	KEEP	pumpkin	enchant
+1059		sad	KEEP	sad	prose_en	us	KEEP	sad	enchant
+1060	perhaps	cloud	KEEP	cloud	prose_en	us	KEEP	cloud	enchant
+1061		youth	KEEP	youth	prose_en	us	KEEP	youth	enchant
+1062	this is	rooster	KEEP	rooster	prose_en	us	KEEP	rooster	enchant
+1063	actually	roommate	KEEP	roommate	prose_en	us	KEEP	roommate	enchant
+1064	maybe	brave	KEEP	brave	prose_en	us	KEEP	brave	enchant
+1065		broke	KEEP	broke	prose_en	us	KEEP	broke	enchant
+1066	already	tiger	KEEP	tiger	prose_en	us	KEEP	tiger	enchant
+1067	I think	jacket	KEEP	jacket	prose_en	us	KEEP	jacket	enchant
+1068		drawer	KEEP	drawer	prose_en	us	KEEP	drawer	enchant
+1069	basically	spring	KEEP	spring	prose_en	us	KEEP	spring	enchant
+1070		again	KEEP	again	prose_en	us	KEEP	again	enchant
+1071	finally	yard	KEEP	yard	prose_en	us	KEEP	yard	enchant
+1072	for the	butter	KEEP	butter	prose_en	us	KEEP	butter	enchant
+1073	as a	early	KEEP	early	prose_en	us	KEEP	early	enchant
+1074	the	thinking	KEEP	thinking	prose_en	us	KEEP	thinking	enchant
+1075		voyage	KEEP	voyage	prose_en	us	KEEP	voyage	enchant
+1076	he said	day	KEEP	day	prose_en	us	KEEP	day	enchant
+1077		grape	KEEP	grape	prose_en	us	KEEP	grape	enchant
+1078	this	running	KEEP	running	prose_en	us	KEEP	running	enchant
+1079	maybe	fish	KEEP	fish	prose_en	us	KEEP	fish	enchant
+1080		application	KEEP	application	prose_en	us	KEEP	application	enchant
+1081		oasis	KEEP	oasis	prose_en	us	KEEP	oasis	enchant
+1082	some	noise	KEEP	noise	prose_en	us	KEEP	noise	enchant
+1083		anxious	KEEP	anxious	prose_en	us	KEEP	anxious	enchant
+1084	we found	girlfriend	KEEP	girlfriend	prose_en	us	KEEP	girlfriend	enchant
+1085		journey	KEEP	journey	prose_en	us	KEEP	journey	enchant
+1086	here	success	KEEP	success	prose_en	us	KEEP	success	enchant
+1087		coldest	KEEP	coldest	prose_en	us	KEEP	coldest	enchant
+1088	finally	atom	KEEP	atom	prose_en	us	KEEP	atom	enchant
+1089		porch	KEEP	porch	prose_en	us	KEEP	porch	enchant
+1090	obviously	tourist	KEEP	tourist	prose_en	us	KEEP	tourist	enchant
+1091	on my	slowly	KEEP	slowly	prose_en	us	KEEP	slowly	enchant
+1092	then	baby	KEEP	baby	prose_en	us	KEEP	baby	enchant
+1093	almost	game	KEEP	game	prose_en	us	KEEP	game	enchant
+1094	my	almost	KEEP	almost	prose_en	us	KEEP	almost	enchant
+1095		battery	KEEP	battery	prose_en	us	KEEP	battery	enchant
+1096	now	patient	KEEP	patient	prose_en	us	KEEP	patient	enchant
+1097	without a	son	KEEP	son	prose_en	us	KEEP	son	enchant
+1098	actually	storm	KEEP	storm	prose_en	us	KEEP	storm	enchant
+1099		courage	KEEP	courage	prose_en	us	KEEP	courage	enchant
+1100	they saw	mechanic	KEEP	mechanic	prose_en	us	KEEP	mechanic	enchant
+1101	that was	works	KEEP	works	prose_en	us	KEEP	works	enchant
+1102	here	dishwasher	KEEP	dishwasher	prose_en	us	KEEP	dishwasher	enchant
+1103	perhaps	new	KEEP	new	prose_en	us	KEEP	new	enchant
+1104		muscle	KEEP	muscle	prose_en	us	KEEP	muscle	enchant
+1105		weak	KEEP	weak	prose_en	us	KEEP	weak	enchant
+1106	and the	city	KEEP	city	prose_en	us	KEEP	city	enchant
+1107	quite	tomorrow	KEEP	tomorrow	prose_en	us	KEEP	tomorrow	enchant
+1108		client	KEEP	client	prose_en	us	KEEP	client	enchant
+1109	instead of	hundred	KEEP	hundred	prose_en	us	KEEP	hundred	enchant
+1110	in the	beautifully	KEEP	beautifully	prose_en	us	KEEP	beautifully	enchant
+1111		dances	KEEP	dances	prose_en	us	KEEP	dances	enchant
+1112	before the	meadow	KEEP	meadow	prose_en	us	KEEP	meadow	enchant
+1113	already	street	KEEP	street	prose_en	us	KEEP	street	enchant
+1114	a	biology	KEEP	biology	prose_en	us	KEEP	biology	enchant
+1115	my	plumber	KEEP	plumber	prose_en	us	KEEP	plumber	enchant
+1116	indeed	taller	KEEP	taller	prose_en	us	KEEP	taller	enchant
+1117	here	camera	KEEP	camera	prose_en	us	KEEP	camera	enchant
+1118	after the	richer	KEEP	richer	prose_en	us	KEEP	richer	enchant
+1119		floor	KEEP	floor	prose_en	us	KEEP	floor	enchant
+1120	next to	skeleton	KEEP	skeleton	prose_en	us	KEEP	skeleton	enchant
+1121		leaf	KEEP	leaf	prose_en	us	KEEP	leaf	enchant
+1122	with the	era	KEEP	era	prose_en	us	KEEP	era	enchant
+1123	also	breaks	KEEP	breaks	prose_en	us	KEEP	breaks	enchant
+1124	they saw	physics	KEEP	physics	prose_en	us	KEEP	physics	enchant
+1125	before the	matter	KEEP	matter	prose_en	us	KEEP	matter	enchant
+1126	that	week	KEEP	week	prose_en	us	KEEP	week	enchant
+1127		excitement	KEEP	excitement	prose_en	us	KEEP	excitement	enchant
+1128	clearly	play	KEEP	play	prose_en	us	KEEP	play	enchant
+1129	in the	minute	KEEP	minute	prose_en	us	KEEP	minute	enchant
+1130		interest	KEEP	interest	prose_en	us	KEEP	interest	enchant
+1131	finally	wallet	KEEP	wallet	prose_en	us	KEEP	wallet	enchant
+1132	usually	cleanest	KEEP	cleanest	prose_en	us	KEEP	cleanest	enchant
+1133	suddenly	cyclist	KEEP	cyclist	prose_en	us	KEEP	cyclist	enchant
+1134	there	geology	KEEP	geology	prose_en	us	KEEP	geology	enchant
+1135		suddenly	KEEP	suddenly	prose_en	us	KEEP	suddenly	enchant
+1136	you know	working	KEEP	working	prose_en	us	KEEP	working	enchant
+1137		enzyme	KEEP	enzyme	prose_en	us	KEEP	enzyme	enchant
+1138		bright	KEEP	bright	prose_en	us	KEEP	bright	enchant
+1139		kind	KEEP	kind	prose_en	us	KEEP	kind	enchant
+1140	she went	pigeon	KEEP	pigeon	prose_en	us	KEEP	pigeon	enchant
+1141	my	breaking	KEEP	breaking	prose_en	us	KEEP	breaking	enchant
+1142	for the	squirrel	KEEP	squirrel	prose_en	us	KEEP	squirrel	enchant
+1143	here	eaten	KEEP	eaten	prose_en	us	KEEP	eaten	enchant
+1144	for the	eagle	KEEP	eagle	prose_en	us	KEEP	eagle	enchant
+1145	there	year	KEEP	year	prose_en	us	KEEP	year	enchant
+1146	as a	scarf	KEEP	scarf	prose_en	us	KEEP	scarf	enchant
+1147	that was	actor	KEEP	actor	prose_en	us	KEEP	actor	enchant
+1148		sweater	KEEP	sweater	prose_en	us	KEEP	sweater	enchant
+1149		kingdom	KEEP	kingdom	prose_en	us	KEEP	kingdom	enchant
+1150	quite	boyfriend	KEEP	boyfriend	prose_en	us	KEEP	boyfriend	enchant
+1151		television	KEEP	television	prose_en	us	KEEP	television	enchant
+1152		grass	KEEP	grass	prose_en	us	KEEP	grass	enchant
+1153	that	always	KEEP	always	prose_en	us	KEEP	always	enchant
+1154	next to	sparrow	KEEP	sparrow	prose_en	us	KEEP	sparrow	enchant
+1155		mirror	KEEP	mirror	prose_en	us	KEEP	mirror	enchant
+1156	actually	heavy	KEEP	heavy	prose_en	us	KEEP	heavy	enchant
+1157	that was	pressure	KEEP	pressure	prose_en	us	KEEP	pressure	enchant
+1158	indeed	square	KEEP	square	prose_en	us	KEEP	square	enchant
+1159		played	KEEP	played	prose_en	us	KEEP	played	enchant
+1160		going	KEEP	going	prose_en	us	KEEP	going	enchant
+1161	you know	wife	KEEP	wife	prose_en	us	KEEP	wife	enchant
+1162	with the	temperature	KEEP	temperature	prose_en	us	KEEP	temperature	enchant
+1163	we were	station	KEEP	station	prose_en	us	KEEP	station	enchant
+1164	with the	bacteria	KEEP	bacteria	prose_en	us	KEEP	bacteria	enchant
+1165	our	learned	KEEP	learned	prose_en	us	KEEP	learned	enchant
+1166	then	volume	KEEP	volume	prose_en	us	KEEP	volume	enchant
+1167	as a	yesterday	KEEP	yesterday	prose_en	us	KEEP	yesterday	enchant
+1168	that was	seeing	KEEP	seeing	prose_en	us	KEEP	seeing	enchant
+1169		thirty	KEEP	thirty	prose_en	us	KEEP	thirty	enchant
+1170	maybe	gravity	KEEP	gravity	prose_en	us	KEEP	gravity	enchant
+1171	they saw	grandson	KEEP	grandson	prose_en	us	KEEP	grandson	enchant
+1172	around the	strongest	KEEP	strongest	prose_en	us	KEEP	strongest	enchant
+1173	after the	carbon	KEEP	carbon	prose_en	us	KEEP	carbon	enchant
+1174		astronomer	KEEP	astronomer	prose_en	us	KEEP	astronomer	enchant
+1175	this	hatchery	KEEP	hatchery	prose_en	us	KEEP	hatchery	enchant
+1176		hears	KEEP	hears	prose_en	us	KEEP	hears	enchant
+1177	we were	colleague	KEEP	colleague	prose_en	us	KEEP	colleague	enchant
+1178		ticket	KEEP	ticket	prose_en	us	KEEP	ticket	enchant
+1179		horse	KEEP	horse	prose_en	us	KEEP	horse	enchant
+1180		heard	KEEP	heard	prose_en	us	KEEP	heard	enchant
+1181	clearly	anger	KEEP	anger	prose_en	us	KEEP	anger	enchant
+1182	also	youngest	KEEP	youngest	prose_en	us	KEEP	youngest	enchant
+1183	suddenly	defeat	KEEP	defeat	prose_en	us	KEEP	defeat	enchant
+1184		hope	KEEP	hope	prose_en	us	KEEP	hope	enchant
+1185	indeed	organism	KEEP	organism	prose_en	us	KEEP	organism	enchant
+1186	this is	warm	KEEP	warm	prose_en	us	KEEP	warm	enchant
+1187	just	granddaughter	KEEP	granddaughter	prose_en	us	KEEP	granddaughter	enchant
+1188		giraffe	KEEP	giraffe	prose_en	us	KEEP	giraffe	enchant
+1189		probably	KEEP	probably	prose_en	us	KEEP	probably	enchant
+1190	before the	ugly	KEEP	ugly	prose_en	us	KEEP	ugly	enchant
+1191		compass	KEEP	compass	prose_en	us	KEEP	compass	enchant
+1192	we found	worked	KEEP	worked	prose_en	us	KEEP	worked	enchant
+1193	clearly	electrician	KEEP	electrician	prose_en	us	KEEP	electrician	enchant
+1194	before the	faster	KEEP	faster	prose_en	us	KEEP	faster	enchant
+1195		reading	KEEP	reading	prose_en	us	KEEP	reading	enchant
+1196	some	supper	KEEP	supper	prose_en	us	KEEP	supper	enchant
+1197		museum	KEEP	museum	prose_en	us	KEEP	museum	enchant
+1198	maybe	geologist	KEEP	geologist	prose_en	us	KEEP	geologist	enchant
+1199	maybe	boss	KEEP	boss	prose_en	us	KEEP	boss	enchant
+1200	this is	second	KEEP	second	prose_en	us	KEEP	second	enchant
+1201	after the	eating	KEEP	eating	prose_en	us	KEEP	eating	enchant
+1202		physicist	KEEP	physicist	prose_en	us	KEEP	physicist	enchant
+1203	just	tailor	KEEP	tailor	prose_en	us	KEEP	tailor	enchant
+1204	instead of	potato	KEEP	potato	prose_en	us	KEEP	potato	enchant
+1205		fifty	KEEP	fifty	prose_en	us	KEEP	fifty	enchant
+1206	without a	computer	KEEP	computer	prose_en	us	KEEP	computer	enchant
+1207		capital	KEEP	capital	prose_en	us	KEEP	capital	enchant
+1208		fixes	KEEP	fixes	prose_en	us	KEEP	fixes	enchant
+1209	instead of	carnation	KEEP	carnation	prose_en	us	KEEP	carnation	enchant
+1210		runs	KEEP	runs	prose_en	us	KEEP	runs	enchant
+1211	really	fast	KEEP	fast	prose_en	us	KEEP	fast	enchant
+1212	here	dirty	KEEP	dirty	prose_en	us	KEEP	dirty	enchant
+1213		bedroom	KEEP	bedroom	prose_en	us	KEEP	bedroom	enchant
+1214	already	wilderness	KEEP	wilderness	prose_en	us	KEEP	wilderness	enchant
+1215		tunnel	KEEP	tunnel	prose_en	us	KEEP	tunnel	enchant
+1216	you know	napkin	KEEP	napkin	prose_en	us	KEEP	napkin	enchant
+1217	just	worst	KEEP	worst	prose_en	us	KEEP	worst	enchant
+1218	then	basement	KEEP	basement	prose_en	us	KEEP	basement	enchant
+1219		volcano	KEEP	volcano	prose_en	us	KEEP	volcano	enchant
+1220	because of	acceleration	KEEP	acceleration	prose_en	us	KEEP	acceleration	enchant
+1221		peony	KEEP	peony	prose_en	us	KEEP	peony	enchant
+1222		long	KEEP	long	prose_en	us	KEEP	long	enchant
+1223	instead of	friendship	KEEP	friendship	prose_en	us	KEEP	friendship	enchant
+1224	usually	nitrogen	KEEP	nitrogen	prose_en	us	KEEP	nitrogen	enchant
+1225	without a	struggle	KEEP	struggle	prose_en	us	KEEP	struggle	enchant
+1226	usually	sadness	KEEP	sadness	prose_en	us	KEEP	sadness	enchant
+1227	for the	fatigue	KEEP	fatigue	prose_en	us	KEEP	fatigue	enchant
+1228	not a	rests	KEEP	rests	prose_en	us	KEEP	rests	enchant
+1229		noon	KEEP	noon	prose_en	us	KEEP	noon	enchant
+1230	that was	harbor	KEEP	harbor	prose_en	us	KEEP	harbor	enchant
+1231	in the	sheep	KEEP	sheep	prose_en	us	KEEP	sheep	enchant
+1232	next to	granary	KEEP	granary	prose_en	us	KEEP	granary	enchant
+1233	that was	wind	KEEP	wind	prose_en	us	KEEP	wind	enchant
+1234	in the	seen	KEEP	seen	prose_en	us	KEEP	seen	enchant
+1235	quite	pedestrian	KEEP	pedestrian	prose_en	us	KEEP	pedestrian	enchant
+1236		sausage	KEEP	sausage	prose_en	us	KEEP	sausage	enchant
+1237	they saw	flew	KEEP	flew	prose_en	us	KEEP	flew	enchant
+1238	here	cleaner	KEEP	cleaner	prose_en	us	KEEP	cleaner	enchant
+1239		shield	KEEP	shield	prose_en	us	KEEP	shield	enchant
+1240	again	tall	KEEP	tall	prose_en	us	KEEP	tall	enchant
+1241	some	neighborhood	KEEP	neighborhood	prose_en	us	KEEP	neighborhood	enchant
+1242	this	irrigation	KEEP	irrigation	prose_en	us	KEEP	irrigation	enchant
+1243	you know	husband	KEEP	husband	prose_en	us	KEEP	husband	enchant
+1244	now	sunset	KEEP	sunset	prose_en	us	KEEP	sunset	enchant
+1245	around the	hill	KEEP	hill	prose_en	us	KEEP	hill	enchant
+1246	we found	tranquility	KEEP	tranquility	prose_en	us	KEEP	tranquility	enchant
+1247	in the	escalator	KEEP	escalator	prose_en	us	KEEP	escalator	enchant
+1248	for the	element	KEEP	element	prose_en	us	KEEP	element	enchant
+1249		code	KEEP	code	prose_en	us	KEEP	code	enchant
+1250	the	crow	KEEP	crow	prose_en	us	KEEP	crow	enchant
+1251		tractor	KEEP	tractor	prose_en	us	KEEP	tractor	enchant
+1252	just	sky	KEEP	sky	prose_en	us	KEEP	sky	enchant
+1253		lizard	KEEP	lizard	prose_en	us	KEEP	lizard	enchant
+1254		protein	KEEP	protein	prose_en	us	KEEP	protein	enchant
+1255		locksmith	KEEP	locksmith	prose_en	us	KEEP	locksmith	enchant
+1256	because of	greenhouse	KEEP	greenhouse	prose_en	us	KEEP	greenhouse	enchant
+1257		processor	KEEP	processor	prose_en	us	KEEP	processor	enchant
+1258	also	plow	KEEP	plow	prose_en	us	KEEP	plow	enchant
+1259	my	cinema	KEEP	cinema	prose_en	us	KEEP	cinema	enchant
+1260	he said	fence	KEEP	fence	prose_en	us	KEEP	fence	enchant
+1261	still	apartment	KEEP	apartment	prose_en	us	KEEP	apartment	enchant
+1262	we were	girl	KEEP	girl	prose_en	us	KEEP	girl	enchant
+1263	very	molecule	KEEP	molecule	prose_en	us	KEEP	molecule	enchant
+1264	he said	now	KEEP	now	prose_en	us	KEEP	now	enchant
+1265	a	horizon	KEEP	horizon	prose_en	us	KEEP	horizon	enchant
+1266		peace	KEEP	peace	prose_en	us	KEEP	peace	enchant
+1267	I think	luggage	KEEP	luggage	prose_en	us	KEEP	luggage	enchant
+1268	not a	polite	KEEP	polite	prose_en	us	KEEP	polite	enchant
+1269	also	dry	KEEP	dry	prose_en	us	KEEP	dry	enchant
+1270	you know	device	KEEP	device	prose_en	us	KEEP	device	enchant
+1271	he said	hallway	KEEP	hallway	prose_en	us	KEEP	hallway	enchant
+1272	my	secretary	KEEP	secretary	prose_en	us	KEEP	secretary	enchant
+1273	you know	orchard	KEEP	orchard	prose_en	us	KEEP	orchard	enchant
+1274	really	crown	KEEP	crown	prose_en	us	KEEP	crown	enchant
+1275	it was	longer	KEEP	longer	prose_en	us	KEEP	longer	enchant
+1276	really	database	KEEP	database	prose_en	us	KEEP	database	enchant
+1277	indeed	fir	KEEP	fir	prose_en	us	KEEP	fir	enchant
+1278	quite	director	KEEP	director	prose_en	us	KEEP	director	enchant
+1279		thunder	KEEP	thunder	prose_en	us	KEEP	thunder	enchant
+1280	already	grandmother	KEEP	grandmother	prose_en	us	KEEP	grandmother	enchant
+1281	for the	see	KEEP	see	prose_en	us	KEEP	see	enchant
+1282		desert	KEEP	desert	prose_en	us	KEEP	desert	enchant
+1283	also	cook	KEEP	cook	prose_en	us	KEEP	cook	enchant
+1284		failure	KEEP	failure	prose_en	us	KEEP	failure	enchant
+1285	actually	shoemaker	KEEP	shoemaker	prose_en	us	KEEP	shoemaker	enchant
+1286	I think	definitely	KEEP	definitely	prose_en	us	KEEP	definitely	enchant
+1287	again	dock	KEEP	dock	prose_en	us	KEEP	dock	enchant
+1288		best	KEEP	best	prose_en	us	KEEP	best	enchant
+1289	this is	sidewalk	KEEP	sidewalk	prose_en	us	KEEP	sidewalk	enchant
+1290	perhaps	employer	KEEP	employer	prose_en	us	KEEP	employer	enchant
+1291		earthquake	KEEP	earthquake	prose_en	us	KEEP	earthquake	enchant
+1292	next to	deception	KEEP	deception	prose_en	us	KEEP	deception	enchant
+1293		lamp	KEEP	lamp	prose_en	us	KEEP	lamp	enchant
+1294		daisy	KEEP	daisy	prose_en	us	KEEP	daisy	enchant
+1295	instead of	aster	KEEP	aster	prose_en	us	KEEP	aster	enchant
+1296	also	friend	KEEP	friend	prose_en	us	KEEP	friend	enchant
+1297		longest	KEEP	longest	prose_en	us	KEEP	longest	enchant
+1298	here	badly	KEEP	badly	prose_en	us	KEEP	badly	enchant
+1299	they saw	onion	KEEP	onion	prose_en	us	KEEP	onion	enchant
+1300	and the	vivid	KEEP	vivid	prose_en	us	KEEP	vivid	enchant
+1301		stadium	KEEP	stadium	prose_en	us	KEEP	stadium	enchant
+1302	on my	energy	KEEP	energy	prose_en	us	KEEP	energy	enchant
+1303		density	KEEP	density	prose_en	us	KEEP	density	enchant
+1304	basically	beet	KEEP	beet	prose_en	us	KEEP	beet	enchant
+1305	quite	frying	KEEP	frying	prose_en	us	KEEP	frying	enchant
+1306		curtain	KEEP	curtain	prose_en	us	KEEP	curtain	enchant
+1307		armchair	KEEP	armchair	prose_en	us	KEEP	armchair	enchant
+1308	without a	stronger	KEEP	stronger	prose_en	us	KEEP	stronger	enchant
+1309		plate	KEEP	plate	prose_en	us	KEEP	plate	enchant
+1310	usually	carrot	KEEP	carrot	prose_en	us	KEEP	carrot	enchant
+1311	again	prairie	KEEP	prairie	prose_en	us	KEEP	prairie	enchant
+1312	basically	dawn	KEEP	dawn	prose_en	us	KEEP	dawn	enchant
+1313	very	vigor	KEEP	vigor	prose_en	us	KEEP	vigor	enchant
+1314	my	sea	KEEP	sea	prose_en	us	KEEP	sea	enchant
+1315		buy	KEEP	buy	prose_en	us	KEEP	buy	enchant
+1316		organ	KEEP	organ	prose_en	us	KEEP	organ	enchant
+1317	here	wheel	KEEP	wheel	prose_en	us	KEEP	wheel	enchant
+1318		short	KEEP	short	prose_en	us	KEEP	short	enchant
+1319	some	mountain	KEEP	mountain	prose_en	us	KEEP	mountain	enchant
+1320	really	saw	KEEP	saw	prose_en	us	KEEP	saw	enchant
+1321		boulevard	KEEP	boulevard	prose_en	us	KEEP	boulevard	enchant
+1322	because of	pond	KEEP	pond	prose_en	us	KEEP	pond	enchant
+1323	instead of	architect	KEEP	architect	prose_en	us	KEEP	architect	enchant
+1324	then	resting	KEEP	resting	prose_en	us	KEEP	resting	enchant
+1325	now	kiosk	KEEP	kiosk	prose_en	us	KEEP	kiosk	enchant
+1326		poplar	KEEP	poplar	prose_en	us	KEEP	poplar	enchant
+1327	almost	expedition	KEEP	expedition	prose_en	us	KEEP	expedition	enchant
+1328		summer	KEEP	summer	prose_en	us	KEEP	summer	enchant
+1329	very	chestnut	KEEP	chestnut	prose_en	us	KEEP	chestnut	enchant
+1330		pharmacist	KEEP	pharmacist	prose_en	us	KEEP	pharmacist	enchant
+1331	she went	wisdom	KEEP	wisdom	prose_en	us	KEEP	wisdom	enchant
+1332		daughter	KEEP	daughter	prose_en	us	KEEP	daughter	enchant
+1333		poor	KEEP	poor	prose_en	us	KEEP	poor	enchant
+1334	you know	garlic	KEEP	garlic	prose_en	us	KEEP	garlic	enchant
+1335		silly	KEEP	silly	prose_en	us	KEEP	silly	enchant
+1336	some	cat	KEEP	cat	prose_en	us	KEEP	cat	enchant
+1337	also	scanner	KEEP	scanner	prose_en	us	KEEP	scanner	enchant
+1338	around the	weakness	KEEP	weakness	prose_en	us	KEEP	weakness	enchant
+1339	that	courtyard	KEEP	courtyard	prose_en	us	KEEP	courtyard	enchant
+1340	just	microphone	KEEP	microphone	prose_en	us	KEEP	microphone	enchant
+1341	actually	nervous	KEEP	nervous	prose_en	us	KEEP	nervous	enchant
+1342		pasture	KEEP	pasture	prose_en	us	KEEP	pasture	enchant
+1343	just	dark	KEEP	dark	prose_en	us	KEEP	dark	enchant
+1344	also	slow	KEEP	slow	prose_en	us	KEEP	slow	enchant
+1345	actually	anxiety	KEEP	anxiety	prose_en	us	KEEP	anxiety	enchant
+1346		fox	KEEP	fox	prose_en	us	KEEP	fox	enchant
+1347	before the	worker	KEEP	worker	prose_en	us	KEEP	worker	enchant
+1348	very	tallest	KEEP	tallest	prose_en	us	KEEP	tallest	enchant
+1349	after the	cabbage	KEEP	cabbage	prose_en	us	KEEP	cabbage	enchant
+1350		fate	KEEP	fate	prose_en	us	KEEP	fate	enchant
+1351	and the	accountant	KEEP	accountant	prose_en	us	KEEP	accountant	enchant
+1352		door	KEEP	door	prose_en	us	KEEP	door	enchant
+1353		knight	KEEP	knight	prose_en	us	KEEP	knight	enchant
+1354	suddenly	decade	KEEP	decade	prose_en	us	KEEP	decade	enchant
+1355	still	cooked	KEEP	cooked	prose_en	us	KEEP	cooked	enchant
+1356	instead of	grove	KEEP	grove	prose_en	us	KEEP	grove	enchant
+1357	here	chemist	KEEP	chemist	prose_en	us	KEEP	chemist	enchant
+1358	clearly	autumn	KEEP	autumn	prose_en	us	KEEP	autumn	enchant
+1359	clearly	highway	KEEP	highway	prose_en	us	KEEP	highway	enchant
+1360	then	useful	KEEP	useful	prose_en	us	KEEP	useful	enchant
+1361		learning	KEEP	learning	prose_en	us	KEEP	learning	enchant
+1362		mood	KEEP	mood	prose_en	us	KEEP	mood	enchant
+1363	maybe	thinks	KEEP	thinks	prose_en	us	KEEP	thinks	enchant
+1364	quite	stranger	KEEP	stranger	prose_en	us	KEEP	stranger	enchant
+1365	clearly	brighter	KEEP	brighter	prose_en	us	KEEP	brighter	enchant
+1366	again	writer	KEEP	writer	prose_en	us	KEEP	writer	enchant
+1367		really	KEEP	really	prose_en	us	KEEP	really	enchant
+1368	next to	system	KEEP	system	prose_en	us	KEEP	system	enchant
+1369		moose	KEEP	moose	prose_en	us	KEEP	moose	enchant
+1370		boar	KEEP	boar	prose_en	us	KEEP	boar	enchant
+1371	here	swimming	KEEP	swimming	prose_en	us	KEEP	swimming	enchant
+1372	already	beautiful	KEEP	beautiful	prose_en	us	KEEP	beautiful	enchant
+1373	he said	carbohydrate	KEEP	carbohydrate	prose_en	us	KEEP	carbohydrate	enchant
+1374	not a	brother	KEEP	brother	prose_en	us	KEEP	brother	enchant
+1375	the	backpack	KEEP	backpack	prose_en	us	KEEP	backpack	enchant
+1376		melon	KEEP	melon	prose_en	us	KEEP	melon	enchant
+1377		bigger	KEEP	bigger	prose_en	us	KEEP	bigger	enchant
+1378	they saw	mass	KEEP	mass	prose_en	us	KEEP	mass	enchant
+1379		hormone	KEEP	hormone	prose_en	us	KEEP	hormone	enchant
+1380	some	ice	KEEP	ice	prose_en	us	KEEP	ice	enchant
+1381		easiest	KEEP	easiest	prose_en	us	KEEP	easiest	enchant
+1382	maybe	knows	KEEP	knows	prose_en	us	KEEP	knows	enchant
+1383	instead of	tissue	KEEP	tissue	prose_en	us	KEEP	tissue	enchant
+1384	before the	milk	KEEP	milk	prose_en	us	KEEP	milk	enchant
+1385	basically	season	KEEP	season	prose_en	us	KEEP	season	enchant
+1386	quite	kindness	KEEP	kindness	prose_en	us	KEEP	kindness	enchant
+1387	as a	village	KEEP	village	prose_en	us	KEEP	village	enchant
+1388	before the	plum	KEEP	plum	prose_en	us	KEEP	plum	enchant
+1389	for the	boring	KEEP	boring	prose_en	us	KEEP	boring	enchant
+1390	instead of	kinder	KEEP	kinder	prose_en	us	KEEP	kinder	enchant
+1391	around the	duck	KEEP	duck	prose_en	us	KEEP	duck	enchant
+1392	as a	lake	KEEP	lake	prose_en	us	KEEP	lake	enchant
+1393	in the	shore	KEEP	shore	prose_en	us	KEEP	shore	enchant
+1394	really	plays	KEEP	plays	prose_en	us	KEEP	plays	enchant
+1395	she went	man	KEEP	man	prose_en	us	KEEP	man	enchant
+1396		learns	KEEP	learns	prose_en	us	KEEP	learns	enchant
+1397	and the	monitor	KEEP	monitor	prose_en	us	KEEP	monitor	enchant
+1398	really	often	KEEP	often	prose_en	us	KEEP	often	enchant
+1399	some	luck	KEEP	luck	prose_en	us	KEEP	luck	enchant
+1400	not a	fortress	KEEP	fortress	prose_en	us	KEEP	fortress	enchant
+1401	on my	glacier	KEEP	glacier	prose_en	us	KEEP	glacier	enchant
+1402	suddenly	fountain	KEEP	fountain	prose_en	us	KEEP	fountain	enchant
+1403	basically	gene	KEEP	gene	prose_en	us	KEEP	gene	enchant
+1404		safe	KEEP	safe	prose_en	us	KEEP	safe	enchant
+1405	they saw	known	KEEP	known	prose_en	us	KEEP	known	enchant
+1406	that was	winter	KEEP	winter	prose_en	us	KEEP	winter	enchant
+1407	some	ceiling	KEEP	ceiling	prose_en	us	KEEP	ceiling	enchant
+1408		kindest	KEEP	kindest	prose_en	us	KEEP	kindest	enchant
+1409	with the	foolishness	KEEP	foolishness	prose_en	us	KEEP	foolishness	enchant
+1410	it was	lily	KEEP	lily	prose_en	us	KEEP	lily	enchant
+1411	really	air	KEEP	air	prose_en	us	KEEP	air	enchant
+1412	she went	swim	KEEP	swim	prose_en	us	KEEP	swim	enchant
+1413	around the	hardest	KEEP	hardest	prose_en	us	KEEP	hardest	enchant
+1414		calm	KEEP	calm	prose_en	us	KEEP	calm	enchant
+1415	quite	went	KEEP	went	prose_en	us	KEEP	went	enchant
+1416	that was	thousand	KEEP	thousand	prose_en	us	KEEP	thousand	enchant
+1417	almost	patience	KEEP	patience	prose_en	us	KEEP	patience	enchant
+1418	she went	forty	KEEP	forty	prose_en	us	KEEP	forty	enchant
+1419		earth	KEEP	earth	prose_en	us	KEEP	earth	enchant
+1420	basically	interesting	KEEP	interesting	prose_en	us	KEEP	interesting	enchant
+1421	finally	slightly	KEEP	slightly	prose_en	us	KEEP	slightly	enchant
+1422	she went	treasure	KEEP	treasure	prose_en	us	KEEP	treasure	enchant
+1423	also	umbrella	KEEP	umbrella	prose_en	us	KEEP	umbrella	enchant
+1424	a	fiber	KEEP	fiber	prose_en	us	KEEP	fiber	enchant
+1425	obviously	hatred	KEEP	hatred	prose_en	us	KEEP	hatred	enchant
+1426	without a	sofa	KEEP	sofa	prose_en	us	KEEP	sofa	enchant
+1427	basically	woman	KEEP	woman	prose_en	us	KEEP	woman	enchant
+1428	finally	room	KEEP	room	prose_en	us	KEEP	room	enchant
+1429	around the	big	KEEP	big	prose_en	us	KEEP	big	enchant
+1430	next to	goat	KEEP	goat	prose_en	us	KEEP	goat	enchant
+1431	that	character	KEEP	character	prose_en	us	KEEP	character	enchant
+1432	not a	seed	KEEP	seed	prose_en	us	KEEP	seed	enchant
+1433	obviously	sorrow	KEEP	sorrow	prose_en	us	KEEP	sorrow	enchant
+1434	in the	attic	KEEP	attic	prose_en	us	KEEP	attic	enchant
+1435	not a	imagination	KEEP	imagination	prose_en	us	KEEP	imagination	enchant
+1436	our	flower	KEEP	flower	prose_en	us	KEEP	flower	enchant
+1437		doing	KEEP	doing	prose_en	us	KEEP	doing	enchant
+1438		anchor	KEEP	anchor	prose_en	us	KEEP	anchor	enchant
+1439	here	force	KEEP	force	prose_en	us	KEEP	force	enchant
+1440	now	worse	KEEP	worse	prose_en	us	KEEP	worse	enchant
+1441		office	KEEP	office	prose_en	us	KEEP	office	enchant
+1442		plaza	KEEP	plaza	prose_en	us	KEEP	plaza	enchant
+1443	this	rose	KEEP	rose	prose_en	us	KEEP	rose	enchant
+1444		kettle	KEEP	kettle	prose_en	us	KEEP	kettle	enchant
+1445		mason	KEEP	mason	prose_en	us	KEEP	mason	enchant
+1446	indeed	dungeon	KEEP	dungeon	prose_en	us	KEEP	dungeon	enchant
+1447	very	habit	KEEP	habit	prose_en	us	KEEP	habit	enchant
+1448		pier	KEEP	pier	prose_en	us	KEEP	pier	enchant
+1449	very	never	KEEP	never	prose_en	us	KEEP	never	enchant
+1450	indeed	roundabout	KEEP	roundabout	prose_en	us	KEEP	roundabout	enchant
+1451	for the	сфтнщт	CONVERT	canyon	prose_en	ru	CONVERT	canyon	enchant
+1452	just	ыньзещь	CONVERT	symptom	prose_en	ru	CONVERT	symptom	enchant
+1453	still	ыщдв	CONVERT	sold	prose_en	ru	CONVERT	sold	enchant
+1454	a	цфшеук	CONVERT	waiter	prose_en	ru	CONVERT	waiter	enchant
+1455	really	кфштищц	CONVERT	rainbow	prose_en	ru	CONVERT	rainbow	enchant
+1456	I think	удузрфте	CONVERT	elephant	prose_en	ru	CONVERT	elephant	enchant
+1457	that was	вщп	CONVERT	dog	prose_en	ru	CONVERT	dog	enchant
+1458	now	ишкср	CONVERT	birch	prose_en	ru	CONVERT	birch	enchant
+1459	clearly	рфззштуыы	CONVERT	happiness	prose_en	ru	CONVERT	happiness	enchant
+1460		здфнштп	CONVERT	playing	prose_en	ru	CONVERT	playing	enchant
+1461		руфкштп	CONVERT	hearing	prose_en	ru	CONVERT	hearing	enchant
+1462		пфквут	CONVERT	garden	prose_en	ru	CONVERT	garden	enchant
+1463	next to	ыекуфь	CONVERT	stream	prose_en	ru	CONVERT	stream	enchant
+1464		афыеуые	CONVERT	fastest	prose_en	ru	CONVERT	fastest	enchant
+1465	indeed	тфккщц	CONVERT	narrow	prose_en	ru	CONVERT	narrow	enchant
+1466		щкфтпу	CONVERT	orange	prose_en	ru	CONVERT	orange	enchant
+1467	next to	здфеуфг	CONVERT	plateau	prose_en	ru	CONVERT	plateau	enchant
+1468	that	ащкл	CONVERT	fork	prose_en	ru	CONVERT	fork	enchant
+1469	perhaps	ьщтлун	CONVERT	monkey	prose_en	ru	CONVERT	monkey	enchant
+1470	basically	аукешдшяук	CONVERT	fertilizer	prose_en	ru	CONVERT	fertilizer	enchant
+1471	still	уьифтльуте	CONVERT	embankment	prose_en	ru	CONVERT	embankment	enchant
+1472	instead of	ьшддшщт	CONVERT	million	prose_en	ru	CONVERT	million	enchant
+1473	that	фкешые	CONVERT	artist	prose_en	ru	CONVERT	artist	enchant
+1474	with the	цшву	CONVERT	wide	prose_en	ru	CONVERT	wide	enchant
+1475	then	фдпщкшерь	CONVERT	algorithm	prose_en	ru	CONVERT	algorithm	enchant
+1476		вкшмук	CONVERT	driver	prose_en	ru	CONVERT	driver	enchant
+1477	and the	рфшд	CONVERT	hail	prose_en	ru	CONVERT	hail	enchant
+1478	really	ашду	CONVERT	file	prose_en	ru	CONVERT	file	enchant
+1479	here	кфшт	CONVERT	rain	prose_en	ru	CONVERT	rain	enchant
+1480	that was	сфккшфпу	CONVERT	carriage	prose_en	ru	CONVERT	carriage	enchant
+1481	I think	ышдщ	CONVERT	silo	prose_en	ru	CONVERT	silo	enchant
+1482	obviously	огыешсу	CONVERT	justice	prose_en	ru	CONVERT	justice	enchant
+1483		дшпретштп	CONVERT	lightning	prose_en	ru	CONVERT	lightning	enchant
+1484	maybe	игшдв	CONVERT	build	prose_en	ru	CONVERT	build	enchant
+1485	usually	кщще	CONVERT	root	prose_en	ru	CONVERT	root	enchant
+1486	that	ыфеуддшеу	CONVERT	satellite	prose_en	ru	CONVERT	satellite	enchant
+1487	here	икуфл	CONVERT	break	prose_en	ru	CONVERT	break	enchant
+1488	he said	щдв	CONVERT	old	prose_en	ru	CONVERT	old	enchant
+1489		зшддщц	CONVERT	pillow	prose_en	ru	CONVERT	pillow	enchant
+1490	on my	пфеу	CONVERT	gate	prose_en	ru	CONVERT	gate	enchant
+1491	after the	дщц	CONVERT	low	prose_en	ru	CONVERT	low	enchant
+1492	almost	фвгде	CONVERT	adult	prose_en	ru	CONVERT	adult	enchant
+1493	very	лтуц	CONVERT	knew	prose_en	ru	CONVERT	knew	enchant
+1494	again	вкщту	CONVERT	drone	prose_en	ru	CONVERT	drone	enchant
+1495	our	ьштук	CONVERT	miner	prose_en	ru	CONVERT	miner	enchant
+1496	she went	ыегвуте	CONVERT	student	prose_en	ru	CONVERT	student	enchant
+1497	that was	ыштпштп	CONVERT	singing	prose_en	ru	CONVERT	singing	enchant
+1498		егтвкф	CONVERT	tundra	prose_en	ru	CONVERT	tundra	enchant
+1499	obviously	егдшз	CONVERT	tulip	prose_en	ru	CONVERT	tulip	enchant
+1500	this is	вуц	CONVERT	dew	prose_en	ru	CONVERT	dew	enchant
+1501		идщщв	CONVERT	blood	prose_en	ru	CONVERT	blood	enchant
+1502	in the	иуфк	CONVERT	bear	prose_en	ru	CONVERT	bear	enchant
+1503		мшсещкн	CONVERT	victory	prose_en	ru	CONVERT	victory	enchant
+1504	after the	кщсл	CONVERT	rock	prose_en	ru	CONVERT	rock	enchant
+1505	still	цшвук	CONVERT	wider	prose_en	ru	CONVERT	wider	enchant
+1506	now	кщище	CONVERT	robot	prose_en	ru	CONVERT	robot	enchant
+1507		куые	CONVERT	rest	prose_en	ru	CONVERT	rest	enchant
+1508	finally	судд	CONVERT	cell	prose_en	ru	CONVERT	cell	enchant
+1509		афьщгы	CONVERT	famous	prose_en	ru	CONVERT	famous	enchant
+1510	maybe	икшпреуые	CONVERT	brightest	prose_en	ru	CONVERT	brightest	enchant
+1511	after the	цуиышеу	CONVERT	website	prose_en	ru	CONVERT	website	enchant
+1512	really	игнук	CONVERT	buyer	prose_en	ru	CONVERT	buyer	enchant
+1513		ыфшд	CONVERT	sail	prose_en	ru	CONVERT	sail	enchant
+1514	again	ьшкфпу	CONVERT	mirage	prose_en	ru	CONVERT	mirage	enchant
+1515	not a	ьшыащкегту	CONVERT	misfortune	prose_en	ru	CONVERT	misfortune	enchant
+1516	some	ыефиду	CONVERT	stable	prose_en	ru	CONVERT	stable	enchant
+1517	the	цщда	CONVERT	wolf	prose_en	ru	CONVERT	wolf	enchant
+1518	you know	ыефк	CONVERT	star	prose_en	ru	CONVERT	star	enchant
+1519	almost	сщккшвщк	CONVERT	corridor	prose_en	ru	CONVERT	corridor	enchant
+1520	still	игшдвы	CONVERT	builds	prose_en	ru	CONVERT	builds	enchant
+1521	we were	цкшеуы	CONVERT	writes	prose_en	ru	CONVERT	writes	enchant
+1522	also	акщтешук	CONVERT	frontier	prose_en	ru	CONVERT	frontier	enchant
+1523		цкшештп	CONVERT	writing	prose_en	ru	CONVERT	writing	enchant
+1524	that was	шддтуыы	CONVERT	illness	prose_en	ru	CONVERT	illness	enchant
+1525		цфеук	CONVERT	water	prose_en	ru	CONVERT	water	enchant
+1526	usually	ырщз	CONVERT	shop	prose_en	ru	CONVERT	shop	enchant
+1527	she went	акуувщь	CONVERT	freedom	prose_en	ru	CONVERT	freedom	enchant
+1528	you know	уфышук	CONVERT	easier	prose_en	ru	CONVERT	easier	enchant
+1529	we were	ашч	CONVERT	fix	prose_en	ru	CONVERT	fix	enchant
+1530	obviously	тушприщк	CONVERT	neighbor	prose_en	ru	CONVERT	neighbor	enchant
+1531		ьщщт	CONVERT	moon	prose_en	ru	CONVERT	moon	enchant
+1532	that	сщфыедшту	CONVERT	coastline	prose_en	ru	CONVERT	coastline	enchant
+1533	there	срууыу	CONVERT	cheese	prose_en	ru	CONVERT	cheese	enchant
+1534	we were	сщдв	CONVERT	cold	prose_en	ru	CONVERT	cold	enchant
+1535	clearly	сщщлы	CONVERT	cooks	prose_en	ru	CONVERT	cooks	enchant
+1536	and the	ытфлу	CONVERT	snake	prose_en	ru	CONVERT	snake	enchant
+1537		еруфеук	CONVERT	theater	prose_en	ru	CONVERT	theater	enchant
+1538		ызщщт	CONVERT	spoon	prose_en	ru	CONVERT	spoon	enchant
+1539	for the	црфду	CONVERT	whale	prose_en	ru	CONVERT	whale	enchant
+1540	we found	екуу	CONVERT	tree	prose_en	ru	CONVERT	tree	enchant
+1541	there	сдщсл	CONVERT	clock	prose_en	ru	CONVERT	clock	enchant
+1542	maybe	фвмутегку	CONVERT	adventure	prose_en	ru	CONVERT	adventure	enchant
+1543	here	ьфтфпук	CONVERT	manager	prose_en	ru	CONVERT	manager	enchant
+1544	they saw	ащп	CONVERT	fog	prose_en	ru	CONVERT	fog	enchant
+1545	suddenly	фтсшуте	CONVERT	ancient	prose_en	ru	CONVERT	ancient	enchant
+1546	basically	мшвущ	CONVERT	video	prose_en	ru	CONVERT	video	enchant
+1547	just	тузруц	CONVERT	nephew	prose_en	ru	CONVERT	nephew	enchant
+1548	around the	уфеы	CONVERT	eats	prose_en	ru	CONVERT	eats	enchant
+1549	still	зщккшвпу	CONVERT	porridge	prose_en	ru	CONVERT	porridge	enchant
+1550		рнвкщпут	CONVERT	hydrogen	prose_en	ru	CONVERT	hydrogen	enchant
+1551		вуышптук	CONVERT	designer	prose_en	ru	CONVERT	designer	enchant
+1552	again	ефиду	CONVERT	table	prose_en	ru	CONVERT	table	enchant
+1553	she went	ьщвукт	CONVERT	modern	prose_en	ru	CONVERT	modern	enchant
+1554	that was	куфсешщт	CONVERT	reaction	prose_en	ru	CONVERT	reaction	enchant
+1555	clearly	щдвук	CONVERT	older	prose_en	ru	CONVERT	older	enchant
+1556	some	игееукадн	CONVERT	butterfly	prose_en	ru	CONVERT	butterfly	enchant
+1557	you know	аферук	CONVERT	father	prose_en	ru	CONVERT	father	enchant
+1558	a	ысрщщд	CONVERT	school	prose_en	ru	CONVERT	school	enchant
+1559	basically	икуфлафые	CONVERT	breakfast	prose_en	ru	CONVERT	breakfast	enchant
+1560	not a	вфтсу	CONVERT	dance	prose_en	ru	CONVERT	dance	enchant
+1561	next to	вфтвудшщт	CONVERT	dandelion	prose_en	ru	CONVERT	dandelion	enchant
+1562		ащдвук	CONVERT	folder	prose_en	ru	CONVERT	folder	enchant
+1563	the	усщыныеуь	CONVERT	ecosystem	prose_en	ru	CONVERT	ecosystem	enchant
+1564		скщыыштп	CONVERT	crossing	prose_en	ru	CONVERT	crossing	enchant
+1565	we found	кщщаещз	CONVERT	rooftop	prose_en	ru	CONVERT	rooftop	enchant
+1566		скщсщвшду	CONVERT	crocodile	prose_en	ru	CONVERT	crocodile	enchant
+1567	almost	рщызшефд	CONVERT	hospital	prose_en	ru	CONVERT	hospital	enchant
+1568	obviously	сщаауу	CONVERT	coffee	prose_en	ru	CONVERT	coffee	enchant
+1569	as a	щзукфещк	CONVERT	operator	prose_en	ru	CONVERT	operator	enchant
+1570	and the	штеуктуе	CONVERT	internet	prose_en	ru	CONVERT	internet	enchant
+1571	for the	уфе	CONVERT	eat	prose_en	ru	CONVERT	eat	enchant
+1572	also	сршдврщщв	CONVERT	childhood	prose_en	ru	CONVERT	childhood	enchant
+1573		игшде	CONVERT	built	prose_en	ru	CONVERT	built	enchant
+1574	just	умщдгешщт	CONVERT	evolution	prose_en	ru	CONVERT	evolution	enchant
+1575	I think	ырузрукв	CONVERT	shepherd	prose_en	ru	CONVERT	shepherd	enchant
+1576	it was	сршдв	CONVERT	child	prose_en	ru	CONVERT	child	enchant
+1577	that was	сщдвук	CONVERT	colder	prose_en	ru	CONVERT	colder	enchant
+1578	almost	вщуы	CONVERT	does	prose_en	ru	CONVERT	does	enchant
+1579		дщму	CONVERT	love	prose_en	ru	CONVERT	love	enchant
+1580	also	туфк	CONVERT	near	prose_en	ru	CONVERT	near	enchant
+1581	actually	зфкл	CONVERT	park	prose_en	ru	CONVERT	park	enchant
+1582	a	удумут	CONVERT	eleven	prose_en	ru	CONVERT	eleven	enchant
+1583	basically	йгшслдн	CONVERT	quickly	prose_en	ru	CONVERT	quickly	enchant
+1584	you know	икуфв	CONVERT	bread	prose_en	ru	CONVERT	bread	enchant
+1585	with the	екщгыукы	CONVERT	trousers	prose_en	ru	CONVERT	trousers	enchant
+1586	here	екфаашс	CONVERT	traffic	prose_en	ru	CONVERT	traffic	enchant
+1587	on my	цуе	CONVERT	wet	prose_en	ru	CONVERT	wet	enchant
+1588	they saw	сукефштдн	CONVERT	certainly	prose_en	ru	CONVERT	certainly	enchant
+1589		екгые	CONVERT	trust	prose_en	ru	CONVERT	trust	enchant
+1590		ысгдзещк	CONVERT	sculptor	prose_en	ru	CONVERT	sculptor	enchant
+1591	he said	куфвы	CONVERT	reads	prose_en	ru	CONVERT	reads	enchant
+1592	now	ащкуые	CONVERT	forest	prose_en	ru	CONVERT	forest	enchant
+1593	he said	фгте	CONVERT	aunt	prose_en	ru	CONVERT	aunt	enchant
+1594	in the	ьщтгьуте	CONVERT	monument	prose_en	ru	CONVERT	monument	enchant
+1595	as a	игввн	CONVERT	buddy	prose_en	ru	CONVERT	buddy	enchant
+1596	she went	зрщту	CONVERT	phone	prose_en	ru	CONVERT	phone	enchant
+1597	not a	удвукдн	CONVERT	elderly	prose_en	ru	CONVERT	elderly	enchant
+1598		упп	CONVERT	egg	prose_en	ru	CONVERT	egg	enchant
+1599	he said	идфтлуе	CONVERT	blanket	prose_en	ru	CONVERT	blanket	enchant
+1600	almost	ыукмук	CONVERT	server	prose_en	ru	CONVERT	server	enchant
+1601	you know	афсещкн	CONVERT	factory	prose_en	ru	CONVERT	factory	enchant
+1602	now	адшуы	CONVERT	flies	prose_en	ru	CONVERT	flies	enchant
+1603	my	зшту	CONVERT	pine	prose_en	ru	CONVERT	pine	enchant
+1604	because of	сфтвду	CONVERT	candle	prose_en	ru	CONVERT	candle	enchant
+1605		ьгышсшфт	CONVERT	musician	prose_en	ru	CONVERT	musician	enchant
+1606		рщгыу	CONVERT	house	prose_en	ru	CONVERT	house	enchant
+1607	this is	зуззук	CONVERT	pepper	prose_en	ru	CONVERT	pepper	enchant
+1608		ыуеедуьуте	CONVERT	settlement	prose_en	ru	CONVERT	settlement	enchant
+1609	on my	рщгк	CONVERT	hour	prose_en	ru	CONVERT	hour	enchant
+1610	because of	ыфгсузфт	CONVERT	saucepan	prose_en	ru	CONVERT	saucepan	enchant
+1611		уьзшку	CONVERT	empire	prose_en	ru	CONVERT	empire	enchant
+1612		дфеук	CONVERT	later	prose_en	ru	CONVERT	later	enchant
+1613		ьфзду	CONVERT	maple	prose_en	ru	CONVERT	maple	enchant
+1614	before the	екуфеьуте	CONVERT	treatment	prose_en	ru	CONVERT	treatment	enchant
+1615	without a	ифдсщтн	CONVERT	balcony	prose_en	ru	CONVERT	balcony	enchant
+1616	already	кфызиуккн	CONVERT	raspberry	prose_en	ru	CONVERT	raspberry	enchant
+1617	not a	сщьзщгтв	CONVERT	compound	prose_en	ru	CONVERT	compound	enchant
+1618	next to	фкьщк	CONVERT	armor	prose_en	ru	CONVERT	armor	enchant
+1619	some	ещцук	CONVERT	tower	prose_en	ru	CONVERT	tower	enchant
+1620	also	гтсду	CONVERT	uncle	prose_en	ru	CONVERT	uncle	enchant
+1621		руфмшук	CONVERT	heavier	prose_en	ru	CONVERT	heavier	enchant
+1622		дуьщт	CONVERT	lemon	prose_en	ru	CONVERT	lemon	enchant
+1623	perhaps	гтшмукышен	CONVERT	university	prose_en	ru	CONVERT	university	enchant
+1624	this is	иуееук	CONVERT	better	prose_en	ru	CONVERT	better	enchant
+1625	quite	вфырищфкв	CONVERT	dashboard	prose_en	ru	CONVERT	dashboard	enchant
+1626	actually	ышдутсу	CONVERT	silence	prose_en	ru	CONVERT	silence	enchant
+1627	actually	ышьздук	CONVERT	simpler	prose_en	ru	CONVERT	simpler	enchant
+1628	maybe	куфв	CONVERT	read	prose_en	ru	CONVERT	read	enchant
+1629	very	ылндшту	CONVERT	skyline	prose_en	ru	CONVERT	skyline	enchant
+1630		фееутешщт	CONVERT	attention	prose_en	ru	CONVERT	attention	enchant
+1631	because of	сщьздуч	CONVERT	complex	prose_en	ru	CONVERT	complex	enchant
+1632	not a	щфл	CONVERT	oak	prose_en	ru	CONVERT	oak	enchant
+1633	we found	пкфтваферук	CONVERT	grandfather	prose_en	ru	CONVERT	grandfather	enchant
+1634	indeed	мфссшту	CONVERT	vaccine	prose_en	ru	CONVERT	vaccine	enchant
+1635	a	сфкзуе	CONVERT	carpet	prose_en	ru	CONVERT	carpet	enchant
+1636	actually	руфк	CONVERT	hear	prose_en	ru	CONVERT	hear	enchant
+1637	still	икфтср	CONVERT	branch	prose_en	ru	CONVERT	branch	enchant
+1638	she went	ерштл	CONVERT	think	prose_en	ru	CONVERT	think	enchant
+1639		пфвпуе	CONVERT	gadget	prose_en	ru	CONVERT	gadget	enchant
+1640	finally	дшпрерщгыу	CONVERT	lighthouse	prose_en	ru	CONVERT	lighthouse	enchant
+1641	our	ьштукфд	CONVERT	mineral	prose_en	ru	CONVERT	mineral	enchant
+1642		срфкпук	CONVERT	charger	prose_en	ru	CONVERT	charger	enchant
+1643		тгекшешщт	CONVERT	nutrition	prose_en	ru	CONVERT	nutrition	enchant
+1644	already	ыцфьз	CONVERT	swamp	prose_en	ru	CONVERT	swamp	enchant
+1645		ыуддштп	CONVERT	selling	prose_en	ru	CONVERT	selling	enchant
+1646	finally	сдфыыьфеу	CONVERT	classmate	prose_en	ru	CONVERT	classmate	enchant
+1647	after the	сщщлштп	CONVERT	cooking	prose_en	ru	CONVERT	cooking	enchant
+1648		сфкзутеук	CONVERT	carpenter	prose_en	ru	CONVERT	carpenter	enchant
+1649		рфкмуые	CONVERT	harvest	prose_en	ru	CONVERT	harvest	enchant
+1650	almost	ощгктфдшые	CONVERT	journalist	prose_en	ru	CONVERT	journalist	enchant
+1651	now	ыудды	CONVERT	sells	prose_en	ru	CONVERT	sells	enchant
+1652		сщддупу	CONVERT	college	prose_en	ru	CONVERT	college	enchant
+1653		щдвуые	CONVERT	oldest	prose_en	ru	CONVERT	oldest	enchant
+1654	basically	ыцфь	CONVERT	swam	prose_en	ru	CONVERT	swam	enchant
+1655	and the	зщуе	CONVERT	poet	prose_en	ru	CONVERT	poet	enchant
+1656	as a	тшусу	CONVERT	niece	prose_en	ru	CONVERT	niece	enchant
+1657	still	кфкудн	CONVERT	rarely	prose_en	ru	CONVERT	rarely	enchant
+1658	on my	зщщкук	CONVERT	poorer	prose_en	ru	CONVERT	poorer	enchant
+1659	and the	идщыыщь	CONVERT	blossom	prose_en	ru	CONVERT	blossom	enchant
+1660		игыр	CONVERT	bush	prose_en	ru	CONVERT	bush	enchant
+1661		фпу	CONVERT	age	prose_en	ru	CONVERT	age	enchant
+1662		ышьздуые	CONVERT	simplest	prose_en	ru	CONVERT	simplest	enchant
+1663		аднштп	CONVERT	flying	prose_en	ru	CONVERT	flying	enchant
+1664	the	рщтун	CONVERT	honey	prose_en	ru	CONVERT	honey	enchant
+1665	in the	ершсл	CONVERT	thick	prose_en	ru	CONVERT	thick	enchant
+1666	actually	дгтср	CONVERT	lunch	prose_en	ru	CONVERT	lunch	enchant
+1667	now	ецутен	CONVERT	twenty	prose_en	ru	CONVERT	twenty	enchant
+1668		ышптфд	CONVERT	signal	prose_en	ru	CONVERT	signal	enchant
+1669		екгтл	CONVERT	trunk	prose_en	ru	CONVERT	trunk	enchant
+1670	just	акуыр	CONVERT	fresh	prose_en	ru	CONVERT	fresh	enchant
+1671	really	пдщму	CONVERT	glove	prose_en	ru	CONVERT	glove	enchant
+1672	that	ьуьщкн	CONVERT	memory	prose_en	ru	CONVERT	memory	enchant
+1673	around the	вщсещк	CONVERT	doctor	prose_en	ru	CONVERT	doctor	enchant
+1674	and the	лшесрут	CONVERT	kitchen	prose_en	ru	CONVERT	kitchen	enchant
+1675	our	умутштп	CONVERT	evening	prose_en	ru	CONVERT	evening	enchant
+1676	on my	цщкл	CONVERT	work	prose_en	ru	CONVERT	work	enchant
+1677	very	икфлу	CONVERT	brake	prose_en	ru	CONVERT	brake	enchant
+1678	finally	ашчув	CONVERT	fixed	prose_en	ru	CONVERT	fixed	enchant
+1679		вфтсштп	CONVERT	dancing	prose_en	ru	CONVERT	dancing	enchant
+1680		зфыызщке	CONVERT	passport	prose_en	ru	CONVERT	passport	enchant
+1681		игнштп	CONVERT	buying	prose_en	ru	CONVERT	buying	enchant
+1682	this is	ьшвтшпре	CONVERT	midnight	prose_en	ru	CONVERT	midnight	enchant
+1683	just	ифкт	CONVERT	barn	prose_en	ru	CONVERT	barn	enchant
+1684	suddenly	цфкьуые	CONVERT	warmest	prose_en	ru	CONVERT	warmest	enchant
+1685	we found	акщые	CONVERT	frost	prose_en	ru	CONVERT	frost	enchant
+1686	this is	ьувшсшту	CONVERT	medicine	prose_en	ru	CONVERT	medicine	enchant
+1687		пгуые	CONVERT	guest	prose_en	ru	CONVERT	guest	enchant
+1688	almost	еуфсрук	CONVERT	teacher	prose_en	ru	CONVERT	teacher	enchant
+1689	this	пщуы	CONVERT	goes	prose_en	ru	CONVERT	goes	enchant
+1690		ещвфн	CONVERT	today	prose_en	ru	CONVERT	today	enchant
+1691	now	йгшуедн	CONVERT	quietly	prose_en	ru	CONVERT	quietly	enchant
+1692		зкщвгсук	CONVERT	producer	prose_en	ru	CONVERT	producer	enchant
+1693	actually	дфцнук	CONVERT	lawyer	prose_en	ru	CONVERT	lawyer	enchant
+1694	we were	руфмшуые	CONVERT	heaviest	prose_en	ru	CONVERT	heaviest	enchant
+1695	he said	утпштуук	CONVERT	engineer	prose_en	ru	CONVERT	engineer	enchant
+1696	you know	ышьзду	CONVERT	simple	prose_en	ru	CONVERT	simple	enchant
+1697		сфму	CONVERT	cave	prose_en	ru	CONVERT	cave	enchant
+1698	perhaps	ыфтв	CONVERT	sand	prose_en	ru	CONVERT	sand	enchant
+1699		сдштшс	CONVERT	clinic	prose_en	ru	CONVERT	clinic	enchant
+1700	our	зфыыутпук	CONVERT	passenger	prose_en	ru	CONVERT	passenger	enchant
+1701	мама сказала	а	KEEP	а	short1	ru	KEEP	а	dictionary
+1702	он видел	б	KEEP	б	short1	ru	KEEP	б	no_language
+1703	она купила	в	KEEP	в	short1	ru	KEEP	в	dictionary
+1704	мы гуляли	ж	KEEP	ж	short1	ru	KEEP	ж	no_language
+1705	ты знаешь	и	KEEP	и	short1	ru	KEEP	и	dictionary
+1706	они ждали	к	KEEP	к	short1	ru	KEEP	к	dictionary
+1707	я думаю	о	KEEP	о	short1	ru	KEEP	о	dictionary
+1708	вчера вечером	с	KEEP	с	short1	ru	KEEP	с	no_language
+1709	рано утром	у	KEEP	у	short1	ru	KEEP	у	dictionary
+1710	в парке	я	KEEP	я	short1	ru	KEEP	я	dictionary
+1711	на кухне	э	KEEP	э	short1	ru	KEEP	э	no_language
+1712	после школы	а	KEEP	а	short1	ru	KEEP	а	dictionary
+1713	перед сном	б	KEEP	б	short1	ru	KEEP	б	no_language
+1714	во дворе	в	KEEP	в	short1	ru	KEEP	в	dictionary
+1715	за столом	ж	KEEP	ж	short1	ru	KEEP	ж	no_language
+1716	около дома	и	KEEP	и	short1	ru	KEEP	и	dictionary
+1717	возле реки	к	KEEP	к	short1	ru	KEEP	к	dictionary
+1718	внутри коробки	о	KEEP	о	short1	ru	KEEP	о	dictionary
+1719	снаружи было	с	KEEP	с	short1	ru	KEEP	с	no_language
+1720	кажется мне	у	KEEP	у	short1	ru	KEEP	у	dictionary
+1721	точно помню	я	KEEP	я	short1	ru	KEEP	я	dictionary
+1722	конечно да	э	KEEP	э	short1	ru	KEEP	э	no_language
+1723	разве нет	а	KEEP	а	short1	ru	KEEP	а	dictionary
+1724	неужели правда	б	KEEP	б	short1	ru	KEEP	б	no_language
+1725	теперь понятно	в	KEEP	в	short1	ru	KEEP	в	dictionary
+1726	тогда решили	ж	KEEP	ж	short1	ru	KEEP	ж	no_language
+1727	здесь тихо	и	KEEP	и	short1	ru	KEEP	и	dictionary
+1728	там холодно	к	KEEP	к	short1	ru	KEEP	к	dictionary
+1729	туда идём	о	KEEP	о	short1	ru	KEEP	о	dictionary
+1730	оттуда видно	с	KEEP	с	short1	ru	KEEP	с	no_language
+1731	she said	a	KEEP	a	short1	us	KEEP	a	no_language
+1732	he saw	i	KEEP	i	short1	us	KEEP	i	no_language
+1733	we walked	o	KEEP	o	short1	us	KEEP	o	no_language
+1734	you know	a	KEEP	a	short1	us	KEEP	a	no_language
+1735	they waited	i	KEEP	i	short1	us	KEEP	i	no_language
+1736	I think	o	KEEP	o	short1	us	KEEP	o	no_language
+1737	last night	a	KEEP	a	short1	us	KEEP	a	no_language
+1738	early morning	i	KEEP	i	short1	us	KEEP	i	no_language
+1739	in the park	o	KEEP	o	short1	us	KEEP	o	no_language
+1740	in the kitchen	a	KEEP	a	short1	us	KEEP	a	no_language
+1741	after school	i	KEEP	i	short1	us	KEEP	i	no_language
+1742	before bed	o	KEEP	o	short1	us	KEEP	o	no_language
+1743	мы гуляли	f	CONVERT	а	short1	us	CONVERT	а	dictionary
+1744	ты знаешь	,	CONVERT	б	short1	us	KEEP	,	no_language
+1745	они ждали	d	CONVERT	в	short1	us	CONVERT	в	dictionary
+1746	я думаю	;	CONVERT	ж	short1	us	KEEP	;	no_language
+1747	вчера вечером	b	CONVERT	и	short1	us	CONVERT	и	dictionary
+1748	рано утром	r	CONVERT	к	short1	us	CONVERT	к	dictionary
+1749	в парке	j	CONVERT	о	short1	us	CONVERT	о	dictionary
+1750	на кухне	c	CONVERT	с	short1	us	KEEP	c	no_language
+1751	после школы	e	CONVERT	у	short1	us	CONVERT	у	dictionary
+1752	перед сном	z	CONVERT	я	short1	us	CONVERT	я	dictionary
+1753	во дворе	'	CONVERT	э	short1	us	KEEP	'	no_language
+1754	за столом	f	CONVERT	а	short1	us	CONVERT	а	dictionary
+1755	около дома	,	CONVERT	б	short1	us	KEEP	,	no_language
+1756	возле реки	d	CONVERT	в	short1	us	CONVERT	в	dictionary
+1757	внутри коробки	;	CONVERT	ж	short1	us	KEEP	;	no_language
+1758	снаружи было	b	CONVERT	и	short1	us	CONVERT	и	dictionary
+1759	кажется мне	r	CONVERT	к	short1	us	CONVERT	к	dictionary
+1760	точно помню	j	CONVERT	о	short1	us	CONVERT	о	dictionary
+1761	конечно да	c	CONVERT	с	short1	us	KEEP	c	no_language
+1762	разве нет	e	CONVERT	у	short1	us	CONVERT	у	dictionary
+1763	неужели правда	z	CONVERT	я	short1	us	CONVERT	я	dictionary
+1764	теперь понятно	'	CONVERT	э	short1	us	KEEP	'	no_language
+1765	тогда решили	f	CONVERT	а	short1	us	CONVERT	а	dictionary
+1766	здесь тихо	,	CONVERT	б	short1	us	KEEP	,	no_language
+1767	там холодно	d	CONVERT	в	short1	us	CONVERT	в	dictionary
+1768	туда идём	;	CONVERT	ж	short1	us	KEEP	;	no_language
+1769	оттуда видно	b	CONVERT	и	short1	us	CONVERT	и	dictionary
+1770	мама сказала	r	CONVERT	к	short1	us	CONVERT	к	dictionary
+1771	он видел	j	CONVERT	о	short1	us	CONVERT	о	dictionary
+1772	она купила	c	CONVERT	с	short1	us	KEEP	c	no_language
+1773	I think	ф	CONVERT	a	short1	ru	KEEP	ф	no_language
+1774	last night	ш	CONVERT	i	short1	ru	KEEP	ш	no_language
+1775	early morning	щ	CONVERT	o	short1	ru	KEEP	щ	no_language
+1776	in the park	ф	CONVERT	a	short1	ru	KEEP	ф	no_language
+1777	in the kitchen	ш	CONVERT	i	short1	ru	KEEP	ш	no_language
+1778	after school	щ	CONVERT	o	short1	ru	KEEP	щ	no_language
+1779	before bed	ф	CONVERT	a	short1	ru	KEEP	ф	no_language
+1780	in the yard	ш	CONVERT	i	short1	ru	KEEP	ш	no_language
+1781	at the table	щ	CONVERT	o	short1	ru	KEEP	щ	no_language
+1782	near the house	ф	CONVERT	a	short1	ru	KEEP	ф	no_language
+1783	by the river	ш	CONVERT	i	short1	ru	KEEP	ш	no_language
+1784	inside the box	щ	CONVERT	o	short1	ru	KEEP	щ	no_language
+1785	outside it was	ф	CONVERT	a	short1	ru	KEEP	ф	no_language
+1786	it seems	ш	CONVERT	i	short1	ru	KEEP	ш	no_language
+1787	I remember	щ	CONVERT	o	short1	ru	KEEP	щ	no_language
+1788	in the yard	j	KEEP	j	short1	us	CONVERT	о	dictionary
+1789	last night	f	KEEP	f	short1	us	CONVERT	а	dictionary
+1790	she said	f	KEEP	f	short1	us	CONVERT	а	dictionary
+1791	they waited	b	KEEP	b	short1	us	CONVERT	и	dictionary
+1792	inside the box	'	KEEP	'	short1	us	KEEP	'	no_language
+1793	я думаю	ф	KEEP	ф	short1	ru	KEEP	ф	no_language
+1794	by the river	z	KEEP	z	short1	us	CONVERT	я	dictionary
+1795	after school	b	KEEP	b	short1	us	CONVERT	и	dictionary
+1796	I think	r	KEEP	r	short1	us	CONVERT	к	dictionary
+1797	before bed	r	KEEP	r	short1	us	CONVERT	к	dictionary
+1798	мама сказала	ф	KEEP	ф	short1	ru	KEEP	ф	no_language
+1799	in the kitchen	z	KEEP	z	short1	us	CONVERT	я	dictionary
+1800	we walked	d	KEEP	d	short1	us	CONVERT	в	dictionary
+1801	near the house	e	KEEP	e	short1	us	CONVERT	у	dictionary
+1802	after school	'	KEEP	'	short1	us	KEEP	'	no_language
+1803	in the kitchen	;	KEEP	;	short1	us	KEEP	;	no_language
+1804	рано утром	щ	KEEP	щ	short1	ru	KEEP	щ	no_language
+1805	last night	j	KEEP	j	short1	us	CONVERT	о	dictionary
+1806		d	KEEP	d	short1	us	CONVERT	в	dictionary
+1807		'	KEEP	'	short1	us	KEEP	'	no_language
+1808		щ	KEEP	щ	short1	ru	KEEP	щ	no_language
+1809		f	KEEP	f	short1	us	CONVERT	а	dictionary
+1810		ф	KEEP	ф	short1	ru	KEEP	ф	no_language
+1811		,	KEEP	,	short1	us	KEEP	,	no_language
+1812		r	KEEP	r	short1	us	CONVERT	к	dictionary
+1813		z	KEEP	z	short1	us	CONVERT	я	dictionary
+1814		b	KEEP	b	short1	us	CONVERT	и	dictionary
+1815		;	KEEP	;	short1	us	KEEP	;	no_language
+1816	for (int i = 0;	c	KEEP	c	short1	us	KEEP	c	no_language
+1817	char	c	KEEP	c	short1	us	KEEP	c	no_language
+1818	int	c	KEEP	c	short1	us	KEEP	c	no_language
+1819	for (auto	c	KEEP	c	short1	us	KEEP	c	no_language
+1820	typedef	c	KEEP	c	short1	us	KEEP	c	no_language
+1821	мама сказала	аж	KEEP	аж	short2	ru	KEEP	аж	enchant
+1822	он видел	ай	KEEP	ай	short2	ru	KEEP	ай	enchant
+1823	она купила	ах	KEEP	ах	short2	ru	KEEP	ах	enchant
+1824	мы гуляли	бы	KEEP	бы	short2	ru	KEEP	бы	enchant
+1825	ты знаешь	во	KEEP	во	short2	ru	KEEP	во	enchant
+1826	они ждали	вы	KEEP	вы	short2	ru	KEEP	вы	enchant
+1827	я думаю	да	KEEP	да	short2	ru	KEEP	да	enchant
+1828	вчера вечером	до	KEEP	до	short2	ru	KEEP	до	enchant
+1829	рано утром	ее	KEEP	ее	short2	ru	KEEP	ее	enchant
+1830	в парке	её	KEEP	её	short2	ru	KEEP	её	enchant
+1831	на кухне	ей	KEEP	ей	short2	ru	KEEP	ей	enchant
+1832	после школы	ем	KEEP	ем	short2	ru	KEEP	ем	enchant
+1833	перед сном	ею	KEEP	ею	short2	ru	KEEP	ею	enchant
+1834	во дворе	же	KEEP	же	short2	ru	KEEP	же	enchant
+1835	за столом	за	KEEP	за	short2	ru	KEEP	за	enchant
+1836	около дома	из	KEEP	из	short2	ru	KEEP	из	enchant
+1837	возле реки	им	KEEP	им	short2	ru	KEEP	им	enchant
+1838	внутри коробки	их	KEEP	их	short2	ru	KEEP	их	enchant
+1839	снаружи было	ко	KEEP	ко	short2	ru	KEEP	ко	enchant
+1840	кажется мне	ли	KEEP	ли	short2	ru	KEEP	ли	enchant
+1841	точно помню	мы	KEEP	мы	short2	ru	KEEP	мы	enchant
+1842	конечно да	на	KEEP	на	short2	ru	KEEP	на	enchant
+1843	разве нет	не	KEEP	не	short2	ru	KEEP	не	enchant
+1844	неужели правда	ни	KEEP	ни	short2	ru	KEEP	ни	enchant
+1845	теперь понятно	но	KEEP	но	short2	ru	KEEP	но	enchant
+1846	тогда решили	ну	KEEP	ну	short2	ru	KEEP	ну	dictionary
+1847	здесь тихо	об	KEEP	об	short2	ru	KEEP	об	enchant
+1848	там холодно	он	KEEP	он	short2	ru	KEEP	он	enchant
+1849	туда идём	от	KEEP	от	short2	ru	KEEP	от	enchant
+1850	оттуда видно	ой	KEEP	ой	short2	ru	KEEP	ой	enchant
+1851	she said	am	KEEP	am	short2	us	KEEP	am	enchant
+1852	he saw	an	KEEP	an	short2	us	KEEP	an	enchant
+1853	we walked	as	KEEP	as	short2	us	KEEP	as	enchant
+1854	you know	at	KEEP	at	short2	us	KEEP	at	enchant
+1855	they waited	be	KEEP	be	short2	us	KEEP	be	enchant
+1856	I think	by	KEEP	by	short2	us	KEEP	by	enchant
+1857	last night	do	KEEP	do	short2	us	KEEP	do	enchant
+1858	early morning	go	KEEP	go	short2	us	KEEP	go	enchant
+1859	in the park	he	KEEP	he	short2	us	KEEP	he	enchant
+1860	in the kitchen	hi	KEEP	hi	short2	us	KEEP	hi	enchant
+1861	after school	id	KEEP	id	short2	us	KEEP	id	enchant
+1862	before bed	if	KEEP	if	short2	us	KEEP	if	enchant
+1863	in the yard	in	KEEP	in	short2	us	KEEP	in	enchant
+1864	at the table	is	KEEP	is	short2	us	KEEP	is	enchant
+1865	near the house	it	KEEP	it	short2	us	KEEP	it	enchant
+1866	by the river	me	KEEP	me	short2	us	KEEP	me	enchant
+1867	inside the box	my	KEEP	my	short2	us	KEEP	my	enchant
+1868	outside it was	no	KEEP	no	short2	us	KEEP	no	enchant
+1869	it seems	of	KEEP	of	short2	us	KEEP	of	enchant
+1870	I remember	oh	KEEP	oh	short2	us	KEEP	oh	enchant
+1871	вчера вечером	f;	CONVERT	аж	short2	us	CONVERT	аж	enchant
+1872	рано утром	fq	CONVERT	ай	short2	us	CONVERT	ай	enchant
+1873	в парке	f[	CONVERT	ах	short2	us	CONVERT	ах	enchant
+1874	на кухне	,s	CONVERT	бы	short2	us	CONVERT	бы	enchant
+1875	после школы	dj	CONVERT	во	short2	us	CONVERT	во	enchant
+1876	перед сном	ds	CONVERT	вы	short2	us	CONVERT	вы	enchant
+1877	во дворе	lf	CONVERT	да	short2	us	CONVERT	да	enchant
+1878	за столом	lj	CONVERT	до	short2	us	CONVERT	до	enchant
+1879	около дома	tt	CONVERT	ее	short2	us	CONVERT	ее	enchant
+1880	возле реки	t`	CONVERT	её	short2	us	CONVERT	её	enchant
+1881	внутри коробки	tq	CONVERT	ей	short2	us	CONVERT	ей	enchant
+1882	снаружи было	tv	CONVERT	ем	short2	us	CONVERT	ем	enchant
+1883	кажется мне	t.	CONVERT	ею	short2	us	KEEP	t.	enchant
+1884	точно помню	;t	CONVERT	же	short2	us	CONVERT	же	enchant
+1885	конечно да	pf	CONVERT	за	short2	us	KEEP	pf	enchant
+1886	разве нет	bp	CONVERT	из	short2	us	KEEP	bp	enchant
+1887	неужели правда	bv	CONVERT	им	short2	us	CONVERT	им	enchant
+1888	теперь понятно	b[	CONVERT	их	short2	us	CONVERT	их	enchant
+1889	тогда решили	rj	CONVERT	ко	short2	us	CONVERT	ко	enchant
+1890	здесь тихо	kb	CONVERT	ли	short2	us	KEEP	kb	enchant
+1891	там холодно	vs	CONVERT	мы	short2	us	KEEP	vs	enchant
+1892	туда идём	yf	CONVERT	на	short2	us	CONVERT	на	enchant
+1893	оттуда видно	yt	CONVERT	не	short2	us	CONVERT	не	enchant
+1894	мама сказала	yb	CONVERT	ни	short2	us	CONVERT	ни	enchant
+1895	он видел	yj	CONVERT	но	short2	us	CONVERT	но	enchant
+1896	она купила	ye	CONVERT	ну	short2	us	CONVERT	ну	dictionary
+1897	мы гуляли	j,	CONVERT	об	short2	us	CONVERT	об	enchant
+1898	ты знаешь	jy	CONVERT	он	short2	us	CONVERT	он	enchant
+1899	они ждали	jn	CONVERT	от	short2	us	CONVERT	от	enchant
+1900	я думаю	jq	CONVERT	ой	short2	us	CONVERT	ой	enchant
+1901	before bed	фь	CONVERT	am	short2	ru	CONVERT	am	enchant
+1902	in the yard	фт	CONVERT	an	short2	ru	CONVERT	an	enchant
+1903	at the table	фы	CONVERT	as	short2	ru	CONVERT	as	enchant
+1904	near the house	фе	CONVERT	at	short2	ru	CONVERT	at	enchant
+1905	by the river	иу	CONVERT	be	short2	ru	CONVERT	be	enchant
+1906	inside the box	ин	CONVERT	by	short2	ru	CONVERT	by	enchant
+1907	outside it was	вщ	CONVERT	do	short2	ru	CONVERT	do	enchant
+1908	it seems	пщ	CONVERT	go	short2	ru	CONVERT	go	enchant
+1909	I remember	ру	CONVERT	he	short2	ru	CONVERT	he	enchant
+1910	of course	рш	CONVERT	hi	short2	ru	CONVERT	hi	enchant
+1911	really though	шв	CONVERT	id	short2	ru	CONVERT	id	enchant
+1912	now it's clear	ша	CONVERT	if	short2	ru	KEEP	ша	enchant
+1913	then we decided	шт	CONVERT	in	short2	ru	KEEP	шт	enchant
+1914	here it's quiet	шы	CONVERT	is	short2	ru	CONVERT	is	enchant
+1915	there it's cold	ше	CONVERT	it	short2	ru	CONVERT	it	enchant
+1916	we're going there	ьу	CONVERT	me	short2	ru	CONVERT	me	enchant
+1917	from there you can see	ьн	CONVERT	my	short2	ru	CONVERT	my	enchant
+1918	she said	тщ	CONVERT	no	short2	ru	CONVERT	no	enchant
+1919	he saw	ща	CONVERT	of	short2	ru	CONVERT	of	enchant
+1920	we walked	щр	CONVERT	oh	short2	ru	CONVERT	oh	enchant
+1921	снаружи было	ща	KEEP	ща	short2	ru	CONVERT	of	enchant
+1922	кажется мне	щр	KEEP	щр	short2	ru	CONVERT	oh	enchant
+1923	there it's cold	ye	KEEP	ye	short2	us	CONVERT	ну	dictionary
+1924	I remember	kb	KEEP	kb	short2	us	KEEP	kb	enchant
+1925	here it's quiet	yj	KEEP	yj	short2	us	CONVERT	но	enchant
+1926	before bed	tv	KEEP	tv	short2	us	CONVERT	ем	enchant
+1927	she said	jn	KEEP	jn	short2	us	CONVERT	от	enchant
+1928	точно помню	щл	KEEP	щл	short2	ru	CONVERT	ok	proto2
+1929	in the yard	t.	KEEP	t.	short2	us	KEEP	t.	enchant
+1930	they waited	dj	KEEP	dj	short2	us	CONVERT	во	enchant
+1931	во дворе	шы	KEEP	шы	short2	ru	CONVERT	is	enchant
+1932	здесь тихо	гз	KEEP	гз	short2	ru	CONVERT	up	enchant
+1933	you know	gj	KEEP	gj	short2	us	CONVERT	по	enchant
+1934	last night	nt	KEEP	nt	short2	us	CONVERT	те	enchant
+1935	конечно да	щт	KEEP	щт	short2	ru	CONVERT	on	enchant
+1936		fq	KEEP	fq	short2	us	CONVERT	ай	enchant
+1937		фь	KEEP	фь	short2	ru	CONVERT	am	enchant
+1938		f[	KEEP	f[	short2	us	CONVERT	ах	enchant
+1939		фт	KEEP	фт	short2	ru	CONVERT	an	enchant
+1940		f;	KEEP	f;	short2	us	CONVERT	аж	enchant
+1941		Qw3rty!x	KEEP	Qw3rty!x	password	us	KEEP	Qw3rty!x	proto2
+1942		P@ssw0rd2024	KEEP	P@ssw0rd2024	password	us	KEEP	P@ssw0rd2024	proto2
+1943		Tr0ub4dor&3	KEEP	Tr0ub4dor&3	password	us	KEEP	Tr0ub4dor&3	proto2
+1944		C0rrectHorse9	KEEP	C0rrectHorse9	password	us	KEEP	C0rrectHorse9	proto2
+1945		myS3cr3t#1	KEEP	myS3cr3t#1	password	us	KEEP	myS3cr3t#1	proto2
+1946		xK9$mLp2	KEEP	xK9$mLp2	password	us	KEEP	xK9$mLp2	proto2
+1947		Zx29!vBn	KEEP	Zx29!vBn	password	us	KEEP	Zx29!vBn	proto2
+1948		Adm1n$2024	KEEP	Adm1n$2024	password	us	KEEP	Adm1n$2024	proto2
+1949		R00t#Pass!	KEEP	R00t#Pass!	password	us	KEEP	R00t#Pass!	proto2
+1950		Qaz2wsx!@	KEEP	Qaz2wsx!@	password	us	CONVERT	"Йфя2цыч!"""	proto2
+1951		Summer2024!	KEEP	Summer2024!	password	us	KEEP	Summer2024!	proto2
+1952		Winter@2023	KEEP	Winter@2023	password	us	KEEP	Winter@2023	proto2
+1953		J0hnDoe#99	KEEP	J0hnDoe#99	password	us	KEEP	J0hnDoe#99	proto2
+1954		aB3fG7!kL	KEEP	aB3fG7!kL	password	us	KEEP	aB3fG7!kL	proto2
+1955		N3wYorkCity1!	KEEP	N3wYorkCity1!	password	us	KEEP	N3wYorkCity1!	proto2
+1956		L0ndonBr1dge#	KEEP	L0ndonBr1dge#	password	us	KEEP	L0ndonBr1dge#	proto2
+1957		Berl1nWall9!	KEEP	Berl1nWall9!	password	us	KEEP	Berl1nWall9!	proto2
+1958		Tokyo2024$X	KEEP	Tokyo2024$X	password	us	KEEP	Tokyo2024$X	proto2
+1959		Par1s1234!Z	KEEP	Par1s1234!Z	password	us	KEEP	Par1s1234!Z	proto2
+1960		Mosc0wCity#	KEEP	Mosc0wCity#	password	us	KEEP	Mosc0wCity#	proto2
+1961		s3cr3tK3y!Q	KEEP	s3cr3tK3y!Q	password	us	KEEP	s3cr3tK3y!Q	proto2
+1962		myP@ss1234Z	KEEP	myP@ss1234Z	password	us	KEEP	myP@ss1234Z	proto2
+1963		admin2024Q!	KEEP	admin2024Q!	password	us	KEEP	admin2024Q!	proto2
+1964		r00tP@ss1X	KEEP	r00tP@ss1X	password	us	KEEP	r00tP@ss1X	proto2
+1965		D3v3loper#1	KEEP	D3v3loper#1	password	us	KEEP	D3v3loper#1	proto2
+1966		C0derLife$9	KEEP	C0derLife$9	password	us	KEEP	C0derLife$9	proto2
+1967		G1tHub2024!	KEEP	G1tHub2024!	password	us	KEEP	G1tHub2024!	proto2
+1968		St@ckOverflow9	KEEP	St@ckOverflow9	password	us	KEEP	St@ckOverflow9	proto2
+1969		Dr@gon2024!Z	KEEP	Dr@gon2024!Z	password	us	KEEP	Dr@gon2024!Z	proto2
+1970		Ph03nix9x!	KEEP	Ph03nix9x!	password	us	KEEP	Ph03nix9x!	proto2
+1971		Th3Matr1x1!	KEEP	Th3Matr1x1!	password	us	KEEP	Th3Matr1x1!	proto2
+1972		Ne0Zion99$	KEEP	Ne0Zion99$	password	us	KEEP	Ne0Zion99$	proto2
+1973		Sk1pper88#	KEEP	Sk1pper88#	password	us	KEEP	Sk1pper88#	proto2
+1974		C@ptainJack3!	KEEP	C@ptainJack3!	password	us	KEEP	C@ptainJack3!	proto2
+1975		Bl@ckPanther9	KEEP	Bl@ckPanther9	password	us	KEEP	Bl@ckPanther9	proto2
+1976		Wonder1Woman!	KEEP	Wonder1Woman!	password	us	KEEP	Wonder1Woman!	proto2
+1977		Superman123$	KEEP	Superman123$	password	us	KEEP	Superman123$	proto2
+1978		B@tman2024!	KEEP	B@tman2024!	password	us	KEEP	B@tman2024!	proto2
+1979		IronMan99#	KEEP	IronMan99#	password	us	KEEP	IronMan99#	proto2
+1980		Thor1Odin88!	KEEP	Thor1Odin88!	password	us	KEEP	Thor1Odin88!	proto2
+1981		Lok1Trick$9	KEEP	Lok1Trick$9	password	us	KEEP	Lok1Trick$9	proto2
+1982		Gr00t1234!	KEEP	Gr00t1234!	password	us	KEEP	Gr00t1234!	proto2
+1983		RocketRacc0on#	KEEP	RocketRacc0on#	password	us	KEEP	RocketRacc0on#	proto2
+1984		SuperP@ss99!	KEEP	SuperP@ss99!	password	us	KEEP	SuperP@ss99!	proto2
+1985		Xk7pL9mQ2!	KEEP	Xk7pL9mQ2!	password	us	KEEP	Xk7pL9mQ2!	proto2
+1986		Vb3nM8zX1$	KEEP	Vb3nM8zX1$	password	us	KEEP	Vb3nM8zX1$	proto2
+1987		Qw12eR34@9	KEEP	Qw12eR34@9	password	us	KEEP	Qw12eR34@9	proto2
+1988		As56dF78$1	KEEP	As56dF78$1	password	us	KEEP	As56dF78$1	proto2
+1989		Zx90cV12@8	KEEP	Zx90cV12@8	password	us	KEEP	Zx90cV12@8	proto2
+1990		T3stng123!	KEEP	T3stng123!	password	us	KEEP	T3stng123!	proto2
+1991		Debug#M0de9	KEEP	Debug#M0de9	password	us	KEEP	Debug#M0de9	proto2
+1992		Rel3ase2024!	KEEP	Rel3ase2024!	password	us	KEEP	Rel3ase2024!	proto2
+1993		BuildNumb3r9	KEEP	BuildNumb3r9	password	us	KEEP	BuildNumb3r9	proto2
+1994		Vers1on2024!	KEEP	Vers1on2024!	password	us	KEEP	Vers1on2024!	proto2
+1995		PatchN0tes9	KEEP	PatchN0tes9	password	us	KEEP	PatchN0tes9	proto2
+1996		Update2024!Z	KEEP	Update2024!Z	password	us	KEEP	Update2024!Z	proto2
+1997		Comm1tHash#9	KEEP	Comm1tHash#9	password	us	KEEP	Comm1tHash#9	proto2
+1998		BranchMa1n9!	KEEP	BranchMa1n9!	password	us	KEEP	BranchMa1n9!	proto2
+1999		Merge#Requ3st	KEEP	Merge#Requ3st	password	us	KEEP	Merge#Requ3st	proto2
+2000		F1nalBoss99!	KEEP	F1nalBoss99!	password	us	KEEP	F1nalBoss99!	proto2
+2001		https://example.com/path/to/page	KEEP	https://example.com/path/to/page	url	us	KEEP	https://example.com/path/to/page	dictionary
+2002		http://sub.domain.co.uk/index.html	KEEP	http://sub.domain.co.uk/index.html	url	us	KEEP	http://sub.domain.co.uk/index.html	dictionary
+2003		www.google.com	KEEP	www.google.com	url	us	KEEP	www.google.com	dictionary
+2004		ftp://files.server.net/data.zip	KEEP	ftp://files.server.net/data.zip	url	us	KEEP	ftp://files.server.net/data.zip	dictionary
+2005		user@example.com	KEEP	user@example.com	url	us	KEEP	user@example.com	proto2
+2006		john.doe+news@gmail.com	KEEP	john.doe+news@gmail.com	url	us	KEEP	john.doe+news@gmail.com	proto2
+2007		support@company.org	KEEP	support@company.org	url	us	KEEP	support@company.org	proto2
+2008		/usr/local/bin/python3	KEEP	/usr/local/bin/python3	url	us	KEEP	/usr/local/bin/python3	proto2
+2009		/home/user/documents/report.docx	KEEP	/home/user/documents/report.docx	url	us	KEEP	/home/user/documents/report.docx	no_language
+2010		C:\Users\Admin\Desktop\file.txt	KEEP	C:\Users\Admin\Desktop\file.txt	url	us	KEEP	C:\Users\Admin\Desktop\file.txt	proto3
+2011		D:\Projects\pulinto\src\main.rs	KEEP	D:\Projects\pulinto\src\main.rs	url	us	KEEP	D:\Projects\pulinto\src\main.rs	proto2
+2012		git@github.com:owner/repo.git	KEEP	git@github.com:owner/repo.git	url	us	KEEP	git@github.com:owner/repo.git	proto2
+2013		https://github.com/owner/repo/pull/42	KEEP	https://github.com/owner/repo/pull/42	url	us	KEEP	https://github.com/owner/repo/pull/42	dictionary
+2014		https://stackoverflow.com/questions/12345	KEEP	https://stackoverflow.com/questions/12345	url	us	KEEP	https://stackoverflow.com/questions/12345	dictionary
+2015		mailto:info@site.ru	KEEP	mailto:info@site.ru	url	us	KEEP	mailto:info@site.ru	proto2
+2016		smb://server/share/folder	KEEP	smb://server/share/folder	url	us	KEEP	smb://server/share/folder	proto2
+2017		ssh://user@192.168.1.1:22	KEEP	ssh://user@192.168.1.1:22	url	us	KEEP	ssh://user@192.168.1.1:22	proto2
+2018		127.0.0.1:8080	KEEP	127.0.0.1:8080	url	us	KEEP	127.0.0.1:8080	no_language
+2019		localhost:3000	KEEP	localhost:3000	url	us	KEEP	localhost:3000	proto2
+2020		https://api.service.io/v2/users?id=7	KEEP	https://api.service.io/v2/users?id=7	url	us	KEEP	https://api.service.io/v2/users?id=7	dictionary
+2021		www.wikipedia.org/wiki/Rust_language	KEEP	www.wikipedia.org/wiki/Rust_language	url	us	KEEP	www.wikipedia.org/wiki/Rust_language	dictionary
+2022		ftp.example.com	KEEP	ftp.example.com	url	us	KEEP	ftp.example.com	dictionary
+2023		https://docs.rs/serde/latest/serde/	KEEP	https://docs.rs/serde/latest/serde/	url	us	KEEP	https://docs.rs/serde/latest/serde/	dictionary
+2024		https://crates.io/crates/tokio	KEEP	https://crates.io/crates/tokio	url	us	KEEP	https://crates.io/crates/tokio	dictionary
+2025		admin@localhost	KEEP	admin@localhost	url	us	KEEP	admin@localhost	proto2
+2026		noreply@service.com	KEEP	noreply@service.com	url	us	KEEP	noreply@service.com	proto2
+2027		https://t.me/channel_name	KEEP	https://t.me/channel_name	url	us	KEEP	https://t.me/channel_name	dictionary
+2028		https://vk.com/id123456	KEEP	https://vk.com/id123456	url	us	KEEP	https://vk.com/id123456	dictionary
+2029		https://yandex.ru/search/?text=погода	KEEP	https://yandex.ru/search/?text=погода	url	us	KEEP	https://yandex.ru/search/?text=погода	dictionary
+2030		почта@яндекс.рф	KEEP	почта@яндекс.рф	url	ru	KEEP	почта@яндекс.рф	proto2
+2031		ivan.petrov@mail.ru	KEEP	ivan.petrov@mail.ru	url	us	KEEP	ivan.petrov@mail.ru	proto2
+2032		https://ru.wikipedia.org/wiki/Заглавная_страница	KEEP	https://ru.wikipedia.org/wiki/Заглавная_страница	url	us	KEEP	https://ru.wikipedia.org/wiki/Заглавная_страница	dictionary
+2033		C:\Windows\System32\drivers\etc\hosts	KEEP	C:\Windows\System32\drivers\etc\hosts	url	us	KEEP	C:\Windows\System32\drivers\etc\hosts	proto2
+2034		/etc/nginx/nginx.conf	KEEP	/etc/nginx/nginx.conf	url	us	KEEP	/etc/nginx/nginx.conf	proto2
+2035		/var/log/syslog	KEEP	/var/log/syslog	url	us	KEEP	/var/log/syslog	proto2
+2036		~/.bashrc	KEEP	~/.bashrc	url	us	KEEP	~/.bashrc	proto2
+2037		~/.ssh/id_rsa.pub	KEEP	~/.ssh/id_rsa.pub	url	us	KEEP	~/.ssh/id_rsa.pub	proto2
+2038		https://example.com:8443/secure	KEEP	https://example.com:8443/secure	url	us	KEEP	https://example.com:8443/secure	dictionary
+2039		https://192.0.2.1/status	KEEP	https://192.0.2.1/status	url	us	KEEP	https://192.0.2.1/status	dictionary
+2040		udp://239.255.255.250:1900	KEEP	udp://239.255.255.250:1900	url	us	KEEP	udp://239.255.255.250:1900	proto2
+2041		https://example.com/search?q=привет	KEEP	https://example.com/search?q=привет	url	us	KEEP	https://example.com/search?q=привет	dictionary
+2042		https://en.wikipedia.org/wiki/Keyboard_layout	KEEP	https://en.wikipedia.org/wiki/Keyboard_layout	url	us	KEEP	https://en.wikipedia.org/wiki/Keyboard_layout	dictionary
+2043		https://www.linkedin.com/in/username	KEEP	https://www.linkedin.com/in/username	url	us	KEEP	https://www.linkedin.com/in/username	dictionary
+2044		https://twitter.com/handle	KEEP	https://twitter.com/handle	url	us	KEEP	https://twitter.com/handle	dictionary
+2045		https://example.io/#section-2	KEEP	https://example.io/#section-2	url	us	KEEP	https://example.io/#section-2	dictionary
+2046		file:///home/user/index.html	KEEP	file:///home/user/index.html	url	us	KEEP	file:///home/user/index.html	proto2
+2047		https://example.com/path%20with%20space	KEEP	https://example.com/path%20with%20space	url	us	KEEP	https://example.com/path%20with%20space	dictionary
+2048		jdbc:postgresql://localhost:5432/mydb	KEEP	jdbc:postgresql://localhost:5432/mydb	url	us	KEEP	jdbc:postgresql://localhost:5432/mydb	no_language
+2049		redis://localhost:6379/0	KEEP	redis://localhost:6379/0	url	us	KEEP	redis://localhost:6379/0	proto2
+2050		amqp://guest:guest@localhost:5672	KEEP	amqp://guest:guest@localhost:5672	url	us	KEEP	amqp://guest:guest@localhost:5672	no_language
+2051		postgres://user:pass@host:5432/db	KEEP	postgres://user:pass@host:5432/db	url	us	KEEP	postgres://user:pass@host:5432/db	proto2
+2052		https://example.com/very/long/deep/path/structure	KEEP	https://example.com/very/long/deep/path/structure	url	us	KEEP	https://example.com/very/long/deep/path/structure	dictionary
+2053		www.example.com/ru/catalog/item-12345	KEEP	www.example.com/ru/catalog/item-12345	url	us	KEEP	www.example.com/ru/catalog/item-12345	dictionary
+2054		https://example.com?utm_source=news&utm_medium=email	KEEP	https://example.com?utm_source=news&utm_medium=email	url	us	KEEP	https://example.com?utm_source=news&utm_medium=email	dictionary
+2055		https://example.com/#!/route	KEEP	https://example.com/#!/route	url	us	KEEP	https://example.com/#!/route	dictionary
+2056		tel:+79161234567	KEEP	tel:+79161234567	url	us	KEEP	tel:+79161234567	proto2
+2057		sip:user@voip.example.com	KEEP	sip:user@voip.example.com	url	us	KEEP	sip:user@voip.example.com	proto2
+2058		market://details?id=com.example.app	KEEP	market://details?id=com.example.app	url	us	KEEP	market://details?id=com.example.app	proto2
+2059		steam://run/123456	KEEP	steam://run/123456	url	us	KEEP	steam://run/123456	proto2
+2060		https://example.com/api/v1/token?refresh=true	KEEP	https://example.com/api/v1/token?refresh=true	url	us	KEEP	https://example.com/api/v1/token?refresh=true	dictionary
+2061		@param	KEEP	@param	code	us	KEEP	@param	proto2
+2062		std::vector	KEEP	std::vector	code	us	KEEP	std::vector	proto2
+2063		--verbose	KEEP	--verbose	code	us	KEEP	--verbose	enchant
+2064		snake_case	KEEP	snake_case	code	us	KEEP	snake_case	proto2
+2065		camelCase	KEEP	camelCase	code	us	KEEP	camelCase	proto2
+2066		PascalCase	KEEP	PascalCase	code	us	KEEP	PascalCase	proto2
+2067		SCREAMING_SNAKE_CASE	KEEP	SCREAMING_SNAKE_CASE	code	us	KEEP	SCREAMING_SNAKE_CASE	proto2
+2068		$variable	KEEP	$variable	code	us	KEEP	$variable	enchant
+2069		#define	KEEP	#define	code	us	KEEP	#define	enchant
+2070		::method	KEEP	::method	code	us	KEEP	::method	enchant
+2071		func()	KEEP	func()	code	us	KEEP	func()	proto2
+2072		arr[0]	KEEP	arr[0]	code	us	KEEP	arr[0]	proto2
+2073		a+=1	KEEP	a+=1	code	us	KEEP	a+=1	proto2
+2074		x::y::z	KEEP	x::y::z	code	us	KEEP	x::y::z	proto2
+2075		--help	KEEP	--help	code	us	KEEP	--help	enchant
+2076		-v	KEEP	-v	code	us	KEEP	-v	no_language
+2077		__init__	KEEP	__init__	code	us	KEEP	__init__	proto2
+2078		self.value	KEEP	self.value	code	us	KEEP	self.value	proto2
+2079		obj->method	KEEP	obj->method	code	us	KEEP	obj->method	proto2
+2080		a&&b	KEEP	a&&b	code	us	KEEP	a&&b	proto2
+2081		x||y	KEEP	x||y	code	us	KEEP	x||y	proto2
+2082		#include	KEEP	#include	code	us	KEEP	#include	enchant
+2083		template<T>	KEEP	template<T>	code	us	KEEP	template<T>	proto2
+2084		constexpr	KEEP	constexpr	code	us	KEEP	constexpr	proto2
+2085		nullptr	KEEP	nullptr	code	us	KEEP	nullptr	proto2
+2086		std::string	KEEP	std::string	code	us	KEEP	std::string	proto2
+2087		std::cout	KEEP	std::cout	code	us	KEEP	std::cout	proto2
+2088		std::endl	KEEP	std::endl	code	us	KEEP	std::endl	proto2
+2089		console.log	KEEP	console.log	code	us	KEEP	console.log	proto2
+2090		module.exports	KEEP	module.exports	code	us	KEEP	module.exports	proto2
+2091		require('fs')	KEEP	require('fs')	code	us	KEEP	require('fs')	proto2
+2092		@Override	KEEP	@Override	code	us	KEEP	@Override	enchant
+2093		@Test	KEEP	@Test	code	us	KEEP	@Test	enchant
+2094		#!/bin/bash	KEEP	#!/bin/bash	code	us	KEEP	#!/bin/bash	proto2
+2095		$HOME	KEEP	$HOME	code	us	KEEP	$HOME	enchant
+2096		$PATH	KEEP	$PATH	code	us	KEEP	$PATH	enchant
+2097		%APPDATA%	KEEP	%APPDATA%	code	us	KEEP	%APPDATA%	proto2
+2098		argv[1]	KEEP	argv[1]	code	us	KEEP	argv[1]	proto2
+2099		argc	KEEP	argc	code	us	KEEP	argc	proto2
+2100		malloc()	KEEP	malloc()	code	us	KEEP	malloc()	proto2
+2101		free()	KEEP	free()	code	us	KEEP	free()	proto2
+2102		sizeof(int)	KEEP	sizeof(int)	code	us	KEEP	sizeof(int)	proto2
+2103		std::unique_ptr	KEEP	std::unique_ptr	code	us	KEEP	std::unique_ptr	proto2
+2104		std::shared_ptr	KEEP	std::shared_ptr	code	us	KEEP	std::shared_ptr	proto2
+2105		Vec<T>	KEEP	Vec<T>	code	us	KEEP	Vec<T>	proto2
+2106		HashMap<K,V>	KEEP	HashMap<K,V>	code	us	KEEP	HashMap<K,V>	proto2
+2107		Option<T>	KEEP	Option<T>	code	us	KEEP	Option<T>	proto2
+2108		Result<T,E>	KEEP	Result<T,E>	code	us	KEEP	Result<T,E>	proto2
+2109		async fn	KEEP	async fn	code	us	KEEP	async fn	proto2
+2110		lambda x:x+1	KEEP	lambda x:x+1	code	us	KEEP	lambda x:x+1	proto2
+2111		foo.bar.baz	KEEP	foo.bar.baz	code	us	KEEP	foo.bar.baz	proto2
+2112		obj.prop	KEEP	obj.prop	code	us	KEEP	obj.prop	proto2
+2113		this.state	KEEP	this.state	code	us	KEEP	this.state	proto2
+2114		req.body	KEEP	req.body	code	us	KEEP	req.body	proto2
+2115		res.json()	KEEP	res.json()	code	us	KEEP	res.json()	proto2
+2116		process.env	KEEP	process.env	code	us	KEEP	process.env	proto2
+2117		os.environ	KEEP	os.environ	code	us	KEEP	os.environ	proto2
+2118		sys.argv	KEEP	sys.argv	code	us	KEEP	sys.argv	proto2
+2119		@app.route	KEEP	@app.route	code	us	KEEP	@app.route	proto2
+2120		@staticmethod	KEEP	@staticmethod	code	us	KEEP	@staticmethod	proto2
+2121		СССР	KEEP	СССР	abbrev	ru	KEEP	СССР	enchant
+2122		ГОСТ	KEEP	ГОСТ	abbrev	ru	KEEP	ГОСТ	enchant
+2123		США	KEEP	США	abbrev	ru	KEEP	США	enchant
+2124		ООН	KEEP	ООН	abbrev	ru	KEEP	ООН	enchant
+2125		ФСБ	KEEP	ФСБ	abbrev	ru	KEEP	ФСБ	enchant
+2126		МВД	KEEP	МВД	abbrev	ru	KEEP	МВД	enchant
+2127		ГИБДД	KEEP	ГИБДД	abbrev	ru	KEEP	ГИБДД	proto2
+2128		ВУЗ	KEEP	ВУЗ	abbrev	ru	KEEP	ВУЗ	enchant
+2129		НИИ	KEEP	НИИ	abbrev	ru	KEEP	НИИ	enchant
+2130		ЖКХ	KEEP	ЖКХ	abbrev	ru	KEEP	ЖКХ	proto2
+2131		СМИ	KEEP	СМИ	abbrev	ru	KEEP	СМИ	enchant
+2132		ЦРУ	KEEP	ЦРУ	abbrev	ru	KEEP	ЦРУ	enchant
+2133		НАТО	KEEP	НАТО	abbrev	ru	KEEP	НАТО	enchant
+2134		ЕС	KEEP	ЕС	abbrev	ru	CONVERT	TC	enchant
+2135		ВВП	KEEP	ВВП	abbrev	ru	KEEP	ВВП	proto2
+2136		ФБР	KEEP	ФБР	abbrev	ru	KEEP	ФБР	enchant
+2137		РФ	KEEP	РФ	abbrev	ru	KEEP	РФ	enchant
+2138		ЧП	KEEP	ЧП	abbrev	ru	KEEP	ЧП	enchant
+2139		ИП	KEEP	ИП	abbrev	ru	KEEP	ИП	proto2
+2140		ТВ	KEEP	ТВ	abbrev	ru	CONVERT	ND	enchant
+2141		NASA	KEEP	NASA	abbrev	us	KEEP	NASA	enchant
+2142		USA	KEEP	USA	abbrev	us	KEEP	USA	enchant
+2143		UK	KEEP	UK	abbrev	us	KEEP	UK	enchant
+2144		EU	KEEP	EU	abbrev	us	KEEP	EU	enchant
+2145		UN	KEEP	UN	abbrev	us	KEEP	UN	enchant
+2146		HTTP	KEEP	HTTP	abbrev	us	KEEP	HTTP	dictionary
+2147		HTTPS	KEEP	HTTPS	abbrev	us	KEEP	HTTPS	dictionary
+2148		URL	KEEP	URL	abbrev	us	KEEP	URL	enchant
+2149		HTML	KEEP	HTML	abbrev	us	KEEP	HTML	enchant
+2150		CSS	KEEP	CSS	abbrev	us	KEEP	CSS	enchant
+2151		API	KEEP	API	abbrev	us	KEEP	API	enchant
+2152		CPU	KEEP	CPU	abbrev	us	KEEP	CPU	enchant
+2153		GPU	KEEP	GPU	abbrev	us	KEEP	GPU	enchant
+2154		RAM	KEEP	RAM	abbrev	us	KEEP	RAM	enchant
+2155		USB	KEEP	USB	abbrev	us	KEEP	USB	enchant
+2156		DVD	KEEP	DVD	abbrev	us	KEEP	DVD	enchant
+2157		PDF	KEEP	PDF	abbrev	us	KEEP	PDF	enchant
+2158		JSON	KEEP	JSON	abbrev	us	KEEP	JSON	proto2
+2159		XML	KEEP	XML	abbrev	us	KEEP	XML	enchant
+2160		SQL	KEEP	SQL	abbrev	us	KEEP	SQL	enchant
+2161		Александр	KEEP	Александр	name	ru	KEEP	Александр	enchant
+2162		Мария	KEEP	Мария	name	ru	KEEP	Мария	enchant
+2163		Дмитрий	KEEP	Дмитрий	name	ru	KEEP	Дмитрий	enchant
+2164		Иван	KEEP	Иван	name	ru	KEEP	Иван	enchant
+2165		Ольга	KEEP	Ольга	name	ru	KEEP	Ольга	enchant
+2166		Сергей	KEEP	Сергей	name	ru	KEEP	Сергей	enchant
+2167		Наталья	KEEP	Наталья	name	ru	KEEP	Наталья	enchant
+2168		Андрей	KEEP	Андрей	name	ru	KEEP	Андрей	enchant
+2169		Владимир	KEEP	Владимир	name	ru	KEEP	Владимир	enchant
+2170		Татьяна	KEEP	Татьяна	name	ru	KEEP	Татьяна	enchant
+2171		Николай	KEEP	Николай	name	ru	KEEP	Николай	enchant
+2172		Елена	KEEP	Елена	name	ru	KEEP	Елена	enchant
+2173		Максим	KEEP	Максим	name	ru	KEEP	Максим	enchant
+2174		Виктория	KEEP	Виктория	name	ru	KEEP	Виктория	enchant
+2175		Anna	KEEP	Anna	name	us	KEEP	Anna	enchant
+2176		John	KEEP	John	name	us	KEEP	John	enchant
+2177		Smith	KEEP	Smith	name	us	KEEP	Smith	enchant
+2178		Ivanov	KEEP	Ivanov	name	us	KEEP	Ivanov	proto2
+2179		Ekaterina	KEEP	Ekaterina	name	us	KEEP	Ekaterina	proto2
+2180		Michael	KEEP	Michael	name	us	KEEP	Michael	enchant
+2181		Johnson	KEEP	Johnson	name	us	KEEP	Johnson	enchant
+2182		Williams	KEEP	Williams	name	us	KEEP	Williams	enchant
+2183		Brown	KEEP	Brown	name	us	KEEP	Brown	enchant
+2184		Davis	KEEP	Davis	name	us	KEEP	Davis	enchant
+2185		Miller	KEEP	Miller	name	us	KEEP	Miller	enchant
+2186		Wilson	KEEP	Wilson	name	us	KEEP	Wilson	enchant
+2187		Anderson	KEEP	Anderson	name	us	KEEP	Anderson	enchant
+2188		Thompson	KEEP	Thompson	name	us	KEEP	Thompson	enchant
+2189		Garcia	KEEP	Garcia	name	us	KEEP	Garcia	enchant
+2190		Martinez	KEEP	Martinez	name	us	KEEP	Martinez	enchant
+2191		nikname_92	KEEP	nikname_92	name	us	KEEP	nikname_92	proto2
+2192		xXx_Killer_xXx	KEEP	xXx_Killer_xXx	name	us	KEEP	xXx_Killer_xXx	proto2
+2193		dark_wolf777	KEEP	dark_wolf777	name	us	KEEP	dark_wolf777	proto2
+2194		kitty_cat	KEEP	kitty_cat	name	us	KEEP	kitty_cat	proto2
+2195		SuperMario	KEEP	SuperMario	name	us	KEEP	SuperMario	proto2
+2196		Pavel_Durov	KEEP	Pavel_Durov	name	us	KEEP	Pavel_Durov	proto2
+2197		CaptainJack	KEEP	CaptainJack	name	us	KEEP	CaptainJack	proto2
+2198		ivan.petrov	KEEP	ivan.petrov	name	us	KEEP	ivan.petrov	proto2
+2199		j.smith	KEEP	j.smith	name	us	KEEP	j.smith	proto2
+2200		Petrov	KEEP	Petrov	name	us	KEEP	Petrov	proto2
+2201		privet	KEEP	privet	translit	us	KEEP	privet	enchant
+2202		spasibo	KEEP	spasibo	translit	us	KEEP	spasibo	proto2
+2203		pozhaluysta	KEEP	pozhaluysta	translit	us	KEEP	pozhaluysta	proto2
+2204		zdravstvuyte	KEEP	zdravstvuyte	translit	us	KEEP	zdravstvuyte	proto2
+2205		dosvidaniya	KEEP	dosvidaniya	translit	us	KEEP	dosvidaniya	proto2
+2206		molodets	KEEP	molodets	translit	us	KEEP	molodets	proto2
+2207		normalno	KEEP	normalno	translit	us	KEEP	normalno	proto2
+2208		konechno	KEEP	konechno	translit	us	KEEP	konechno	proto2
+2209		nichego	KEEP	nichego	translit	us	KEEP	nichego	proto2
+2210		tochno	KEEP	tochno	translit	us	KEEP	tochno	proto2
+2211		ladno	KEEP	ladno	translit	us	KEEP	ladno	proto2
+2212		vobshe	KEEP	vobshe	translit	us	KEEP	vobshe	proto2
+2213		kstati	KEEP	kstati	translit	us	KEEP	kstati	proto2
+2214		blin	KEEP	blin	translit	us	KEEP	blin	proto2
+2215		nu	KEEP	nu	translit	us	KEEP	nu	enchant
+2216		davai	KEEP	davai	translit	us	KEEP	davai	proto2
+2217		poka	KEEP	poka	translit	us	KEEP	poka	proto2
+2218		horosho	KEEP	horosho	translit	us	KEEP	horosho	proto2
+2219		ploho	KEEP	ploho	translit	us	KEEP	ploho	proto2
+2220		otlichno	KEEP	otlichno	translit	us	KEEP	otlichno	proto2
+2221		prekrasno	KEEP	prekrasno	translit	us	KEEP	prekrasno	proto2
+2222		zamechatelno	KEEP	zamechatelno	translit	us	KEEP	zamechatelno	proto2
+2223		super	KEEP	super	translit	us	KEEP	super	enchant
+2224		klass	KEEP	klass	translit	us	KEEP	klass	proto2
+2225		prikolno	KEEP	prikolno	translit	us	KEEP	prikolno	proto2
+2226		smeshno	KEEP	smeshno	translit	us	KEEP	smeshno	proto2
+2227		grustno	KEEP	grustno	translit	us	KEEP	grustno	proto2
+2228		ustala	KEEP	ustala	translit	us	KEEP	ustala	proto2
+2229		ustal	KEEP	ustal	translit	us	KEEP	ustal	proto2
+2230		rabotayu	KEEP	rabotayu	translit	us	KEEP	rabotayu	proto2
+2231		uchus	KEEP	uchus	translit	us	KEEP	uchus	proto2
+2232		otdyhayu	KEEP	otdyhayu	translit	us	KEEP	otdyhayu	proto2
+2233		gulyayu	KEEP	gulyayu	translit	us	KEEP	gulyayu	proto2
+2234		dumayu	KEEP	dumayu	translit	us	KEEP	dumayu	proto2
+2235		znayu	KEEP	znayu	translit	us	KEEP	znayu	proto2
+2236		ponyala	KEEP	ponyala	translit	us	KEEP	ponyala	proto2
+2237		ponyal	KEEP	ponyal	translit	us	KEEP	ponyal	proto2
+2238		soglasen	KEEP	soglasen	translit	us	KEEP	soglasen	proto2
+2239		soglasna	KEEP	soglasna	translit	us	KEEP	soglasna	proto2
+2240		privetik	KEEP	privetik	translit	us	KEEP	privetik	proto2
+2241		Wi-Fiкой	KEEP	Wi-Fiкой	mixed	us	KEEP	Wi-Fiкой	proto2
+2242		USBпорт	KEEP	USBпорт	mixed	us	KEEP	USBпорт	proto2
+2243		SMSка	KEEP	SMSка	mixed	us	KEEP	SMSка	proto2
+2244		iPhoneов	KEEP	iPhoneов	mixed	us	KEEP	iPhoneов	proto2
+2245		ITшник	KEEP	ITшник	mixed	us	KEEP	ITшник	proto2
+2246		PRщик	KEEP	PRщик	mixed	us	KEEP	PRщик	proto2
+2247		VIP-зал	KEEP	VIP-зал	mixed	us	KEEP	VIP-зал	proto2
+2248		СМС-код	KEEP	СМС-код	mixed	ru	KEEP	СМС-код	proto2
+2249		HTMLка	KEEP	HTMLка	mixed	us	KEEP	HTMLка	proto2
+2250		DVDишник	KEEP	DVDишник	mixed	us	KEEP	DVDишник	proto2
+2251		iPadом	KEEP	iPadом	mixed	us	KEEP	iPadом	proto2
+2252		iOSе	KEEP	iOSе	mixed	us	KEEP	iOSе	proto2
+2253		Bluetoothом	KEEP	Bluetoothом	mixed	us	KEEP	Bluetoothом	proto2
+2254		USB-флешка	KEEP	USB-флешка	mixed	us	KEEP	USB-флешка	proto2
+2255		VPNом	KEEP	VPNом	mixed	us	KEEP	VPNом	proto2
+2256		SEOшник	KEEP	SEOшник	mixed	us	KEEP	SEOшник	proto2
+2257		GIF-ка	KEEP	GIF-ка	mixed	us	KEEP	GIF-ка	proto2
+2258		PDFка	KEEP	PDFка	mixed	us	KEEP	PDFка	proto2
+2259		CDшка	KEEP	CDшка	mixed	us	KEEP	CDшка	proto2
+2260		DVD-диск	KEEP	DVD-диск	mixed	us	KEEP	DVD-диск	proto2
+2261		HR-отдел	KEEP	HR-отдел	mixed	us	KEEP	HR-отдел	proto2
+2262		CEOшка	KEEP	CEOшка	mixed	us	KEEP	CEOшка	proto2
+2263		PR-акция	KEEP	PR-акция	mixed	us	KEEP	PR-акция	proto2
+2264		SPAшка	KEEP	SPAшка	mixed	us	KEEP	SPAшка	proto2
+2265		PHPшник	KEEP	PHPшник	mixed	us	KEEP	PHPшник	proto2
+2266		SQLщик	KEEP	SQLщик	mixed	us	KEEP	SQLщик	proto2
+2267		Wi-Fiщик	KEEP	Wi-Fiщик	mixed	us	KEEP	Wi-Fiщик	proto2
+2268		USB-кабель	KEEP	USB-кабель	mixed	us	KEEP	USB-кабель	proto2
+2269		IT-отдел	KEEP	IT-отдел	mixed	us	KEEP	IT-отдел	proto2
+2270		HTML-вёрстка	KEEP	HTML-вёрстка	mixed	us	KEEP	HTML-вёрстка	proto2
+2271		A4	KEEP	A4	number	us	KEEP	A4	no_language
+2272		ГОСТ-2024	KEEP	ГОСТ-2024	number	ru	KEEP	ГОСТ-2024	proto2
+2273		x86_64	KEEP	x86_64	number	us	KEEP	x86_64	proto2
+2274		IPv4	KEEP	IPv4	number	us	KEEP	IPv4	proto2
+2275		IPv6	KEEP	IPv6	number	us	KEEP	IPv6	proto2
+2276		3D	KEEP	3D	number	us	CONVERT	3В	dictionary
+2277		4K	KEEP	4K	number	us	KEEP	4K	no_language
+2278		Windows10	KEEP	Windows10	number	us	KEEP	Windows10	enchant
+2279		COVID-19	KEEP	COVID-19	number	us	KEEP	COVID-19	proto2
+2280		Т-34	KEEP	Т-34	number	ru	CONVERT	N-34	enchant
+2281		Ту-154	KEEP	Ту-154	number	ru	KEEP	Ту-154	enchant
+2282		АК-47	KEEP	АК-47	number	ru	CONVERT	FR-47	enchant
+2283		М16	KEEP	М16	number	ru	KEEP	М16	no_language
+2284		Boeing747	KEEP	Boeing747	number	us	KEEP	Boeing747	enchant
+2285		Wi-Fi5	KEEP	Wi-Fi5	number	us	KEEP	Wi-Fi5	proto2
+2286		4G	KEEP	4G	number	us	KEEP	4G	no_language
+2287		5G	KEEP	5G	number	us	KEEP	5G	no_language
+2288		H2O	KEEP	H2O	number	us	KEEP	H2O	proto2
+2289		CO2	KEEP	CO2	number	us	KEEP	CO2	enchant
+2290		Windows11	KEEP	Windows11	number	us	KEEP	Windows11	enchant
+2291		iOS17	KEEP	iOS17	number	us	KEEP	iOS17	enchant
+2292		USB3.0	KEEP	USB3.0	number	us	KEEP	USB3.0	proto2
+2293		HDMI2.1	KEEP	HDMI2.1	number	us	KEEP	HDMI2.1	proto2
+2294		3G	KEEP	3G	number	us	KEEP	3G	no_language
+2295		Formula1	KEEP	Formula1	number	us	KEEP	Formula1	enchant
+2296		GTA5	KEEP	GTA5	number	us	KEEP	GTA5	proto2
+2297		PlayStation5	KEEP	PlayStation5	number	us	KEEP	PlayStation5	enchant
+2298		Apollo11	KEEP	Apollo11	number	us	KEEP	Apollo11	enchant
+2299		Sputnik1	KEEP	Sputnik1	number	us	KEEP	Sputnik1	enchant
+2300		Falcon9	KEEP	Falcon9	number	us	KEEP	Falcon9	enchant

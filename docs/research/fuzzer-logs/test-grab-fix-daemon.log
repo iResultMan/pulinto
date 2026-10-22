@@ -1,0 +1,48 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+IBus раскладкой не управляет (X11 layout error: IBus следует системной раскладке (GetUseSysLayout=true), раскладку задаёт XKB), беру XKB
+Layout controller: X11 (XKB)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: PuLinTo Test Typist
+Захват: System Administrator’s Keyboard
+Захват: Logitech K520
+Замена: 'реез' → 'http' (ступень: Rule, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'Утсфктфсшщт' → 'Encarnacion' (ступень: Bigram, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'пфму' → 'gave' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'иуут' → 'been' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'ghblevfq' → 'придумай' (ступень: Bigram, решение за 0 мс)
+WARNING: Layout group switch to 1 was not confirmed by X server within 500ms!
+Замена: 'афкьукы' → 'farmers' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'Ызфсу' → 'Space' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'вуыскшиштп' → 'describing' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'еру' → 'the' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'ерфт' → 'than' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'еру' → 'the' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'кугыув' → 'reused' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'ybrjulf' → 'никогда' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 1 was not confirmed by X server within 500ms!
+Замена: 'фтв' → 'and' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'ща' → 'of' (ступень: ShortWord, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'тщву' → 'node' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'зквщцтдщфвы' → 'prdownloads' (ступень: Bigram, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'фппкуыышщт' → 'aggression' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!
+Замена: 'ыфн' → 'say' (ступень: Dictionary, решение за 0 мс)
+WARNING: Layout group switch to 0 was not confirmed by X server within 500ms!

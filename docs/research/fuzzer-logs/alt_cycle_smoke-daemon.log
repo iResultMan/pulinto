@@ -1,0 +1,23 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+Layout controller: X11 (XKB)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+XTest-доставка готова: 12 свободных keycode
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: PuLinTo Test Typist
+Захват: System Administrator’s Keyboard
+Захват: Logitech K520
+1787705672031 Замена: 'реез' → 'http' (ступень: Rule, решение за 0 мс)
+1787705672148 косметика: us → группа 0, set_group: Ok(())
+1787705672992 Замена: 'Утсфктфсшщт' → 'Encarnacion' (ступень: Bigram, решение за 0 мс)
+1787705673259 косметика: us → группа 0, set_group: Ok(())
+1787705673738 Замена: 'dcgjvybk' → 'вспомнил' (ступень: Dictionary, решение за 0 мс)
+1787705673941 косметика: ru → группа 1, set_group: Ok(())
+1787705675299 Замена: 'пфму' → 'gave' (ступень: Dictionary, решение за 0 мс)
+1787705675410 косметика: us → группа 0, set_group: Ok(())
+1787705677444 Замена: 'иуут' → 'been' (ступень: Dictionary, решение за 0 мс)
+1787705677558 косметика: us → группа 0, set_group: Ok(())
+1787705678190 Замена: 'ghblevfq' → 'придумай' (ступень: Bigram, решение за 0 мс)
+1787705678404 косметика: ru → группа 1, set_group: Ok(())
+Клавиатура PuLinTo Test Typist отвалилась: No such device (os error 19)

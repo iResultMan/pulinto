@@ -1,0 +1,8 @@
+{
+    "uuid": "pulinto@pulinto.ru",
+    "name": "PuLinTo focus",
+    "description": "Tells the PuLinTo daemon which application has keyboard focus, so per-application rules work for Wayland windows too.",
+    "shell-version": ["45", "46", "47", "48", "49", "50"],
+    "session-modes": ["user", "unlock-dialog"],
+    "url": "https://github.com/iResultMan/pulinto"
+}

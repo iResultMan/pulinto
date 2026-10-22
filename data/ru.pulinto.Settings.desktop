@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=PuLinTo
+GenericName=Переключатель раскладки
+Comment=Управление переключателем раскладки, словарями и правилами
+Exec=pulinto-settings
+Icon=ru.pulinto.Settings
+Terminal=false
+Categories=Utility;Accessibility;
+Keywords=keyboard;layout;switch;раскладка;
+StartupWMClass=ru.pulinto.Settings

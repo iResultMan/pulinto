@@ -1,0 +1,5 @@
+Привет world, это test; проверка: delivery. Вопрос question? Ура exclamation!
+Один two, три four; пять six: семь eight. Дальше nine? Конец ten!
+Табуляция	tab	идёт	между	словами	вот	так.
+Новая строка после Enter работает, а мы продолжаем: снова text и опять слово.
+Финал: git commit, потом push; затем merge. Всё done!

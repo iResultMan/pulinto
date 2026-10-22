@@ -1,0 +1,32 @@
+name: Ошибка
+description: Программа исправила слово неверно, пропустила его или ведёт себя странно
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что произошло
+      description: Что вы набрали, что получилось и что ожидали.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Среда
+      description: Дистрибутив, X11 или Wayland, версия GNOME, раскладки.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия
+      description: Версия программы (пункт «Подсказки» в меню значка в трее) или коммит (`git rev-parse --short HEAD`).
+  - type: textarea
+    id: report
+    attributes:
+      label: Диагностический отчёт
+      description: >
+        Нажмите Ctrl+Alt+\ сразу после ошибки и приложите нужные строки из
+        ~/.local/share/pulinto/reports.jsonl. Отчёт содержит слова из последних
+        решений: удалите всё, что не хотите показывать.
+      render: json

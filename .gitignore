@@ -1,0 +1,77 @@
+/target
+**/target
+**/*.rs.bk
+Cargo.lock.orig
+node_modules/
+gui/dist/
+
+# Данные, которые в git не кладём осознанно: они большие, машинно-собираемые
+# либо сданы отдельно. Живут на диске и в data/dict-variants/MANIFEST описаны.
+# Словари ru и en публикуются (CC BY 4.0, источники — data/ATTRIBUTION.md);
+# итальянский пока экспериментальный и не проверен по лицензиям.
+data/dict/it.*
+data/dict-variants/*/
+docs/research/corpus3/part*.tsv
+docs/research/corpus3/bench.tsv
+docs/research/corpus3/predictions-*.tsv*
+docs/research/corpus3/sources/
+docs/research/corpus2/predictions-*.tsv
+docs/research/corpus2/heldout.tsv
+docs/research/corpus2/dict_table*.tsv
+
+# Логи прогонов стенда: гигабайты, воспроизводятся run.sh
+docs/research/fuzzer-logs/*-sink.log
+
+# Исходники чужих переключателей — держим на диске для разбора, но вне дерева.
+# Правовая рамка из docs/research/16-switchers-source-study.md: наш код под MIT,
+# у них GPL/AGPL, и производное произведение обнулило бы смысл проекта.
+competitors/
+
+# Локальные среды и черновики опытов — не для дерева
+experiment/
+Совет моделей/
+tools/live-test/*.log
+
+# Personal Claude Code files (per machine, never shared)
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/worktrees/
+.claude/sprint/
+
+# Wayland stand: keep the run history, the per-run verdicts and the scripts;
+# raw traces and logs are reproducible from script + seed + build.
+docs/research/stand-wayland/*/*
+!docs/research/stand-wayland/*/compare.txt
+!docs/research/stand-wayland/*/errors.tsv
+!docs/research/stand-wayland/*/binary.sha256
+!docs/research/stand-wayland/scripts/*
+
+# Python bytecode
+__pycache__/
+
+# Скачанные тексты веб-блоков: чужой текст, каждый раз новый; в git — manifest.json и сценарий
+docs/research/corpus-web/*/sources/
+
+# Всё лишнее для публикации: рабочие записки, стенды, чужие исходники, сырьё.
+# Перенесено из дерева 20 октября 2026; в git не попадает.
+backup/
+
+# Собранный сайт (tools/build-site.py)
+_site/
+
+# Итальянский: нет в движке и не проверен, не публикуется до тестов
+data/languages/it/
+
+
+# Материалы для обучения бота поддержки (подробные вопросы и ответы): не публикуются
+support/
+
+# Закрытые материалы (внутренние описания, не публикуются)
+private/
+
+# На GitHub уходит только то, что перечислено в tools/export_public.py, со своим
+# .gitignore; здесь, в закрытом репозитории, инструменты, тесты, сайт и сборка
+# пакетов хранятся в git. Не хранятся только рабочие файлы Claude и замеры
+# (сырые данные стендов, больше гигабайта; итоги замеров отслеживаются).
+/.claude/
+/docs/research/

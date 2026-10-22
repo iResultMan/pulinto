@@ -1,0 +1,11 @@
+PuLinTo
+Copyright 2026 Yury ResultMan and PuLinTo contributors
+
+This product includes software written by Yury ResultMan
+(https://github.com/iResultMan/pulinto), licensed under the MIT License or the
+Apache License 2.0, at your option (LICENSE-MIT, LICENSE-APACHE).
+
+The language data in the data/ directory (dictionaries, tables of forbidden
+letter combinations) is licensed under Creative Commons Attribution 4.0
+(LICENSE-CC-BY-4.0); its sources and the attribution it requires are listed in
+data/ATTRIBUTION.md.

@@ -1,0 +1,5 @@
+{"t":1785890928845,"t_end":1785890928910,"seq":0,"word":"own","native":"us","typed_in":"us","layout_was":"?","expect":"KEEP","shown":"own","delimiter":57,"codes":[24, 17, 49]}
+{"t":1785890929435,"t_end":1785890929516,"seq":1,"word":"http","native":"us","typed_in":"ru","layout_was":"?","expect":"CONVERT","shown":"реез","delimiter":57,"codes":[35, 20, 20, 25]}
+{"t":1785890930042,"t_end":1785890930236,"seq":2,"word":"Encarnacion","native":"us","typed_in":"ru","layout_was":"?","expect":"CONVERT","shown":"Утсфктфсшщт","delimiter":57,"codes":[18, 49, 46, 30, 19, 49, 30, 46, 23, 24, 49]}
+{"t":1785890930761,"t_end":1785890930907,"seq":3,"word":"вспомнил","native":"ru","typed_in":"us","layout_was":"?","expect":"CONVERT","shown":"dcgjvybk","delimiter":57,"codes":[32, 46, 34, 36, 47, 21, 48, 37]}
+{"t":1785890931432,"t_end":1785890931545,"seq":4,"word":"Сергей","native":"ru","typed_in":"ru","layout_was":"?","expect":"KEEP","shown":"Сергей","delimiter":52,"codes":[46, 20, 35, 22, 20, 16]}

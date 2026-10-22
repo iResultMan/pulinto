@@ -1,0 +1,18 @@
+[package]
+name = "pulinto"
+description = "Command-line interface for PuLinTo"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "pulinto"
+path = "src/main.rs"
+
+[dependencies]
+pulinto-core = { workspace = true }
+pulinto-data = { workspace = true }
+pulinto-layout = { workspace = true }

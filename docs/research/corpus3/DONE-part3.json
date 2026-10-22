@@ -1,0 +1,358 @@
+{
+  "agent": 3,
+  "rows": 460359,
+  "unique_true_forms": 20123,
+  "unique_per_cell": {
+    "law_ru": 3821,
+    "law_en": 4600,
+    "medicine_ru": 4329,
+    "medicine_en": 4715,
+    "finance_ru": 4136,
+    "finance_en": 4658
+  },
+  "sha256": "71a4c5fff9713773032b45ec24d76f179bd59c413432ce66080154f11c9b3977",
+  "variants": {
+    "A": 100166,
+    "B": 100168,
+    "C": 108373,
+    "phrase": 98691
+  },
+  "categories": {
+    "law": 36241,
+    "medicine": 33351,
+    "finance": 41350
+  },
+  "traps": {
+    "trap_url": 10220,
+    "trap_code": 10277,
+    "trap_password": 10336,
+    "trap_abbrev": 11805,
+    "trap_url_garbled": 10323
+  },
+  "length_histogram": {
+    "1": 5833,
+    "2": 14646,
+    "3": 15928,
+    "4": 10402,
+    "5+": 64133
+  },
+  "sources": [
+    {
+      "name": "Wikipedia: Римское_право",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%BC%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Конституционное_право",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Международное_право",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Юриспруденция",
+      "url": "https://ru.wikipedia.org/wiki/%D0%AE%D1%80%D0%B8%D1%81%D0%BF%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Гражданское_право",
+      "url": "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Roman_law",
+      "url": "https://en.wikipedia.org/wiki/Roman_law",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Constitutional_law",
+      "url": "https://en.wikipedia.org/wiki/Constitutional_law",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: International_law",
+      "url": "https://en.wikipedia.org/wiki/International_law",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Jurisprudence",
+      "url": "https://en.wikipedia.org/wiki/Jurisprudence",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Judiciary",
+      "url": "https://en.wikipedia.org/wiki/Judiciary",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Civil_law_(legal_system)",
+      "url": "https://en.wikipedia.org/wiki/Civil_law_%28legal_system%29",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/law_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Анатомия_человека",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BC%D0%B8%D1%8F_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Физиология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Кардиология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B4%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Неврология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B2%D1%80%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Иммунология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Фармакология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D1%80%D0%BC%D0%B0%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Эпидемиология",
+      "url": "https://ru.wikipedia.org/wiki/%D0%AD%D0%BF%D0%B8%D0%B4%D0%B5%D0%BC%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Human_anatomy",
+      "url": "https://en.wikipedia.org/wiki/Human_anatomy",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Physiology",
+      "url": "https://en.wikipedia.org/wiki/Physiology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Cardiology",
+      "url": "https://en.wikipedia.org/wiki/Cardiology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Neurology",
+      "url": "https://en.wikipedia.org/wiki/Neurology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Immunology",
+      "url": "https://en.wikipedia.org/wiki/Immunology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Pharmacology",
+      "url": "https://en.wikipedia.org/wiki/Pharmacology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Epidemiology",
+      "url": "https://en.wikipedia.org/wiki/Epidemiology",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/medicine_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Макроэкономика",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D1%80%D0%BE%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Банковская_система",
+      "url": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Инфляция",
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BB%D1%8F%D1%86%D0%B8%D1%8F",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Корпоративные_финансы",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D1%8B",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Инвестиции",
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_ru.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Macroeconomics",
+      "url": "https://en.wikipedia.org/wiki/Macroeconomics",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Stock_market",
+      "url": "https://en.wikipedia.org/wiki/Stock_market",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Inflation",
+      "url": "https://en.wikipedia.org/wiki/Inflation",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Corporate_finance",
+      "url": "https://en.wikipedia.org/wiki/Corporate_finance",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    },
+    {
+      "name": "Wikipedia: Investment",
+      "url": "https://en.wikipedia.org/wiki/Investment",
+      "http_code": 200,
+      "license": "CC BY-SA 4.0",
+      "local_file": "docs/research/corpus3/sources/finance_en.txt",
+      "sentences": 1000,
+      "rows_taken": 2500
+    }
+  ],
+  "validator": "passed",
+  "notes": "Generated cleanly from non-synthetic verbatim Wikimedia sources."
+}

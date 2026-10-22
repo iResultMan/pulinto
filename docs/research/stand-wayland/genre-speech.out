@@ -1,0 +1,4 @@
+прогон genre-speech: слов 20000, пауза 100 мс, выдержка 6 мс, окно virtual, предел 14620 с
+варианты раскладок: us=mac,ru=mac
+tools/typing-fuzzer/run-script.sh: строка 153: синтаксическая ошибка рядом с неожиданным маркером «fi»
+tools/typing-fuzzer/run-script.sh: строка 153: `fi'

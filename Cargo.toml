@@ -1,0 +1,31 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/pulinto-core",
+    "crates/pulinto-data",
+    "crates/pulinto-cli",
+    "crates/pulinto-input",
+    "crates/pulinto-layout",
+    "crates/pulintod",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.82"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/iResultMan/pulinto"
+authors = ["Yury ResultMan", "PuLinTo contributors"]
+
+[workspace.dependencies]
+pulinto-core = { path = "crates/pulinto-core", version = "1.0.0" }
+pulinto-data = { path = "crates/pulinto-data", version = "1.0.0" }
+pulinto-input = { path = "crates/pulinto-input", version = "1.0.0" }
+pulinto-layout = { path = "crates/pulinto-layout", version = "1.0.0" }
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PuLinTo — слово в не той раскладке исправится само</title>
+<meta name="description" content="PuLinTo для Linux исправляет слово, набранное не в той раскладке: ghbdtn становится «привет». X11 и GNOME на Wayland, 99,38% точности и 0,06% ложных срабатываний на корпусе из 21 300 слов.">
+<meta name="theme-color" content="#f5f7f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111512" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PuLinTo — слово в не той раскладке исправится само">
+<meta property="og:description" content="Автоматический переключатель раскладки для Linux: X11 и GNOME на Wayland.">
+<meta property="og:url" content="{{SITE}}/">
+<meta property="og:image" content="{{SITE}}/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PuLinTo","applicationCategory":"UtilitiesApplication","operatingSystem":"Linux","description":"Автоматический переключатель раскладки для Linux: слово, набранное не в той раскладке, стирается и печатается заново.","url":"{{SITE}}/","downloadUrl":"{{REPO}}","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"RUB"},"inLanguage":"ru"}
+</script>
+<link rel="canonical" href="{{SITE}}/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#content">К содержимому</a>
+
+<header class="wrap top">
+  <a class="mark" href="./">PuLinTo</a>
+  <nav class="nav" aria-label="Разделы">
+    <a class="opt" href="#trust">Надёжность</a>
+    <a class="opt" href="#how">Как работает</a>
+    <a href="#install">Установка</a>
+    <a href="docs/">Документация</a>
+    <a href="{{REPO}}" target="_blank" rel="noopener">Поставь ⭐</a>
+    <div class="lang-switch" aria-label="Язык / Language">
+      <span class="lang-cur" aria-current="page">RU</span>
+      <span class="lang-sep">/</span>
+      <a class="lang-alt" href="en.html" title="English version">EN</a>
+    </div>
+  </nav>
+</header>
+
+<main id="content">
+
+<section class="wrap hero" aria-labelledby="h-top">
+  <div>
+    <div class="hero-star-banner">
+      <a class="star-badge" href="{{REPO}}" target="_blank" rel="noopener">
+        <span class="star-icon" aria-hidden="true">⭐</span>
+        <span>Нравится идея? <b>Поставь ⭐ на GitHub</b></span>
+        <span class="badge-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+    <h1 id="h-top">Магия не&nbsp;думать о&nbsp;раскладке</h1>
+    <p class="hero-sub">Привыкаешь мгновенно, отказаться&nbsp;— нереально</p>
+    <p class="lead">Слово исправляется прямо на лету, а следующее слово вы набираете уже в нужной раскладке. Удобно. Безопасно. Написано с нуля. Отдаю бесплатно.</p>
+    <div class="cta">
+      <a class="btn" href="#install">Установить</a>
+      <a class="btn-github" href="{{REPO}}" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <span>Поставь ⭐</span>
+      </a>
+    </div>
+    <div class="hero-install-cmd">
+      <code>curl -fsSL {{SITE}}/install.sh | bash</code>
+    </div>
+    <p class="hint">Одна команда или установочный файл (.deb, .rpm). Работает в X11 и в GNOME на Wayland. Если слово пропущено, его исправит одно нажатие: <kbd>Alt</kbd> (Apple) или <kbd>Pause/Break</kbd> (для PC).</p>
+  </div>
+
+  <div class="demo" role="region" aria-label="Демонстрация автоматического исправления">
+    <div class="demo-screen" id="demo-screen">
+      <div class="demo-line demo-line-wrong">
+        <span id="demo-wrong" class="wrong-word"></span><span id="demo-wrong-caret" class="caret"></span>
+      </div>
+      <div class="demo-line demo-line-right">
+        <span id="demo-right" class="right-word"></span><span id="demo-right-caret" class="caret" style="display:none"></span>
+      </div>
+    </div>
+
+    <div class="demo-footer">
+      <p class="demo-caption">
+        <strong>PuLinTo сам исправляет неверную раскладку.</strong>
+        Точность авто-исправления — <b class="num-accent">99,38%</b>.<br>
+        Для остального есть хоткей: <kbd>Alt</kbd> (Apple) или <kbd>Pause/Break</kbd> (для PC).
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="trust" aria-labelledby="h-trust">
+  <div class="wrap split">
+    <div class="trust-side">
+      <div>
+        <h2 id="h-trust">Каскад решений тщательно откалиброван</h2>
+        <p class="sub">Одно из лучших решений на рынке по точности срабатывания.</p>
+      </div>
+
+      <div class="accuracy-cta">
+        <p class="accuracy-cta-title">Нашли пробел в точности?</p>
+        <p class="accuracy-cta-text">Пришлите нам для исправления, чтобы всем стало ещё удобнее.</p>
+        <div class="accuracy-cta-links">
+          <a class="btn-subtle" href="{{REPO}}/issues/new?template=hard_word.yml" target="_blank" rel="noopener">Прислать трудное слово &rarr;</a>
+          <a class="link-faint" href="https://t.me/pulinto_bot" target="_blank" rel="noopener">или в бот</a>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="tablewrap" tabindex="0" role="region" aria-label="Точность">
+        <table>
+          <caption>Один отложенный корпус: 21&nbsp;300 слов, из них 20&nbsp;000 реального текста и 1&nbsp;300 ловушек (URL, идентификаторы, аббревиатуры)</caption>
+          <thead><tr><th scope="col">Программа</th><th scope="col">Точность</th><th scope="col">Ложные срабатывания</th><th scope="col">Пропуски</th></tr></thead>
+          <tbody>
+            <tr class="us"><th scope="row">PuLinTo</th><td>99,38%</td><td>0,06%</td><td>2,13%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small faint">Ложное срабатывание — испорченное правильное слово. Методика описана на странице <a href="docs/measurements/">«Замеры и методика»</a>.</p>
+
+      <h3 style="margin-top:2.5rem">Четыре проверки, первая сработавшая побеждает</h3>
+      <ol class="cascade">
+        <li><div><b>Стоп-правила</b><span>Пароли, URL, код и слова со смешанным алфавитом не трогаются.</span></div></li>
+        <li><div><b>Короткие слова из 1–2 букв</b><span>Только если согласен контекст: учитывается язык соседних слов.</span></div></li>
+        <li><div><b>Частотный словарь</b><span>Если оба прочтения — настоящие слова, побеждает частота, и только с четырёхкратным запасом.</span></div></li>
+        <li><div><b>Запрещённые биграммы и триграммы</b><span>Решают, только если различают прочтения; иначе слово остаётся как есть.</span></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="privacy" aria-labelledby="h-privacy">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-privacy">Журнала набора нет</h2>
+    </div>
+    <div class="body">
+      <ul class="plain">
+        <li>Демон не сохраняет ни набранный, ни исправленный текст. В его журнале только тип операции, длина слова и ступень решения.</li>
+        <li>Диагностический отчёт с последними восемью решениями пишется, только если вы сами нажали <kbd>Ctrl+Alt+\</kbd>.</li>
+        <li>Файлы ваших правил создаются с правами <code>0600</code>. Слово, которое вы велели «удалить и забыть», на диск не попадает: хранится лишь отпечаток SHA-256 с локальным ключом.</li>
+        <li>Редактор правил не читает буфер обмена и выделение, он говорит с демоном по D-Bus.</li>
+        <li>Расширение GNOME Shell сообщает только идентификатор окна в фокусе, текста оно не видит.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="how" aria-labelledby="h-how">
+  <div class="wrap">
+    <h2 id="h-how">Под X11 и под Wayland устроено по-разному</h2>
+    <div class="cols">
+      <div>
+        <h3>X11</h3>
+        <p>Клавиатуру демон берёт через evdev в эксклюзивный захват. Разделитель (пробел, Enter, знак) придерживается, пока идёт решение, поэтому слово попадает в приложение уже исправленным, в том числе перед Enter. Замена доставляется через XTest: стирание, готовые Unicode-символы и разделитель идут одной очередью по одному X-соединению.</p>
+        <p>Раскладку демон узнаёт по имени, а не по номеру группы XKB. Так он не путается, когда IBus при переключении пересобирает раскладку. Проверялось на XFCE.</p>
+      </div>
+      <div>
+        <h3>GNOME на Wayland</h3>
+        <p>Демон сам видит сессию Wayland при старте и включает другой механизм, путь X11 при этом не меняется. Замена печатается скан-кодами через виртуальную клавиатуру, а раскладка переключается сочетанием из настроек XKB (<code>grp:alt_shift_toggle</code> и подобные), набранным в том же потоке клавиш. Композитор применяет его по порядку, поэтому паузы не нужны: на стенде 450 из 450 замен прошли без единой.</p>
+        <p>Текущую раскладку сообщает сам GNOME, окно в фокусе — небольшое расширение GNOME Shell. Поддерживается GNOME, проверено на GNOME 50 в Ubuntu 26.04.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="settings" aria-labelledby="h-settings">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-settings">Правила под себя</h2>
+      <p class="sub">Окно настроек написано на GTK 4 и libadwaita.</p>
+    </div>
+    <div class="body">
+      <ul class="plain">
+        <li>Автозамены: точная замена слова или сокращения, например <code>ещ\</code> на «ещё».</li>
+        <li>«Не менять» и «Всегда менять»: слово, которого демон не должен трогать, и слово, которое он обязан править.</li>
+        <li>Свой режим для каждой программы: «Автоматически», «Только по хоткею» или «Полностью выключено». Меняется на лету по горячей клавише.</li>
+        <li>Экспорт и импорт правил в JSON.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap shots">
+    <figure>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="img/settings-replacements-dark.webp">
+        <img src="img/settings-replacements-light.webp" width="940" height="640" loading="lazy" alt="Окно настроек, страница «Автозамены»: список из трёх правил, например «ещ\» заменяется на «ещё»">
+      </picture>
+      <figcaption>Автозамены. Правило <code>ещ\</code> поглощает ошибочный знак: слово «ещё» выходит без лишнего обратного слэша.</figcaption>
+    </figure>
+    <figure>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="img/settings-apps-dark.webp">
+        <img src="img/settings-apps-light.webp" width="940" height="640" loading="lazy" alt="Окно настроек, страница «Приложения»: ваши правила и список приложений с безопасными значениями по умолчанию">
+      </picture>
+      <figcaption>Приложения. Для терминалов, редакторов, менеджеров паролей и игр заведены безопасные режимы по умолчанию, свой режим задаётся строкой.</figcaption>
+    </figure>
+    <p class="small faint">Окно на снимках запущено на чистом профиле с демонстрационными правилами.</p>
+  </div>
+</section>
+
+<section class="sec" id="apple" aria-labelledby="h-apple">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-apple">Клавиатура Apple в Linux как на Mac</h2>
+      <p class="sub">Привычные знаки препинания и буква «ё» возвращаются одним переключателем.</p>
+      <p>Если к компьютеру подключена клавиатура Apple (встроенная в MacBook или внешняя Magic Keyboard), в стандартном Linux знаки препинания разбросаны непривычно. PuLinTo сам находит клавиатуру Apple и возвращает родную раскладку:</p>
+      <ul class="plain">
+        <li>Запятая и точка на <kbd>Shift+6</kbd> и <kbd>Shift+7</kbd>;</li>
+        <li>Буква «ё» на клавише <kbd>\</kbd> (рядом с Enter или левым Shift);</li>
+        <li>Одиночный <kbd>Alt</kbd> исправляет слово, не ломая системные шорткаты (на PC-клавиатуре — <kbd>Pause/Break</kbd>).</li>
+      </ul>
+    </div>
+    <div class="body">
+      <figure class="frame-card">
+        <picture>
+          <img src="docs/img/manual/keyboard-ru.png" width="600" loading="lazy" alt="Страница «Клавиатура Apple» в настройках PuLinTo">
+        </picture>
+        <figcaption>Окно настроек: автоматическое определение клавиатуры Apple и включение привычной раскладки без правок системных xkb-файлов.</figcaption>
+      </figure>
+
+      <div class="apple-shortcut-card">
+        <p>Хоткей <kbd>Ctrl+Alt+'</kbd> (на PC: <kbd>Ctrl+Pause/Break</kbd>) мгновенно переключает режим между PC и Apple клавиатурой. Удобно, если используете две клавиатуры.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="install" aria-labelledby="h-install">
+  <div class="wrap">
+    <h2 id="h-install">Установка</h2>
+    <p class="sub" style="max-width:38rem">Одна команда или установочный файл. Нужен Linux с X11 или GNOME на Wayland.</p>
+
+    <div class="onecmd">
+      <h3>Одной командой</h3>
+      <pre tabindex="0"><code>curl -fsSL {{SITE}}/install.sh | bash</code></pre>
+      <p class="small faint">Скачивает готовую сборку, проверяет контрольную сумму и ставит программу для вашего пользователя. Один раз спросит пароль администратора: нужно правило доступа к клавиатуре. Текст скрипта <a href="install.sh">можно прочитать</a> до запуска.</p>
+    </div>
+
+    <div class="onecmd">
+      <h3>Установочным файлом</h3>
+      <ul class="downloads">
+        <li><a class="btn" href="{{REPO}}/releases/latest/download/pulinto-x86_64.deb">Скачать .deb</a><span>Ubuntu, Debian, Linux Mint</span></li>
+        <li><a class="btn" href="{{REPO}}/releases/latest/download/pulinto-x86_64.rpm">Скачать .rpm</a><span>Fedora, RHEL, AlmaLinux, Rocky</span></li>
+        <li><a class="btn" href="{{REPO}}/releases/latest/download/pulinto-x86_64.tar.gz">Скачать архив</a><span>любой Linux; внутри <code>./install.sh</code></span></li>
+      </ul>
+      <p class="small faint">Пакеты для Red Hat и родственных систем собраны, но на живых машинах не проверены: <a href="docs/testing/">помогите проверить</a>.</p>
+    </div>
+
+    <div class="onecmd">
+      <h3>После установки</h3>
+      <ul class="plain">
+        <li>Больше ничего делать не нужно: исправления работают сразу.</li>
+        <li>В настройках GNOME должно быть сочетание переключения раскладки, например Alt+Shift: именно им программа переключает раскладку.</li>
+        <li>В меню появится ярлык «PuLinTo», в трее значок клавиатуры: с оранжевым пробелом значит «работает», серый «выключен». В его меню можно приостановить исправления, перезапустить или выгрузить помощника.</li>
+        <li>Если клавиатура не отвечает, нажмите одновременно <kbd>Backspace</kbd>, <kbd>Esc</kbd> и <kbd>Enter</kbd>: захват снимется.</li>
+        <li>Удалить: <code>sudo apt remove pulinto</code>, <code>sudo dnf remove pulinto</code> или <code>./uninstall.sh</code> из архива. Ваши правила остаются.</li>
+      </ul>
+    </div>
+
+    <details class="source">
+      <summary>Из исходников (для разработчиков)</summary>
+      <p>Нужны Rust 1.82 или новее и заголовочные файлы: в Debian и Ubuntu <code>sudo apt install libdbus-1-dev</code>. Окну настроек нужны Python 3, PyGObject, GTK 4 и libadwaita. Словари русского и английского входят в репозиторий.</p>
+      <pre tabindex="0"><code>git clone {{REPO}}
+cd pulinto
+./install.sh</code></pre>
+      <p>Скрипт сам собирает программу (<code>cargo build --release</code>), ставит её для вашего пользователя и спрашивает пароль администратора для правила udev. Системная установка в <code>/usr/local</code>: <code>sudo ./install.sh --system</code>. Подробнее: <a href="docs/contributing/">участие в проекте</a>.</p>
+    </details>
+  </div>
+</section>
+
+<section class="sec" id="keys" aria-labelledby="h-keys">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-keys">Горячие клавиши</h2>
+      <p class="sub">Работают в любых программах, настраиваются в параметрах.</p>
+    </div>
+    <div class="body">
+      <ul class="keys">
+        <li>
+          <div class="key-pair">
+            <div><kbd>Alt</kbd> <span class="key-hint">одиночный / Apple</span></div>
+            <div><kbd>Pause/Break</kbd> <span class="key-hint">для PC</span></div>
+          </div>
+          <span>Исправить слово в наборе, откатить последнюю замену или перевести выделенный текст. Каждое нажатие — следующее прочтение. С <kbd>Shift</kbd> — только для выделенного.</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Ctrl+Alt+'</kbd> <span class="key-hint">Apple</span></div>
+            <div><kbd>Ctrl+Pause/Break</kbd> <span class="key-hint">для PC</span></div>
+          </div>
+          <span>Мгновенно переключить режим между PC и Apple клавиатурой.</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Ctrl+Alt+P</kbd> <span class="key-hint">Apple и PC</span></div>
+          </div>
+          <span>Режим для приложения в фокусе по кругу: «Автоматически», «Только по хоткею», «Выключено».</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Ctrl+Alt+\</kbd> <span class="key-hint">Apple и PC</span></div>
+          </div>
+          <span>Записать диагностический отчёт об ошибке исправления.</span>
+        </li>
+        <li>
+          <div class="key-pair">
+            <div><kbd>Backspace</kbd> + <kbd>Esc</kbd> + <kbd>Enter</kbd> <span class="key-hint">Apple и PC</span></div>
+          </div>
+          <span>Аварийно снять захват клавиатуры (зажать одновременно).</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="status" aria-labelledby="h-status">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-status">Статус: версия 1.0.0</h2>
+    </div>
+    <div class="body">
+      <p>Проект в активной разработке, живые тесты идут. Чего пока нет:</p>
+      <ul class="plain">
+        <li>проверки пакетов на Red Hat, Fedora и других системах: они собраны, но на живых машинах не пробовались;</li>
+        <li>проверки полным рабочим днём в режиме захвата, пока были стенд и короткие живые тесты;</li>
+        <li>полного исправления коротких английских слов в русской раскладке: около двадцати из них (<code>on</code>, <code>at</code>, <code>it</code>, <code>to</code>…) исправляются сами, а <code>in</code>, <code>by</code>, <code>he</code> совпадают с русскими сокращениями («шт.» — штуки) и решаются только по соседним словам. Это главный открытый долг по качеству.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="help" aria-labelledby="h-help">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-help">Нужна помощь</h2>
+      <p class="sub">Я один, а систем и языков много.</p>
+    </div>
+    <div class="body">
+      <h3>Тестировщики на других системах</h3>
+      <p>Особенно нужны Red Hat Enterprise Linux, Fedora, AlmaLinux, Rocky, openSUSE, Arch и другие сборки Linux. Пакеты собраны, но на живых машинах проверены только на Ubuntu. Десять минут и список проверок: поставить, набрать <code>ghbdtn</code>, прислать результат.</p>
+      <p class="cta"><a class="btn" href="docs/testing/">Что проверить</a><a href="{{REPO}}/issues/new?template=test_report.yml">Прислать отчёт</a></p>
+
+      <h3 style="margin-top:2.5rem">Трудные слова и другие языки</h3>
+      <p>Нашли слово, на котором программа ошибается, или смешанную фразу, которую она не понимает? Пришлите: словари мы дорабатываем по таким случаям. Нужен другой язык? Напишите, какой язык вы хотели бы видеть, и согласитесь побыть тестировщиком: словари мы соберём сами, от вас нужно попробовать язык на живой клавиатуре и сказать, как он работает.</p>
+      <p class="cta"><a class="btn" href="{{REPO}}/issues/new?template=hard_word.yml">Прислать слово</a><a href="docs/languages/">Другие языки</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="feedback" aria-labelledby="h-feedback">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-feedback">Обратная связь</h2>
+      <p class="sub">Где ошиблась программа, чего вам не хватает.</p>
+    </div>
+    <div class="body">
+      <div class="feedback-list">
+        <a class="feedback-item" href="https://t.me/pulinto_bot" target="_blank" rel="noopener">
+          <div class="feedback-item-header">
+            <span class="feedback-item-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2L2 9.5l7 3 2.5 7.5L15 15l6.5 5.5L21.5 2z"/></svg>
+              Поддержка в Telegram &rarr;
+            </span>
+            <span class="feedback-item-badge">@pulinto_bot</span>
+          </div>
+          <p class="feedback-item-desc">Сначала отвечает ИИ-помощник по документации, если не справится или вы нажмёте <code>/human</code> — подключается автор.</p>
+        </a>
+
+        <a class="feedback-item" href="mailto:{{CONTACT}}">
+          <div class="feedback-item-header">
+            <span class="feedback-item-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Почта автора &rarr;
+            </span>
+            <span class="feedback-item-badge">{{CONTACT}}</span>
+          </div>
+          <p class="feedback-item-desc">Для личных вопросов, предложений сотрудничества и подробных отзывов.</p>
+        </a>
+
+        <a class="feedback-item" href="{{REPO}}/issues" target="_blank" rel="noopener">
+          <div class="feedback-item-header">
+            <span class="feedback-item-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub Issues &rarr;
+            </span>
+            <span class="feedback-item-badge">Баг-трекер</span>
+          </div>
+          <p class="feedback-item-desc">Сообщить об ошибке, прислать лог решения или предложить улучшение.</p>
+        </a>
+      </div>
+      <p class="small faint" style="margin-top:1.5rem">Если слово исправилось неверно, нажмите <kbd>Ctrl+Alt+\</kbd> сразу после ошибки и приложите нужные строки отчёта: программа записывает его только по вашему нажатию.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="why" aria-labelledby="h-why">
+  <div class="wrap split">
+    <div>
+      <h2 id="h-why">Зачем</h2>
+      <p class="sub">Перейдя на Linux, автор не нашёл привычного по Mac удобства и написал всё с нуля — без компромиссов и без скрытых логов набора.</p>
+    </div>
+    <div class="body">
+      <p>На macOS я годами пользовался Punto Switcher. Перейдя на Linux, не нашёл ничего подобного и написал с нуля свой собственный переключатель со своими словарями.</p>
+      <p>Поиск по «punto switcher linux» выдавал либо xneur, либо программы, где раскладка слова меняется только по горячей клавише. Xneur я попробовал: он работал нестабильно, и пользоваться им для полноценной работы я не смог; под Wayland он не запускается вовсе. Взявшись за свою программу, я понял, почему остальные остановились на горячей клавише: добиться стабильной автоматической работы в Linux трудно. Нужно перехватывать ввод до того, как он дойдёт до окна, ничего не терять и не вешать клавиатуру, а под Wayland ещё и обходиться без доступа к чужим окнам. Меня переключение по клавише не устраивало: я привык, что раскладка исправляется сама, без единого лишнего нажатия, и это невероятно удобно. Поэтому в PuLinTo автоматический режим основной, а не дополнительный.</p>
+      <p>От Punto Switcher взята идея. Код, алгоритм распознавания и словари написаны полностью самостоятельно.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <ul>
+      <li><a href="{{REPO}}" target="_blank" rel="noopener">Поставь ⭐ на GitHub</a></li>
+      <li><a href="https://t.me/pulinto_bot" target="_blank" rel="noopener">Telegram @pulinto_bot</a></li>
+      <li><a href="mailto:{{CONTACT}}">{{CONTACT}}</a></li>
+      <li><a href="{{REPO}}/issues" target="_blank" rel="noopener">Сообщить об ошибке</a></li>
+      <li><a href="docs/manual/">Руководство</a></li>
+      <li><a href="docs/faq/">Вопросы и ответы</a></li>
+      <li><a href="docs/testing/">Помощь с тестированием</a></li>
+      <li><a href="docs/languages/">Другие языки</a></li>
+      <li><a href="docs/languagepack/">Как собрать языковой пакет</a></li>
+    </ul>
+    <p>Проект не связан с Яндексом и не является продуктом Punto Switcher. PuLinTo — независимая свободная программа со своим кодом и своими данными.</p>
+    <p class="faint">© Yury ResultMan. Код под лицензией MIT или Apache-2.0, на выбор. Языковые данные — CC BY 4.0, источники указаны в разделе «Данные и лицензии».</p>
+  </div>
+</footer>
+
+<script src="demo.js" defer></script>
+</body>
+</html>

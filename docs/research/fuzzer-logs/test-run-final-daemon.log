@@ -1,0 +1,27 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+IBus раскладкой не управляет (X11 layout error: IBus следует системной раскладке (GetUseSysLayout=true), раскладку задаёт XKB), беру XKB
+Layout controller: Wayland (Synthetic uinput)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: PuLinTo Test Typist
+Захват: System Administrator’s Keyboard
+Захват: Logitech K520
+Замена: 'dcgjvybk' → 'вспомнил' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Cthutq' → 'Сергей' (ступень: Dictionary, решение за 0 мс)
+Замена: 'bp' → 'из' (ступень: ShortWord, решение за 0 мс)
+Замена: 'ghblevfq' → 'придумай' (ступень: Bigram, решение за 0 мс)
+Замена: 'j[hfyztvs[' → 'охраняемых' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ujdjhbncz' → 'говорится' (ступень: Dictionary, решение за 0 мс)
+Замена отброшена: 'yf.lfkf' — знак на позиции 2 оказался концом слова
+Замена отброшена: 'it,describing' — знак на позиции 2 оказался концом слова
+Замена: ',elen' → 'будут' (ступень: Dictionary, решение за 0 мс)
+Замена: 'jn' → 'от' (ступень: ShortWord, решение за 0 мс)
+Замена: 'ybrjulf' → 'никогда' (ступень: Dictionary, решение за 0 мс)
+Замена: 'yf,djpvj' → 'набвозмо' (ступень: Bigram, решение за 0 мс)
+Замена: 'yjcnm' → 'ность' (ступень: Bigram, решение за 0 мс)
+Замена: 'EYBFY' → 'УНИАН' (ступень: Dictionary, решение за 0 мс)
+Замена: 'jlybv' → 'одним' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ikzge' → 'шляпу' (ступень: Dictionary, решение за 0 мс)
+Клавиатура PuLinTo Test Typist отвалилась: No such device (os error 19)

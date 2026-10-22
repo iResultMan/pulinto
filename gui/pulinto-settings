@@ -1,0 +1,2603 @@
+#!/usr/bin/env python3
+"""PuLinTo settings window (GTK 4 + libadwaita).
+
+Everything comes from the daemon over the session D-Bus. Deliberately has no
+clipboard or typing-history code.
+"""
+
+import functools
+import gettext
+import json
+import os
+import subprocess
+import sys
+import time
+
+import gi
+
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
+from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk, Pango
+
+
+# Interface language. The strings in the code are English, the source language;
+# the catalogues are `po/{ru,it}.po`, compiled to `pulinto.mo` (they sit in
+# `data/locale`). Without a catalogue the English text of the code is
+# shown, which is what every other language gets: a person who reads neither
+# Russian nor Italian is likelier to read English.
+LANGUAGE_CODES = ("ru", "en", "it")
+
+
+def config_file():
+    base = os.environ.get("XDG_CONFIG_HOME") or os.path.join(os.path.expanduser("~"), ".config")
+    return os.path.join(base, "pulinto", "config.conf")
+
+
+def language_choice():
+    """What the user picked: "ru", "en", "it", or "auto" (follow the system).
+    The daemon keeps it in the config file; the tray and this window share it."""
+    try:
+        with open(config_file(), encoding="utf-8") as handle:
+            for line in handle:
+                key, _sep, value = line.partition("=")
+                if key.strip() == "language":
+                    value = value.strip()
+                    return value if value in LANGUAGE_CODES else "auto"
+    except OSError:
+        pass
+    return "auto"
+
+
+def write_language_choice(choice):
+    """Used only when the daemon cannot be asked: keeps every other line."""
+    path = config_file()
+    try:
+        with open(path, encoding="utf-8") as handle:
+            lines = handle.read().split("\n")
+    except OSError:
+        lines = []
+    line = "language = " + choice
+    for index, old in enumerate(lines):
+        if old.partition("=")[0].strip() == "language":
+            lines[index] = line
+            break
+    else:
+        lines.append(line)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as handle:
+        handle.write("\n".join(lines).rstrip("\n") + "\n")
+
+
+def ui_language():
+    chosen = language_choice()
+    if chosen != "auto":
+        return chosen
+    for name in ("PULINTO_LANG", "LANGUAGE", "LC_ALL", "LC_MESSAGES", "LANG"):
+        for part in os.environ.get(name, "").split(":"):
+            code = part.split(".")[0].split("_")[0].split("@")[0].lower()
+            if code in ("", "c", "posix"):
+                continue
+            return code if code in ("ru", "it") else "en"
+    return "en"
+
+
+def locale_dirs():
+    here = os.path.dirname(os.path.realpath(__file__))
+    data_home = os.environ.get("XDG_DATA_HOME") or os.path.join(os.path.expanduser("~"), ".local", "share")
+    return [
+        os.environ.get("PULINTO_LOCALE_DIR", ""),
+        os.path.join(here, "..", "share", "pulinto", "locale"),
+        os.path.join(data_home, "pulinto", "locale"),
+        "/usr/local/share/pulinto/locale",
+        "/usr/share/pulinto/locale",
+        os.path.join(here, "..", "data", "locale"),
+    ]
+
+
+LANGUAGE = ui_language()
+LANGUAGE_CHOICE = language_choice()
+_catalogue = gettext.NullTranslations()
+for directory in filter(None, locale_dirs()):
+    if gettext.find("pulinto", directory, [LANGUAGE]):
+        _catalogue = gettext.translation("pulinto", directory, [LANGUAGE])
+        break
+
+
+def _(text):
+    return _catalogue.gettext(text)
+
+
+# Native names, never translated: a person who cannot read the current language
+# must still find their own.
+LANGUAGE_NAMES = (("ru", "Русский"), ("en", "English"), ("it", "Italiano"))
+
+
+def language_menu():
+    """The "Interface language" submenu: one radio item per language, bound to
+    the `win.language` action of the window that shows it."""
+    menu = Gio.Menu()
+    for code, label in (("auto", _("System language")),) + LANGUAGE_NAMES:
+        item = Gio.MenuItem.new(label, None)
+        item.set_action_and_target_value("win.language", GLib.Variant("s", code))
+        menu.append_item(item)
+    return menu
+
+
+def install_language_action(window, daemon, page_name):
+    """Adds `win.language` to a window. Choosing a language saves it (through
+    the daemon, so the tray follows at once) and starts the window again in
+    that language, on the same page: a window cannot be re-translated in place."""
+    action = Gio.SimpleAction.new_stateful("language", GLib.VariantType("s"), GLib.Variant("s", LANGUAGE_CHOICE))
+
+    def chosen(_action, parameter):
+        choice = parameter.get_string()
+        if choice == LANGUAGE_CHOICE:
+            return
+        try:
+            if daemon is None or not daemon.call("SetLanguage", "(s)", choice):
+                raise RuntimeError("refused")
+        except (GLib.Error, RuntimeError):
+            try:
+                write_language_choice(choice)
+            except OSError as error:
+                alert(window, _("Could not save the language"), str(error))
+                return
+        restart_window(page_name())
+
+    action.connect("activate", chosen)
+    window.add_action(action)
+
+
+def restart_window(page=None):
+    if page:
+        os.environ["PULINTO_SETTINGS_PAGE"] = page
+    os.execv(sys.executable, [sys.executable] + sys.argv)
+
+
+BUS_NAME = "ru.pulinto.Daemon1"
+OBJECT_PATH = "/ru/pulinto/Daemon1"
+INTERFACE = "ru.pulinto.Daemon1"
+
+MODE_LABELS = {
+    "off": _("Off"),
+    "observe": _("Observe"),
+    "grab": _("Grab"),
+    "watch": _("Diagnostics"),
+}
+
+PAGE_NAMES = ("overview", "replacements", "never", "always", "apps", "keyboard", "hotkeys", "diagnostics", "help")
+
+# The window takes the system accent colour as it is: a settings window has
+# no brand of its own to defend, and fighting the desktop's choice would be
+# the one thing here a person would notice.
+CSS = """
+.hero-icon { color: @accent_color; }
+.hero-icon.inactive { color: alpha(@window_fg_color, 0.32); }
+
+.chip {
+    background-color: alpha(@accent_bg_color, 0.16);
+    color: @accent_color;
+    border-radius: 999px;
+    padding: 1px 10px;
+    font-size: 0.82em;
+    font-weight: 700;
+}
+
+.keycap {
+    padding: 2px 9px;
+    border-radius: 6px;
+    background-color: alpha(@window_fg_color, 0.08);
+    box-shadow: 0 1px 0 alpha(@window_fg_color, 0.28);
+    font-weight: 600;
+    font-size: 0.92em;
+}
+
+.mono { font-family: monospace; }
+
+.sidebar-count {
+    font-size: 0.82em;
+    font-weight: 700;
+    color: alpha(@window_fg_color, 0.55);
+}
+"""
+
+
+class Daemon:
+    def __init__(self):
+        self.proxy = Gio.DBusProxy.new_for_bus_sync(
+            Gio.BusType.SESSION,
+            Gio.DBusProxyFlags.NONE,
+            None,
+            BUS_NAME,
+            OBJECT_PATH,
+            INTERFACE,
+            None,
+        )
+
+    def call(self, method, signature=None, *args):
+        params = GLib.Variant(signature, args) if signature else None
+        reply = self.proxy.call_sync(
+            method, params, Gio.DBusCallFlags.NONE, 5000, None
+        ).unpack()
+        return reply[0] if len(reply) == 1 else reply
+
+
+def connect_or_start_daemon():
+    """Return a live daemon proxy, starting the local daemon when necessary."""
+    last_error = None
+    try:
+        daemon = Daemon()
+        daemon.call("Status")
+        return daemon
+    except GLib.Error as error:
+        last_error = error
+
+    candidates = [
+        os.environ.get("PULINTO_DAEMON", "").strip(),
+        "/usr/local/bin/pulintod",
+        "pulintod",
+    ]
+    for program in candidates:
+        if not program:
+            continue
+        try:
+            subprocess.Popen(
+                [program],
+                stdin=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                start_new_session=True,
+            )
+            break
+        except OSError as error:
+            last_error = error
+    else:
+        raise RuntimeError(_("could not start pulintod: {error}").format(error=last_error))
+
+    # D-Bus registration follows process start; on a cold desktop it can take
+    # a little longer while dictionaries and the layout controller initialise.
+    for _attempt in range(30):
+        time.sleep(0.1)
+        try:
+            daemon = Daemon()
+            daemon.call("Status")
+            return daemon
+        except GLib.Error as error:
+            last_error = error
+    raise RuntimeError(_("pulintod is running but did not register on D-Bus: {error}").format(error=last_error))
+
+
+def plural(count, one, many):
+    """`count` and the right form of a noun. `one` and `many` are the English
+    catalogue keys; the catalogue knows how many forms its language has."""
+    return f"{count} {_catalogue.ngettext(one, many, count)}"
+
+
+def gui_state_path():
+    base = os.environ.get("XDG_CONFIG_HOME") or os.path.join(os.path.expanduser("~"), ".config")
+    return os.path.join(base, "pulinto", "gui.json")
+
+
+def gui_state():
+    try:
+        with open(gui_state_path(), "r", encoding="utf-8") as handle:
+            data = json.load(handle)
+            return data if isinstance(data, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def remember_gui_state(**values):
+    state = gui_state()
+    state.update(values)
+    try:
+        os.makedirs(os.path.dirname(gui_state_path()), exist_ok=True)
+        with open(gui_state_path(), "w", encoding="utf-8") as handle:
+            json.dump(state, handle, ensure_ascii=False)
+    except OSError:
+        pass
+
+
+def guarded(method):
+    """Turn a lost daemon connection into a visible message instead of a traceback."""
+
+    @functools.wraps(method)
+    def wrapper(self, *args, **kwargs):
+        try:
+            return method(self, *args, **kwargs)
+        except GLib.Error as error:
+            getattr(self, "win", self).daemon_failed(error)
+            return None
+
+    return wrapper
+
+
+def alert(parent, heading, body=None):
+    dialog = Adw.AlertDialog(heading=heading, body=body or "")
+    dialog.add_response("ok", _("Got it"))
+    dialog.set_default_response("ok")
+    dialog.set_close_response("ok")
+    dialog.present(parent)
+    return dialog
+
+
+def pill_button(label, callback):
+    button = Gtk.Button(label=label, halign=Gtk.Align.CENTER)
+    button.add_css_class("pill")
+    button.add_css_class("suggested-action")
+    button.connect("clicked", lambda *_: callback())
+    return button
+
+
+def dim_label(text, **kwargs):
+    label = Gtk.Label(label=text, xalign=0, wrap=True, **kwargs)
+    label.add_css_class("dim-label")
+    return label
+
+
+def value_label(text="", mono=False):
+    label = Gtk.Label(label=text, xalign=1, valign=Gtk.Align.CENTER)
+    label.add_css_class("dim-label")
+    if mono:
+        label.add_css_class("mono")
+    return label
+
+
+def chip(text, tooltip=None):
+    label = Gtk.Label(label=text, valign=Gtk.Align.CENTER)
+    label.add_css_class("chip")
+    if tooltip:
+        label.set_tooltip_text(tooltip)
+    return label
+
+
+def icon_button(icon, tooltip, callback):
+    button = Gtk.Button(icon_name=icon, valign=Gtk.Align.CENTER, tooltip_text=tooltip)
+    button.add_css_class("flat")
+    button.update_property([Gtk.AccessibleProperty.LABEL], [tooltip])
+    button.connect("clicked", lambda *_: callback())
+    return button
+
+
+def plain_row(title, subtitle=None):
+    row = Adw.ActionRow(title=title, use_markup=False)
+    if subtitle:
+        row.set_subtitle(subtitle)
+    return row
+
+
+# --------------------------------------------------------------------------
+# Form dialog shared by every "add / edit" flow
+# --------------------------------------------------------------------------
+
+
+class FormDialog(Adw.Dialog):
+    """Title, Cancel/Save in the header, Enter saves, Escape cancels.
+
+    `on_save()` returns None on success or an error text that stays in the
+    dialog, so a rejected value never costs the person what they typed.
+    """
+
+    def __init__(self, title, on_save, save_label=_("Save")):
+        super().__init__(title=title, content_width=460)
+        self._on_save = on_save
+        self._validators = []
+
+        header = Adw.HeaderBar(show_start_title_buttons=False, show_end_title_buttons=False)
+        cancel = Gtk.Button(label=_("Cancel"))
+        cancel.connect("clicked", lambda *_: self.close())
+        self.save_button = Gtk.Button(label=save_label)
+        self.save_button.add_css_class("suggested-action")
+        self.save_button.connect("clicked", lambda *_: self.save())
+        header.pack_start(cancel)
+        header.pack_end(self.save_button)
+
+        self.body = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL,
+            spacing=18,
+            margin_top=6,
+            margin_bottom=24,
+            margin_start=18,
+            margin_end=18,
+        )
+        self.error = Gtk.Label(xalign=0, wrap=True, visible=False)
+        self.error.add_css_class("error")
+
+        view = Adw.ToolbarView()
+        view.add_top_bar(header)
+        view.set_content(self.body)
+        self.set_child(view)
+        self.set_default_widget(self.save_button)
+
+    def add_group(self, group):
+        self.body.append(group)
+
+    def finish_layout(self):
+        self.body.append(self.error)
+        self.update()
+
+    def require(self, check):
+        """`check()` returns True when the form may be saved."""
+        self._validators.append(check)
+
+    def watch(self, entry):
+        entry.connect("changed", lambda *_: self.update())
+        entry.connect("entry-activated", lambda *_: self.save())
+
+    def update(self):
+        self.error.set_visible(False)
+        self.save_button.set_sensitive(all(check() for check in self._validators))
+
+    def save(self):
+        if not self.save_button.get_sensitive():
+            return
+        problem = self._on_save()
+        if problem:
+            self.error.set_text(problem)
+            self.error.set_visible(True)
+        else:
+            self.close()
+
+
+# --------------------------------------------------------------------------
+# List pages
+# --------------------------------------------------------------------------
+
+
+class ListPage(Gtk.Box):
+    """A page that is a searchable list of rules, or an empty state."""
+
+    can_add = True
+    searchable = True
+
+    def __init__(self, win, daemon, name, title, intro, icon, empty_title, empty_text, empty_action):
+        super().__init__(orientation=Gtk.Orientation.VERTICAL)
+        self.win = win
+        self.daemon = daemon
+        self.name = name
+        self.title = title
+        self.search_text = ""
+
+        self.stack = Gtk.Stack(transition_type=Gtk.StackTransitionType.CROSSFADE, vexpand=True)
+        self.append(self.stack)
+
+        self.content = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=18)
+        self.content.append(dim_label(intro))
+        clamp = Adw.Clamp(
+            maximum_size=700,
+            tightening_threshold=540,
+            margin_top=18,
+            margin_bottom=24,
+            margin_start=16,
+            margin_end=16,
+            child=self.content,
+        )
+        scroller = Gtk.ScrolledWindow(hscrollbar_policy=Gtk.PolicyType.NEVER, child=clamp)
+        self.stack.add_named(scroller, "list")
+
+        status = Adw.StatusPage(icon_name=icon, title=empty_title, description=empty_text)
+        status.add_css_class("compact")
+        status.set_child(pill_button(empty_action, self.add))
+        self.stack.add_named(status, "empty")
+
+    def make_listbox(self):
+        listbox = Gtk.ListBox(selection_mode=Gtk.SelectionMode.NONE)
+        listbox.add_css_class("boxed-list")
+        listbox.set_filter_func(self._filter_row)
+        listbox.set_placeholder(dim_label(_("Nothing found"), margin_top=18, margin_bottom=18, halign=Gtk.Align.CENTER))
+        listbox.connect("row-activated", lambda _box, row: self.edit_row(row))
+        keys = Gtk.EventControllerKey()
+        keys.connect("key-pressed", self._on_key)
+        listbox.add_controller(keys)
+        return listbox
+
+    def _on_key(self, _controller, keyval, _keycode, _state):
+        if keyval in (Gdk.KEY_Delete, Gdk.KEY_KP_Delete):
+            widget = self.win.get_focus()
+            while widget is not None and not isinstance(widget, Gtk.ListBoxRow):
+                widget = widget.get_parent()
+            if widget is not None and hasattr(widget, "rule"):
+                self.delete_row(widget)
+                return True
+        return False
+
+    def _filter_row(self, row):
+        needle = self.search_text
+        return not needle or needle in getattr(row, "search_key", "")
+
+    def set_search(self, text):
+        self.search_text = text.strip().lower()
+        for listbox in self.listboxes():
+            listbox.invalidate_filter()
+
+    def listboxes(self):
+        return []
+
+    def show_rows(self, has_rows):
+        self.stack.set_visible_child_name("list" if has_rows else "empty")
+
+    @staticmethod
+    def clear(listbox):
+        while (row := listbox.get_row_at_index(0)) is not None:
+            listbox.remove(row)
+
+    # Hooks for subclasses.
+    def add(self):
+        raise NotImplementedError
+
+    def edit_row(self, row):
+        raise NotImplementedError
+
+    def delete_row(self, row):
+        raise NotImplementedError
+
+
+class RulesPage(ListPage):
+    """Replacements and the never/always word lists share one implementation."""
+
+    TEXTS = {
+        "replacement": dict(
+            title=_("Autocorrections"),
+            intro=_("Replace a word or abbreviation after a space or punctuation mark. The "
+                    "replacement may contain spaces. Click a row to edit."),
+            icon="edit-find-replace-symbolic",
+            empty_title=_("No autocorrections yet"),
+            empty_text=_("Add an abbreviation: PuLinTo expands it as soon as you finish the word."),
+            empty_action=_("Add an autocorrection"),
+        ),
+        "never": dict(
+            title=_("Never change"),
+            intro=_("Words for which automatic layout switching is forbidden. Click a row to edit."),
+            icon="action-unavailable-symbolic",
+            empty_title=_("No exceptions yet"),
+            empty_text=_("PuLinTo does not touch the words in this list, in any application, "
+                         "unless you limit the rule."),
+            empty_action=_("Add a word"),
+        ),
+        "always": dict(
+            title=_("Always change"),
+            intro=_("Words that must be converted even when the automatic logic is unsure. Click a "
+                    "row to edit."),
+            icon="object-flip-horizontal-symbolic",
+            empty_title=_("No words of your own yet"),
+            empty_text=_("Words from here will be converted even when PuLinTo is unsure."),
+            empty_action=_("Add a word"),
+        ),
+    }
+    PAGE_NAME = {"replacement": "replacements", "never": "never", "always": "always"}
+    LIST_METHOD = {
+        "replacement": "ListReplacementRules",
+        "never": "ListExclusionRules",
+        "always": "ListInclusionRules",
+    }
+    REMOVE_METHOD = {
+        "replacement": "RemoveReplacement",
+        "never": "RemoveExclusion",
+        "always": "RemoveInclusion",
+    }
+    ORIGINS = {
+        "learned": _("Learned automatically"),
+        "manual": _("Added by hand"),
+        "legacy": _("Added earlier"),
+    }
+
+    def __init__(self, win, daemon, kind):
+        texts = self.TEXTS[kind]
+        super().__init__(
+            win,
+            daemon,
+            self.PAGE_NAME[kind],
+            texts["title"],
+            texts["intro"],
+            texts["icon"],
+            texts["empty_title"],
+            texts["empty_text"],
+            texts["empty_action"],
+        )
+        self.kind = kind
+        self.entries = []
+
+        self.listbox = self.make_listbox()
+        self.content.append(self.listbox)
+
+        if kind in ("never", "always"):
+            self.forgotten_row = Adw.ActionRow(title=_("Forgotten words"), use_markup=False)
+            reset = Gtk.Button(label=_("Reset…"), valign=Gtk.Align.CENTER)
+            reset.connect("clicked", lambda *_: self.clear_forgotten())
+            self.forgotten_row.add_suffix(reset)
+            self.forgotten_group = Gtk.ListBox(selection_mode=Gtk.SelectionMode.NONE, visible=False)
+            self.forgotten_group.add_css_class("boxed-list")
+            self.forgotten_group.append(self.forgotten_row)
+            # Pinned under the stack so it stays reachable when the list is empty.
+            self.append(
+                Adw.Clamp(
+                    maximum_size=700,
+                    margin_bottom=16,
+                    margin_start=16,
+                    margin_end=16,
+                    child=self.forgotten_group,
+                )
+            )
+
+    def listboxes(self):
+        return [self.listbox]
+
+    def rows(self):
+        return list(self.entries)
+
+    def _build_row(self, source, replacement, scope, origin, learned):
+        row = plain_row(source)
+        row.set_title_lines(1)
+        if replacement:
+            row.set_subtitle(f"→ {replacement}" if self.kind == "replacement" else _("becomes: "
+                                                                                     "{replacement}").format(replacement=replacement))
+            row.set_subtitle_lines(1)
+        origin_display = self.ORIGINS.get(origin, _("Added earlier") if origin else "")
+        row.set_tooltip_text(origin_display or None)
+        row.set_activatable(True)
+        if learned:
+            row.add_suffix(chip(_("learned"), _("The rule was learned automatically after repeated "
+                                                "corrections")))
+        if scope:
+            label = value_label(scope)
+            label.set_ellipsize(Pango.EllipsizeMode.END)
+            label.set_max_width_chars(28)
+            label.set_tooltip_text(_("Only in: {scope}").format(scope=scope))
+            row.add_suffix(label)
+        row.add_suffix(icon_button("document-edit-symbolic", _("Edit"), lambda r=row: self.edit_row(r)))
+        row.add_suffix(icon_button("user-trash-symbolic", _("Delete"), lambda r=row: self.delete_row(r)))
+        row.rule = (source, replacement, scope)
+        row.search_key = " ".join(
+            part.lower() for part in (source, replacement, scope, origin_display) if part
+        )
+        return row
+
+    @guarded
+    def refresh(self):
+        lines = self.daemon.call(self.LIST_METHOD[self.kind])
+        self.clear(self.listbox)
+        self.entries = []
+        for line in lines:
+            fields = line.split("\t", 2)
+            fields += [""] * (3 - len(fields))
+            if self.kind == "replacement":
+                source, replacement, scope = fields
+                origin = ""
+            else:
+                source, scope, origin = fields
+                replacement = (
+                    self.daemon.call("PreviewLayoutConversion", "(s)", source)
+                    if self.kind == "always"
+                    else ""
+                )
+            self.entries.append((source, replacement, scope))
+            self.listbox.append(self._build_row(source, replacement, scope, origin, origin == "learned"))
+        self.show_rows(bool(self.entries))
+        self.win.set_count(self.name, len(self.entries))
+        if self.kind in ("never", "always"):
+            count = self.daemon.call("ForgottenWordCount")
+            self.forgotten_group.set_visible(count > 0)
+            self.forgotten_row.set_subtitle(
+                _("{count} forbidden from being learned again").format(count=plural(count, "word", "words"))
+            )
+
+    # -- actions ---------------------------------------------------------
+
+    def add(self):
+        self.open_form()
+
+    def edit_row(self, row):
+        self.open_form(*row.rule)
+
+    def remove_rule(self, source):
+        self.daemon.call(self.REMOVE_METHOD[self.kind], "(s)", source)
+
+    def apply_rule(self, source, replacement, scope):
+        if self.kind == "replacement":
+            return self.daemon.call("AddScopedReplacement", "(sss)", source, replacement, scope)
+        if self.kind == "never":
+            return self.daemon.call("ExcludeWordScoped", "(ss)", source, scope)
+        return self.daemon.call("IncludeWordScoped", "(ss)", source, scope)
+
+    @guarded
+    def delete_row(self, row):
+        source, replacement, scope = row.rule
+
+        def undo():
+            if self.apply_rule(source, replacement, scope):
+                self.win.refresh_all()
+
+        if self.kind == "replacement":
+            self.remove_rule(source)
+            self.win.refresh_all()
+            self.win.toast(_("Autocorrection deleted"), undo=undo)
+            return
+
+        dialog = Adw.AlertDialog(
+            heading=_("Delete \"{source}\"?").format(source=source),
+            body=_("\"Delete\" lets PuLinTo learn the word again. \"Delete and forget\" forbids "
+                   "learning it again; only a protected fingerprint is written to disk."),
+        )
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("delete", _("Delete"))
+        dialog.add_response("forget", _("Delete and forget"))
+        dialog.set_response_appearance("forget", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_default_response("cancel")
+        dialog.set_close_response("cancel")
+        dialog.connect("response", lambda _d, response: self._finish_delete(response, source, undo))
+        dialog.present(self.win)
+
+    @guarded
+    def _finish_delete(self, response, source, undo):
+        if response == "delete":
+            self.remove_rule(source)
+            self.win.refresh_all()
+            self.win.toast(_("Word deleted"), undo=undo)
+        elif response == "forget":
+            self.daemon.call("ForgetWord", "(s)", source)
+            self.win.refresh_all()
+            self.win.toast(_("Word deleted and forgotten"))
+
+    def clear_forgotten(self):
+        dialog = Adw.AlertDialog(
+            heading=_("Allow forgotten words to be learned again?"),
+            body=_("The words themselves are not stored, so the whole set of protected "
+                   "fingerprints is cleared."),
+        )
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("reset", _("Allow"))
+        dialog.set_response_appearance("reset", Adw.ResponseAppearance.SUGGESTED)
+        dialog.set_close_response("cancel")
+        dialog.connect("response", lambda _d, response: self._finish_clear(response))
+        dialog.present(self.win)
+
+    @guarded
+    def _finish_clear(self, response):
+        if response == "reset":
+            self.daemon.call("ClearForgottenWords")
+            self.win.refresh_all()
+            self.win.toast(_("Forgotten words reset"))
+
+    def open_form(self, source="", replacement="", scope=""):
+        editing = bool(source)
+        kind = self.kind
+        titles = {
+            "replacement": (_("Edit autocorrection"), _("New autocorrection")),
+            "never": (_("Edit word"), _("Never change a word")),
+            "always": (_("Edit word"), _("Always change a word")),
+        }
+        win = self.win
+
+        def on_save():
+            new_source = source_row.get_text().strip()
+            new_replacement = replacement_row.get_text() if kind == "replacement" else ""
+            new_scope = scope_row.get_text().strip()
+            try:
+                ok = self.apply_rule(new_source, new_replacement, new_scope)
+                if ok and editing and new_source.lower() != source.lower():
+                    self.remove_rule(source)
+            except GLib.Error as error:
+                win.daemon_failed(error)
+                return _("No connection to PuLinTo.")
+            if not ok:
+                return (
+                    _("The rule was not saved. Check that the fields are filled in; a word for the "
+                      "layout lists must be at least 3 characters.")
+                )
+            win.refresh_all()
+            win.toast(_("Saved"))
+            return None
+
+        dialog = FormDialog(titles[kind][0 if editing else 1], on_save)
+
+        main = Adw.PreferencesGroup()
+        source_row = Adw.EntryRow(title=_("What was typed") if kind == "replacement" else _("Word"), text=source)
+        main.add(source_row)
+        dialog.watch(source_row)
+        dialog.require(lambda: bool(source_row.get_text().strip()))
+
+        replacement_row = None
+        if kind == "replacement":
+            replacement_row = Adw.EntryRow(title=_("Replace with"), text=replacement)
+            main.add(replacement_row)
+            dialog.watch(replacement_row)
+            dialog.require(lambda: bool(replacement_row.get_text()))
+        elif kind == "always":
+            preview = Adw.ActionRow(title=_("Becomes"), use_markup=False)
+            preview_value = Gtk.Label(xalign=1, valign=Gtk.Align.CENTER)
+            # A pasted paragraph must not stretch the dialog off the screen.
+            preview_value.set_ellipsize(Pango.EllipsizeMode.MIDDLE)
+            preview_value.set_max_width_chars(40)
+            preview_value.add_css_class("mono")
+            preview.add_suffix(preview_value)
+            main.add(preview)
+
+            def update_preview(*_):
+                value = source_row.get_text().strip()
+                try:
+                    preview_value.set_text(
+                        self.daemon.call("PreviewLayoutConversion", "(s)", value) if value else "—"
+                    )
+                except GLib.Error:
+                    preview_value.set_text("—")
+
+            source_row.connect("changed", update_preview)
+            update_preview()
+        dialog.add_group(main)
+
+        where = Adw.PreferencesGroup(
+            title=_("Where it applies"),
+            description=_("Leave empty and the rule works in all applications. You can list "
+                          "several, separated by commas: Navigator, code, jetbrains-* (a star at "
+                          "the end means the whole family)."),
+        )
+        scope_row = Adw.EntryRow(title=_("Applications (WM_CLASS)"), text=scope)
+        where.add(scope_row)
+        dialog.watch(scope_row)
+        origin_app = win.origin_app
+        if origin_app:
+            origin = Adw.ActionRow(
+                title=_("Add \"{app}\"").format(app=origin_app),
+                subtitle=_("The application the settings were opened from"),
+                use_markup=False,
+                activatable=True,
+            )
+            origin.add_prefix(Gtk.Image(icon_name="list-add-symbolic"))
+
+            def use_origin(*_):
+                current = [part.strip() for part in scope_row.get_text().split(",") if part.strip()]
+                if origin_app.lower() not in [part.lower() for part in current]:
+                    current.append(origin_app)
+                scope_row.set_text(",".join(current))
+
+            origin.connect("activated", use_origin)
+            where.add(origin)
+        dialog.add_group(where)
+
+        dialog.finish_layout()
+        dialog.present(win)
+        GLib.idle_add(source_row.grab_focus)
+
+
+class ApplicationsPage(ListPage):
+    MODES = {
+        "auto": _("Automatic"),
+        "manual": _("Hotkey only"),
+        "off": _("Completely off"),
+    }
+    MODE_ORDER = ("auto", "manual", "off")
+
+    def __init__(self, win, daemon):
+        super().__init__(
+            win,
+            daemon,
+            "apps",
+            _("Applications"),
+            _("For each application you can choose: fix automatically, fix only on the hotkey, "
+              "or leave alone completely. Your rules take precedence over the safe defaults."),
+            "view-app-grid-symbolic",
+            _("No rules yet"),
+            _("PuLinTo works in all applications in automatic mode."),
+            _("Add a rule"),
+        )
+        self._rows = []
+
+        self.mine_title = Gtk.Label(label=_("Your rules"), xalign=0)
+        self.mine_title.add_css_class("heading")
+        self.mine = self.make_listbox()
+        self.mine_placeholder = dim_label(
+            _("You have no rules yet. PuLinTo handles all other applications automatically."),
+            margin_top=18,
+            margin_bottom=18,
+            margin_start=18,
+            margin_end=18,
+            justify=Gtk.Justification.CENTER,
+            halign=Gtk.Align.CENTER,
+        )
+        self.mine.set_placeholder(self.mine_placeholder)
+        self.defaults_title = Gtk.Label(label=_("Defaults"), xalign=0)
+        self.defaults_title.add_css_class("heading")
+        self.defaults_note = dim_label(
+            _("PuLinTo's safe defaults for terminals, editors, password managers, remote desktops "
+              "and games. Click a row to set your own.")
+        )
+        self.defaults = self.make_listbox()
+
+        mine_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
+        mine_box.append(self.mine_title)
+        mine_box.append(self.mine)
+        defaults_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
+        defaults_box.append(self.defaults_title)
+        defaults_box.append(self.defaults_note)
+        defaults_box.append(self.defaults)
+        self.defaults_box = defaults_box
+        self.content.append(mine_box)
+        self.content.append(defaults_box)
+
+    def listboxes(self):
+        return [self.mine, self.defaults]
+
+    def set_search(self, text):
+        super().set_search(text)
+        self.mine_placeholder.set_text(
+            _("Nothing found")
+            if self.search_text
+            else _("You have no rules yet. PuLinTo handles all other applications automatically.")
+        )
+
+    def explicit_rows(self):
+        return [(app, mode) for app, mode, explicit in self._rows if explicit]
+
+    def _build_row(self, app, mode, explicit):
+        row = plain_row(app, None if explicit else _("default"))
+        row.set_title_lines(1)
+        row.set_activatable(True)
+        label = value_label(self.MODES[mode])
+        if mode == "off":
+            label.add_css_class("error")
+            label.remove_css_class("dim-label")
+        row.add_suffix(label)
+        if explicit:
+            row.add_suffix(
+                icon_button(
+                    "edit-undo-symbolic",
+                    _("Restore the default"),
+                    lambda r=row: self.delete_row(r),
+                )
+            )
+        row.rule = (app, mode, explicit)
+        row.search_key = f"{app} {self.MODES[mode]}".lower()
+        return row
+
+    @guarded
+    def refresh(self):
+        enabled = set(self.daemon.call("ListEnabledApps"))
+        manual = set(self.daemon.call("ListManualApps"))
+        disabled = set(self.daemon.call("ListDisabledApps"))
+        default_manual = set(self.daemon.call("ListDefaultManualApps"))
+        default_off = set(self.daemon.call("ListDefaultOffApps"))
+        self.clear(self.mine)
+        self.clear(self.defaults)
+        self._rows = []
+        for app in sorted(enabled):
+            self._rows.append((app, "auto", True))
+        for app in sorted(manual):
+            self._rows.append((app, "manual", True))
+        for app in sorted(disabled):
+            self._rows.append((app, "off", True))
+        explicit = enabled | manual | disabled
+        for app in sorted(default_manual - explicit):
+            self._rows.append((app, "manual", False))
+        for app in sorted(default_off - explicit):
+            self._rows.append((app, "off", False))
+        defaults = 0
+        for app, mode, is_explicit in self._rows:
+            (self.mine if is_explicit else self.defaults).append(self._build_row(app, mode, is_explicit))
+            defaults += 0 if is_explicit else 1
+        self.defaults_box.set_visible(defaults > 0)
+        self.show_rows(bool(self._rows))
+        self.win.set_count(self.name, len(self.explicit_rows()))
+
+    def add(self):
+        self.open_form()
+
+    def edit_row(self, row):
+        app, mode, _explicit = row.rule
+        self.open_form(app, mode)
+
+    @guarded
+    def delete_row(self, row):
+        app, mode, explicit = row.rule
+        if not explicit:
+            return
+        self.daemon.call("ResetAppPolicy", "(s)", app)
+        self.win.refresh_all()
+
+        def undo():
+            if self.daemon.call("SetAppMode", "(ss)", app, mode):
+                self.win.refresh_all()
+
+        self.win.toast(_("Rule reset"), undo=undo)
+
+    def open_form(self, initial_app="", initial_mode="manual"):
+        win = self.win
+        editing = bool(initial_app)
+
+        def on_save():
+            app = app_row.get_text().strip()
+            mode = self.MODE_ORDER[mode_row.get_selected()]
+            try:
+                ok = self.daemon.call("SetAppMode", "(ss)", app, mode)
+            except GLib.Error as error:
+                win.daemon_failed(error)
+                return _("No connection to PuLinTo.")
+            if not ok:
+                return _("The rule was not saved.")
+            win.refresh_all()
+            win.toast(_("Saved"))
+            return None
+
+        dialog = FormDialog(_("Rule for an application") if editing else _("New rule"), on_save)
+        group = Adw.PreferencesGroup(
+            description=_("Window class (WM_CLASS), for example Navigator or jetbrains-*.")
+        )
+        app_row = Adw.EntryRow(title=_("Application"), text=initial_app)
+        group.add(app_row)
+        dialog.watch(app_row)
+        dialog.require(lambda: bool(app_row.get_text().strip()))
+        mode_row = Adw.ComboRow(title=_("Mode"), model=Gtk.StringList.new(list(self.MODES.values())))
+        mode_row.set_selected(self.MODE_ORDER.index(initial_mode))
+        group.add(mode_row)
+        dialog.add_group(group)
+
+        dialog.add_group(
+            dim_label(
+                _("Automatic: automatic fixes and the hotkey.\nHotkey only: no automatic "
+                  "replacements.\nCompletely off: PuLinTo handles nothing, not even the "
+                  "hotkey.\nThe key is set on the \"Hotkeys\" page: Alt or Pause/Break on an "
+                  "Apple keyboard, Pause/Break or the right Ctrl on the others.")
+            )
+        )
+        dialog.finish_layout()
+        dialog.present(win)
+        GLib.idle_add(app_row.grab_focus)
+
+
+# --------------------------------------------------------------------------
+# Overview, keyboard and help
+# --------------------------------------------------------------------------
+
+
+class OverviewPage(Gtk.ScrolledWindow):
+    can_add = False
+    searchable = False
+
+    def __init__(self, win, daemon):
+        super().__init__(hscrollbar_policy=Gtk.PolicyType.NEVER)
+        self.win = win
+        self.daemon = daemon
+        self.name = "overview"
+        self.title = _("Overview")
+        self._updating = False
+
+        box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=24)
+        self.set_child(
+            Adw.Clamp(
+                maximum_size=620,
+                tightening_threshold=480,
+                margin_top=24,
+                margin_bottom=24,
+                margin_start=16,
+                margin_end=16,
+                child=box,
+            )
+        )
+
+        hero = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8, halign=Gtk.Align.CENTER)
+        self.hero_icon = Gtk.Image(icon_name="input-keyboard-symbolic", pixel_size=72)
+        self.hero_icon.add_css_class("hero-icon")
+        self.hero_title = Gtk.Label(wrap=True, justify=Gtk.Justification.CENTER)
+        self.hero_title.add_css_class("title-1")
+        self.hero_text = Gtk.Label(wrap=True, justify=Gtk.Justification.CENTER, max_width_chars=48)
+        self.hero_text.add_css_class("dim-label")
+        for widget in (self.hero_icon, self.hero_title, self.hero_text):
+            hero.append(widget)
+        box.append(hero)
+
+        # Offered once: an Apple keyboard is attached and the layout is off.
+        self.suggestion = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL,
+            spacing=12,
+            margin_top=0,
+            visible=False,
+        )
+        self.suggestion.add_css_class("card")
+        texts = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL,
+            spacing=4,
+            margin_top=14,
+            margin_start=16,
+            margin_end=16,
+        )
+        offer_title = Gtk.Label(label=_("An Apple keyboard was found"), xalign=0, wrap=True)
+        offer_title.add_css_class("heading")
+        offer_text = dim_label(
+            _("Turn on the Apple layout (comma and full stop on Shift+6 and Shift+7, ё on the \\ "
+              "key)?")
+        )
+        texts.append(offer_title)
+        texts.append(offer_text)
+        actions = Gtk.Box(spacing=8, halign=Gtk.Align.END, margin_bottom=12, margin_end=12)
+        dismiss = Gtk.Button(label=_("Do not suggest"))
+        dismiss.add_css_class("flat")
+        dismiss.connect("clicked", lambda *_: self.dismiss_suggestion())
+        enable = Gtk.Button(label=_("Turn on"))
+        enable.add_css_class("suggested-action")
+        enable.connect("clicked", lambda *_: self.accept_suggestion())
+        actions.append(dismiss)
+        actions.append(enable)
+        self.suggestion.append(texts)
+        self.suggestion.append(actions)
+        box.append(self.suggestion)
+
+        main = Adw.PreferencesGroup()
+        self.auto_row = Adw.SwitchRow(
+            title=_("Fix automatically"),
+            subtitle=_("When it is off, words are fixed only when you press the hotkey (see "
+                       "\"Hotkeys\")."),
+            use_markup=False,
+        )
+        self.auto_row.connect("notify::active", self.on_auto_toggled)
+        main.add(self.auto_row)
+        box.append(main)
+
+        state = Adw.PreferencesGroup(title=_("Status"))
+        self.mode_row = plain_row(_("Mode"), _("Changed from the tray menu"))
+        self.mode_value = value_label()
+        self.mode_row.add_suffix(self.mode_value)
+        self.count_row = plain_row(_("Fixed this session"))
+        self.count_value = value_label()
+        self.count_row.add_suffix(self.count_value)
+        self.health_row = plain_row(_("PuLinTo service"))
+        self.health_icon = Gtk.Image()
+        self.health_row.add_prefix(self.health_icon)
+        for row in (self.mode_row, self.count_row, self.health_row):
+            state.add(row)
+        box.append(state)
+
+    def update(self, status):
+        self._updating = True
+        try:
+            if status is None:
+                self.hero_icon.add_css_class("inactive")
+                self.hero_title.set_text(_("No connection to PuLinTo"))
+                self.hero_text.set_text(_("The service is not responding. Try refreshing the page "
+                                          "(Ctrl+R) or restarting PuLinTo."))
+                self.auto_row.set_sensitive(False)
+                self.mode_value.set_text("—")
+                self.count_value.set_text("—")
+                self.health_row.set_subtitle(_("Not responding"))
+                self.health_icon.set_from_icon_name("dialog-warning-symbolic")
+                self.health_icon.set_css_classes(["warning"])
+                return
+            mode = status.get("mode", "")
+            off = mode == "off"
+            auto = bool(status.get("auto_enabled")) and not off
+            self.hero_icon.set_css_classes(["hero-icon"] + ([] if auto else ["inactive"]))
+            if off:
+                self.hero_title.set_text(_("PuLinTo is off"))
+                self.hero_text.set_text(_("The \"Off\" mode is set from the tray menu."))
+            elif auto:
+                self.hero_title.set_text(_("The layout fixes itself"))
+                self.hero_text.set_text(_("PuLinTo watches your typing and switches the layout "
+                                          "when a word is typed in the wrong one."))
+            else:
+                self.hero_title.set_text(_("Hotkey only"))
+                self.hero_text.set_text(_("Automatic fixes are off: you change the layout with the "
+                                          "hotkey."))
+            self.auto_row.set_sensitive(not off)
+            self.auto_row.set_active(auto)
+            self.mode_value.set_text(MODE_LABELS.get(mode, mode or "?"))
+            conversions = status.get("conversions")
+            self.count_value.set_text(
+                plural(conversions, "fix", "fixes")
+                if isinstance(conversions, int)
+                else "—"
+            )
+            running = status.get("status") == "running"
+            self.health_row.set_subtitle(_("Working") if running else str(status.get("status", _("unknown"))))
+            self.health_icon.set_from_icon_name("object-select-symbolic" if running else "dialog-warning-symbolic")
+            self.health_icon.set_css_classes(["success" if running else "warning"])
+        finally:
+            self._updating = False
+
+    @guarded
+    def on_auto_toggled(self, row, _param):
+        if self._updating:
+            return
+        if bool(self.daemon.call("IsAutoEnabled")) != row.get_active():
+            self.daemon.call("ToggleAuto")
+        self.win.update_status()
+
+    def show_suggestion(self, visible):
+        self.suggestion.set_visible(visible)
+
+    def dismiss_suggestion(self):
+        remember_gui_state(apple_suggestion_dismissed=True)
+        self.win.update_suggestion()
+
+    def accept_suggestion(self):
+        self.win.show_page("keyboard")
+        self.win.keyboard.switch.set_active(True)
+
+
+class KeyboardPage(Gtk.Box):
+    """What the keyboard is and how its keys are arranged — the Apple option."""
+
+    can_add = False
+    searchable = False
+
+    def __init__(self, win, daemon):
+        super().__init__(orientation=Gtk.Orientation.VERTICAL)
+        self.win = win
+        self.daemon = daemon
+        self.name = "keyboard"
+        self.title = _("Apple keyboard")
+        self.info = {}
+        self._refreshing = False
+
+        self.banner = Adw.Banner(revealed=False)
+        self.banner.connect("button-clicked", lambda *_: self.win.restart_input())
+        self.append(self.banner)
+
+        page = Adw.PreferencesPage(vexpand=True)
+        two = Adw.PreferencesGroup(title=_("An Apple and an ordinary keyboard together?"))
+        row = plain_row(
+            _("Ctrl+Pause/Break returns the ordinary layout at once"),
+            _("The Apple layout applies to the whole system, the ordinary keyboard included. "
+              "Press Ctrl+Pause/Break (Ctrl+Alt+' on the Apple keyboard) to turn it off or on again "
+              "without opening this window; the "
+              "key can be changed on the Hotkeys page."),
+        )
+        row.set_subtitle_lines(0)
+        two.add(row)
+        page.add(two)
+        group = Adw.PreferencesGroup(
+            description=_("For people who use an Apple keyboard (a Mac or a Magic Keyboard) on a PC: "
+                          "its comma, full stop and letter ё are on different keys than on an "
+                          "ordinary keyboard. With an ordinary keyboard there is nothing to set here.")
+        )
+        self.keyboard_row = plain_row(_("Apple keyboard"))
+        self.keyboard_value = value_label()
+        self.keyboard_row.add_suffix(self.keyboard_value)
+        group.add(self.keyboard_row)
+
+        self.switch = Adw.SwitchRow(
+            title=_("Apple layout"),
+            subtitle=_("Comma and full stop on Shift+6 and Shift+7, the letter ё on the \\ key, as "
+                       "on a Mac. It changes the system layout, so it applies to every keyboard, an "
+                       "ordinary one too; the choice is remembered and applied at every login."),
+            use_markup=False,
+            subtitle_lines=0,
+        )
+        self.switch.connect("notify::active", self.on_toggle)
+        group.add(self.switch)
+
+        self.layouts_row = plain_row(_("Currently in the system"))
+        self.layouts_value = value_label(mono=True)
+        self.layouts_row.add_suffix(self.layouts_value)
+        group.add(self.layouts_row)
+        page.add(group)
+
+        hint = Adw.PreferencesGroup(
+            description=_("The Cmd and Option keys and the function row are configured in the "
+                          "system itself, not in PuLinTo: they are parameters of the hid_apple "
+                          "kernel module (root needed) and XKB options such as "
+                          "ctrl:swap_lwin_lctl. Details are in the manual, section \"Apple "
+                          "keyboard\".")
+        )
+        page.add(hint)
+        self.append(page)
+
+    @guarded
+    def refresh(self):
+        try:
+            self.info = json.loads(self.daemon.call("KeyboardInfo"))
+        except (ValueError, TypeError):
+            self.info = {}
+        if not self.info:
+            self.keyboard_value.set_text(_("unavailable"))
+            self.switch.set_sensitive(False)
+            self.layouts_value.set_text("")
+            self.banner.set_revealed(False)
+            return
+        info = self.info
+        self.keyboard_value.set_text(_("found") if info.get("apple_keyboard") else _("not found"))
+        layouts = info.get("layouts") or []
+        variants = info.get("variants") or []
+        self.layouts_value.set_text(
+            ", ".join(
+                f"{name}({variant})" if variant else name
+                for name, variant in zip(layouts, variants + [""] * len(layouts))
+            )
+            or _("unknown")
+        )
+        self._refreshing = True
+        self.switch.set_active(bool(info.get("apple_layout")))
+        self._refreshing = False
+
+        problem = None
+        restart = False
+        if not info.get("can_apply"):
+            problem = _("setxkbmap not found (package x11-xkb-utils): the layout cannot be "
+                        "switched from here.")
+        elif info.get("foreign_variant") and not info.get("apple_layout"):
+            problem = (
+                _("The Russian layout uses the \"{variant}\" variant; the Apple layout is not "
+                  "applied over it, so your choice is kept.").format(
+                    variant=info["foreign_variant"]
+                )
+            )
+        elif info.get("restart_needed"):
+            problem = _("The system layout changed after PuLinTo started. Restart it.")
+            restart = True
+        self.switch.set_sensitive(
+            bool(info.get("can_apply"))
+            and not (info.get("foreign_variant") and not info.get("apple_layout"))
+        )
+        self.banner.set_button_label(_("Restart") if restart else None)
+        if problem:
+            self.banner.set_title(problem)
+        self.banner.set_revealed(bool(problem))
+
+    def on_toggle(self, row, _param):
+        if self._refreshing:
+            return
+        state = row.get_active()
+        try:
+            ok, reason = self.daemon.call("SetAppleLayout", "(b)", state)
+        except GLib.Error as error:
+            ok, reason = False, str(error)
+        if not ok:
+            alert(self.win, _("The layout was not changed"), reason)
+            self._refreshing = True
+            row.set_active(not state)
+            self._refreshing = False
+            return
+        if not state:
+            # Switched off by hand: do not offer it again.
+            remember_gui_state(apple_suggestion_dismissed=True)
+        self.win.wait_for_daemon(
+            _("Apple layout turned on") if state else _("Standard layout restored")
+        )
+
+
+def keycaps(*keys):
+    box = Gtk.Box(spacing=4, valign=Gtk.Align.CENTER)
+    for key in keys:
+        label = Gtk.Label(label=key)
+        label.add_css_class("keycap")
+        box.append(label)
+    return box
+
+
+class HotkeyRecorder(Adw.Dialog):
+    """«Нажмите сочетание…»: запись делает демон, а не это окно.
+
+    Окно GTK не видит ни Super, ни одиночных модификаторов, а под Wayland часть
+    клавиш забирает композитор. Демон читает клавиатуру сам: он проглатывает
+    следующее сочетание, отдаёт его строкой и ничего не сохраняет — сохраняет
+    окно, когда человек подтвердил.
+    """
+
+    SECONDS = 10
+
+    def __init__(self, page, scheme, action, title, subject, on_chosen):
+        super().__init__(title=title, content_width=420)
+        self.page = page
+        self.daemon = page.daemon
+        self.scheme = scheme
+        self.action = action
+        self.on_chosen = on_chosen
+        self.binding = None
+        self.left = self.SECONDS
+        self.finished = False
+        self.ticker = None
+
+        header = Adw.HeaderBar(show_start_title_buttons=False, show_end_title_buttons=False)
+        self.cancel_button = Gtk.Button(label=_("Cancel"))
+        self.cancel_button.connect("clicked", lambda *_: self.close())
+        self.save_button = Gtk.Button(label=_("Assign"), sensitive=False)
+        self.save_button.add_css_class("suggested-action")
+        self.save_button.connect("clicked", lambda *_: self.choose())
+        header.pack_start(self.cancel_button)
+        header.pack_end(self.save_button)
+
+        body = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL, spacing=14,
+            margin_top=12, margin_bottom=24, margin_start=18, margin_end=18,
+        )
+        self.subject = dim_label(subject)
+        self.subject.set_xalign(0.5)
+        self.prompt = Gtk.Label(label=_("Press a key combination"), wrap=True)
+        self.prompt.add_css_class("title-3")
+        self.shown = Gtk.Box(halign=Gtk.Align.CENTER, spacing=6, height_request=40)
+        self.hint = dim_label(
+            _("You can press and release a single modifier: Alt, Ctrl, Shift or Super. While "
+              "recording, the other keys do nothing. Esc cancels."),
+            justify=Gtk.Justification.CENTER,
+        )
+        self.hint.set_xalign(0.5)
+        self.status = Gtk.Label(wrap=True, xalign=0.5, justify=Gtk.Justification.CENTER)
+        self.status.add_css_class("dim-label")
+        self.warning = Gtk.Label(wrap=True, xalign=0, visible=False)
+        self.warning.add_css_class("warning")
+        self.error = Gtk.Label(wrap=True, xalign=0, visible=False)
+        self.error.add_css_class("error")
+        self.again = Gtk.Button(label=_("Record again"), halign=Gtk.Align.CENTER, visible=False)
+        self.again.connect("clicked", lambda *_: self.start())
+        for widget in (self.subject, self.prompt, self.shown, self.status, self.hint, self.error, self.warning, self.again):
+            body.append(widget)
+
+        view = Adw.ToolbarView()
+        view.add_top_bar(header)
+        view.set_content(body)
+        self.set_child(view)
+        self.set_default_widget(self.save_button)
+        self.connect("closed", self.on_closed)
+        self.start()
+
+    def show_keys(self, text, final=False):
+        child = self.shown.get_first_child()
+        while child is not None:
+            following = child.get_next_sibling()
+            self.shown.remove(child)
+            child = following
+        for part in [part for part in text.split("+") if part]:
+            label = Gtk.Label(label=part)
+            label.add_css_class("keycap")
+            self.shown.append(label)
+        if text and not final:
+            label = Gtk.Label(label="…")
+            label.add_css_class("dim-label")
+            self.shown.append(label)
+
+    def start(self):
+        self.binding = None
+        self.finished = False
+        self.left = self.SECONDS
+        self.save_button.set_sensitive(False)
+        self.again.set_visible(False)
+        self.error.set_visible(False)
+        self.warning.set_visible(False)
+        self.prompt.set_text(_("Press a key combination"))
+        self.show_keys("")
+        self.update_status()
+        params = GLib.Variant("(ss)", (self.scheme, self.action))
+        self.daemon.proxy.call(
+            "RecordHotkey", params, Gio.DBusCallFlags.NONE, (self.SECONDS + 6) * 1000, None, self.on_answer
+        )
+        if self.ticker is None:
+            self.ticker = GLib.timeout_add(100, self.tick)
+
+    def tick(self):
+        if self.finished:
+            self.ticker = None
+            return False
+        self.left = max(0.0, self.left - 0.1)
+        self.update_status()
+        try:
+            held = self.daemon.call("HotkeyRecordingProgress")
+        except GLib.Error:
+            held = ""
+        if held:
+            self.show_keys(held)
+        return True
+
+    def update_status(self):
+        if self.finished:
+            return
+        self.status.set_text(_("{seconds} s left").format(seconds=int(self.left + 0.99)))
+
+    def on_answer(self, proxy, result):
+        self.finished = True
+        try:
+            answer = json.loads(proxy.call_finish(result).unpack()[0])
+        except (GLib.Error, ValueError):
+            answer = {"status": "error", "error": _("The daemon did not respond.")}
+        status = answer.get("status")
+        self.status.set_text("")
+        if status == "recorded":
+            self.binding = answer["binding"]
+            self.prompt.set_text(_("Recorded"))
+            self.show_keys(answer["label"], final=True)
+            if answer.get("warnings"):
+                self.warning.set_text("\n".join(answer["warnings"]))
+                self.warning.set_visible(True)
+            self.save_button.set_sensitive(True)
+            self.again.set_visible(True)
+            self.save_button.grab_focus()
+            return
+        self.show_keys("")
+        if status == "cancelled":
+            self.prompt.set_text(_("Recording cancelled"))
+        elif status == "timeout":
+            self.prompt.set_text(_("Time is up"))
+        elif status == "rejected":
+            self.prompt.set_text(_("This combination cannot be assigned"))
+            self.error.set_text(answer.get("error", ""))
+            self.error.set_visible(True)
+        else:
+            self.prompt.set_text(_("Recording is unavailable"))
+            self.error.set_text(answer.get("error", ""))
+            self.error.set_visible(True)
+        self.again.set_visible(status != "unavailable")
+
+    def choose(self):
+        if self.binding is None:
+            return
+        problem = self.on_chosen(self.binding)
+        if problem:
+            self.error.set_text(problem)
+            self.error.set_visible(True)
+        else:
+            self.close()
+
+    def on_closed(self, *_):
+        # Закрыли окно, не дождавшись: клавиатура сразу возвращается человеку.
+        if not self.finished:
+            try:
+                self.daemon.call("CancelHotkeyRecording")
+            except GLib.Error:
+                pass
+        self.finished = True
+
+
+class HotkeysPage(Gtk.Box):
+    """Два набора горячих клавиш и их правка. Запись сочетания делает демон."""
+
+    can_add = False
+    searchable = False
+
+    SCHEMES = (("apple", "Apple"), ("pc", "PC"))
+    CHOICES = (
+        ("auto", _("Auto — by keyboard")),
+        ("apple", _("Always the Apple set")),
+        ("pc", _("Always the PC set")),
+    )
+    NOTES = {
+        "word": _("Fixes the word you are typing; right after a word, undoes the last "
+                  "replacement. Pressing again cycles through the readings."),
+        "selection": _("Replaces the selected text with its reading in the other layout."),
+        "toggle_app": _("Cycles the mode for the application you are in: automatic, hotkey only, "
+                        "off."),
+        "report": _("Writes the last eight decisions to reports.jsonl."),
+        "apple_layout": _("Turns the Apple layout of the system on or off, at once. Useful when "
+                          "an Apple and an ordinary keyboard are connected together: the Apple "
+                          "layout applies to both, and this key brings the ordinary one back."),
+    }
+    TITLES = {
+        "word": _("Change the layout of the word"),
+        "selection": _("Convert the selected text"),
+        "toggle_app": _("Cycle the mode for the application"),
+        "report": _("Report a wrong correction"),
+        "apple_layout": _("Turn the Apple layout on or off"),
+    }
+
+    def __init__(self, win, daemon):
+        super().__init__(orientation=Gtk.Orientation.VERTICAL)
+        self.win = win
+        self.daemon = daemon
+        self.name = "hotkeys"
+        self.title = _("Hotkeys")
+        self.state = {}
+        self._refreshing = False
+
+        self.stack = Gtk.Stack(vexpand=True)
+        self.containers = {}
+        for scheme, title in self.SCHEMES:
+            box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=24)
+            self.containers[scheme] = box
+            clamp = Adw.Clamp(maximum_size=640, tightening_threshold=480, child=box,
+                              margin_top=12, margin_bottom=24, margin_start=12, margin_end=12)
+            scroller = Gtk.ScrolledWindow(hscrollbar_policy=Gtk.PolicyType.NEVER, vexpand=True, child=clamp)
+            self.stack.add_titled(scroller, scheme, title)
+        switcher = Gtk.StackSwitcher(stack=self.stack, halign=Gtk.Align.CENTER)
+
+        self.choice = Adw.ComboRow(title=_("Which set to use"))
+        self.choice.set_model(Gtk.StringList.new([label for _id, label in self.CHOICES]))
+        self.choice.connect("notify::selected", self.on_choice)
+        choice_group = Adw.PreferencesGroup(
+            description=_("The set is chosen by keyboard: Apple keyboards use the Apple set, all "
+                          "others the PC set. A laptop and an Apple keyboard plugged into it each keep to "
+                          "their own habits.")
+        )
+        choice_group.add(self.choice)
+        self.keyboards_label = dim_label("")
+        choice_group.add(self.keyboards_label)
+
+        top = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12,
+                      margin_top=12, margin_start=12, margin_end=12)
+        top.append(Adw.Clamp(maximum_size=640, tightening_threshold=480, child=choice_group))
+        top.append(switcher)
+        self.append(top)
+        self.append(self.stack)
+
+    # -- data ------------------------------------------------------------
+
+    @guarded
+    def refresh(self):
+        try:
+            self.state = json.loads(self.daemon.call("GetHotkeys"))
+        except (ValueError, TypeError):
+            self.state = {}
+        if not self.state:
+            return
+        self._refreshing = True
+        ids = [choice for choice, _label in self.CHOICES]
+        self.choice.set_selected(ids.index(self.state.get("choice", "auto")) if self.state.get("choice") in ids else 0)
+        self._refreshing = False
+        names = {"apple": "Apple", "pc": "PC"}
+        keyboards = self.state.get("keyboards") or []
+        self.keyboards_label.set_text(
+            _("Currently connected: ")
+            + "; ".join(
+                _("{name} — set {scheme}").format(name=k["name"], scheme=names.get(k["scheme"], k["scheme"]))
+                for k in keyboards
+            )
+            if keyboards
+            else _("No keyboards found.")
+        )
+        for scheme, _title in self.SCHEMES:
+            self.rebuild(scheme)
+
+    def rebuild(self, scheme):
+        box = self.containers[scheme]
+        child = box.get_first_child()
+        while child is not None:
+            following = child.get_next_sibling()
+            box.remove(child)
+            child = following
+        titles = {action["id"]: self.TITLES.get(action["id"], action["title"]) for action in self.state.get("actions", [])}
+        entries = self.state["sets"][scheme]
+        for action in self.state.get("actions", []):
+            box.append(self.action_group(scheme, action["id"], titles[action["id"]], entries[action["id"]]))
+
+        emergency = Adw.PreferencesGroup(title=_("Cannot be changed"))
+        row = plain_row(
+            _("Emergency release of the grab"),
+            _("Press all three together: PuLinTo releases the keyboard until restart."),
+        )
+        row.set_subtitle_lines(0)
+        row.add_suffix(keycaps("Backspace", "Esc", "Enter"))
+        emergency.add(row)
+        box.append(emergency)
+
+        reset = Gtk.Button(label=_("Reset the set"), halign=Gtk.Align.CENTER)
+        reset.add_css_class("destructive-action")
+        reset.set_sensitive(not all(entry["is_default"] for entry in entries.values()))
+        reset.connect("clicked", lambda *_: self.confirm_reset_set(scheme))
+        box.append(reset)
+
+    def action_group(self, scheme, action, title, entry):
+        group = Adw.PreferencesGroup(title=title, description=self.NOTES.get(action, ""))
+        reset = Gtk.Button(label=_("Reset"), valign=Gtk.Align.CENTER, visible=not entry["is_default"])
+        reset.add_css_class("flat")
+        reset.connect("clicked", lambda *_: self.reset(scheme, action))
+        group.set_header_suffix(reset)
+
+        bindings = entry["bindings"]
+        if not bindings:
+            row = plain_row(_("Off"), _("There is no combination: the action does not "
+                                              "trigger."))
+            group.add(row)
+        for index, binding in enumerate(bindings):
+            group.add(self.binding_row(scheme, action, title, bindings, index))
+        add = Adw.ActionRow(title=_("Add a shortcut…"), activatable=True)
+        add.add_prefix(Gtk.Image(icon_name="list-add-symbolic"))
+        add.connect("activated", lambda *_: self.edit(scheme, action, title, bindings, None))
+        group.add(add)
+        return group
+
+    @staticmethod
+    def tap_label(text):
+        """`tap:ralt` as "Right Alt"."""
+        name = text[len("tap:"):]
+        side = ""
+        if name[:1] in ("l", "r") and name[1:] in ("alt", "ctrl", "shift", "meta"):
+            side, name = name[0], name[1:]
+        key = {"alt": "Alt", "ctrl": "Ctrl", "shift": "Shift", "meta": "Meta"}.get(name, name)
+        if side == "l":
+            return _("Left {key}").format(key=key)
+        if side == "r":
+            return _("Right {key}").format(key=key)
+        return key
+
+    def binding_row(self, scheme, action, title, bindings, index):
+        binding = bindings[index]
+        is_tap = binding["text"].startswith("tap:")
+        row = Adw.ActionRow(
+            title=_("Single press") if is_tap else _("Combination"), use_markup=False
+        )
+        # The daemon's own label is in Russian; the window builds the key names itself.
+        label = self.tap_label(binding["text"]) if is_tap else binding["label"]
+        row.add_prefix(keycaps(*(label.split("+") if not is_tap else [label])))
+        edit = Gtk.Button(label=_("Edit"), valign=Gtk.Align.CENTER)
+        edit.connect("clicked", lambda *_: self.edit(scheme, action, title, bindings, index))
+        row.add_suffix(edit)
+        row.add_suffix(
+            icon_button(
+                "user-trash-symbolic", _("Remove this shortcut"),
+                lambda: self.save(scheme, action, [b["text"] for i, b in enumerate(bindings) if i != index]),
+            )
+        )
+        return row
+
+    # -- changes ---------------------------------------------------------
+
+    def edit(self, scheme, action, title, bindings, index):
+        heading = _("New shortcut") if index is None else _("Change shortcut")
+
+        def chosen(text):
+            texts = [b["text"] for b in bindings]
+            if index is None:
+                texts.append(text)
+            else:
+                texts[index] = text
+            return self.save(scheme, action, texts)
+
+        HotkeyRecorder(self, scheme, action, heading, title, chosen).present(self.win)
+
+    def save(self, scheme, action, texts):
+        """Returns None on success or the daemon's reason in words."""
+        try:
+            answer = json.loads(self.daemon.call("SetHotkey", "(ssas)", scheme, action, texts))
+        except (GLib.Error, ValueError) as error:
+            return str(error)
+        if not answer.get("ok"):
+            return answer.get("error") or _("Could not save.")
+        self.refresh()
+        warnings = answer.get("warnings") or []
+        self.win.toast((_("Saved. ") + warnings[0]) if warnings else _("Saved"))
+        return None
+
+    def report(self, answer, done):
+        if answer.get("ok"):
+            self.refresh()
+            self.win.toast(done)
+        else:
+            alert(self.win, _("It did not work"), answer.get("error") or "")
+
+    @guarded
+    def reset(self, scheme, action):
+        answer = json.loads(self.daemon.call("ResetHotkeys", "(ss)", scheme, action))
+        self.report(answer, _("Reset"))
+
+    def confirm_reset_set(self, scheme):
+        names = dict(self.SCHEMES)
+        dialog = Adw.AlertDialog(
+            heading=_("Reset the {name} set?").format(name=names[scheme]),
+            body=_("All shortcuts of this set will return to their defaults."),
+        )
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("reset", _("Reset"))
+        dialog.set_response_appearance("reset", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_default_response("cancel")
+        dialog.set_close_response("cancel")
+        dialog.connect("response", lambda _d, response: self.finish_reset_set(scheme, response))
+        dialog.present(self.win)
+
+    @guarded
+    def finish_reset_set(self, scheme, response):
+        if response != "reset":
+            return
+        answer = json.loads(self.daemon.call("ResetHotkeys", "(ss)", scheme, ""))
+        self.report(answer, _("Set reset"))
+
+    @guarded
+    def on_choice(self, row, _param):
+        if self._refreshing:
+            return
+        choice = self.CHOICES[row.get_selected()][0]
+        answer = json.loads(self.daemon.call("SetHotkeyChoice", "(s)", choice))
+        self.report(answer, _("Set choice saved"))
+
+
+class HelpPage(Adw.PreferencesPage):
+    can_add = False
+    searchable = False
+
+    def __init__(self, win):
+        super().__init__()
+        self.win = win
+        self.name = "help"
+        self.title = _("Help")
+
+        keys = Adw.PreferencesGroup(
+            title=_("PuLinTo hotkeys"),
+            description=_("They work in any application where PuLinTo is not off. Apple keyboards "
+                          "and all others have their own sets, and every combination can be "
+                          "changed on the \"Hotkeys\" page."),
+        )
+        for title, text, caps in [
+            (
+                _("Fix the word"),
+                _("The selected text, the word being typed or the last word. Pressing again cycles "
+                  "through the readings. By default: on an Apple keyboard a single Alt or "
+                  "Pause/Break; on the others Pause/Break or a single right Ctrl (a lone Alt is "
+                  "left to application menus there)."),
+                (),
+            ),
+            (
+                _("Selected text only"),
+                _("Shift+Pause/Break by default."),
+                ("Shift", "Pause/Break"),
+            ),
+            (
+                _("Cycle the mode for the application"),
+                _("Cycles: automatic, hotkey only, off."),
+                ("Ctrl", "Alt", "P"),
+            ),
+            (
+                _("Report a wrong correction"),
+                _("Writes the last eight decisions to reports.jsonl."),
+                ("Ctrl", "Alt", "\\"),
+            ),
+            (
+                _("Turn the Apple layout on or off"),
+                _("By default: on an Apple keyboard Ctrl+Alt+'; on the others Ctrl+Pause/Break. "
+                  "Brings back the ordinary layout when an Apple and an ordinary keyboard are "
+                  "connected."),
+                (),
+            ),
+            (
+                _("Emergency release of the grab"),
+                _("Press all three together: PuLinTo releases the keyboard until restart."),
+                ("Backspace", "Esc", "Enter"),
+            ),
+        ]:
+            row = plain_row(title, text)
+            row.set_subtitle_lines(0)
+            if caps:
+                row.add_suffix(keycaps(*caps))
+            keys.add(row)
+        self.add(keys)
+
+        window = Adw.PreferencesGroup(title=_("In this window"))
+        for title, caps in [
+            (_("Search the list"), ("Ctrl", "F")),
+            (_("Add a rule"), ("Ctrl", "N")),
+            (_("Delete the selected row"), ("Delete",)),
+            (_("Refresh lists"), ("Ctrl", "R")),
+        ]:
+            row = plain_row(title)
+            row.add_suffix(keycaps(*caps))
+            window.add(row)
+        self.add(window)
+
+        privacy = Adw.PreferencesGroup(
+            title=_("What is stored"),
+            description=_("Only the rules, added by hand or learned after repeated corrections. "
+                          "Ordinary typing and the clipboard are not stored."),
+        )
+        self.add(privacy)
+
+
+class DiagnosticsPage(Adw.PreferencesPage):
+    """The in-memory diagnostics and the debug mode (see `crates/pulintod/src/debug.rs`)."""
+
+    can_add = False
+    searchable = False
+
+    # id, title, subtitle, on by default
+    OPTIONS = (
+        ("panic", _("Full text of a crash"),
+         _("The message and the backtrace of a panic. Without it the log only says where it happened."), True),
+        ("decisions", _("Every decision"),
+         _("A line for each word, including the ones left alone: the stage, the layout, the time."), True),
+        ("text", _("Typed words"),
+         _("The words and what they became. Words that the stop rules take out (passwords, "
+           "addresses) are not written."), False),
+        ("keys", _("Every key"),
+         _("Each key read and each key sent, with the time. This records passwords too; it stops "
+           "after 15 minutes."), False),
+    )
+
+    def __init__(self, win, daemon):
+        super().__init__()
+        self.win = win
+        self.daemon = daemon
+        self.name = "diagnostics"
+        self.title = _("Diagnostics")
+        self._timer = None
+
+        self.debug_group = Adw.PreferencesGroup(
+            title=_("Debug mode"),
+            description=_("For finding a fault together with the developer. While it records, a red "
+                          "dot shows on the tray icon. The record is kept in memory, not on "
+                          "the disk; it stops by itself after an hour and is deleted when you switch "
+                          "the mode off."),
+        )
+        self.option_rows = {}
+        for oid, title, subtitle, default in self.OPTIONS:
+            option = Adw.SwitchRow(title=title, subtitle=subtitle, active=default)
+            option.set_subtitle_lines(0)
+            self.option_rows[oid] = option
+            self.debug_group.add(option)
+        self.state_row = plain_row("")
+        self.start_row = self.action_row(_("Start recording"), self.confirm_start)
+        self.save_row = self.action_row(_("Stop and save a copy"), lambda: self.stop(True))
+        self.delete_row = self.action_row(_("Stop and delete"), lambda: self.stop(False))
+        self.delete_row.add_css_class("error")
+        self.debug_group.add(self.state_row)
+        for row in (self.start_row, self.save_row, self.delete_row):
+            self.debug_group.add(row)
+        self.add(self.debug_group)
+        self.connect("map", lambda *_: self.refresh())
+
+        group = Adw.PreferencesGroup(
+            title=_("Diagnostics"),
+            description=_("PuLinTo keeps the last lines of its work in memory only, never in a file. "
+                          "They hold no words you typed. Copy them to attach to a bug report."),
+        )
+        row = plain_row(_("Last lines of the log"))
+        row.add_suffix(pill_button(_("Copy"), self.copy_diagnostics))
+        group.add(row)
+        self.add(group)
+
+    @staticmethod
+    def action_row(title, callback):
+        row = plain_row(title)
+        row.set_activatable(True)
+        row.add_suffix(Gtk.Image(icon_name="go-next-symbolic"))
+        row.connect("activated", lambda *_: callback())
+        return row
+
+    @guarded
+    def copy_diagnostics(self):
+        text = self.daemon.call("GetDiagnostics")
+        self.get_clipboard().set(text)
+        self.win.toast(_("Copied"))
+
+    def selected(self):
+        return [oid for oid, row in self.option_rows.items() if row.get_active()]
+
+    def confirm_start(self):
+        chosen = self.selected()
+        if not chosen:
+            self.win.toast(_("Choose at least one option"))
+            return
+        if "text" in chosen or "keys" in chosen:
+            dialog = Adw.AlertDialog(
+                heading=_("Record what you type?"),
+                body=_("The record will hold your texts. Passwords typed while \"Every key\" is on "
+                       "are recorded too. Nothing is written to the disk, and the record is deleted "
+                       "when you stop; you decide whether to save a copy."),
+            )
+            dialog.add_response("cancel", _("Cancel"))
+            dialog.add_response("start", _("Start"))
+            dialog.set_response_appearance("start", Adw.ResponseAppearance.DESTRUCTIVE)
+            dialog.set_default_response("cancel")
+            dialog.set_close_response("cancel")
+            dialog.connect("response", lambda _d, response: self.start(chosen) if response == "start" else None)
+            dialog.present(self.win)
+        else:
+            self.start(chosen)
+
+    @guarded
+    def start(self, chosen):
+        if not self.daemon.call("StartDebug", "(as)", chosen):
+            alert(self.win, _("Debug mode did not start"),
+                  _("See the daemon log: journalctl --user -u pulintod -n 20"))
+        self.refresh()
+
+    @guarded
+    def stop(self, save):
+        path = self.daemon.call("StopDebug", "(b)", save)
+        self.refresh()
+        if path:
+            alert(self.win, _("A copy is saved"),
+                  _("{path}\n\nLook through it before sending: it may hold your texts. The "
+                    "record itself is deleted.").format(path=path))
+        else:
+            self.win.toast(_("The record is deleted"))
+
+    @guarded
+    def refresh(self):
+        try:
+            state = json.loads(self.daemon.call("GetDebug"))
+        except (ValueError, TypeError):
+            state = {}
+        recording = bool(state.get("recording"))
+        leftover = bool(state.get("leftover"))
+        active = set(state.get("options") or [])
+        for oid, row in self.option_rows.items():
+            row.set_sensitive(not recording and not leftover)
+            if recording:
+                row.set_active(oid in active)
+        self.start_row.set_visible(not recording and not leftover)
+        self.save_row.set_visible(recording or leftover)
+        self.delete_row.set_visible(recording or leftover)
+        if recording:
+            minutes = -(-int(state.get("seconds_left", 0)) // 60)
+            self.state_row.set_title(_("Recording · {minutes} min left").format(minutes=minutes))
+            self.state_row.add_css_class("error")
+        elif leftover:
+            self.state_row.set_title(_("A finished record is kept in memory"))
+            self.state_row.remove_css_class("error")
+        else:
+            self.state_row.set_title(_("Not recording"))
+            self.state_row.remove_css_class("error")
+        # Follow the daemon while the page is on screen (the mode may be switched from the tray)
+        # and, while it records, until it stops.
+        if self._timer is None and (recording or self.get_mapped()):
+            self._timer = GLib.timeout_add_seconds(1 if recording else 2, self._tick)
+
+    def _tick(self):
+        self._timer = None
+        self.refresh()
+        return False
+
+
+# --------------------------------------------------------------------------
+# Window
+# --------------------------------------------------------------------------
+
+
+class SettingsWindow(Adw.ApplicationWindow):
+    SIDEBAR = (
+        ("overview", _("Overview"), "go-home-symbolic"),
+        ("replacements", _("Autocorrections"), "edit-find-replace-symbolic"),
+        ("never", _("Never change"), "action-unavailable-symbolic"),
+        ("always", _("Always change"), "object-flip-horizontal-symbolic"),
+        ("apps", _("Applications"), "view-app-grid-symbolic"),
+        ("keyboard", _("Apple keyboard"), "input-keyboard-symbolic"),
+        ("hotkeys", _("Hotkeys"), "preferences-desktop-keyboard-symbolic"),
+        ("diagnostics", _("Diagnostics"), "applications-engineering-symbolic"),
+        ("help", _("Help"), "help-about-symbolic"),
+    )
+
+    def __init__(self, application, daemon):
+        super().__init__(application=application, title="PuLinTo", default_width=940, default_height=640)
+        self.set_size_request(360, 360)
+        self.daemon = daemon
+        self.origin_app = os.environ.get("PULINTO_ORIGIN_APP", "").strip()
+        self.pages = {}
+        self.counts = {}
+        self.current = None
+        self.restart_done_text = ""
+        self.restart_attempts = 0
+        self._failure_shown = False
+
+        self.overview = OverviewPage(self, daemon)
+        self.replacements = RulesPage(self, daemon, "replacement")
+        self.never = RulesPage(self, daemon, "never")
+        self.always = RulesPage(self, daemon, "always")
+        self.apps = ApplicationsPage(self, daemon)
+        self.keyboard = KeyboardPage(self, daemon)
+        self.hotkeys = HotkeysPage(self, daemon)
+        self.diagnostics = DiagnosticsPage(self, daemon)
+        self.help = HelpPage(self)
+
+        self.content_stack = Gtk.Stack(
+            transition_type=Gtk.StackTransitionType.CROSSFADE, transition_duration=140
+        )
+        for page in (
+            self.overview,
+            self.replacements,
+            self.never,
+            self.always,
+            self.apps,
+            self.keyboard,
+            self.hotkeys,
+            self.diagnostics,
+            self.help,
+        ):
+            self.pages[page.name] = page
+            self.content_stack.add_named(page, page.name)
+
+        self.build_actions()
+        install_language_action(self, self.daemon, lambda: self.current.name)
+        self.build_layout()
+
+        self.refresh_all()
+        initial = os.environ.get("PULINTO_SETTINGS_PAGE", "").strip()
+        self.show_page(initial if initial in PAGE_NAMES else "overview", reveal=False)
+        self.connect("notify::is-active", self.on_active_changed)
+
+    # -- construction ----------------------------------------------------
+
+    def build_actions(self):
+        for name, callback in [
+            ("refresh", lambda *_: self.safe_refresh()),
+            ("restart-input", lambda *_: self.restart_input()),
+            ("import", lambda *_: self.import_rules()),
+            ("export", lambda *_: self.export_rules()),
+            ("find", lambda *_: self.focus_search()),
+            ("add", lambda *_: self.add_to_current()),
+            ("help", lambda *_: self.show_page("help")),
+        ]:
+            action = Gio.SimpleAction.new(name, None)
+            action.connect("activate", callback)
+            self.add_action(action)
+        application = self.get_application()
+        application.set_accels_for_action("win.refresh", ["<Control>r", "F5"])
+        application.set_accels_for_action("win.find", ["<Control>f"])
+        application.set_accels_for_action("win.add", ["<Control>n"])
+        application.set_accels_for_action("win.help", ["F1"])
+
+    def build_layout(self):
+        # Sidebar
+        self.sidebar = Gtk.ListBox(selection_mode=Gtk.SelectionMode.SINGLE)
+        self.sidebar.add_css_class("navigation-sidebar")
+        self.sidebar_rows = {}
+        for name, title, icon in self.SIDEBAR:
+            row = Gtk.ListBoxRow()
+            row.page_name = name
+            box = Gtk.Box(spacing=12, margin_top=6, margin_bottom=6, margin_start=6, margin_end=6)
+            box.append(Gtk.Image(icon_name=icon))
+            label = Gtk.Label(label=title, xalign=0, hexpand=True)
+            box.append(label)
+            count = Gtk.Label(xalign=1, visible=False)
+            count.add_css_class("sidebar-count")
+            box.append(count)
+            row.set_child(box)
+            self.counts[name] = count
+            self.sidebar.append(row)
+            self.sidebar_rows[name] = row
+        self.sidebar.connect("row-selected", self.on_sidebar_selected)
+        self.sidebar.connect("row-activated", lambda *_: self.split.set_show_content(True))
+
+        sidebar_view = Adw.ToolbarView()
+        sidebar_header = Adw.HeaderBar()
+        sidebar_header.set_title_widget(Adw.WindowTitle(title="PuLinTo", subtitle=""))
+        sidebar_view.add_top_bar(sidebar_header)
+        sidebar_view.set_content(
+            Gtk.ScrolledWindow(hscrollbar_policy=Gtk.PolicyType.NEVER, child=self.sidebar)
+        )
+        sidebar_page = Adw.NavigationPage(title="PuLinTo", child=sidebar_view)
+
+        # Content
+        menu = Gio.Menu()
+        section = Gio.Menu()
+        section.append(_("Refresh lists"), "win.refresh")
+        section.append(_("Re-check keyboards"), "win.restart-input")
+        menu.append_section(None, section)
+        section = Gio.Menu()
+        section.append(_("Import rules…"), "win.import")
+        section.append(_("Export rules…"), "win.export")
+        menu.append_section(None, section)
+        section = Gio.Menu()
+        section.append_submenu(_("Interface language"), language_menu())
+        section.append(_("Help and hotkeys"), "win.help")
+        menu.append_section(None, section)
+        menu_button = Gtk.MenuButton(icon_name="open-menu-symbolic", menu_model=menu, primary=True)
+        menu_button.set_tooltip_text(_("Menu"))
+
+        self.search_button = Gtk.ToggleButton(icon_name="system-search-symbolic", tooltip_text=_("Search "
+                                                                                                 "(Ctrl+F)"))
+        self.add_button = Gtk.Button(tooltip_text=_("Add (Ctrl+N)"), action_name="win.add")
+        self.add_content = Adw.ButtonContent(icon_name="list-add-symbolic", label=_("Add"))
+        self.add_button.set_child(self.add_content)
+        self.add_button.add_css_class("suggested-action")
+
+        self.content_title = Adw.WindowTitle(title=_("Overview"), subtitle="")
+        header = Adw.HeaderBar()
+        header.set_title_widget(self.content_title)
+        header.pack_start(self.add_button)
+        header.pack_end(menu_button)
+        header.pack_end(self.search_button)
+
+        self.search_entry = Gtk.SearchEntry(placeholder_text=_("Search the list"), hexpand=True)
+        self.search_entry.connect("search-changed", self.on_search_changed)
+        self.search_bar = Gtk.SearchBar(child=Adw.Clamp(maximum_size=520, child=self.search_entry))
+        self.search_bar.connect_entry(self.search_entry)
+        self.search_button.bind_property(
+            "active",
+            self.search_bar,
+            "search-mode-enabled",
+            GObject.BindingFlags.BIDIRECTIONAL | GObject.BindingFlags.SYNC_CREATE,
+        )
+        self.search_bar.connect("notify::search-mode-enabled", self.on_search_mode)
+
+        content_view = Adw.ToolbarView()
+        content_view.add_top_bar(header)
+        content_view.add_top_bar(self.search_bar)
+        content_view.set_content(self.content_stack)
+        self.content_page = Adw.NavigationPage(title=_("Overview"), child=content_view)
+
+        self.split = Adw.NavigationSplitView(
+            sidebar=sidebar_page,
+            content=self.content_page,
+            min_sidebar_width=190,
+            max_sidebar_width=250,
+            sidebar_width_fraction=0.26,
+        )
+        breakpoint_ = Adw.Breakpoint.new(Adw.BreakpointCondition.parse("max-width: 640sp"))
+        breakpoint_.add_setter(self.split, "collapsed", True)
+        breakpoint_.add_setter(self.add_content, "label", "")
+        self.add_breakpoint(breakpoint_)
+
+        self.overlay = Adw.ToastOverlay(child=self.split)
+        self.set_content(self.overlay)
+
+    # -- navigation ------------------------------------------------------
+
+    def show_page(self, name, reveal=True):
+        self.sidebar.select_row(self.sidebar_rows[name])
+        if reveal:
+            self.split.set_show_content(True)
+
+    def on_sidebar_selected(self, _box, row):
+        if row is None:
+            return
+        name = row.page_name
+        page = self.pages[name]
+        # Clear the search while the old page is still current: the empty
+        # filter must reach the page that was filtered, not the new one.
+        self.search_button.set_active(False)
+        self.search_entry.set_text("")
+        self.current = page
+        self.content_stack.set_visible_child_name(name)
+        self.content_page.set_title(page.title)
+        self.content_title.set_title(page.title)
+        self.add_button.set_visible(page.can_add)
+        self.search_button.set_visible(page.searchable)
+        self.lookup_action("add").set_enabled(page.can_add)
+        self.lookup_action("find").set_enabled(page.searchable)
+        if page.can_add:
+            self.add_button.set_tooltip_text(_("Add — {title} (Ctrl+N)").format(title=page.title))
+
+    def set_count(self, name, count):
+        label = self.counts[name]
+        label.set_text(str(count))
+        label.set_visible(count > 0)
+
+    def add_to_current(self):
+        if self.current is not None and self.current.can_add:
+            self.current.add()
+
+    def focus_search(self):
+        if self.current is not None and self.current.searchable:
+            self.search_button.set_active(True)
+            self.search_entry.grab_focus()
+
+    def on_search_changed(self, entry):
+        if self.current is not None and self.current.searchable:
+            self.current.set_search(entry.get_text())
+
+    def on_search_mode(self, bar, _param):
+        if not bar.get_search_mode() and self.current is not None:
+            self.search_entry.set_text("")
+            if self.current.searchable:
+                self.current.set_search("")
+
+    def on_active_changed(self, *_):
+        if self.is_active():
+            self.update_status()
+
+    # -- feedback --------------------------------------------------------
+
+    def toast(self, text, undo=None):
+        toast = Adw.Toast(title=text, timeout=5 if undo else 3)
+        if undo is not None:
+            toast.set_button_label(_("Undo"))
+
+            def on_undo(*_):
+                try:
+                    undo()
+                except GLib.Error as error:
+                    self.daemon_failed(error)
+
+            toast.connect("button-clicked", on_undo)
+        self.overlay.add_toast(toast)
+
+    def daemon_failed(self, error):
+        self.overview.update(None)
+        if self._failure_shown:
+            return  # one refresh can fail five times; say it once
+        self._failure_shown = True
+        dialog = alert(self, _("Could not reach pulintod"), str(error))
+        dialog.connect("closed", lambda *_: setattr(self, "_failure_shown", False))
+
+    # -- data ------------------------------------------------------------
+
+    def refresh_all(self):
+        self.replacements.refresh()
+        self.never.refresh()
+        self.always.refresh()
+        self.apps.refresh()
+        self.keyboard.refresh()
+        self.hotkeys.refresh()
+        self.diagnostics.refresh()
+        self.update_suggestion()
+        self.update_status()
+
+    @guarded
+    def safe_refresh(self):
+        self.refresh_all()
+        self.toast(_("Lists refreshed"))
+
+    def update_status(self):
+        try:
+            status = json.loads(self.daemon.call("Status"))
+        except (GLib.Error, ValueError, TypeError):
+            status = None
+        self.overview.update(status)
+        # The language was changed elsewhere (the tray menu): follow it.
+        if status and status.get("language_choice", LANGUAGE_CHOICE) != LANGUAGE_CHOICE:
+            restart_window(self.current.name)
+
+    def update_suggestion(self):
+        info = self.keyboard.info
+        offer = bool(
+            info.get("apple_keyboard")
+            and not info.get("apple_layout")
+            and info.get("can_apply")
+            and not info.get("foreign_variant")
+            and not gui_state().get("apple_suggestion_dismissed")
+        )
+        self.overview.show_suggestion(offer)
+
+    def wait_for_daemon(self, done_text):
+        """The daemon restarts itself after some changes: wait until it answers."""
+        self.restart_done_text = done_text
+        self.restart_attempts = 0
+        self.toast(_("Applying…"))
+        GLib.timeout_add(300, self.wait_for_restart)
+
+    def restart_input(self):
+        try:
+            if not self.daemon.call("RestartInput"):
+                raise RuntimeError(_("the daemon rejected the restart"))
+        except (GLib.Error, RuntimeError) as error:
+            alert(self, _("Could not restart PuLinTo"), str(error))
+            return
+        self.toast(_("Restarting PuLinTo…"))
+        self.wait_for_daemon(_("PuLinTo restarted, keyboards re-checked"))
+
+    def wait_for_restart(self):
+        self.restart_attempts += 1
+        try:
+            status = json.loads(self.daemon.call("Status"))
+            if status.get("status") == "running":
+                self.refresh_all()
+                self.toast(self.restart_done_text)
+                return False
+        except (GLib.Error, ValueError, TypeError):
+            pass
+        if self.restart_attempts < 20:
+            return True
+        self.overview.update(None)
+        alert(
+            self,
+            _("PuLinTo did not come back after the restart"),
+            _("Try starting PuLinTo from the application menu."),
+        )
+        return False
+
+    # -- import / export -------------------------------------------------
+
+    def export_payload(self):
+        def scopes(text):
+            return [part.strip() for part in text.split(",") if part.strip()]
+
+        return {
+            "format": "pulinto-rules",
+            "version": 1,
+            "replacements": [
+                {"source": source, "replacement": replacement, "applications": scopes(scope)}
+                for source, replacement, scope in self.replacements.rows()
+            ],
+            "never_change": [
+                {"word": word, "applications": scopes(scope)}
+                for word, _unused, scope in self.never.rows()
+            ],
+            "always_change": [
+                {"word": word, "applications": scopes(scope)}
+                for word, _unused, scope in self.always.rows()
+            ],
+            "applications": {
+                "enabled": [app for app, mode in self.apps.explicit_rows() if mode == "auto"],
+                "manual": [app for app, mode in self.apps.explicit_rows() if mode == "manual"],
+                "disabled": [app for app, mode in self.apps.explicit_rows() if mode == "off"],
+            },
+        }
+
+    @staticmethod
+    def json_filter():
+        file_filter = Gtk.FileFilter(name=_("PuLinTo rules (JSON)"))
+        file_filter.add_pattern("*.json")
+        filters = Gio.ListStore.new(Gtk.FileFilter)
+        filters.append(file_filter)
+        return filters
+
+    def export_rules(self):
+        dialog = Gtk.FileDialog(title=_("Export PuLinTo rules"), accept_label=_("Save"))
+        dialog.set_initial_name("pulinto-rules.json")
+        dialog.set_filters(self.json_filter())
+        dialog.save(self, None, self._export_chosen)
+
+    def _export_chosen(self, dialog, result):
+        try:
+            path = dialog.save_finish(result).get_path()
+        except GLib.Error as error:
+            # Cancelled is the user's choice; anything else is the portal's
+            # fault and must not pass for one.
+            if not error.matches(Gtk.DialogError.quark(), Gtk.DialogError.DISMISSED):
+                print(f"экспорт: диалог файлов не ответил: {error}", file=sys.stderr)
+            return
+        try:
+            with open(path, "w", encoding="utf-8") as handle:
+                json.dump(self.export_payload(), handle, ensure_ascii=False, indent=2)
+                handle.write("\n")
+            self.toast(_("Rules saved to the file"))
+        except (OSError, TypeError) as error:
+            alert(self, _("Export failed"), str(error))
+
+    def import_rules(self):
+        dialog = Gtk.FileDialog(title=_("Import PuLinTo rules"), accept_label=_("Open"))
+        dialog.set_filters(self.json_filter())
+        dialog.open(self, None, self._import_chosen)
+
+    def _import_chosen(self, dialog, result):
+        try:
+            path = dialog.open_finish(result).get_path()
+        except GLib.Error as error:
+            if not error.matches(Gtk.DialogError.quark(), Gtk.DialogError.DISMISSED):
+                print(f"импорт: диалог файлов не ответил: {error}", file=sys.stderr)
+            return
+        try:
+            with open(path, "r", encoding="utf-8") as handle:
+                payload = self.validate_payload(json.load(handle))
+        except (OSError, ValueError, TypeError) as error:
+            alert(self, _("The rules file is invalid"), str(error))
+            return
+
+        ask = Adw.AlertDialog(
+            heading=_("How should the rules be imported?"),
+            body=_("Merging updates matching rules. Replacing first deletes the current user rules."),
+        )
+        ask.add_response("cancel", _("Cancel"))
+        ask.add_response("replace", _("Replace current"))
+        ask.add_response("merge", _("Merge"))
+        ask.set_response_appearance("replace", Adw.ResponseAppearance.DESTRUCTIVE)
+        ask.set_response_appearance("merge", Adw.ResponseAppearance.SUGGESTED)
+        ask.set_default_response("merge")
+        ask.set_close_response("cancel")
+        ask.connect("response", lambda _d, response: self._finish_import(response, payload))
+        ask.present(self)
+
+    def _finish_import(self, response, payload):
+        if response not in ("replace", "merge"):
+            return
+        try:
+            if response == "replace":
+                self.clear_user_rules()
+            self.apply_payload(payload)
+            self.refresh_all()
+            self.toast(_("Rules imported"))
+        except (GLib.Error, ValueError) as error:
+            self.refresh_all()
+            alert(self, _("The import was not completed"), str(error))
+
+    @staticmethod
+    def validate_payload(payload):
+        if not isinstance(payload, dict) or payload.get("format") != "pulinto-rules":
+            raise ValueError(_("This is not a PuLinTo rules file"))
+        if payload.get("version") != 1:
+            raise ValueError(_("Unsupported format version"))
+
+        def text(value, name, allow_empty=False):
+            if not isinstance(value, str) or (not allow_empty and not value):
+                raise ValueError(_("Invalid field {name}").format(name=name))
+            if any(ch in value for ch in "\t\r\n"):
+                raise ValueError(_("Field {name} contains an invalid control character").format(name=name))
+            return value
+
+        def scope(item):
+            values = item.get("applications", [])
+            if not isinstance(values, list):
+                raise ValueError(_("applications must be an array"))
+            return ",".join(text(value, "applications") for value in values)
+
+        replacements = []
+        for item in payload.get("replacements", []):
+            if not isinstance(item, dict):
+                raise ValueError(_("Invalid autocorrection"))
+            replacements.append(
+                (text(item.get("source"), "source"), text(item.get("replacement"), "replacement"), scope(item))
+            )
+        never = []
+        for item in payload.get("never_change", []):
+            if not isinstance(item, dict):
+                raise ValueError(_("Invalid never_change rule"))
+            never.append((text(item.get("word"), "word"), scope(item)))
+        always = []
+        for item in payload.get("always_change", []):
+            if not isinstance(item, dict):
+                raise ValueError(_("Invalid always_change rule"))
+            always.append((text(item.get("word"), "word"), scope(item)))
+        apps = payload.get("applications", {})
+        if not isinstance(apps, dict):
+            raise ValueError(_("Invalid applications section"))
+
+        def app_list(name):
+            values = apps.get(name, [])
+            if not isinstance(values, list):
+                raise ValueError(_("applications.{name} must be an array").format(name=name))
+            return [text(value, name) for value in values]
+
+        enabled = app_list("enabled")
+        manual = app_list("manual")
+        disabled = app_list("disabled")
+        return replacements, never, always, enabled, manual, disabled
+
+    def clear_user_rules(self):
+        for source, _replacement, _scope in self.replacements.rows():
+            self.daemon.call("RemoveReplacement", "(s)", source)
+        for word, _replacement, _scope in self.never.rows():
+            self.daemon.call("RemoveExclusion", "(s)", word)
+        for word, _replacement, _scope in self.always.rows():
+            self.daemon.call("RemoveInclusion", "(s)", word)
+        for app, _mode in self.apps.explicit_rows():
+            self.daemon.call("ResetAppPolicy", "(s)", app)
+
+    def apply_payload(self, payload):
+        replacements, never, always, enabled, manual, disabled = payload
+        for source, replacement, scope in replacements:
+            if not self.daemon.call("AddScopedReplacement", "(sss)", source, replacement, scope):
+                raise ValueError(_("The daemon rejected the autocorrection"))
+        for word, scope in never:
+            if not self.daemon.call("ExcludeWordScoped", "(ss)", word, scope):
+                raise ValueError(_("The daemon rejected the \"never change\" rule"))
+        for word, scope in always:
+            if not self.daemon.call("IncludeWordScoped", "(ss)", word, scope):
+                raise ValueError(_("The daemon rejected the \"always change\" rule"))
+        for app in enabled:
+            self.daemon.call("SetAppMode", "(ss)", app, "auto")
+        for app in manual:
+            self.daemon.call("SetAppMode", "(ss)", app, "manual")
+        for app in disabled:
+            self.daemon.call("SetAppMode", "(ss)", app, "off")
+
+
+class ErrorWindow(Adw.ApplicationWindow):
+    """Shown instead of the settings when the daemon cannot be reached."""
+
+    def __init__(self, application, error):
+        super().__init__(application=application, title="PuLinTo", default_width=520, default_height=420)
+        status = Adw.StatusPage(
+            icon_name="dialog-warning-symbolic",
+            title=_("PuLinTo is unavailable"),
+            description=_("Could not reach the pulintod service.\n{error}").format(error=error),
+        )
+        status.add_css_class("compact")
+        status.set_child(pill_button(_("Try again"), self.retry))
+        view = Adw.ToolbarView()
+        header = Adw.HeaderBar()
+        header.pack_end(Gtk.MenuButton(icon_name="preferences-desktop-locale-symbolic", menu_model=language_menu(),
+                                       tooltip_text=_("Interface language")))
+        install_language_action(self, None, lambda: None)
+        view.add_top_bar(header)
+        view.set_content(status)
+        self.set_content(view)
+
+    def retry(self):
+        # Open the new window first so the application never has zero windows.
+        self.get_application().open_settings()
+        self.close()
+
+
+class SettingsApp(Adw.Application):
+    def __init__(self):
+        super().__init__(application_id="ru.pulinto.Settings")
+
+    def do_startup(self):
+        Adw.Application.do_startup(self)
+        display = Gdk.Display.get_default()
+        provider = Gtk.CssProvider()
+        provider.load_from_string(CSS)
+        Gtk.StyleContext.add_provider_for_display(display, provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+
+    def open_settings(self):
+        try:
+            daemon = connect_or_start_daemon()
+        except (GLib.Error, RuntimeError) as error:
+            ErrorWindow(self, error).present()
+            return False
+        SettingsWindow(self, daemon).present()
+        return True
+
+    def do_activate(self):
+        window = self.get_active_window()
+        if window:
+            window.present()
+        else:
+            self.open_settings()
+
+
+if __name__ == "__main__":
+    GLib.set_prgname("pulinto-settings")
+    GLib.set_application_name("PuLinTo")
+    sys.exit(SettingsApp().run(sys.argv))

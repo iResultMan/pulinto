@@ -1,0 +1,15 @@
+[package]
+name = "pulinto-input"
+description = "Input interception and synthesis backends for PuLinTo"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+pulinto-core = { workspace = true }
+x11rb = { version = "0.13", features = ["record", "xtest", "xfixes"] }
+evdev = "0.12"
+thiserror = "1.0"

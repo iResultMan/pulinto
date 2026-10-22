@@ -1,0 +1,27 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+IBus раскладкой не управляет (X11 layout error: адрес шины IBus не найден), беру XKB
+Layout controller: X11 (XKB)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+X11 scratch range: 18 slots, contiguous: false
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: System Administrator’s Keyboard
+Захват: Logitech K520
+Захват: PuLinTo Test Typist
+Замена: ',jtghbgfcs' → 'боеприпасы' (ступень: Dictionary, решение за 0 мс)
+Замена: 'rfr' → 'как' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Cthutq' → 'Сергей' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ghblevfq' → 'придумай' (ступень: Bigram, решение за 0 мс)
+Замена: 'ckexft' → 'случае' (ступень: Dictionary, решение за 0 мс)
+Замена: 'kexitq' → 'лучшей' (ступень: Dictionary, решение за 0 мс)
+Замена: 'ujdjhbncz' → 'говорится' (ступень: Dictionary, решение за 0 мс)
+Замена: 'yf' → 'на' (ступень: ShortWord, решение за 0 мс)
+Замена: 'lfkf' → 'дала' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Xt[bz' → 'Чехия' (ступень: Dictionary, решение за 0 мс)
+Замена: 'Hjccbb' → 'России' (ступень: Dictionary, решение за 0 мс)
+Замена: 'vfksitq' → 'малышей' (ступень: Dictionary, решение за 0 мс)
+Замена: 'cjexfcnbt' → 'соучастие' (ступень: Dictionary, решение за 0 мс)
+Замена: 'vj;yj' → 'можно' (ступень: Dictionary, решение за 0 мс)
+Замена: 'pfdjljv' → 'заводом' (ступень: Dictionary, решение за 0 мс)
+Клавиатура PuLinTo Test Typist отвалилась: No such device (os error 19)

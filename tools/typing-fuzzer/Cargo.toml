@@ -1,0 +1,18 @@
+[package]
+name = "typing-fuzzer"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# Deliberately outside the product workspace: a test rig must not be able to
+# break the build of the thing it tests.
+[workspace]
+
+[[bin]]
+name = "typist"
+path = "src/typist.rs"
+
+[dependencies]
+pulinto-core = { path = "../../crates/pulinto-core" }
+pulinto-input = { path = "../../crates/pulinto-input" }
+pulinto-layout = { path = "../../crates/pulinto-layout" }

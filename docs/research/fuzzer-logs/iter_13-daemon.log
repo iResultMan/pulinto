@@ -1,0 +1,12 @@
+Starting PuLinTo daemon (pulintod)...
+Режим: Захват клавиатуры (держит Enter) (grab), автозамена: вкл
+IBus раскладкой не управляет (X11 layout error: IBus следует системной раскладке (GetUseSysLayout=true), раскладку задаёт XKB), беру XKB
+Layout controller: X11 (XKB)
+D-Bus interface ru.pulinto.Daemon1 registered.
+Tray icon initialized via StatusNotifierItem.
+X11 scratch range: 6 slots, contiguous: false
+ВНИМАНИЕ: клавиатура захвачена эксклюзивно. Аварийное снятие — Backspace+Esc+Enter одновременно.
+Захват: PuLinTo Test Typist
+Захват: System Administrator’s Keyboard
+Захват: Logitech K520
+Клавиатура PuLinTo Test Typist отвалилась: No such device (os error 19)
